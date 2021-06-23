@@ -1,0 +1,70 @@
+---
+sidebar: sidebar 
+permalink: task_performing_high_level_restore.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes 
+summary: 您可以按照同一操作步骤对 Microsoft Exchange Online ，适用于 Microsoft OneDrive for Business 的 MySites ，适用于 Microsoft SharePoint Online 的站点以及 Microsoft 365 组的邮箱执行高级别还原。 
+---
+= 执行高级别服务还原
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以按照同一操作步骤对 Microsoft Exchange Online ，适用于 Microsoft OneDrive for Business 的 MySites ，适用于 Microsoft SharePoint Online 的站点以及 Microsoft 365 组的邮箱执行高级别还原。
+
+默认情况下，只能还原最新的备份。其他可用选项包括：
+
+image:backup_for_restore_availability.png["可用于还原的备份"]
+
+.步骤
+. 在信息板中，单击要执行还原的服务的框中的 * 受保护 * 上方数字。
+. 选择要还原的邮箱，组，团队， MySite 或站点的名称。
+. 选择一个还原选项。
++
+
+NOTE: 如果选择导出到 PST 还原选项，则提供的链接有效期为七天，并且已通过预身份验证。
+
++
+.. 如果要还原 * Microsoft Exchange Online * 的邮箱，请选择以下选项之一：
++
+*** 还原到同一邮箱
+*** 导出到 PST 如果导出到 PST ，则在导出完成后，您将收到一封通知电子邮件，其中包含 PST 文件的位置。
+*** 还原到另一个邮箱如果还原到另一个邮箱，则必须在搜索字段中输入目标邮箱。您可以在搜索字段中键入目标电子邮件地址的一部分，以便自动搜索匹配的目标邮箱。
+
+
+.. 如果要还原 * Microsoft Office 365 组 * 的组，请选择以下选项之一：
++
+*** 还原到同一组
+*** 还原到其他组
+*** 导出数据如果导出，则会使用 Microsoft Exchange 文件创建一个 PST 文件，并使用 Microsoft SharePoint 站点创建一个 .zip 文件。您将收到一封通知电子邮件，其中包含 PST 文件的位置以及 .zip 文件所在位置的经过身份验证的 URL 。
+
+
+.. 如果要还原 * Microsoft Office 365 组 * 下的团队，请选择以下选项之一：
++
+*** 还原到同一个组
+*** 还原到另一个团队这是从 Microsoft 365 中删除某个团队的理想选择。您应创建一个新组以使用此还原选项。如果您最近在 MS Teams 中创建了一个新团队，请通过同步此服务来发现它。转到左侧的 * 服务设置 * 。单击 * Office 365* 。在 * 管理服务 * 下，对于 Microsoft 365 组，单击 * 立即同步 * 。
+*** 导出数据如果导出数据，则需要下载它。转到左侧菜单上的 " 报告 " 。查找导出数据作业。单击 * 文件夹总数 * 。然后单击 * 导出数据下载链接 * 。下载 zip 文件。打开 zip 文件以提取数据。
+
+
+.. 如果要还原 * Microsoft OneDrive for Business* 的 MySites ，请选择以下选项之一：
++
+*** 还原到同一个 MySite
+*** 还原到其他 MySite 如果还原到其他 MySite ，请在搜索字段中输入目标 MySite 。您可以在搜索字段中键入目标 MySite 的一部分，以便自动搜索匹配的目标 MySites 。
+*** 导出数据如果导出，则会使用 MySites 创建 .zip 文件。您将收到一封通知电子邮件，其中包含 .zip 文件所在位置的经过身份验证的 URL 。
+
+
+.. 如果要还原 * Microsoft SharePoint Online* 的站点，请选择以下选项之一：
++
+*** 还原到同一站点如果选择 * 仅还原角色 * ，则仅还原角色和权限。image:sharepoint_restore_only_roles.png["图中显示了已选择仅还原角色选项的还原窗口"]
+*** 还原到其他站点如果还原到其他站点，请在搜索字段中输入目标站点。您可以在搜索字段中键入目标站点的一部分，以便自动搜索匹配的目标站点。
+*** 导出数据如果导出，则会随站点集一起创建 .zip 文件。您将收到一封通知电子邮件，其中包含 .zip 文件所在位置的经过身份验证的 URL 。
+
+
+
+
+. 单击 * 确认 * 。此时将显示一条消息，指示已创建还原作业。
+. 单击 * 查看作业进度 * 以监控还原进度。
+

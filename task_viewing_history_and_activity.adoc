@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_history_and_activity.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, history, activity, log 
+summary: 您可以查看或下载 SaaS Backup 活动和作业历史记录日志。 
+---
+= 查看作业历史记录和活动日志
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup for Microsoft 365 会存储一个作业历史记录日志以及一个 SaaS Backup 中执行的所有活动日志。
+
+
+
+== 查看作业历史记录
+
+您可以在 NetApp SaaS Backup for Office 365 中查看或下载所有作业历史记录的报告。您可以按作业类型，服务，开始时间，结束时间和完成状态筛选搜索。
+
+.步骤
+. 单击左侧导航窗格中的 * 报告 * 。所有 SaaS 备份作业的列表显示在 * 作业历史记录 * 选项卡下。
+. 要筛选结果，请单击 * 筛选器 * 。
+. 单击 * 选择 * 下拉菜单，然后选择一个筛选器。您可以按策略，服务，类型或状态进行筛选。选择筛选器后，将显示一个搜索字段。
+. 输入搜索条件。
+. 如果要添加更多筛选器，请单击 * 添加筛选器 * 。
+. 单击 * 应用筛选器 * 。此时将显示筛选器结果。
+. 单击任何作业可展开视图以查看其他作业详细信息。
+
+
+
+
+== 查看活动日志
+
+SaaS Backup for Microsoft 365 中发生的所有活动都会存储一个日志。日志包含执行的每个操作的日期以及执行此操作的用户的名称。您可以按服务和事件筛选活动日志。例如，如果您需要查看 Microsoft Exchange Online 发生的所有还原操作，则可以筛选活动日志以查看这些特定结果。
+
+.步骤
+. 单击左侧导航窗格中的 * 报告 * 。
+. 单击 * 活动日志 * 选项卡。此时将显示所有 SaaS Backup for Microsoft 365 活动的列表。
+. 要筛选结果，请单击 * 筛选器 * 。
+. 单击 * 选择 * 下拉菜单，然后选择一个筛选器。您可以按服务或事件进行筛选。选择筛选器后，将显示一个搜索字段。
+. 输入搜索条件。
+. 如果要添加更多筛选器，请单击 * 添加筛选器 * 。
+. 单击 * 应用筛选器 * 。
++
+此时将显示筛选器结果。
+
+

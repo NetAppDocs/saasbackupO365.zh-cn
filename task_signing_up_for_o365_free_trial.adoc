@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: task_signing_up_for_o365_free_trial.html 
+keywords: netapp, saas backup, microsoft 365, getting started, free trial, sign up, signing up 
+summary: SaaS Backup for Microsoft 365 入门包括确定要用于备份数据的存储类型，收集相关信息，创建 Microsoft 365 服务帐户以及分配用户权限。 
+---
+= 注册 Microsoft 365 免费试用帐户
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+借助 Microsoft 365 for Business 30 天免费试用版，您可以了解 Microsoft 365 和 SaaS Backup for Microsoft 365 的最新功能。
+
+.步骤
+. 转至 https://www.microsoft.com/en-us/microsoft-365/microsoft-365-business-standard-one-month-trial["Microsoft 365 商业版站点"] 以启动试用订阅。
+. 单击 * 试用 1 个月免费 * 。
+. 按照屏幕上的说明创建 Microsoft 365 免费试用帐户。
+

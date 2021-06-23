@@ -1,0 +1,65 @@
+---
+sidebar: sidebar 
+permalink: task_performing_immediate_backup_of_service.html 
+keywords: netapp, saas backup, microsoft 365, perform, performing, immediate, backup, service 
+summary: 您可以根据需要对任何 Microsoft 365 服务执行即时备份。 
+---
+= 立即对服务执行备份
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以根据需要对任何 Microsoft 365 服务执行即时备份。
+
+.步骤
+. 在信息板中，单击要对其执行即时备份的服务的框中的 * 受保护 * 上方数字。
+. 选择备份选项。
++
+.. 对于 Exchange
++
+*** 如果要备份共享邮箱，请单击 * 共享 * 选项卡。
+*** 如果要备份归档邮箱，请单击 * 归档 * 选项卡。
+*** 如果要备份常规邮箱，请保留在 * 用户 * 选项卡上。
+
+
+.. 对于 SharePoint
++
+*** 如果要备份站点，请保留在 * 站点 * 选项卡上。
+
+
+.. 适用于 OneDrive
++
+*** 如果要备份用户，请保留在 * 用户 * 选项卡上。
+
+
+.. 适用于 Microsoft 365 组
++
+*** 如果要备份组，请保留在 * 组 * 选项卡上。
+*** 如果要备份团队，请单击 * 团队 * 选项卡。
++
+
+NOTE: 只有在设置下启用了 Team聊天 时，才会备份 Team聊天 消息。联系方式 link:https://mysupport.netapp.com/["支持"] 以启用此功能。
+
++
+
+NOTE: 由于 API 限制， SaaS 备份无法区分公有和专用通道。
+
+
+
+
+
+. 选择要备份的项。
+. 单击 * 立即备份 * 。
++
+image:backup_now.gif["立即备份按钮"]
+
++
+此时将显示一条消息，指示选定服务将置于作业队列中进行备份。
+
+. 单击 * 确认 * 。此时将显示一条消息，指示备份作业已创建。
+. 单击 * 查看作业进度 * 以监控备份进度。
+

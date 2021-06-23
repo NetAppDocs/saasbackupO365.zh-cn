@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_security_groups.html 
+keywords: netapp, saas backup, microsoft 365, delete, deleting, security, groups 
+summary: 如果在用户定义的规则中使用安全组，则无法将其删除。您必须删除用户定义的规则，然后删除安全组。 
+---
+= 删除安全组
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果在用户定义的规则中使用安全组，则无法将其删除。您必须删除用户定义的规则，然后删除安全组。<<task_deleting_rules.adoc#deleting-rules,正在删除规则>>
+
+.步骤
+. 单击 * 帐户设置 * 。
+. 单击 * 安全组 * 。
+. 单击要删除的组旁边的删除图标。
+

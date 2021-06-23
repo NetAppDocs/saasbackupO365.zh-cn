@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_releasing_a_user_license.html 
+keywords: netapp, saas backup, release, releasing, reassigned, user, license, shared, regular, archive, mailbox 
+summary: 任何常规邮箱用户或归档邮箱用户（无论是受保护还是未受保护）都会使用许可证。如果某个特定用户不再需要某个许可证，您可以释放该许可证，以便可以重新分配该许可证。 
+---
+= 释放用户许可证
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+任何常规邮箱用户或归档邮箱用户（无论是受保护还是未受保护）都会使用许可证。如果某个特定用户不再需要某个许可证，您可以释放该许可证，以便可以重新分配该许可证。释放用户许可证后，此用户将移至未受保护的层，并且此用户的备份将停止。
+
+
+NOTE: 共享邮箱不使用许可证。
+
+.步骤
+. 单击 image:configure_icon.gif["配置图标的屏幕截图"] 位于左上角的 SaaS Backup 用户 ID 旁边。
+. 选择 * 帐户设置 * 。
+. 单击 * 保留并清除 * 。
+. 在 * 释放许可证 * 下，开始键入要释放其许可证的用户的帐户名称。
+. 找到帐户后，从自动填充列表中选择该帐户，然后单击 image:bluecircle_icon.gif["蓝色加号图标"]。
+. 根据需要添加其他帐户。
+. 单击 * 发布 * 。
+. 单击 * 是，请释放许可证 * 。
+. 单击 * 确认 * 。
+

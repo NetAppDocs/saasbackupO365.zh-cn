@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: concept_get_help_find_info.html 
+keywords: where to find more information, help, support 
+summary: 您可以在 NetApp SaaS Backup for Microsoft 365 社区论坛和知识库文章中获得帮助并找到更多信息。 
+---
+= 从何处获取帮助和查找更多信息
+:toc: macro
+:hardbreaks:
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+您可以在 NetApp SaaS Backup for Microsoft 365 社区论坛和知识库文章中获得帮助并找到更多信息。
+
+可以通过导航菜单上的 * 支持 * 链接在 SaaS Backup 中访问这些资源。
+
+您也可以发送电子邮件给 SaaS 备份支持团队，电子邮件地址为 saasbackupsupport@netapp.com 。

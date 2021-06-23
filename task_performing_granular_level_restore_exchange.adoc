@@ -1,0 +1,185 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_exchange.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes 
+summary: 您可以使用 SaaS Backup for Microsoft 365 对 Microsoft Exchange Online 365 执行粒度级还原。 
+---
+= 对 Microsoft Exchange Online 执行粒度级还原
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在 Microsoft Exchange Online 中，您可以还原单个用户的粒度级别项目，例如单个电子邮件，任务，联系人和日历事件。您还可以还原 Microsoft 365 组邮箱的粒度级别项目。
+
+默认情况下，只能还原最新的备份。其他可用选项包括：
+
+image:backup_for_restore_availability.png["可用于还原的备份"]
+
+下表指示了 Exchange Online 中粒度级项目支持的还原选项。
+
+[cols="20a,15a,15a,15a,40a"]
+|===
+| 项目类型 | 还原到同一邮箱 | 还原到其他邮箱 | 导出到 PST/ 导出到 HTML | 在 SaaS Backup 中的何处查找 
+
+
+ a| 
+邮件 / 任务 / 联系人 / 等
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+Exchange Online > 邮箱 - 用户
+
+
+
+ a| 
+单个 / 多个邮箱文件夹（收件箱，归档等）
+
+
+NOTE: 排除对话历史记录。
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+Exchange Online > 邮箱 - 用户 >
+
+
+
+ a| 
+" 收件箱 " 下的文件夹级别
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+Exchange Online > 邮箱 - 用户 >
+
+
+
+ a| 
+" 收件箱 " 下的子文件夹级别
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+Exchange Online > 邮箱 - 用户 >
+
+
+
+ a| 
+" 邮件 " 文件夹下的对话历史记录
+ a| 
+否
+ a| 
+否
+ a| 
+是的。
+ a| 
+Exchange Online > 邮箱 - 用户 >
+
+
+
+ a| 
+单个 / 多个项目级恢复
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+否
+ a| 
+Exchange Online > 邮箱 - 用户 >
+
+
+
+ a| 
+" 替换现有内容 " 的单个 / 多个还原项
+ a| 
+是的。
+ a| 
+否
+ a| 
+否
+ a| 
+Exchange Online > 邮箱 - 用户 >
+
+|===
+.步骤
+. 在信息板中，单击 Exchange 框中的 * 受保护 * 上方的数字。
++
+image:number_protected_exchange.gif["Exchange 中受保护实例数的屏幕截图"]
+
+. 选择还原选项。
++
+.. 对于共享邮箱，单击 * 共享 * 选项卡。
+.. 对于归档邮箱，单击 * 归档 * 选项卡。
+.. 对于常规邮箱，请保留在 * 用户 * 选项卡上。
+
+
+. 单击需要执行粒度级还原的邮箱。
+. 还原整个 Microsoft Office Exchange 类别或还原某个类别中的特定项。对于 Microsoft 365 组邮箱，您只能选择从邮件类别或日历类别还原。
+. 选择需要还原的类别（邮件，任务，联系人或其他）。
++
+
+NOTE: 如果要还原此类别中的单个项目，请单击此类别，然后选择要还原的项目。
+
+. 单击 * 还原 * 。
+. 选择一个还原选项。
++
+** * 还原到同一邮箱 *
++
+如果还原到同一邮箱，则默认情况下，系统会在包含备份副本的原始内容位置创建一个具有当前日期和时间戳的还原文件夹。如果选择 * 替换现有内容 * ，则当前数据将完全替换为备份。
+
++
+对于 Microsoft 365 组，您只能选择还原到同一邮箱。默认情况下，现有内容将被替换。对于 Microsoft Exchange Online ，您可以还原到同一邮箱并替换现有内容，也可以还原到另一个邮箱。
+
+** * 还原到其他邮箱 *
++
+如果还原到其他邮箱，则必须在搜索字段中输入目标邮箱。您可以在搜索字段中键入目标电子邮件地址的一部分，以便自动搜索匹配的目标邮箱。
+
+** * 导出到 PST*
++
+您可以选择包含所有类别子文件夹。
+
++
+如果导出到 PST ，则在导出完成后，您将收到一封通知电子邮件，其中包含 PST 文件的位置。
+
++
+
+NOTE: 此选项不适用于 Microsoft 365 组。
+
++
+
+NOTE: 如果选择 * 导出到 PST* 还原选项，则提供的链接有效期为七天，并且已通过预身份验证。
+
+** * 导出到数据 * （仅适用于 Microsoft 365 组）：
++
+如果导出，则会创建两个 zip 文件，一个 zip 文件用于 Microsoft 365 组邮箱，另一个 zip 文件用于 Microsoft 365 组 SharePoint 站点。您将收到一封通知电子邮件，其中包含 PST 文件的位置以及 .zip 文件所在位置的经过身份验证的 URL 。
+
++
+
+NOTE: 如果选择 * 导出到数据 * 还原选项，则提供的链接有效期为七天，并且已通过预身份验证。
+
+
+
+. 单击 * 确认 * 。
++
+此时将显示一条消息，指示已创建还原作业。
+
+. 单击 * 查看作业进度 * 以监控还原进度。
+

@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: task_registering_for_free_trial_activation_code.html 
+keywords: netapp, saas backup, microsoft 365, getting started, free trial, register, registering, activation, code 
+summary: 要注册免费试用 SaaS Backup for Microsoft 365 ，您必须具有激活代码。 
+---
+= 注册获取免费试用激活代码
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+要注册免费试用 SaaS Backup for Microsoft 365 ，您必须具有激活代码。您的渠道合作伙伴或销售代表可能已向您提供激活代码。否则，您必须注册才能收到一个。
+
+.步骤
+. 单击 https://www.netapp.com/forms/saas-backup-ms-365-30-day-trial/["此处"] 转到 SaaS Backup for Microsoft 365 免费试用 URL 。
+. 输入请求的注册信息并单击 * 提交 * 。您将收到一封包含免费试用激活代码的电子邮件。
+

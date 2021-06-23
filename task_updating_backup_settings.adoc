@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_updating_backup_settings.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, update, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows 
+summary: 您可以更新备份设置以控制各种备份选项。可用的备份设置因服务而异。 
+---
+= 更新备份设置
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以更新 <<concept_backup_settings.adoc#backup-settings,备份设置>> 控制各种备份选项。可用 <<concept_backup_settings.adoc#backup-settings,备份设置>> 因服务而异。
+
+.步骤
+. 单击左侧导航窗格中的 * 服务 * 。
++
+image:services.gif["服务按钮的屏幕截图"]
+
+. 单击 Microsoft 365 。
++
+image:mso365_settings.gif["Microsoft 365 按钮的屏幕截图"]
+
+. 在 * 管理服务 * 下，单击备份设置图标 image:configure_icon.gif["配置图标的屏幕截图"] 在需要更新的服务旁边。此时将显示可用于选定服务的备份设置列表。
+. 选择所需的备份设置。
+. 单击 * 确认 * 。
+

@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: reference_free_trial_data.html 
+keywords: free, trial, data, saas, backup, microsoft 365 
+summary: 如果您不升级到 SaaS Backup for Microsoft 365 的许可版本，则在免费试用期间使用的数据将被删除。 
+---
+= 免费试用数据删除
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您不升级到 SaaS Backup for Microsoft 365 的许可版本，则在免费试用期间使用的数据将被删除，如下所示：
+
+|===
+| 如果您的 SaaS Backup 免费试用版是 ... | 试用结束后的天数 | 您的数据是 ... 
+
+
+| 已过期 | 1-15 天 | 可用：管理员具有正常访问权限，可以执行手动备份和还原。SaaS Backup 将继续显示警报并发送通知。 
+
+
+| 已禁用 | 16-30 天 | deactivated ：管理员无权访问 SaaS Backup 门户。如果在此期间更新了订阅，则可以重新激活数据。 
+
+
+| 已取消配置 | 31 天或更长时间 | Deleted ：删除所有数据，并删除您的租户帐户。 
+|===

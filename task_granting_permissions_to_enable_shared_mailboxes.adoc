@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task_granting_permissions_to_enable_shared_mailboxes.html 
+keywords: netapp, saas backup, microsoft 365, grant, granting, permissions, enabling, shared, mailboxes, azure, grant, shared 
+summary: 在 NetApp SaaS Backup for Microsoft 365 中，您可以授予启用共享邮箱的权限。 
+---
+= 授予启用共享邮箱的权限
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以授予在 NetApp SaaS Backup for Microsoft 365 中启用共享邮箱的权限。
+
+.步骤
+. 单击 image:services.gif["服务按钮的屏幕截图"] 从左侧导航窗格中。
+. 单击 Microsoft 365 链接。
++
+image:mso365_settings.gif["Microsoft 365 按钮的屏幕截图"]
+
+. 单击 * 授予同意 * 。
++
+image:grant_consent.gif["授予同意图标的屏幕截图"]
+
++
+您将重定向到 Azure 授权页面进行身份验证。
+
+. 选择您的租户帐户。
+. * 接受 * 权限。您的共享邮箱将在下次计划的 * 自动同步 * 期间被发现，您也可以执行 * 立即同步 * 。如果您正在进行 * 立即同步 * ，则需要几分钟的时间才能发现共享邮箱。
+. 要在 * 自动同步 * 或 * 立即同步 * 之后访问共享邮箱，请执行以下操作：
++
+.. 单击 image:services.gif["服务按钮的屏幕截图"] 从左侧导航窗格中。
+.. 单击 * Microsoft Exchange Online * 。
+.. 单击未受保护的邮箱的数量。
+.. 单击 * 共享 * 选项卡。
+
+
+

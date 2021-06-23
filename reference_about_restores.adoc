@@ -1,0 +1,346 @@
+---
+sidebar: sidebar 
+permalink: reference_about_restores.html 
+keywords: netapp, saas backup, microsoft 365, restores, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files 
+summary: SaaS Backup for Microsoft 365 为每个服务提供了高级别的粒度级还原选项。 
+---
+= 关于还原
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+借助 SaaS Backup for Microsoft 365 ，您可以对 Exchange Online ， SharePoint Online ， OneDrive for Business 以及 Microsoft 365 组和团队执行高级别的粒度级还原。
+
+了解如何执行高级别和粒度级还原：
+
+* link:task_performing_high_level_restore.html["执行高级别还原"]
+* link:task_performing_granular_level_restore_exchange.html["对 Exchange Online 执行粒度级还原"]
+* link:task_performing_granular_level_restore_sharepoint.html["对 SharePoint Online 执行粒度级还原"]
+* link:task_performing_granular_level_restore_onedrive.html["对 OneDrive for Business 执行粒度级还原"]
+* link:task_performing_granular_level_restore_teams.html["对组和团队执行粒度级还原"]
+
+
+下表显示了每个服务支持的高级还原选项，以及在 SaaS Backup 中从何处查找还原的数据。
+
+
+NOTE: 删除或取消配置数据后，您可以将数据还原到其他位置（邮箱，站点， MySite ，组或团队）或导出数据。您不能还原到同一位置。
+
+
+
+== Exchange Online
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| 项目类型 | 还原到同一邮箱 | 还原到其他邮箱 | 导出到 PST | 在 SaaS Backup 中的何处查找 
+
+
+ a| 
+单个邮箱
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| Exchange Online > 邮箱 - 用户 / 共享 / 归档 
+
+
+ a| 
+多个邮箱
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+否
+| Exchange Online > 邮箱 - 用户 / 共享 / 归档 
+
+
+ a| 
+邮箱内容
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| Exchange Online > 邮箱 - 用户 / 共享 / 归档 > < 用户名 > 
+|===
+
+
+== SharePoint Online
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| 项目类型 | 还原到同一站点 | 还原到其他站点 | 导出数据 | 在 SaaS Backup 中的何处查找 
+
+
+ a| 
+单个 SharePoint 站点
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| SharePoint Online > 站点 
+
+
+ a| 
+多个 SharePoint 站点
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+否
+| SharePoint Online > 站点 
+
+
+ a| 
+SharePoint 站点内容
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| SharePoint Online > 站点 > < 站点名称 > 
+
+
+ a| 
+启用了仅还原角色的单个 SharePoint 站点
+ a| 
+是的。
+ a| 
+否
+ a| 
+否
+| SharePoint Online > 站点 
+
+
+ a| 
+单个子站点
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| SharePoint Online > 站点 > < 站点名称 > 
+
+
+ a| 
+多个子站点
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| SharePoint Online > 站点 > < 站点名称 > 
+
+
+ a| 
+SharePoint 子站点内容
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| SharePoint Online > 站点 > < 站点名称 > 
+
+
+ a| 
+启用了仅还原角色的单个子站点 / 多个子站点
+ a| 
+是的。
+ a| 
+否
+ a| 
+否
+| SharePoint Online > 站点 > < 站点名称 > 
+|===
+
+
+== OneDrive for Business
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| 项目类型 | 还原到同一个 MySite | 还原到另一个 " 我的站点 " | 导出数据 | 在 SaaS Backup 中的何处查找 
+
+
+ a| 
+单个驱动器
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| OneDrive for Business > MySites 
+
+
+ a| 
+多个驱动器
+ a| 
+否
+ a| 
+否
+ a| 
+否
+| OneDrive for Business > MySites 
+
+
+ a| 
+单驱动器内容
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| OneDrive for Business > MySites> <OneDrive user> 
+|===
+
+
+== 组
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| 项目类型 | 还原到同一组 | 还原到其他组 | 导出数据 | 在 SaaS Backup 中的何处查找 
+
+
+ a| 
+单个组
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| Office 365 组 > 组 
+
+
+ a| 
+多个组
+ a| 
+是的。
+ a| 
+否
+ a| 
+否
+| Office 365 组 > 组 
+
+
+ a| 
+组内容
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| Office 365 组 > 组 > < 组名称 > 
+
+
+ a| 
+邮箱内容
+ a| 
+是的。
+ a| 
+否
+ a| 
+是的。
+| Office 365 组 > 组 > （组电子邮件） > 组名称 
+
+
+ a| 
+SharePoint 内容
+ a| 
+是的。
+ a| 
+否
+ a| 
+是的。
+| Office 365 组 > 组 > < 组名称 > < 站点名称 > 
+|===
+
+
+== 团队
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| 项目类型 | 还原到同一个组 | 还原到另一个团队 | 导出数据 | 在 SaaS Backup 中的何处查找 
+
+
+ a| 
+单一团队
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| Office 365 组 > 团队 
+
+
+ a| 
+多个团队
+ a| 
+是的。
+ a| 
+否
+ a| 
+否
+| Office 365 组 > 团队 
+
+
+ a| 
+团队内容
+ a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| Office 365 组 > 团队 > < 团队名称 > 
+
+
+ a| 
+邮箱内容
+ a| 
+是的。
+ a| 
+否
+ a| 
+是的。
+| Office 365 组 > 团队 > （团队电子邮件） > 团队名称 
+
+
+ a| 
+SharePoint 内容
+ a| 
+是的。
+ a| 
+否
+ a| 
+是的。
+| Office 365 组 > 团队 > < 团队名称 > < 站点名称 > 
+
+
+ a| 
+渠道
+ a| 
+是的。
+ a| 
+否
+ a| 
+否
+| Office 365 组 > 团队 > （团队电子邮件） 
+|===

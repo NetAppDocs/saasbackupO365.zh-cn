@@ -1,0 +1,172 @@
+---
+sidebar: sidebar 
+permalink: reference_new_saasbackupO365.html 
+keywords: what's new, features, new, release notes, enhancements 
+summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新功能，增强功能和错误修复。 
+---
+= 新增功能和更新
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+此版本的 NetApp SaaS Backup for Microsoft 365 增加了以下新功能和更新。
+
+
+
+== 2020年12月
+
+如果您在美国部署 Microsoft Azure ，则您的数据不会离开 Microsoft 环境。在 SaaS Backup for Microsoft 365 的注册过程中，您可以使用 Azure Blob 存储或您自己的存储。
+
+link:task_signing_up_for_saasbkup_free_trial.html["从免费试用版注册 SaaS Backup"]
+
+link:task_signing_up_for_saasbkup_paid_subscription.html["通过付费订阅注册 SaaS Backup"]
+
+
+
+== 2020年11月
+
+* 从本月开始，您可以监控所有服务的用户数据。借助此新功能，您可以下载 Excel 文件来监控多种用户数据类型，例如电子邮件或 URL 地址，邮箱类型，许可证使用，发现状态，上次发现， 备份状态，备份层等。
++
+link:task_monitoring_data.html["监控用户数据"]
+
+* 现在，您可以将 Microsoft Office 365 组还原到另一个组。
++
+link:task_performing_high_level_restore.html["执行高级别还原"]
+
+* OneDrive for Business 许可证所有者可以无限制地释放许可证并清除用户。
++
+link:task_releasing_a_user_license.html["释放用户许可证"]
+
+
+* 现在，在作业历史记录日志中搜索时，除了作业类型，服务，开始时间和结束时间之外，您还可以按作业完成状态进行筛选。
++
+link:task_viewing_history_and_activity.html["查看作业历史记录"]
+
+
+
+
+
+== 2020 年 6 月
+
+* SaaS Backup for Microsoft 365 现在支持 Exchange Online 用户的高级搜索功能。启用后，您可以在备份数据的最后六个月内搜索单个，共享和归档邮箱项。
++
+link:task_using_advanced_search.html["使用 Microsoft Exchange Online 高级搜索"]
+
++
+要启用此功能，请转至 link:https://mysupport.netapp.com/["支持"] 并提交请求。
+
++
+您也可以发送电子邮件给 SaaS 备份支持团队，电子邮件地址为 saasbackupsupport@netapp.com 。
+
+
+
+
+
+== 2020 年 3 月 /4 月
+
+* 现在，您可以选择不同的时间范围来浏览 Microsoft 365 Exchange ， SharePoint ， OneDrive for Business 以及受保护用户的组的备份。
++
+image:date_range_browse_feature.gif["图中显示了用于浏览备份的时间范围选项"]
+
++
+link:task_browsing_backups.html["浏览备份"]
+
+* SaaS Backup for Microsoft 365 现在支持备份到 Microsoft Teams聊天 。借助此新功能，您可以备份和还原对话，渠道，选项卡，附件，成员， 和设置。
++
+link:task_performing_immediate_backup_of_service.html["立即对服务执行备份"]
+
++
+要启用此功能，请转至 link:https://mysupport.netapp.com/["支持"] 并提交请求。
+
++
+您也可以发送电子邮件给 SaaS 备份支持团队，电子邮件地址为 saasbackupsupport@netapp.com 。
+
+
+
+
+
+== 2020年1月
+
+* 现在，您可以查看已取消配置的邮箱，站点， MySite ，组或帐户。link:task_viewing_deprovisioned.html["查看已取消配置的项"]
+* 现在，用户许可证将在清除帐户七天后自动释放。您可以查看计划在七天内清除的项目列表以及已清除的项目列表。link:task_viewing_purged.html["查看已清除数据的列表"]
+* Microsoft SharePoint Online 和 OneDrive for Business 现在支持 Microsoft OneNote 笔记本备份。link:task_enabling_onenote_backups.html["为 OneNote 启用备份"]
+
+
+
+
+== 2019 年 9 月
+
+* 现在，您可以激活对 SaaS Backup 付费订阅的支持。激活支持后，您可以通过电话，在线聊天或 Web 服务单系统访问技术支持。
++
+link:task_activate_support.html["激活支持"]
+
+
+
+
+
+== 2019 年 6 月
+
+* SaaS Backup for Microsoft 365 现在支持备份和还原使用 Microsoft SharePoint Online 和 Microsoft OneDrive for Business 中的 " 复制到 " 功能创建的项目。
+* 已进行了一些增强，以便在还原统计信息中包括更多详细信息，包括还原大小，还原位置和其他注释。
+
+
+
+
+== 2019 年 5 月
+
+* SaaS Backup 现在支持附加许可证。
++
+link:task_updating_subscription_information.html["更新订阅信息"]
+
+
+
+
+
+== 2019年4月
+
+* SaaS Backup for Microsoft 365 现在支持删除安全组。
++
+link:task_deleting_security_groups.html["删除安全组"]
+
+* 共享邮箱不再使用用户许可证。
+
+
+
+
+== 2019 年 3 月
+
+* SaaS Backup for Microsoft 365 现在支持在每个受支持区域中使用多个备份位置。
++
+现在，您可以选择选定区域中的任何可用位置作为数据备份站点。建议选择地理位置上最接近数据位置的位置。SaaS Backup 建议的位置在选项列表中标记为 * 首选 * 。
+
++
+
+NOTE: 如果您要从试用版升级，并且选择的备份位置与试用版中使用的位置不同，则不会保留您的试用数据。
+
++
+link:task_upgrading_from_trial.html["从试用订阅升级"]
+
+* 现在，您可以释放用户许可证并使其可供其他用户使用。link:task_releasing_a_user_license.html["释放用户许可证"]
+
+
+
+
+== 2019年2月
+
+* SaaS Backup for Microsoft 365 现在支持以下功能：
++
+** 备份和还原归档邮箱。
+** 增强了 Microsoft Office Exchange Online ， SharePoint 和 OneDrive for Business 中的备份和还原统计信息。
+
+
+
+
+
+
+== 已归档
+
+单击 link:reference_new_archived.html["此处"] 新功能的归档列表

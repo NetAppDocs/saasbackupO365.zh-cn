@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task_scheduling_first_backup.html 
+keywords: netapp, saas backup, microsoft 365, getting started, schedule, scheduling, first, performing 
+summary: 默认情况下，在设置适用于 Microsoft 365 的 SaaS Backup 时，您的数据不受保护，也不会计划备份。您必须将数据移动到受保护层，才能启动首次备份。 
+---
+= 计划首次备份
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+默认情况下，在设置适用于 Microsoft 365 的 SaaS Backup 时，您的数据不受保护。您必须将数据从未受保护的层移动到其中一个受保护层，以便在选定层的下次计划备份期间备份您的数据。
+
+.步骤
+. 从信息板中，选择包含未受保护数据的服务。
+. 单击未受保护的邮箱， MySite ，站点或组数旁边的 * 查看 * 。
+. 选择要保护的项。
+. 单击 * 组 * 菜单。image:groups_menu.gif["SaaS Backup Groups 菜单按钮的屏幕截图"]
+. 为要分配的备份策略选择 * 层 * 。请参见 link:concept_backup_policies.html["备份策略"] 备份策略层的问题描述。
+. 单击 * 应用 * 。
+

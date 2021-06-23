@@ -1,0 +1,87 @@
+---
+sidebar: sidebar 
+permalink: concept_supported_templates_and_apps.html 
+keywords: netapp, saas backup, microsoft 365, backup, supported, templates, apps 
+summary: Microsoft SharePoint Online 仅支持某些模板和应用程序。 
+---
+= Microsoft SharePoint Online 中支持备份的模板和应用程序
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Microsoft SharePoint Online 备份仅支持某些模板和某些应用程序。
+
+
+
+== 支持的模板
+
+Microsoft SharePoint Online 备份仅支持以下模板。
+
+* STS#0 （团队站点）
+* 博客 0 （博客站点）
+* dev#0 （开发人员站点）
+* PROJECTSITE#0 （项目站点）
+* 社区 0 （社区站点）
+* BDR#0 （文档中心）
+* COMUNITYPTAL#0 （社区门户）
+* ENTERWIKI#0 （企业级 wiki ）
+* EHS#1 （根站点）
+* EHS#0 （根站点）
+* SITEPAGEPUBLISHING#0 （通信站点）
+* 组 0 （组站点收集前缀）
+* STS#1 （空站点）
+* STS#2 （文档工作空间）
+* STS#3 （现代团队站点）
+* APP#0 （应用程序模板）
+
+
+
+
+== 支持的应用程序
+
+Microsoft SharePoint Online 备份支持以下应用程序。
+
+* 自定义列表
+* 标志（社区站点）
+* 文档库
+* 样式库
+* 调查
+* 链接。
+* 公告
+* 联系方式
+* 日历
+* 讨论板
+* 照片
+* 图片库
+* 内容 Web 部件
+* 列表模板库
+* 主页库
+* 站点页面
+* 数据集视图中的自定义列表
+* 解决方案图库
+* 主题库
+* 组合外观
+* 已提升的链接
+* 任务
+* 文章（博客站点）
+* 注释（博客站点）
+* 社区讨论（社区站点）
+* 类别（博客站点）
+* 社区类别（社区站点）
+* report
+* 维客页面
+* 站点收集映像
+* 社区成员（社区站点）
+* 问题描述跟踪
+* 记录库
+* 共享链接
+

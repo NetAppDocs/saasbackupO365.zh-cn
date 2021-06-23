@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_activating_a_service.html 
+keywords: netapp, saas backup, microsoft 365, activate, activating, service, services 
+summary: 如果需要，您可以激活一个或多个 SaaS Backup for Microsoft 365 服务。必须先激活 Microsoft Exchange Online 或 Microsoft SharePoint Online ，然后才能激活 Microsoft 365 组。 
+---
+= 激活服务
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果需要，您可以激活一个或多个 SaaS Backup for Microsoft 365 服务。必须先激活 Microsoft Exchange Online 或 Microsoft SharePoint Online ，然后才能激活 Microsoft 365 组。
+
+.步骤
+. 单击 image:services.gif["服务按钮的屏幕截图"] 从左侧导航窗格中。
+. 单击 Microsoft 365 链接。
++
+image:mso365_settings.gif["Microsoft 365 按钮的屏幕截图"]
+
+. 单击要激活的服务旁边的 * 激活 * 。
+. 单击 * 确认 * 。
+

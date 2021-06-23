@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_admin_roles_from_a_user_account.html 
+keywords: netapp, saas backup, microsoft 365, delete, deleted, deleting, role-based accounts, administrative roles, privileges, removing 
+summary: 如果从用户帐户中删除了所有管理角色，则用户将自动从 SaaS Backup for Microsoft 365 中注销。 
+---
+= 删除用户帐户中的所有管理角色
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果从用户帐户中删除了所有管理角色，则用户将自动从 SaaS Backup for Microsoft 365 中注销。
+
+.步骤
+. 单击设置图标 image:configure_icon.gif["配置图标的屏幕截图"] 在屏幕左上角的用户 ID 旁边。
+. 单击 * 帐户设置 * 。
+. 单击 * ROLE MANAGEMENT* 。
+. 单击要删除的用户名旁边的 * 删除用户 * 。
+. 单击 * 是 * 。
+

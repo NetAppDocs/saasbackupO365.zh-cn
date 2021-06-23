@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: reference_teams_data_locations.html 
+keywords: netapp, saas backup, microsoft 365, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files 
+summary: 表参考显示了如何在 SaaS Backup 中查找团队数据。 
+---
+= 对数据位置进行分组
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Microsoft 团队的数据在 SaaS Backup for Microsoft 365 中具有不同的位置。
+
+下表显示了如何在 SaaS Backup 中查找团队数据。
+
+[cols="12,64a"]
+|===
+| 团队数据 | 它在 SaaS Backup 中的位置是什么？ 
+
+
+| 团队电子邮件  a| 
+Microsoft 365 组 > 团队 > SampleTeam > 邮箱
+
+
+
+| 团队渠道  a| 
+Microsoft 365 组 > 团队 > SampleTeam > 渠道
+
+
+
+| 团队标准渠道文档  a| 
+Microsoft 365 组 > 团队 > SampleTeam > SharePoint 站点 > 文档 > SampleTeam-StdChannel
+
+
+
+| 团队标准渠道聊天  a| 
+* Microsoft 365 组 > 团队 > SampleTeam > 邮箱 > 对话 > 团队聊天
+* Microsoft 365 组 > 团队 > SampleTeam > 邮箱 > 邮件 > 对话历史记录 > 团队聊天（实际位置）
+
+
+
+
+| 团队专用渠道文档  a| 
+SharePoint > SampleTeam — SampleTeam-PrivChannel > 文档 > SampleTeam-PrivChannel
+
+
+NOTE: 您将找到一个名为 <<Your Team Name – Private Channel Name> 的单独站点集合。您可以使用模板 ID ： TEAMCHANNEL#0 筛选这些站点收集。
+
+
+
+| 团队专用渠道聊天  a| 
+* Exchange > " 专用通道中的用户 " > 邮件 > 对话 > 团队聊天
+* Exchange > " 专用通道中的用户 " > 邮件 > 对话历史记录 > 团队聊天（实际位置）
+
+
+
+
+| 个人用户聊天和组聊天  a| 
+* Exchange > " 用户 " > 邮件 > 对话 > 团队聊天
+* Exchange > " 用户 " > 邮件 > 对话历史记录 > 团队聊天（实际位置）
+
+
+
+
+| 在单个用户聊天和组聊天中共享的文件  a| 
+OneDrive > " 用户 " > 文件 > Microsoft 团队聊天文件
+
+|===

@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_discovering_new.html 
+keywords: netapp, saas backup, microsoft 365, discover, discovery, discovering, new, mailboxes, sites, groups, teams, shared, archive 
+summary: 在 NetApp SaaS Backup for Microsoft 365 中，您可以管理服务帐户，发现新添加的帐户并设置帐户通知。 
+---
+= 发现新的邮箱，站点和组
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup 必须与您的 Microsoft 365 帐户同步，才能使 SaaS Backup 发现新邮箱（包括共享邮箱和归档邮箱），站点，组和团队。默认情况下，同步每 24 小时自动进行一次。但是，如果您进行更改并希望在下次计划的 * 自动同步 * 之前进行发现，则可以立即启动同步。
+
+.步骤
+. 单击 image:services.gif["服务按钮的屏幕截图"] 从左侧导航窗格中。
+. 单击 Microsoft 365 设置图标。image:mso365_settings.gif["Microsoft 365 按钮的屏幕截图"]
+. 单击要同步的服务旁边的 * 立即同步 * 。image:sync_now.png[""]发现新用户，共享邮箱和归档邮箱，并在未受保护的状态下添加这些邮箱。如果要备份新发现的用户，共享邮箱或归档邮箱，则必须将用户的备份策略从不受保护更改为预定义的层组之一。
+. 单击 * 确认 * 。
+. 单击 * 查看作业进度 * 以监控进度。作业完成后，您可以单击 * 最近完成的作业 * 下的作业，以查看同步期间添加或删除的用户数。对用户帐户的更改如下所示：
++
+** * 重新发现 * 用户表示未更改的用户帐户数。
+** * 已停用 * 的用户表示已删除的用户帐户数。
+** * 新添加的 * 用户表示新用户帐户的数量。
+
+
+

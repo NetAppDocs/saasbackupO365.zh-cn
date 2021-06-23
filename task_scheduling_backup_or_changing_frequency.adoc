@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: task_scheduling_backup_or_changing_frequency.html 
+keywords: netapp, saas backup, microsoft 365, schedule, scheduling, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archive mailboxes, archive, archive, shared, mailboxes 
+summary: 您可以按照相同的过程计划新备份或将其更改为当前备份的频率。 
+---
+= 计划备份或更改备份频率
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以通过将未受保护的数据分配给备份策略来对其进行备份。将未受保护的数据分配给备份策略后，该数据将变为 * 待定 * 状态，直到为分配的策略执行下一个计划备份为止，之后，该数据将移至 * 受保护 * 状态。如果要更改受保护数据的备份频率，可以将数据分配到其他备份策略层。
+
+.步骤
+. 在信息板中，单击要更改的服务框中的 * 受保护 * 或 * 未受保护 * 上方数字。如果要更改受保护数据的备份频率，请单击 * 受保护 * 。如果要备份新发现的邮箱，站点或 MySites ，请选择 * 未受保护 * 。
++
+image:number_protected_unprotected.gif[""]
+
+. 选择备份选项。
++
+.. 对于 Exchange
++
+*** 如果要备份共享邮箱（仅限第 3 层），请单击 * 共享 * 选项卡。
+*** 如果要备份归档邮箱（仅限第 3 层），请单击 * 归档 * 选项卡。
+*** 如果要备份或更改常规邮箱，请保留在 * 用户 * 选项卡上。
+
+
+.. 对于 SharePoint
++
+*** 如果要备份或更改站点的备份策略，请保留在 * 站点 * 选项卡上。
+
+
+.. 适用于 OneDrive
++
+*** 如果要备份或更改用户的备份策略，请保留在 * 用户 * 选项卡上。
+
+
+.. 适用于 Microsoft 365 组
++
+*** 如果要备份组（仅限第 3 层），请保留在 * 组 * 选项卡上。
+*** 如果要备份团队（仅限第 3 层），请单击 * 团队 * 选项卡。
+
+
+
+
+. 选择要备份的项。
+. 单击 * 组 * 菜单。
++
+image:groups_menu.gif["组菜单"]
+
+. 为备份选择新的策略层。
++
+
+NOTE: Microsoft 365 组和归档邮箱只能移至第 3 层策略。
+
+. 单击 * 应用 * 。
+

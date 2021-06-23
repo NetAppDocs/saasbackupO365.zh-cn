@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deprovisioned.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deprovisioned, deleted, accounts, mailboxes, sites, mysites 
+summary: 您可以查看已删除的邮箱或用户帐户的列表。 
+---
+= 查看已取消配置的项目列表
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以查看已取消配置的邮箱或用户帐户列表。
+
+.步骤
+. 单击左侧导航窗格中的 * 服务 * 。
+. 在所需的服务中，单击未受保护的项数。
+. 单击 * 已取消配置 * 选项卡。
+

@@ -1,0 +1,83 @@
+---
+sidebar: sidebar 
+permalink: reference_kpls.html 
+keywords: what's new, features, new, release notes, known, problems, limitations, application 
+summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新功能，增强功能和错误修复。 
+---
+= 已知问题和限制
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+以下是在应用程序级别为 SaaS Backup for Microsoft 365 确定的已知限制。
+
+
+
+== 适用于 Microsoft 365 OneDrive for Business
+
+只有在手动完成服务同步后，才会检测到新添加的驱动器。
+
+
+
+== 适用于 Microsoft 365 Exchange Online
+
+* SaaS 备份不支持对公有文件夹进行备份。
+* * 高级搜索 * 仅适用于 Exchange Online 。默认情况下，此设置处于禁用状态。客户必须请求启用此功能。启用启用高级搜索设置后，管理员必须手动为各个用户启用搜索功能。
+
+
+
+
+== 适用于 Microsoft 365 团队
+
+* 已还原通道配置，但内容和对话未还原。
+* 由于 API 限制， SaaS 备份无法区分 SaaS 备份中的公有和专用通道。
+* 高级还原仅还原邮箱和 SharePoint 数据，而不还原对话。
+* 团队聊天不支持对表情符号和礼品进行备份或还原。
+* 仅导出团队聊天对话选项为导出到 HTML 。在对话中发布的附件链接在 html 文档中不可见。
+
+
+
+
+== 适用于 Microsoft 365 OneNote
+
+* 导出到数据不可用。
+* 增量备份作业可能会失败，并显示以下错误消息： `Partial Failure 。无法备份几个 OneNote 分区` 。
+* OneDrive 备份包括 .onebak 文件的备份。
+* 无法下载还原统计信息。
+* 不支持数据导出和数据清除。
+
+
+
+
+== 其他问题和限制
+
+以下已知问题和限制并不特定于一个应用程序。
+
+对于使用 Microsoft 365 服务帐户注册的所有用户：
+
+* SaaS Backup 仅支持基本身份验证。
+
+
+对于免费试用用户：
+
+* 在 24 小时内，每个服务最多允许 10 次恢复。
+
+
+对于获得许可的用户：
+
+* 在 24 小时内，每个服务最多允许 10 次导出数据还原。所有其他还原选项均无限制。
+
+
+要还原站点收集组，请执行以下操作：
+
+* 如果删除整个站点收集组，则还原此收集中的私有组将失败，从而导致还原作业状态为 " 部分失败 " 。 如果发生这种情况，则无法通过 GUI 访问此站点。
+
+
+对于 * 高级搜索 * ：
+
+* 在 24 小时内最多允许 10 个搜索作业。
+

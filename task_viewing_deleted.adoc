@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deleted.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deleted, items, SharePoint, Exchange, OneDrive, Groups, Teams 
+summary: 如果从服务设置中打开已删除的项目，则可以查看所有服务中已删除的项目。 
+---
+= 查看已删除的项
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+通过在服务设置中打开 * 显示已删除项 * ，您可以随时查看所有服务中已删除的项。这样有助于节省时间；无需浏览已删除项的不同备份，而是打开交换机以立即查找已删除项。
+
+默认情况下，交换机处于关闭状态。
+
+.步骤
+. 单击左侧导航窗格中的 * 服务 * 。
+. 单击设置图标 image:settings_icon.gif["图中显示了设置图标"]。
++
+image:show_deleted_items_switch_off.gif["图中显示了已删除项的开关关闭"]
+
+. 打开 * 显示已删除项 * 开关。
++
+image:show_deleted_items_switch_on.gif["图中显示了已删除项已打开且备份设置已更新"]
+
+. 单击左侧导航窗格中的 * 作业 * 。
+. 打开最新备份以查看已删除的项。
+

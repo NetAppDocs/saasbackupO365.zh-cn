@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_updating_subscription_information.html 
+keywords: netapp, saas backup, renew, update, updating, add-on, add, on, license, subscription, extension 
+summary: 您可以更新，添加或续订许可证。 
+---
+= 更新订阅信息
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+购买附加许可证或订阅扩展后，您可以在 SaaS Backup 中更新订阅详细信息。
+
+
+NOTE: 任何常规用户邮箱，无论是受保护还是未受保护，都会使用许可证。共享邮箱不使用许可证。
+
+.步骤
+. 单击左侧导航窗格中的 * 服务 * 。
+. 单击 image:configure_icon.gif["配置图标的屏幕截图"] 位于右角。
+. 单击订阅详细信息旁边的 * 更新 * 。
+. 输入首次注册时使用的相同用户名和密码。
+. 单击 * 提交 * 。
+

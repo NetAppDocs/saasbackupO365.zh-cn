@@ -1,0 +1,84 @@
+---
+sidebar: sidebar 
+permalink: task_signing_up_for_saasbkup_free_trial.html 
+keywords: netapp, saas backup, microsoft 365, getting started, free trial, sign up, signing up, sso, micrsoft, 365, service, account 
+summary: SaaS Backup for Microsoft 365 入门包括确定要用于备份数据的存储类型，收集相关信息，创建 Microsoft 365 服务帐户以及分配用户权限。 
+---
+= 注册申请免费试用 SaaS Backup for Microsoft 365
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以使用 Microsoft 365 服务帐户或 NetApp SSO 帐户注册 SaaS Backup for Microsoft 365 。
+
+
+
+== 使用 Microsoft 365 服务帐户注册免费试用版
+
+使用 Microsoft 365 服务帐户注册免费试用版的用户需要启用基本身份验证才能使用 SaaS Backup 。SaaS Backup 仅支持基本身份验证。如果您的 Microsoft 365 租户是从 2020 年 10 月开始创建的，并且未记录使用情况，则可能会遇到身份验证失败。请确保为 Microsoft 365 服务帐户禁用现代身份验证。
+
+link:https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online["了解如何禁用现代身份验证"]
+
+.步骤
+. 在 Web 浏览器中输入 SaaS Backup for Microsoft 365 URL ：https://saasbackup.netapp.com[]
+. 选择您所在的区域。此时将在选定区域创建您的租户。您的数据将存储在该数据中心位置，以后无法更改。
+. 单击登录页面底部的 * 注册 * 。
+. 接受最终用户许可协议。
+. 单击 * 注册 Office 365* 。image:sign_up_0365.gif["单击按钮以使用 Microsoft 365 服务帐户为 SaaS Backup for Microsoft 365 签名的屏幕截图"]
+. 输入 Microsoft 365 测试或试用帐户的电子邮件地址和密码，然后单击 * 登录 * 。此时将显示 SaaS Backup for Microsoft 365 请求的权限列表。
+. 单击 * 接受 * 。
+. 输入请求的用户信息。
+. 单击 * 注册 * 。此时将显示您的用户名以及为 SaaS Backup for Microsoft 365 提供的权限列表。
+. 单击 * 下一步 * 。此时将显示可用 Microsoft 365 服务的列表。
+. 选择要激活的 Microsoft 365 服务。
+. 单击 * 下一步 * 。
+. 选择 * 免费试用 * 作为订阅类型。
+. 输入渠道合作伙伴或销售代表提供的或通过注册电子邮件获取的免费试用激活代码。
+. 单击 * 下一步 * 。
+. 选择备份存储选项。
++
+.. 单击 * SaaS Backup 提供的存储 * 。
+.. 选择存储选项。
+.. 单击 * 下一步 * 。
+.. 查看您的配置，然后单击 * 保存 * 。
+
+
+
+
+
+
+== 使用 NetApp SSO 帐户注册免费试用版
+
+.步骤
+. 在 Web 浏览器中输入 SaaS Backup for Microsoft 365 URL ：https://saasbackup.netapp.com[]
+. 单击登录页面底部的 Sign Up 。
+. 接受最终用户许可协议。
+. 单击 * 注册 NetApp SSO* 。
++
+image:sign_up_sso.gif["单击按钮以使用 NetApp SSO 帐户为 SaaS Backup for Microsoft 365 签名的屏幕截图"]
+
+. 输入 NetApp SSO 和密码，然后单击 * 登录 * 。
+. 输入请求的用户信息，然后单击 * 注册 * 。您需要获得渠道合作伙伴，销售代表或注册电子邮件中提供的免费试用激活代码。
+. 单击 image:bluecircle_icon.gif["SaaS Backup for Microsoft 365 服务图标的屏幕截图"] 图标。
+. 单击 image:O365_icon.gif["Microsoft 365 图标"] 以选择 SaaS 服务。
+. 单击 * 添加 Microsoft Office 365 帐户 * 。
+. 输入 Microsoft 365 测试或试用帐户的电子邮件地址和密码，然后单击 * 登录 * 。此时将显示 SaaS Backup for Microsoft 365 请求的权限列表。
+. 单击 * 接受 * 。
+. 单击 * 下一步 * 。此时将显示可用 Microsoft 365 服务的列表。
+. 选择要激活的 Microsoft 365 服务。
+. 单击 * 下一步 * 。
+. 选择 * 免费试用 * 作为订阅类型。输入您的渠道合作伙伴或销售代表提供的激活代码，或者通过电子邮件从营销代表获取的激活代码。
+. 单击 * 下一步 * 。
+. 选择备份存储选项。
++
+.. 单击 * SaaS Backup 提供的存储 * 。
+.. 选择备份存储选项。
+.. 单击 * 下一步 * 。
+.. 查看您的配置，然后单击 * 保存 * 。
+
+
+

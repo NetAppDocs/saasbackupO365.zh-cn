@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_restore_file_locations.html 
+keywords: netapp, saas backup, microsoft 365, find, viewing, jobs, log, restore, file, locations 
+summary: 您可以下载已还原文件和文件夹的标题和位置日志。 
+---
+= 查找已还原的文件
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+还原某些文件或文件夹后，它们将包含在新创建的还原文件夹中。为了帮助您轻松找到已还原的项目，您可以下载一个 Excel 文件，其中包含已还原文件和文件夹的名称和位置。
+
+.步骤
+. 单击 image:jobs_button.gif["作业按钮的屏幕截图"] 在左侧导航窗格上。
+. 在 * 最近完成的作业 * 下，单击要查找已还原文件的作业。
+. 单击右上角的 * 下载 * 。此时将在本地下载一个 Excel 文件，其中包含特定作业的已还原文件的名称和位置。
+

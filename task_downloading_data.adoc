@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task_downloading_data.html 
+keywords: netapp, saas backup, microsoft 365, jobs, history, activity, log, download, downloading 
+summary: 您可以查看或下载 SaaS Backup 活动和作业历史记录日志。 
+---
+= 下载日志
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup for Microsoft 365 会将作业历史记录日志存储在 SaaS Backup 中。您可以下载作业历史记录和已完成作业列表。
+
+
+
+== 下载活动日志
+
+SaaS Backup for Microsoft 365 中发生的所有活动都会存储一个日志。日志包含执行的每个操作的日期以及执行此操作的用户的名称。您可以将活动日志下载到 .csv 文件。
+
+.步骤
+. 单击 image:reporting.gif["报告按钮的屏幕截图"] 在左侧导航窗格上。
+. 单击 * 活动日志 * 选项卡。此时将显示所有 SaaS Backup for Microsoft 365 活动的列表。
+. 单击 image:download_activitylog.gif["活动日志右角的下载按钮屏幕截图"]。活动日志将以 .csv 文件的形式下载。
+
+
+
+
+== 下载已完成作业的日志
+
+您可以下载已成功完成作业的 Excel 电子表格。
+
+.步骤
+. 单击左侧导航窗格中的 * 作业 * 。
+. 单击要下载的最近完成的作业。
+. 单击已成功完成作业数下的 * 成功 * 。
++
+image:completed_jobs.gif["已完成作业的屏幕截图"]
+
+. 单击右上角的 * 下载 * 。此时将下载日志。
+

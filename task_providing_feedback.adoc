@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task_providing_feedback.html 
+keywords: netapp, saas backup, microsoft 365, provide, providing, feedback, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates 
+summary: 提供反馈，帮助我们更好地为您服务。 
+---
+= 提供反馈
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您对 NetApp SaaS Backup for Microsoft 365 产品的反馈有助于我们更好地为您提供服务。您可以从内部 SaaS Backup for Microsoft 365 提供反馈。
+
+.步骤
+. 单击 image:support.png[""] 在左窗格导航栏上。
+. 选择 * 反馈 * 。
+. 完成简短的反馈调查。
+. 单击 * 提交 * 。
+
+
+If you want to be notified automatically when production-level documentation is released or important changes are made to existing production-level documents, follow Twitter account @NetAppDoc.

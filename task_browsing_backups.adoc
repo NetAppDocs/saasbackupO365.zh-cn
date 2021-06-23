@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task_browsing_backups.html 
+keywords: netapp, saas backup, Microsoft, microsoft 365, protected, protected instances, backup, backed up items, backups, browse, browsing, OneDrive, SharePoint, Exchange, Microsoft 365 Groups, date range, days, items, user, users, group, groups 
+summary: 您可以浏览所有 Microsoft 365 服务中的备份。 
+---
+= 浏览备份
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以浏览 Microsoft 365 Exchange ， SharePoint ， OneDrive for Business 和组的近期备份或所有备份中受保护的实例。
+
+
+NOTE: 默认浏览设置为 * 显示最近 5 天的备份 * 。如果选择 5 天，则仅会显示过去 5 天备份的项目。您可以根据需要更改时间范围。
+
+要确保找到所需内容，请查看时间范围下拉菜单左侧的日期。
+
+image:8_october_last_5_days_backup_highlight_date_&_count.png["此图突出显示浏览用户邮箱的日期和计数"]
+
+.步骤
+. 在 * 信息板 * 中，选择要浏览备份的服务，然后选择受保护的实例。
++
+image:number_protected_unprotected_highlight_protected.gif["已突出显示受保护的 Exchange 实例"]
+
+. 选择要浏览的帐户。
+. 选择要浏览的备份项目的时间范围。
++
+image:date_range_browse_feature.gif["图中显示了用于浏览备份的时间范围选项"]
+
++
+
+NOTE: * 查看备份历史记录 * 显示备份的日历视图。如果选择 * 查看备份历史记录 * ，并选择了当天之前的日期，则会更改您看到的备份的时间范围。例如，如果今天是 10 月 8 日，则在日历视图中选择 10 月 5 日，然后选择浏览从 10 月 5 日开始的最后 5 天，您可以浏览的项目将从 10 月 1 日到 5 日。
+
+. 单击要查看的项目类型： " 邮件 " ， " 日历 " ， " 任务 " ， " 联系人 " ， " 文件 " ， 内容或其他。
+. 浏览备份的项目。
+

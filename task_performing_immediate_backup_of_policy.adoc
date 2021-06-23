@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_performing_immediate_backup_of_policy.html 
+keywords: netapp, saas backup, microsoft 365, getting started, perform, performing, immediate, backup, backup policy 
+summary: SaaS Backup for Microsoft 365 入门包括确定要用于备份数据的存储类型，收集相关信息，创建 Microsoft 365 服务帐户以及分配用户权限。 
+---
+= 对特定备份策略执行即时备份
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+默认情况下，在设置适用于 Microsoft 365 的 SaaS Backup 时，您的所有数据都不受保护。将数据移动到受保护层后，您可以立即对将数据移动到的层执行备份。这样可以防止数据在首次计划备份之前处于风险之中。如果您可以等待第一个计划的备份，则无需立即执行备份。
+
+您可以在认为数据保护所需的任何时间立即执行备份。如果您运行的是 SaaS Backup for Microsoft 365 试用版，则每个服务每天只能执行三次即时备份。
+
+.步骤
+. 从信息板中，选择要为其执行即时备份的服务。
+. 在 * 备份策略 * 下，单击要备份的层。
+. 单击立即备份。
++
+image:backup_now.gif["SaaS Backup \"Backup Now\" 按钮的屏幕截图"]
+
++
+此时将显示一条消息，指示选定层下的服务将放置在作业队列中，以便立即进行备份。
+
+. 单击 * 确认 * 。此时将显示一条消息，指示备份作业已创建。
+. 单击 * 查看作业进度 * 以监控备份进度。
+

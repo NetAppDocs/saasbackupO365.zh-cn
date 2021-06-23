@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="1a6c0852bc4cf3c92e38de75f70af41c" category="summary">在 NetApp SaaS Backup for Microsoft 365 中，您可以管理 Azure Active Directory 的权限。</block>
+  <block id="eafac00ae1f3bb3038f2dfec18a92f47" category="doc">将用户权限与 Azure Active Directory 同步</block>
+  <block id="90ad7a12c47aa1f3742250d3a05db8ce" category="paragraph">您可以从 SaaS Backup for Microsoft 365 中手动将用户权限与 Azure Active Directory 同步。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
+  <block id="4caf2a417fda014d9642d15608a05642" category="inline-image-macro">服务按钮的屏幕截图</block>
+  <block id="83ad3239e67dfcbf95287a1e7ea84635" category="list-text">单击 <block ref="5dae113680257bfa8a9a9f41c78b194f" category="inline-image-macro-rx" type="image"></block> 从左侧导航窗格中。</block>
+  <block id="8e1f5330825bb765d62481c37ddd02aa" category="list-text">单击 Microsoft 365 链接。</block>
+  <block id="92fdf17a32b5b5cb9be97afb8513883a" category="inline-image-macro">Microsoft 365 按钮的屏幕截图</block>
+  <block id="f9631d5c739c4c4b4fe570c209766ce1" category="paragraph"><block ref="f9631d5c739c4c4b4fe570c209766ce1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f539d7f1bdbf16c50af991895771bbf1" category="list-text">单击 * 重新发现权限 * 。</block>
+  <block id="fbce842955659213032c20e4ddbbbf37" category="inline-image-macro">重新发现权限图标</block>
+  <block id="1587302f361278e6e8f58e4089765634" category="paragraph"><block ref="1587302f361278e6e8f58e4089765634" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1bb1174e1fd4bf448666d9f46f3d55e1" category="paragraph">如果发现某个服务的权限，则会显示该服务，并可选择 Active 。</block>
+  <block id="2366a80c7e9969775e6e87113d8bd6b9" category="summary">如果您计划将 SaaS Backup 与 Microsoft Exchange Online 结合使用，则必须配置模拟。</block>
+  <block id="49f65f305bd3302abd16a6ba325b65d3" category="doc">为 Microsoft Exchange Online 配置模拟</block>
+  <block id="6b8c83c9898d85caa045d0de469c77db" category="paragraph">如果您计划将 SaaS Backup 与 Microsoft Exchange Online 结合使用，则必须配置模拟。模拟允许您的 Microsoft 365 服务帐户模拟用户帐户并访问关联的权限。</block>
+  <block id="0069bf8587752e66f58cc50f214117f4" category="section-title">自动配置模拟</block>
+  <block id="b07e7a5409779d1bd7057ab63b67afbb" category="inline-link">MSDN PowerShell 命令</block>
+  <block id="1f777bbd5f4402e8fcf8a9acae76f986" category="paragraph">要自动配置模拟，请运行<block ref="1f915facb5399ad0dfe75907e9cfd076" category="inline-link-rx"></block>。</block>
+  <block id="e04acd1f9cba307748f5d9735f00eda2" category="section-title">手动配置模拟</block>
+  <block id="ac67a804e01713d24a3b80b009ba740f" category="inline-link-macro">创建具有全局权限的 Microsoft 365 服务帐户。</block>
+  <block id="475081efa8c55d5207fd6ebf2c8211d0" category="paragraph">您可以使用 Microsoft 365 管理员帐户以及 SaaS Backup 中添加的 Microsoft 365 服务帐户手动配置模拟。有关 Microsoft 365 服务帐户的详细信息，请访问 <block ref="1ec45c32bd2c8bfc7bfdde982598c029" category="inline-link-macro-rx"></block></block>
+  <block id="d183af63e5075dca403caa74f094cfa3" category="paragraph">要手动配置模拟，请执行以下操作：</block>
+  <block id="afe1726d53042cd31bac4c0da81ad743" category="list-text">登录到您的 Microsoft 365 服务帐户。</block>
+  <block id="63bf294804ca9de414a867bb9b26bc4c" category="list-text">选择 * 交换 * 选项卡。</block>
+  <block id="48ddabdcbc3578e3c15ba84216de335f" category="list-text">在左侧的 Dashboard 下，选择 * 权限 * 。</block>
+  <block id="24af6d3288de00e11d451bfa51f65b8e" category="list-text">单击 * 管理员角色 * 。</block>
+  <block id="f6ff089a34ba3a9ca6157779670dc8ff" category="list-text">双击右窗格以选择 * 发现管理 * 。</block>
+  <block id="bfb1e7d573c9eb6bc643431408176da6" category="list-text">在 * 角色 * 下，单击 * + * 符号。</block>
+  <block id="3caa63f7f910d62a644b5d3376872c13" category="inline-image-macro">配置 Microsoft Exchange Online 模拟时写入范围窗口的屏幕截图</block>
+  <block id="eb21eff2ec724134a8bb2117fadc526d" category="paragraph"><block ref="eb21eff2ec724134a8bb2117fadc526d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ba2cb3fa2d6e2e30f0337bca64ecb58" category="list-text">从下拉菜单中选择 * 应用程序模拟 * 。</block>
+  <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">单击 * 添加 * 。</block>
+  <block id="a72cc47fad7d1846d19b085d2e77e5ba" category="list-text">单击 * 确定 * 。</block>
+  <block id="e6615ebb2db3d5d089acfb86aca50296" category="list-text">验证是否已在 * 角色 * 下添加了 * 应用程序模拟 * 。</block>
+  <block id="0e8a3989d4ad94d273a0d1398b9b3eec" category="list-text">在 " 成员 " 下，单击 * + * 符号。</block>
+  <block id="a0d3673f1eee1f2f61833d5c66bdbc24" category="inline-image-macro">为 Microsoft Exchange Online 配置模拟时的成员窗口屏幕截图</block>
+  <block id="9ed4e8ed2266c74a2f1baf6a935a3c44" category="paragraph"><block ref="26d24b44fbf37fad7a1bc4f2bd668ad1" category="inline-image-macro-rx" type="image"></block>此时将显示一个新窗口</block>
+  <block id="86b53e93fc72969f6072b06e701a35f2" category="list-text">选择用户名。</block>
+  <block id="ffe2341c7c5a0ffbc3bd02556159c301" category="list-text">验证用户名是否显示在 * 成员 * 部分中。</block>
+  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">单击 * 保存 * 。</block>
+  <block id="5a916052a81a1188c4b5c7a8c9b8f57c" category="summary">如果停用某个服务，则与该服务关联的所有计划都将被删除，并且不会执行进一步的备份。您仍然可以查看停用前发生的上次备份，并且仍可以执行还原。</block>
+  <block id="77f613867eacec10936150d3772d27d8" category="doc">停用服务</block>
+  <block id="10fab75dabb94cc751cbc585c4033a73" category="paragraph">如果需要，您可以停用一个或多个 SaaS Backup for Microsoft 365 服务。如果停用某个服务，则与该服务关联的所有计划都将被删除，并且不会执行进一步的备份。您仍然可以查看停用前发生的上次备份，并且仍可以执行还原。</block>
+  <block id="72fbcfb365b58ea3e04253c83ae7be8f" category="inline-image-macro">停用按钮的屏幕截图</block>
+  <block id="a934446538191824083af8a8ceeffd53" category="list-text">单击 <block ref="7a2df93b9d06827856a796e9d39efc33" category="inline-image-macro-rx" type="image"></block> 要停用的服务旁边。</block>
+  <block id="8183c9dbb2354fb933c18a1e36501526" category="list-text">单击 * 确认 * 。</block>
+  <block id="acbb1f4785507a3281441e4a4d68c2cc" category="summary">您可以使用 SaaS Backup for Microsoft 365 对 Microsoft OneDrive for Business 执行高级别的粒度级还原。</block>
+  <block id="faa0f5a1248e536d78604c8e797d3ee7" category="doc">对 Microsoft OneDrive for Business 执行粒度级还原</block>
+  <block id="d23cc6f5e569225d12d5cdee886dac91" category="paragraph">在 Microsoft OneDrive for Business 中，您可以还原列表或库的粒度级别项目，例如单个文件夹或文件。您还可以还原 OneNote 笔记本或组。</block>
+  <block id="307507606358033c7b7356d64b288c58" category="paragraph">默认情况下，只能还原最新的备份。其他可用选项包括：</block>
+  <block id="3afa9ce911c7556e33f1481ed3f9f806" category="inline-image-macro">可用于还原的备份</block>
+  <block id="cc16850ab63d07d2c68712085f701c8e" category="paragraph"><block ref="cc16850ab63d07d2c68712085f701c8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="61d6d9cdb505aceb7d54415f3c9d7708" category="paragraph">下表显示了 OneDrive for Business 中粒度级别项目支持的还原选项。</block>
+  <block id="b739e39d2ac5533c519af082ff2d48e4" category="cell">项目类型</block>
+  <block id="b44cb0a6ed7f30f99a01005eae6383ba" category="cell">还原到同一个 MySite</block>
+  <block id="f4358c8d61b9142502c84ec14f5d48e9" category="cell">还原到另一个 " 我的站点 "</block>
+  <block id="5e20646580da584d76435da00d6face4" category="cell">导出数据</block>
+  <block id="b6c2e9d14610275b24d114ad4e420765" category="cell">在 SaaS Backup 中的何处查找</block>
+  <block id="ad2eec7f4375455e1590fcbe1e146676" category="cell">单个驱动器</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
+  <block id="93cba07454f06a4a960172bbd6e2a435" category="paragraph">是的。</block>
+  <block id="8de39125da3a7480f054a0db5c87f290" category="cell">OneDrive for Business &gt; MySites</block>
+  <block id="fa0b9f12a25cf3ea895539b7c94e44e9" category="cell">多个驱动器</block>
+  <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="paragraph">否</block>
+  <block id="7f6bcffecf37269d3869f221601d18c0" category="cell">单个 / 多个文件夹</block>
+  <block id="5aa55f0093275bb98034a23ee84b73b9" category="cell">OneDrive for Business &gt; MySites &gt; &lt; 驱动器名称 &gt; 文件</block>
+  <block id="93585961ab4a4d9fac26a01661b87a8b" category="cell">单个 / 多个项目</block>
+  <block id="8b580b7571abfc9d2a2f7d6a9eae5dc0" category="cell">OneDrive for Business &gt; MySites &gt; &lt; 驱动器名称 &gt; 文件</block>
+  <block id="eafc4250fe746260edca6f7954cd60c6" category="cell">笔记本文件夹</block>
+  <block id="f837bf7d5d37157b44ff2886f10041c3" category="cell">OneNote 单个 / 多个文件夹</block>
+  <block id="e662d72b26f52bc8b331814844a8878e" category="cell">OneDrive for Business &gt; MySites &gt; &lt; 驱动器名称 &gt; 文件 &gt; 笔记本</block>
+  <block id="aa035d0217f517223b6298f2cf434dff" category="list-text">在信息板中，单击 OneDrive 框中的 * 受保护 * 上方的数字。</block>
+  <block id="2e47d1736eecdf1bef2489dba6c07bfd" category="list-text">单击需要执行还原的 MySite 。</block>
+  <block id="c5f9ef8c43e0575336db0fc08d09df7b" category="list-text">选择一组文件。</block>
+  <block id="cda61438ef2996027749b3f20e484032" category="paragraph">如果要还原组中的单个文件夹或文件，请单击一组文件。要还原整个文件夹，请选择该文件夹。要还原文件夹中的各个文件，请选择包含这些文件的文件夹，然后选择各个文件。</block>
+  <block id="357a35aedd0c37deb3a881df778a9bb4" category="list-text">单击 * 还原 * 。</block>
+  <block id="d1b0c7294d4efa4e343862f44dd254db" category="list-text">选择一个还原选项。</block>
+  <block id="720b2eeeb71a356a55c9e314df3cc3a0" category="list-text">* 还原到同一个 MySite*</block>
+  <block id="e49a66199f1cb7f668137d1d20aa3123" category="paragraph">如果要将单个文件还原到同一个 MySite ，则默认情况下，会在包含备份副本的原始内容位置创建一个具有当前日期和时间戳的还原文件夹。</block>
+  <block id="3076ca58beea18b1652a582b24651a89" category="paragraph">如果选择 * 替换现有内容 * ，则当前数据将完全替换为备份。</block>
+  <block id="07ecb71860048ba38a93da189f63d9ea" category="list-text">* 还原到另一个 MySite*</block>
+  <block id="54524b98ef4427ca0093341d47a0325e" category="paragraph">如果还原到另一个 MySite ，则必须在搜索字段中输入目标 MySite 。您可以在搜索字段中键入目标 MySite 的一部分，以便自动搜索匹配的目标 MySites 。</block>
+  <block id="4525aa9916e4ec6ac852fb1b9c24f43c" category="list-text">* 导出数据 *</block>
+  <block id="48d90378be01b2e385520fa18e6b71cf" category="paragraph">如果要导出数据，则需要下载该数据。转到左侧菜单上的 " 报告 " 。查找导出数据作业。单击 * 文件夹总数 * 。然后单击 * 导出数据下载链接 * 。下载 zip 文件。打开 zip 文件以提取数据。</block>
+  <block id="45c370720bd5903ae015d8bc9114b227" category="admonition">如果选择 * 导出数据 * 还原选项，则提供的链接有效期为七天，并且已通过预身份验证。</block>
+  <block id="db0a14d5142d27cd10a1a5a3853bad29" category="list-text">单击 * 查看作业进度 * 以监控还原进度。</block>
+  <block id="7f25d4d65b1003453bc7e1329a9c178d" category="summary">如果您不升级到 SaaS Backup for Microsoft 365 的许可版本，则在免费试用期间使用的数据将被删除。</block>
+  <block id="4946cdf19ac5285412e4b530ede0f075" category="doc">免费试用数据删除</block>
+  <block id="a420949a90cbed96b9c03780a9cb9e9c" category="paragraph">如果您不升级到 SaaS Backup for Microsoft 365 的许可版本，则在免费试用期间使用的数据将被删除，如下所示：</block>
+  <block id="20a399ea47f7779f35a917d5bfc35871" category="cell">如果您的 SaaS Backup 免费试用版是 ...</block>
+  <block id="e6180df64654cd45d8f372d6b33c4870" category="cell">试用结束后的天数</block>
+  <block id="eec1e6e91c656e3f608e6d1c55f15f99" category="cell">您的数据是 ...</block>
+  <block id="24fe48030f7d3097d5882535b04c3fa8" category="cell">已过期</block>
+  <block id="951502ee7afce1344e61a10b86aaa1f9" category="cell">1-15 天</block>
+  <block id="afd64a17a7c36e9153991fbe0eda0f76" category="cell">可用：管理员具有正常访问权限，可以执行手动备份和还原。SaaS Backup 将继续显示警报并发送通知。</block>
+  <block id="b9f5c797ebbf55adccdd8539a65a0241" category="cell">已禁用</block>
+  <block id="d1c185ec36277c99c073ca28fa167601" category="cell">16-30 天</block>
+  <block id="f9d9979b8e9789483bcdf131846b8078" category="cell">deactivated ：管理员无权访问 SaaS Backup 门户。如果在此期间更新了订阅，则可以重新激活数据。</block>
+  <block id="04ae8e08c8997b56dd2db946fffa8577" category="cell">已取消配置</block>
+  <block id="fca24f68b0a283e4a4e35cde4dfa0a3a" category="cell">31 天或更长时间</block>
+  <block id="f698dce7cb7262aee1c5f6bbe5519878" category="cell">Deleted ：删除所有数据，并删除您的租户帐户。</block>
+  <block id="3a3c17a3d9770667859bdcd66c4a99a5" category="summary">如果从服务设置中打开已删除的项目，则可以查看所有服务中已删除的项目。</block>
+  <block id="4a86c772020231ba354111daad8015ab" category="doc">查看已删除的项</block>
+  <block id="0e2f0e976aaeb091f6ae728602d424e1" category="paragraph">通过在服务设置中打开 * 显示已删除项 * ，您可以随时查看所有服务中已删除的项。这样有助于节省时间；无需浏览已删除项的不同备份，而是打开交换机以立即查找已删除项。</block>
+  <block id="31c3a6fb19eaa75f19d3d4cf4c7cc0f3" category="paragraph">默认情况下，交换机处于关闭状态。</block>
+  <block id="f26fcdd98806ea6214fcadf06f10cfd1" category="list-text">单击左侧导航窗格中的 * 服务 * 。</block>
+  <block id="f70194f277103c9866dc8af364fee34e" category="inline-image-macro">图中显示了设置图标</block>
+  <block id="cc3783ec881d2e39de64a154816053d1" category="list-text">单击设置图标 <block ref="8f769a1a145e5a84c285d99fc1a5fbb8" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="4e46725c03162dfab1ba1995b82af54c" category="inline-image-macro">图中显示了已删除项的开关关闭</block>
+  <block id="3f6d15cf6c26cc238489594fa7211754" category="paragraph"><block ref="3f6d15cf6c26cc238489594fa7211754" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d30334bced72eec712bfb047aef308a7" category="list-text">打开 * 显示已删除项 * 开关。</block>
+  <block id="cfd226026b9b811c8a77e0355a9cb6f3" category="inline-image-macro">图中显示了已删除项已打开且备份设置已更新</block>
+  <block id="5ee8d5264a5042a291b5fd5c5e218cf7" category="paragraph"><block ref="5ee8d5264a5042a291b5fd5c5e218cf7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fb946ac62826c08c09ffa9bd4bdf1e4a" category="list-text">单击左侧导航窗格中的 * 作业 * 。</block>
+  <block id="12e0aa55694b8ac667fc94104d1a6f89" category="list-text">打开最新备份以查看已删除的项。</block>
+  <block id="32554193fa248d429a5c303d9f299cb5" category="summary">您可以将现有规则应用于未受保护的项，更改规则的应用顺序以及删除规则。</block>
+  <block id="c5740bfb2b88ba0a9944eae7a1e35c50" category="doc">应用现有规则</block>
+  <block id="afa4a3e5d1b7ea0bb4463dbc220816cd" category="paragraph">通过规则，您可以根据预定义的条件自动将用户移动到预先选择的备份层。</block>
+  <block id="bb735796521a9288c104ac4da6e8319b" category="list-text">在信息板中，单击要为其创建规则的服务的框中的 * 未受保护 * 上方数字。</block>
+  <block id="92255e0954cb3755ebcf92c8861747e3" category="paragraph"><block ref="92255e0954cb3755ebcf92c8861747e3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8e6dd3fc1948fff834e92e1bc58be40a" category="list-text">单击 * 筛选器 * 。</block>
+  <block id="0b3d1161a9d66ac7d27ab7303cb3ceea" category="inline-image-macro">筛选器下拉菜单按钮的屏幕截图</block>
+  <block id="7c33a0a38bfd59300b422201e28ff4a9" category="paragraph"><block ref="7c33a0a38bfd59300b422201e28ff4a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f757be9dd327b424b244847b06036431" category="list-text">单击 * 规则 * 。此时将显示现有规则。</block>
+  <block id="78386b15f34158b994f4ab5cd8644568" category="list-text">单击 * 立即应用 * 将此规则应用于现有未受保护的项。</block>
+  <block id="e167007d1e03b72505e28867f91075ca" category="summary">如果对用户的管理角色进行了更新，则用户将自动从 SaaS Backup for Microsoft 365 中注销。当用户重新登录时，管理角色更新会反映在用户的帐户中。</block>
+  <block id="83913e953071b43e82d99b522663debf" category="doc">更新分配给用户帐户的管理角色</block>
+  <block id="5ace6f088ad9ed4c2fc20561712be550" category="inline-image-macro">配置图标的屏幕截图</block>
+  <block id="77e568ce24fa92de1ba7644fce6ab87a" category="list-text">单击设置图标 <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block> 在屏幕左上角的用户 ID 旁边。</block>
+  <block id="fe31ae091ef6472576514f4b01733356" category="list-text">单击 * 帐户设置 * 。</block>
+  <block id="b8f29be2600f101e351d72a11f05a114" category="list-text">单击 * ROLE MANAGEMENT* 。</block>
+  <block id="dda542577d68335a63e6b1756f5db314" category="list-text">单击要更新的用户名旁边的 * 更新用户 * 。</block>
+  <block id="5d267101ea44f1e416644b36ba62ae84" category="list-text">单击下拉菜单以选择角色。您可以为用户分配一个或多个角色。</block>
+  <block id="d7b83a62db242748835c90954a9d55e8" category="summary">您可以为用户帐户分配管理角色，以便为选定用户授予一项或多项服务的管理权限。</block>
+  <block id="c4e76fab6890557f793699bf217c461e" category="doc">为用户帐户分配管理角色</block>
+  <block id="4c665c7201419346e367eb3ce862ec37" category="paragraph">您可以为用户分配以下角色：</block>
+  <block id="9fa9d36d0c4d6feb0d7259e07602be2e" category="list-text">全局租户：为所有服务，存储目标和许可证更新（续订 / 升级）授予管理权限。</block>
+  <block id="3985ad78fd7f871485ccbc9ddb94ef4b" category="list-text">Exchange 管理员：仅向 Microsoft Exchange Online 授予管理权限。无法查看或修改其他服务。</block>
+  <block id="63dd9f2a76d950a535286a167e132e4b" category="list-text">OneDrive 管理员：仅向 Microsoft OneDrive for Business 授予管理权限。无法查看或修改其他服务。</block>
+  <block id="52faecfdc22c8a57d5e50557b8f453d6" category="list-text">SharePoint 管理员：仅向 Microsoft SharePoint Online 授予管理权限。无法查看或修改其他服务。</block>
+  <block id="f0f18f59e4c55713fe40502110e0c781" category="inline-image-macro">单击图标以显示用户角色选项的屏幕截图</block>
+  <block id="24d840a6e20f36b1beec3234a60d54fd" category="list-text">单击 <block ref="697713931a36b5ecf8304836cd65b0c5" category="inline-image-macro-rx" type="image"></block> 图标。</block>
+  <block id="a5a0d4b8cb743abdecacdbf223875b2b" category="list-text">输入要添加的用户的电子邮件地址。</block>
+  <block id="14ed5b6705ccff3400fb356b735cde29" category="summary">您可以使用 Microsoft 365 服务帐户或 NetApp SSO 帐户注册 SaaS Backup for Microsoft 365 。</block>
+  <block id="5b20edb29e2e3b85bd65bb20e8c323a1" category="doc">注册订阅 SaaS Backup for Microsoft 365 的付费订阅</block>
+  <block id="a05d453722a996742fec3c2827e30a0c" category="section-title">使用 Microsoft 365 服务帐户注册付费订阅</block>
+  <block id="32fd1bb5491f4bdb59730a837e0eeef2" category="paragraph">使用 Microsoft 365 服务帐户注册付费订阅的用户需要启用基本身份验证才能使用 SaaS Backup 。SaaS Backup 仅支持基本身份验证。如果您的 Microsoft 365 租户是从 2020 年 10 月开始创建的，并且未记录使用情况，则可能会遇到身份验证失败。请确保为 Microsoft 365 服务帐户禁用现代身份验证。</block>
+  <block id="3f0ac65c6641811fb6979108b4ae4db1" category="inline-link-macro">了解如何禁用现代身份验证</block>
+  <block id="db6769770b54cd48ea827fed88aa688f" category="paragraph"><block ref="db6769770b54cd48ea827fed88aa688f" category="inline-link-macro-rx"></block></block>
+  <block id="abdc55eb1eb7165f452a2b5dc6896999" category="list-text">在 Web 浏览器中输入 SaaS Backup for Microsoft 365 URL ：<block ref="69b8c2567294d7944fbc4c95e2c3c422" category="inline-link-rx"></block></block>
+  <block id="fb40144187e6d6dfbb31bfddd7c8be12" category="list-text">选择您所在的区域。此时将在选定区域创建您的租户。您的数据将存储在该数据中心位置，以后无法更改。</block>
+  <block id="40de166a0206734afd1816e330dbd1b2" category="list-text">单击登录页面底部的 * 注册 * 。</block>
+  <block id="b4b5965e3fc7783871b3048639a6d6c9" category="list-text">接受最终用户许可协议。</block>
+  <block id="a02be68c938a23e55fe461a1a0c8662c" category="inline-image-macro">单击按钮以使用 Microsoft 365 服务帐户为 SaaS Backup for Microsoft 365 签名的屏幕截图</block>
+  <block id="5edf3bb233f5b626bb40322b8864a9ac" category="list-text">单击 * 注册 Office 365* 。<block ref="cc35a44d9fa5e810fca7e609591a6e96" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e58745e44ca10bde2b8501fcb6dd9ae2" category="list-text">输入 Microsoft 365 全局管理员服务帐户的电子邮件地址和密码，然后单击 * 登录 * 。此时将显示 SaaS Backup for Microsoft 365 请求的权限列表。</block>
+  <block id="e17905dd31e746ef069a3367c5d92d78" category="list-text">单击 * 接受 * 。</block>
+  <block id="183a922f9c99c146568fa3a722e97f1b" category="list-text">输入请求的用户信息。</block>
+  <block id="d2b5110030426d97e52b774bb6d336c9" category="list-text">单击 * 注册 * 。此时将显示您的用户名以及为 SaaS Backup for Microsoft 365 提供的权限列表。</block>
+  <block id="76a97ed15ed26c4ed99f1e665c6b36d4" category="list-text">单击 * 下一步 * 。此时将显示可用 Microsoft 365 服务的列表。</block>
+  <block id="6e974e95f07eabcddb56ad1c8b6eb5e0" category="list-text">选择要激活的 Microsoft 365 服务。</block>
+  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">单击 * 下一步 * 。</block>
+  <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">此处</block>
+  <block id="72a04102d99fa44df4341d63f3022cc4" category="list-text">如果您是通过 NetApp 购买许可证的，则会显示您的订阅类型单击 <block ref="29d288af4a2f7810b289a90a6051b818" category="inline-link-macro-rx"></block> 了解更多步骤。</block>
+  <block id="d14a2834a29f6ebee06ab6889bd6bd74" category="list-text">如果您通过 AWS 等云市场购买了许可证，则会显示您的许可证信息。单击 <block ref="e00c2ebec443939398eec77b9bc8acde" category="inline-link-macro-rx"></block> 了解更多步骤。</block>
+  <block id="0bd302878f8040f5202a735159728ec6" category="section-title">使用 NetApp SSO 帐户注册付费订阅</block>
+  <block id="5bd660b6b70cc7e9e5121ff01396dc31" category="paragraph">要验证您的订阅，您必须具有 NetApp SSO 用户 ID 和密码。如果您没有 NetApp SSO 帐户，请转至<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> 注册一个。处理完您的请求后，您将收到一封电子邮件通知，其中包含您的 NetApp SSO 凭据。处理此请求并发送通知电子邮件大约需要 24 小时。</block>
+  <block id="55d24cf7a906d1d4208622ed125d211e" category="paragraph">要验证您的订阅，您必须具有 NetApp SSO 用户 ID 和密码。如果您没有 NetApp SSO 帐户，请转至<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> 注册一个。处理完您的请求后，您将收到一封电子邮件通知，其中包含您的 NetApp SSO 凭据。处理此请求并发送通知电子邮件大约需要 24 小时。</block>
+  <block id="abbc26a9920ffcb14ff167578b11c9f7" category="list-text">单击登录页面底部的 Sign Up 。</block>
+  <block id="69e152d69f8d4373acc95d74926b0a61" category="inline-image-macro">单击按钮以使用 NetApp SSO 帐户为 SaaS Backup for Microsoft 365 签名的屏幕截图</block>
+  <block id="a2f89bcf524d24746643e4d9c04e36eb" category="list-text">单击 * 注册 NetApp SSO* 。<block ref="481c2d7848531f12a7fd6f119c471514" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="64f5ed414a16fc87a18ea948b34ff272" category="list-text">输入 NetApp SSO 和密码，然后单击 * 登录 * 。</block>
+  <block id="997ef4b20be47717af102b5ceb6ffd21" category="list-text">输入请求的用户信息，然后单击 * 注册 * 。</block>
+  <block id="5a1b89c43bddf65f7ea65f271cf25c5b" category="inline-image-macro">SaaS Backup for Microsoft 365 服务图标的屏幕截图</block>
+  <block id="ceffebc2a3447f8be282a690098822bf" category="list-text">单击 * 服务 * <block ref="033e893069dbe1c51622ec6c06fe3419" category="inline-image-macro-rx" type="image"></block> 图标。</block>
+  <block id="c63915f53f7e6e9c07670ed5a82f0e91" category="inline-image-macro">Microsoft 365 图标</block>
+  <block id="8acf88a3c5c74293c66aebb6979800d6" category="list-text">单击 Microsoft 365 <block ref="b6f2e54c54e3104f5cb63e0dad75def5" category="inline-image-macro-rx" type="image"></block> 图标以选择 SaaS 服务。</block>
+  <block id="aabc107b1dfbec701236740754fb113b" category="list-text">单击 * 添加 Microsoft Office 365 帐户 * 。</block>
+  <block id="371c9adbc919e00267a7f444ff27fba3" category="list-text">选择 * 已许可 * 作为订阅类型。</block>
+  <block id="fa61889ab07d18a56ff6c379d1def5c7" category="list-text">输入请求的信息，然后验证订阅。</block>
+  <block id="278cd16c1d88b9f641463ff754912c75" category="list-text">选择备份存储选项。</block>
+  <block id="97a7519ee014df6eb0ea7572f558697f" category="list-text">单击 * SaaS Backup 提供的存储 * 。</block>
+  <block id="88e4ec1e84b90b2fc6e010dc8df45a8c" category="list-text">选择 * Amazon S3* 或 * Azure Blob * 存储选项。</block>
+  <block id="9b6bafc614e2d19704d12baf566961b8" category="list-text">为备份选择 * AWS S3* 或 * Azure Blob * 区域。您应选择与要备份的数据的物理位置最接近的区域。</block>
+  <block id="59bd9482937af8863abf9e7f4229fc09" category="list-text">查看您的配置，然后单击 * 保存 * 。</block>
+  <block id="8a1b5520b65d8ce096df57e907189a55" category="summary">从试用订阅升级到许可订阅时，只有在不更改备份存储目标的情况下，您的试用数据才会保留下来。</block>
+  <block id="5812c0f271e0e2c00e683f3df987dac2" category="doc">从试用订阅升级</block>
+  <block id="60b00097e19bf88e99151e80c77dbbfd" category="paragraph">从试用订阅升级到许可订阅时，只有在保留相同的备份存储目标类型和相同的备份存储区域时，才会保留试用数据。要在升级时将许可证关联到正确的 SaaS Backup 帐户，请对试用订阅和许可订阅使用相同的电子邮件地址。</block>
+  <block id="db72319f07f059d0101b823975192491" category="paragraph">* 如果更改备份存储目标类型，则试用数据将丢失。对备份目标区域进行的任何更改也会导致数据丢失。 *</block>
+  <block id="6d3431ba560ac6c34d8e0942ff6d8c92" category="cell">如果您的试用订阅的备份目标为 ...</block>
+  <block id="324d0dbc5778b0d30ae9a3b0951b61dd" category="cell">您的许可订阅的备份目标是 ...</block>
+  <block id="a1d5b6f135cfdcf368902b34a7c67653" category="cell">您的试用数据是 ...</block>
+  <block id="89a2e465348431f47e582a4849441f73" category="cell">SaaS Backup 提供的 Amazon S3</block>
+  <block id="5e837ef81141bf040b588faa5a333683" category="cell">保留</block>
+  <block id="762629ddfec1b2200ebd930a34724a2d" category="cell">SaaS Backup 提供的 Azure Blob</block>
+  <block id="edbb20a6e7cdb96d29783e5e345acc35" category="inline-image-macro">升级按钮的屏幕截图</block>
+  <block id="b1c6657efb7ee8df4147c5f3c92f4518" category="list-text">在 * 订阅详细信息 * 下，单击 <block ref="8acf61206d4ef3b293cfe7fbda26dca3" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="448cfeb23734ca99042411b683043ed7" category="list-text">选择升级选项，然后单击 * 下一步 * 。如果您通过 AWS Marketplace 购买，请选择 * AWS Marketplace * 。否则，请选择 * NetApp 许可证 * 。</block>
+  <block id="a5498ae2941cdd5f1215760fa2e12384" category="list-text">如果选择了 * NetApp 许可证 * ：</block>
+  <block id="29ed462a73716fdf1c7f1eacd848ca13" category="list-text">输入许可证信息，然后单击 * 验证订阅 * 。此时将显示许可证信息确认信息。</block>
+  <block id="345c7ed27f22014f4b831498263f4675" category="list-text">单击 * 下一步 * 。此时将显示您的订阅存储信息以及您的存储目标和区域。</block>
+  <block id="e569f7d422f6e3473c1844500796643f" category="list-text">如果要更改目标存储类型或目标存储区域，请执行以下操作：</block>
+  <block id="49b7b6152331d564c852838e9361eb68" category="list-text">选择新的目标存储类型和 / 或区域。</block>
+  <block id="1d020a6c2d7ad417747e14912e67842b" category="admonition">如果您更改了存储目标或目标区域，则 NetApp SaaS Backup for Microsoft 365 不会迁移试用数据。您必须同意继续操作。</block>
+  <block id="a8e71ae66530a126555358a4d6b483c0" category="list-text">如果要更改目标存储类型，请输入所需信息并单击 * 测试连接 * 。</block>
+  <block id="9b3369a34fd50984e123108049658865" category="list-text">如果要保留相同的目标存储类型和目标存储区域，请查看您的配置并单击 * 保存 * 。</block>
+  <block id="cdae03da0a493105e582628ed22abda8" category="list-text">如果选择了 * AWS * ， * AppDirect* 或 * 。</block>
+  <block id="156fd6b635ab0e98b2c9cd4880457909" category="list-text">单击此链接可转到选定的 Marketplace 。</block>
+  <block id="d166b90b9550437c32346426e1991076" category="list-text">按照 Marketplace 说明进行操作。要将许可证关联到正确的 SaaS Backup 帐户，请使用与免费试用相同的电子邮件地址。</block>
+  <block id="ef4cf7726ccc45c89cb5272cb949b7d8" category="admonition">通过 AWS Marketplace 获得许可的订阅只能使用 SaaS Backup 提供的 Amazon S3 存储。</block>
+  <block id="72a99821c0a5134095e1c4e5ac9cead3" category="list-text">使用您的 Microsoft 365 帐户登录到 SaaS Backup for Microsoft 365 。</block>
+  <block id="c048d463d7b37f486fe72b64be4e6f80" category="list-text">单击 Microsoft 365 设置图标 <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="4c3ccc7944a6d3fed16c9b3438b8b58c" category="inline-image-macro">激活按钮的屏幕截图</block>
+  <block id="252c1d7e40e06ab870f43d29e7812c49" category="list-text">在订阅详细信息下，单击 <block ref="3297805c3f9b82ac60ec16cc4fdd244a" category="inline-image-macro-rx" type="image"></block>。如果您选择的备份存储与试用订阅不同，则会显示一条警告。SaaS Backup for Microsoft 365 不会将试用数据迁移到新目标。您必须同意继续操作。</block>
+  <block id="dae11a171c86478e146e6d260683618f" category="admonition">如果您选择的许可订阅中的用户数少于试用订阅中的用户数，则激活此许可订阅后，所有用户帐户都将移至未受保护的层。激活后，您必须手动将所需帐户移动到受保护层。</block>
+  <block id="960807b3a38d77ca1916570b1732dda1" category="inline-link-macro">激活支持</block>
+  <block id="b1b8f50a4274cba58affa63d65dc6ee5" category="list-text">如果您尚未执行此操作， <block ref="e13d8583c6001789a64d81c0b2f80cf7" category="inline-link-macro-rx"></block>。</block>
+  <block id="7a00bdb3c8899a6fb0c89a7109d2eb8c" category="summary">您可以筛选邮箱，站点或 MySites 的视图，以便仅显示符合特定条件的结果。</block>
+  <block id="7005be9dcb2babc11145593389a5d0f0" category="doc">创建用户定义的筛选器</block>
+  <block id="c9c180a3b2075f7816538aca2648b910" category="paragraph">您可以筛选邮箱，站点或 MySites 的视图，以便仅显示符合特定条件的结果。例如，您可以将筛选器设置为仅查看某个国家或地区的邮箱以及该国家或地区的某个部门的邮箱。</block>
+  <block id="28034b25c973b0f0714d803930b9d1c0" category="list-text">在信息板中，单击要为其创建筛选器的服务的框中的 * 受保护 * 或 * 未受保护 * 上方的数字。以上受保护数字表示当前受备份策略保护的邮箱， MySite 或组的数量。以上未受保护的数字表示未受备份策略保护的邮箱， MySite 或组的数量。</block>
+  <block id="6edea1d492cb6a3d40ae21df59162f0f" category="list-text">单击 * 选择 * 下拉菜单，然后选择您选择的筛选器。</block>
+  <block id="a849fd1d0fdddaecae55f9037e78fa8c" category="paragraph">对于 Microsoft SharePoint Online ，您可以按模板 ID 进行筛选。您可以输入模板 ID 进行搜索，也可以从下拉菜单中选择模板 ID 。</block>
+  <block id="c378d5c32d9451f0f16d5f6d635058db" category="paragraph">对于所有其他服务，您可以按组，国家 / 地区，办公室，部门，职务 域或国家或地区。如果您有安全组，则它们也会作为筛选选项列出。</block>
+  <block id="9dda94868c140c7171350220db85e759" category="paragraph">第二个下拉菜单将根据您选择的筛选器填充所选内容。例如，如果您选择组作为第一个筛选器，则可以选择一个备份策略组层作为二级筛选器。</block>
+  <block id="b28f7aa637e3d34ee636903075ce64f9" category="inline-image-macro">第一组筛选器选项的屏幕截图</block>
+  <block id="10a2f85b5901bedb02be8ec21e9774f4" category="paragraph"><block ref="10a2f85b5901bedb02be8ec21e9774f4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="338d9231cd71aada2a49d87857d615e9" category="paragraph">此时将显示一个搜索字段。</block>
+  <block id="8850a628cbae3a8547c5a9cb68a13969" category="list-text">输入搜索条件。</block>
+  <block id="4310668c648943854ce73d240f05e8cc" category="list-text">如果要添加更多筛选器，请单击 * 添加筛选器 * 并进行选择。</block>
+  <block id="a46e7abdc6a472f6bd7866496cff5225" category="list-text">单击 * 应用筛选器 * 。此时将显示筛选器结果。</block>
+  <block id="502181d06604b40a7bc5780586e1047a" category="summary">默认情况下，在设置适用于 Microsoft 365 的 SaaS Backup 时，您的数据不受保护，也不会计划备份。您必须将数据移动到受保护层，才能启动首次备份。</block>
+  <block id="6788d0448f06c02d615181227fd9b6cb" category="doc">计划首次备份</block>
+  <block id="a305a1c21b0ea9da7bdc7fe8b3239ff0" category="paragraph">默认情况下，在设置适用于 Microsoft 365 的 SaaS Backup 时，您的数据不受保护。您必须将数据从未受保护的层移动到其中一个受保护层，以便在选定层的下次计划备份期间备份您的数据。</block>
+  <block id="66481d00d93eff0b31dd17194ddbb356" category="list-text">从信息板中，选择包含未受保护数据的服务。</block>
+  <block id="4fb44d8692ad90bf2755340b177db1a0" category="list-text">单击未受保护的邮箱， MySite ，站点或组数旁边的 * 查看 * 。</block>
+  <block id="7342d5d8444ac1796811718e9e675a5b" category="list-text">选择要保护的项。</block>
+  <block id="067daba3186482a4c6545ccb72a9bd40" category="inline-image-macro">SaaS Backup Groups 菜单按钮的屏幕截图</block>
+  <block id="d6cad9ed80ad838daeded80bb3ea67ef" category="list-text">单击 * 组 * 菜单。<block ref="2ec67b6713eb1983f587fe6d043d3b22" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f29af97513bb1a8e1b5d4a0b681250d4" category="inline-link-macro">备份策略</block>
+  <block id="b406dcf2d30712d6e126b3826a5ca331" category="list-text">为要分配的备份策略选择 * 层 * 。请参见 <block ref="00b2f8924defbf1ee2f308ef72378b6f" category="inline-link-macro-rx"></block> 备份策略层的问题描述。</block>
+  <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">单击 * 应用 * 。</block>
+  <block id="9a1e3ad881f27238be3ba18022725f9d" category="summary">SaaS Backup for Microsoft 365 入门包括确定要用于备份数据的存储类型，收集相关信息，创建 Microsoft 365 服务帐户以及分配用户权限。</block>
+  <block id="82c3ac190dfb331b36c24d2629b9a365" category="doc">对特定备份策略执行即时备份</block>
+  <block id="628c8f272a9c1367ff9309cbf3ac2e39" category="paragraph">默认情况下，在设置适用于 Microsoft 365 的 SaaS Backup 时，您的所有数据都不受保护。将数据移动到受保护层后，您可以立即对将数据移动到的层执行备份。这样可以防止数据在首次计划备份之前处于风险之中。如果您可以等待第一个计划的备份，则无需立即执行备份。</block>
+  <block id="4be6e634687171d296ff9689efef1fa4" category="paragraph">您可以在认为数据保护所需的任何时间立即执行备份。如果您运行的是 SaaS Backup for Microsoft 365 试用版，则每个服务每天只能执行三次即时备份。</block>
+  <block id="b21aade20be3aa52fbd7e19d44d95f15" category="list-text">从信息板中，选择要为其执行即时备份的服务。</block>
+  <block id="500607720c4007205ed82f9627508ebf" category="list-text">在 * 备份策略 * 下，单击要备份的层。</block>
+  <block id="6bdefe1209f1b4108898c3b0c0aa23a4" category="list-text">单击立即备份。</block>
+  <block id="c4e19d6a56de1db2b646ed468fe34406" category="inline-image-macro">SaaS Backup "Backup Now" 按钮的屏幕截图</block>
+  <block id="04f8c5c5d0753d92448247da261dc16c" category="paragraph"><block ref="04f8c5c5d0753d92448247da261dc16c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6f37828bcbea36fbc57f899e8bdd0cd6" category="paragraph">此时将显示一条消息，指示选定层下的服务将放置在作业队列中，以便立即进行备份。</block>
+  <block id="021d5924e971c9212d3d219972054d52" category="list-text">单击 * 确认 * 。此时将显示一条消息，指示备份作业已创建。</block>
+  <block id="5307eda3f04b27eefef8e7482983dc2b" category="list-text">单击 * 查看作业进度 * 以监控备份进度。</block>
+  <block id="d0237117579def0f9ce41ac02e334a5a" category="summary">您可以下载已还原文件和文件夹的标题和位置日志。</block>
+  <block id="65512882fe38fcc7733153860abf51e2" category="doc">查找已还原的文件</block>
+  <block id="7fe5358a31cca8be2fe9fad27bbf5dbd" category="paragraph">还原某些文件或文件夹后，它们将包含在新创建的还原文件夹中。为了帮助您轻松找到已还原的项目，您可以下载一个 Excel 文件，其中包含已还原文件和文件夹的名称和位置。</block>
+  <block id="95b7f4d6a198fdf63d26ec910aefe409" category="inline-image-macro">作业按钮的屏幕截图</block>
+  <block id="f0997eb0d9eac290b2d22c536116679c" category="list-text">单击 <block ref="57896efc0de0d48cea535446c297cd85" category="inline-image-macro-rx" type="image"></block> 在左侧导航窗格上。</block>
+  <block id="6fd64f207f0e6134860235423954cfc2" category="list-text">在 * 最近完成的作业 * 下，单击要查找已还原文件的作业。</block>
+  <block id="f978b75b2595eb7b23b77cfcf1faf1d7" category="list-text">单击右上角的 * 下载 * 。此时将在本地下载一个 Excel 文件，其中包含特定作业的已还原文件的名称和位置。</block>
+  <block id="b9edeb03bae560ed54e9938540c9a244" category="summary">您可以查看或下载 SaaS Backup 活动和作业历史记录日志。</block>
+  <block id="2423846ae54ff4d69d2a834f8a8971fc" category="doc">查看作业历史记录和活动日志</block>
+  <block id="66ded934122f399530ce8733141f4ba9" category="paragraph">SaaS Backup for Microsoft 365 会存储一个作业历史记录日志以及一个 SaaS Backup 中执行的所有活动日志。</block>
+  <block id="49b8313eea377b0b8bbefc62a904d114" category="section-title">查看作业历史记录</block>
+  <block id="f28ed8af0cff73798f4f5cd103fd6669" category="paragraph">您可以在 NetApp SaaS Backup for Office 365 中查看或下载所有作业历史记录的报告。您可以按作业类型，服务，开始时间，结束时间和完成状态筛选搜索。</block>
+  <block id="999bcd77c4e33a6918284c583271b071" category="list-text">单击左侧导航窗格中的 * 报告 * 。所有 SaaS 备份作业的列表显示在 * 作业历史记录 * 选项卡下。</block>
+  <block id="aeeacd02195ea6f4b02483630b5e0a23" category="list-text">要筛选结果，请单击 * 筛选器 * 。</block>
+  <block id="71e041aaf292122c8fb7eb01ecfd1b22" category="list-text">单击 * 选择 * 下拉菜单，然后选择一个筛选器。您可以按策略，服务，类型或状态进行筛选。选择筛选器后，将显示一个搜索字段。</block>
+  <block id="3deda0ce819231f6e8ce22db93db3cf4" category="list-text">如果要添加更多筛选器，请单击 * 添加筛选器 * 。</block>
+  <block id="75503e061f60e8b69f3aa7e19a8d1fea" category="list-text">单击任何作业可展开视图以查看其他作业详细信息。</block>
+  <block id="ea5b9d4d0e5dd36b4b06b00793524d2b" category="section-title">查看活动日志</block>
+  <block id="f3a1b4d7bacb8bbf3b5dbcdd7d72273b" category="paragraph">SaaS Backup for Microsoft 365 中发生的所有活动都会存储一个日志。日志包含执行的每个操作的日期以及执行此操作的用户的名称。您可以按服务和事件筛选活动日志。例如，如果您需要查看 Microsoft Exchange Online 发生的所有还原操作，则可以筛选活动日志以查看这些特定结果。</block>
+  <block id="153d602c1f68a3d111864d674bca8233" category="list-text">单击左侧导航窗格中的 * 报告 * 。</block>
+  <block id="a98816c0ba5cdc990c24c73fd169f615" category="list-text">单击 * 活动日志 * 选项卡。此时将显示所有 SaaS Backup for Microsoft 365 活动的列表。</block>
+  <block id="303ba20d6cda77d4c350c34e272105d9" category="list-text">单击 * 选择 * 下拉菜单，然后选择一个筛选器。您可以按服务或事件进行筛选。选择筛选器后，将显示一个搜索字段。</block>
+  <block id="5bc78b1267d6eec17e7aaa5b202fecff" category="list-text">单击 * 应用筛选器 * 。</block>
+  <block id="41955109dea41ba0ab1c9aec91534fff" category="paragraph">此时将显示筛选器结果。</block>
+  <block id="caa50fecb0dd5d31820b4c4d4babd378" category="summary">如果您不续订 SaaS Backup for Microsoft 365 的许可版本，则订阅期间使用的数据将被删除。</block>
+  <block id="6dcf112116eaaafdcd1b045888627786" category="doc">付费订阅数据删除</block>
+  <block id="e74c06c1a0847732e3713bc6a79b3a54" category="paragraph">如果您不续订 SaaS Backup for Microsoft 365 的许可版本，则订阅期间使用的数据将按如下方式删除：</block>
+  <block id="67e7e21eb8eddeed7b11c9adce8bfa65" category="cell">如果您的 SaaS Backup 付费订阅是 ...</block>
+  <block id="cd35b18e9c73b7753bbce41116add383" category="cell">付费订阅结束后的天数</block>
+  <block id="adebde388bd3dffec83088fecaf4aced" category="cell">1-30 天</block>
+  <block id="566c37b0ba881e0597c502ef7d710889" category="cell">31 到 60 天</block>
+  <block id="50fc34bbfebbd150a1cb0b6892317c19" category="cell">deactivated ：管理员无权访问 SaaS Backup 门户。如果在此期间续订订，则可以重新激活数据。</block>
+  <block id="33a738ddb5dfef5ce776090768e77555" category="cell">61 天或更长时间</block>
+  <block id="b58854b8b60a93adfa442564c982e5ae" category="summary">如果需要，您可以添加其他帐户以提高备份性能。服务帐户用于高效执行并发备份。</block>
+  <block id="80000d10279f83495c8148778172b268" category="doc">添加其他服务帐户</block>
+  <block id="5389efabc2aaccb0d177f57e3e10fcee" category="paragraph">如果需要，您可以添加其他服务帐户以提高备份性能。服务帐户用于高效执行并发备份。</block>
+  <block id="08c237a72d1fe465d2e31132c49e3c6d" category="list-text">使用具有管理权限的帐户登录到 Microsoft 365 管理门户。</block>
+  <block id="0ff659b3cc13c913cf5af44c0ddfe785" category="list-text">单击应用启动程序图标，然后单击 * 管理 * 。</block>
+  <block id="d8d5bb27be8aa4258c0b4ed91f6dbd5b" category="list-text">在左侧，单击 * 用户 * ，然后单击 * 活动用户 * 。</block>
+  <block id="4713eb32f510a9811ee84d9f8c249166" category="list-text">单击 * 添加用户 * 以创建新帐户。</block>
+  <block id="e611ae99ae3631d45726144e5a2d0125" category="list-text">按照以下说明填写表单。</block>
+  <block id="8f553772fa5ced187ed87102e2eba53c" category="list-text">使用 * 让我创建密码 * 。</block>
+  <block id="ebddd9b8dec14252c40390ddd14b9277" category="list-text">取消选择 * 使此用户在首次登录时更改其密码 * 选项。</block>
+  <block id="eb6dd7b3a1988f65e1f9db3d647a2e54" category="list-text">选择角色 * 自定义管理员 * 。</block>
+  <block id="e76c5ebcbab2228978f5520c1b97fe96" category="list-text">选择 * Exchange 管理员 * 和 * SharePoint 管理员 * 。</block>
+  <block id="5c57e3c9425367fa15846f0bbfecee71" category="list-text">选择 * 创建没有产品许可证的用户 * 。</block>
+  <block id="4ba3bf5a45233c1e35e6449429f3ec63" category="inline-link-macro">配置模拟</block>
+  <block id="277f76c8c0f966b0854754f8faaa965a" category="list-text">要使 Exchange 备份与新创建的服务帐户一起运行，请将 Exchange 模拟权限分配给这些新创建的服务帐户。<block ref="f52146cfd5ed9dd3b6de710708b6f366" category="inline-link-macro-rx"></block></block>
+  <block id="bd536ce27ad96dc258c6b1412a08e681" category="admonition">SaaS 备份会自动分配对 OneDrive 和 SharePoint 站点的权限，因此您无需分配这些权限。</block>
+  <block id="e57936e09b683cb6c667122b7b0b8720" category="admonition">您可以对此帐户启用多因素授权（ MFA ）。</block>
+  <block id="492be6e725acfbd42ed9196376a2af7a" category="summary">SaaS Backup for Microsoft 365 定期推出新版本，为您提供新功能，增强功能和错误修复。</block>
+  <block id="3e248cf36a6ce8d04e21a6fbb7b087f0" category="doc">新增功能和更新</block>
+  <block id="ce2695f1742a4173db63ce74517ac8af" category="paragraph">此版本的 NetApp SaaS Backup for Microsoft 365 增加了以下新功能和更新。</block>
+  <block id="a5667679a016ee66ef9bc45c1a173b3b" category="section-title">2020年12月</block>
+  <block id="97b4589bea0c9a0d397ec4db7260d8e0" category="paragraph">如果您在美国部署 Microsoft Azure ，则您的数据不会离开 Microsoft 环境。在 SaaS Backup for Microsoft 365 的注册过程中，您可以使用 Azure Blob 存储或您自己的存储。</block>
+  <block id="a72ba6abcd432d690074b970ea9e1e5a" category="inline-link-macro">从免费试用版注册 SaaS Backup</block>
+  <block id="8f8caa92edfef6726734d704b2b67044" category="paragraph"><block ref="8f8caa92edfef6726734d704b2b67044" category="inline-link-macro-rx"></block></block>
+  <block id="86ca1026a5895f803f6cb3b59d638cdc" category="inline-link-macro">通过付费订阅注册 SaaS Backup</block>
+  <block id="d31c8900ff029d35426a6b655cf439ee" category="paragraph"><block ref="d31c8900ff029d35426a6b655cf439ee" category="inline-link-macro-rx"></block></block>
+  <block id="0e347c50a0d60b8f46cb8c37cd3b5088" category="section-title">2020年11月</block>
+  <block id="ec43c120f66e40978bc7df12e1cdc086" category="list-text">从本月开始，您可以监控所有服务的用户数据。借助此新功能，您可以下载 Excel 文件来监控多种用户数据类型，例如电子邮件或 URL 地址，邮箱类型，许可证使用，发现状态，上次发现， 备份状态，备份层等。</block>
+  <block id="6de715212b8c85391172dc81638f2bfb" category="inline-link-macro">监控用户数据</block>
+  <block id="935dcc2d07dcf421a5d4a1a8dbe78a83" category="paragraph"><block ref="935dcc2d07dcf421a5d4a1a8dbe78a83" category="inline-link-macro-rx"></block></block>
+  <block id="7108795963ed30e0b330aa85fa1e41d5" category="list-text">现在，您可以将 Microsoft Office 365 组还原到另一个组。</block>
+  <block id="ad6991daa50b0be0ba36c8e2ba2212a6" category="inline-link-macro">执行高级别还原</block>
+  <block id="b5adf625d57398016a2921892e61aa88" category="paragraph"><block ref="b5adf625d57398016a2921892e61aa88" category="inline-link-macro-rx"></block></block>
+  <block id="7c8ae2c9971bd58915ed46c67abeff00" category="list-text">OneDrive for Business 许可证所有者可以无限制地释放许可证并清除用户。</block>
+  <block id="85f5c131ebbfcb67cc6ffb0efbd2ecb9" category="inline-link-macro">释放用户许可证</block>
+  <block id="acc4fa3808d7a71e25f10c6866cdfc8c" category="inline-link-macro">清除用户，站点集或 Microsoft 365 组</block>
+  <block id="ff5e1f223d92e521c6ae3a7151a6e224" category="paragraph"><block ref="13fb5063dfdc66cecf804982b04fd9ff" category="inline-link-macro-rx"></block>
+<block ref="2a76432804ac030e271a502cdaa78dc8" category="inline-link-macro-rx"></block></block>
+  <block id="f1c76c4d1313b6d0ce49a94431405b0e" category="list-text">现在，在作业历史记录日志中搜索时，除了作业类型，服务，开始时间和结束时间之外，您还可以按作业完成状态进行筛选。</block>
+  <block id="010d894e39c9b4024a2e355303134bad" category="paragraph"><block ref="010d894e39c9b4024a2e355303134bad" category="inline-link-macro-rx"></block></block>
+  <block id="0c32ac23d148fcf8f103092f860ea484" category="section-title">2020 年 6 月</block>
+  <block id="1a994d51b97c344f1032b0f23926569d" category="list-text">SaaS Backup for Microsoft 365 现在支持 Exchange Online 用户的高级搜索功能。启用后，您可以在备份数据的最后六个月内搜索单个，共享和归档邮箱项。</block>
+  <block id="6b23667f3cbba43813b5f6399ec4babd" category="inline-link-macro">使用 Microsoft Exchange Online 高级搜索</block>
+  <block id="08205b9a8b27b38dab9ac03f54bcd4bb" category="paragraph"><block ref="08205b9a8b27b38dab9ac03f54bcd4bb" category="inline-link-macro-rx"></block></block>
+  <block id="db5eb84117d06047c97c9a0191b5fffe" category="inline-link-macro">支持</block>
+  <block id="73f8dc93b283396eb2824122850199c0" category="paragraph">要启用此功能，请转至 <block ref="f87e0976e00f26ec4930aef7f830024f" category="inline-link-macro-rx"></block> 并提交请求。</block>
+  <block id="b24ecb506263a514c17f950224cec618" category="paragraph">您也可以发送电子邮件给 SaaS 备份支持团队，电子邮件地址为 saasbackupsupport@netapp.com 。</block>
+  <block id="3cd39f227a4b0e68f03e12ad98e9ffca" category="section-title">2020 年 3 月 /4 月</block>
+  <block id="2a4b999dd10fa40d0af653d533da89a9" category="list-text">现在，您可以选择不同的时间范围来浏览 Microsoft 365 Exchange ， SharePoint ， OneDrive for Business 以及受保护用户的组的备份。</block>
+  <block id="ab1f19cdf5662bf18316f507c72e1a53" category="inline-image-macro">图中显示了用于浏览备份的时间范围选项</block>
+  <block id="595b5248464aaec131a614f73b852fb6" category="paragraph"><block ref="595b5248464aaec131a614f73b852fb6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c6ca0e56ba9c9a94f317ed88374773e8" category="inline-link-macro">浏览备份</block>
+  <block id="591f88ff9f4dd2e074cd1e9677419b34" category="paragraph"><block ref="591f88ff9f4dd2e074cd1e9677419b34" category="inline-link-macro-rx"></block></block>
+  <block id="9114c7c2f662b23740f680d86250a33b" category="list-text">SaaS Backup for Microsoft 365 现在支持备份到 Microsoft Teams聊天 。借助此新功能，您可以备份和还原对话，渠道，选项卡，附件，成员， 和设置。</block>
+  <block id="cd79b1fefb1a3097943b559178952f47" category="inline-link-macro">立即对服务执行备份</block>
+  <block id="c1a4e5de3e6ad0e73d8e6f95a3d92fd7" category="paragraph"><block ref="c1a4e5de3e6ad0e73d8e6f95a3d92fd7" category="inline-link-macro-rx"></block></block>
+  <block id="d835981d77534f5f20446d4648ad7e5b" category="section-title">2020年1月</block>
+  <block id="9b2fd4ede320a82f1a8fe3dd515a1522" category="inline-link-macro">查看已取消配置的项</block>
+  <block id="5f4aa1af949f13cebef477d4e0e501b1" category="list-text">现在，您可以查看已取消配置的邮箱，站点， MySite ，组或帐户。<block ref="83c15984a264b44dfb7bb5ab9143e339" category="inline-link-macro-rx"></block></block>
+  <block id="90d150ad765ab3f96aae750d3759c8c2" category="inline-link-macro">查看已清除数据的列表</block>
+  <block id="3927f940ec42d81c11ecbb003c68fd11" category="list-text">现在，用户许可证将在清除帐户七天后自动释放。您可以查看计划在七天内清除的项目列表以及已清除的项目列表。<block ref="8983eb3cf0dc4aeb9f7917f42f04de11" category="inline-link-macro-rx"></block></block>
+  <block id="5d3e7c02e2249ebaa04369c32c97e7e3" category="inline-link-macro">为 OneNote 启用备份</block>
+  <block id="bf7a90919922cdd7a5a5b73fd47f5253" category="list-text">Microsoft SharePoint Online 和 OneDrive for Business 现在支持 Microsoft OneNote 笔记本备份。<block ref="f372349165bf76f8d7c8e81a2c8d818f" category="inline-link-macro-rx"></block></block>
+  <block id="bbfb6d5a145f45ac380d5c56707a3b3f" category="section-title">2019 年 9 月</block>
+  <block id="4509c06bbc5bd31ea1b574cc91ecd146" category="list-text">现在，您可以激活对 SaaS Backup 付费订阅的支持。激活支持后，您可以通过电话，在线聊天或 Web 服务单系统访问技术支持。</block>
+  <block id="c264e349beaab99a8bb6652bda3cf659" category="inline-link-macro">激活支持</block>
+  <block id="26e40bc6f1282c9623b59cd8c4ef7ecc" category="paragraph"><block ref="26e40bc6f1282c9623b59cd8c4ef7ecc" category="inline-link-macro-rx"></block></block>
+  <block id="e289ad98e91a5c5e09b44d6006fba214" category="section-title">2019 年 6 月</block>
+  <block id="7d4ec3e0b5be7e315bc177db875f3c93" category="list-text">SaaS Backup for Microsoft 365 现在支持备份和还原使用 Microsoft SharePoint Online 和 Microsoft OneDrive for Business 中的 " 复制到 " 功能创建的项目。</block>
+  <block id="0ac7cd7b7da8ca54b63280dc76517b3c" category="list-text">已进行了一些增强，以便在还原统计信息中包括更多详细信息，包括还原大小，还原位置和其他注释。</block>
+  <block id="40c6992ea910d43026a8f13fd0d7bfd6" category="section-title">2019 年 5 月</block>
+  <block id="75651fb4ddaf976562b98f16330919ab" category="list-text">SaaS Backup 现在支持附加许可证。</block>
+  <block id="e3a160a7cd4bc5ae0702343e9e786d15" category="inline-link-macro">更新订阅信息</block>
+  <block id="b02b015caa6895d69dc7e8806258b548" category="paragraph"><block ref="b02b015caa6895d69dc7e8806258b548" category="inline-link-macro-rx"></block></block>
+  <block id="1b34d20d5f729538f1400e856387b228" category="section-title">2019年4月</block>
+  <block id="403de9a0fab25a17acf9b35e6b72c565" category="list-text">SaaS Backup for Microsoft 365 现在支持删除安全组。</block>
+  <block id="7fdea57e693b111f8b7be24d9641bb12" category="inline-link-macro">删除安全组</block>
+  <block id="24a863b441948a22c2f5079750e19513" category="paragraph"><block ref="24a863b441948a22c2f5079750e19513" category="inline-link-macro-rx"></block></block>
+  <block id="e08584a0fabb98372627a5763a172b44" category="list-text">共享邮箱不再使用用户许可证。</block>
+  <block id="692664770412ddd705b7f413cee7d6fb" category="section-title">2019 年 3 月</block>
+  <block id="f342fec16bfb61a8dd26a7f7ee694ea0" category="list-text">SaaS Backup for Microsoft 365 现在支持在每个受支持区域中使用多个备份位置。</block>
+  <block id="fc450d190b34e98c0417e7cc17568f3c" category="paragraph">现在，您可以选择选定区域中的任何可用位置作为数据备份站点。建议选择地理位置上最接近数据位置的位置。SaaS Backup 建议的位置在选项列表中标记为 * 首选 * 。</block>
+  <block id="8683bf91a11e498ffd74c9c3a102487d" category="admonition">如果您要从试用版升级，并且选择的备份位置与试用版中使用的位置不同，则不会保留您的试用数据。</block>
+  <block id="02d42668aef32358c91e97fac3b74454" category="paragraph"><block ref="02d42668aef32358c91e97fac3b74454" category="inline-link-macro-rx"></block></block>
+  <block id="8c673911badf0bc86b25912d2c703123" category="list-text">现在，您可以释放用户许可证并使其可供其他用户使用。<block ref="13fb5063dfdc66cecf804982b04fd9ff" category="inline-link-macro-rx"></block></block>
+  <block id="faae77443f7a8406deaf55c3795ace10" category="section-title">2019年2月</block>
+  <block id="82caf71ab4314503cd4b4826bf47361d" category="list-text">SaaS Backup for Microsoft 365 现在支持以下功能：</block>
+  <block id="154ae5da6ed22a4b973d787b66439540" category="list-text">备份和还原归档邮箱。</block>
+  <block id="c90f10bb653ed99db28b8f6a6d2f4d8e" category="list-text">增强了 Microsoft Office Exchange Online ， SharePoint 和 OneDrive for Business 中的备份和还原统计信息。</block>
+  <block id="7d69b3cb4cada18ae61811304f8fbcb5" category="section-title">已归档</block>
+  <block id="4ad34508386b08c6cfe776e00a9354e7" category="paragraph">单击 <block ref="ffe3fccc14e82a61e12e48d2b0682108" category="inline-link-macro-rx"></block> 新功能的归档列表</block>
+  <block id="230c3874dfeca9a6cb47fa97722bce17" category="summary">如果在用户定义的规则中使用安全组，则无法将其删除。您必须删除用户定义的规则，然后删除安全组。</block>
+  <block id="76b6660d93d4a2327762e53ed6aa314e" category="inline-xref">正在删除规则</block>
+  <block id="c1f09ec0377a9bd2a7cfb7172b9c98e7" category="paragraph">如果在用户定义的规则中使用安全组，则无法将其删除。您必须删除用户定义的规则，然后删除安全组。<block ref="4bc0b3a296f9607a4b170f541faab8be" category="inline-xref-macro-rx"></block></block>
+  <block id="1f4d9b0a992b8429cc71724e98b50255" category="list-text">单击 * 安全组 * 。</block>
+  <block id="a67a8c0725a0243549441486b4ce8841" category="list-text">单击要删除的组旁边的删除图标。</block>
+  <block id="368818d54c4d27c59f580c411f82c199" category="summary">您可以根据需要对任何 Microsoft 365 服务执行即时备份。</block>
+  <block id="17895efa2fc56bcd7be9737506d37101" category="list-text">在信息板中，单击要对其执行即时备份的服务的框中的 * 受保护 * 上方数字。</block>
+  <block id="1180971c25eec219405fa68a7cedc422" category="list-text">选择备份选项。</block>
+  <block id="b15aa55ba640a8717ab1053a5b2ee9f0" category="list-text">对于 Exchange</block>
+  <block id="ecdb5ceceeba5d5b85316d0fa6742ebf" category="list-text">如果要备份共享邮箱，请单击 * 共享 * 选项卡。</block>
+  <block id="3a7dfc4233ee4fec81596b9c81b585d7" category="list-text">如果要备份归档邮箱，请单击 * 归档 * 选项卡。</block>
+  <block id="5f71ce1e40d24c8be9e666aa5d13059f" category="list-text">如果要备份常规邮箱，请保留在 * 用户 * 选项卡上。</block>
+  <block id="ff8dd1a8e0240d8749fae66a40a2f2e4" category="list-text">对于 SharePoint</block>
+  <block id="d37125aa1203e784d774b66bfceda078" category="list-text">如果要备份站点，请保留在 * 站点 * 选项卡上。</block>
+  <block id="0fbd435aba96ad4d0b8868f78fa8b98d" category="list-text">适用于 OneDrive</block>
+  <block id="46937b124e6729e022f8cf4b42f16764" category="list-text">如果要备份用户，请保留在 * 用户 * 选项卡上。</block>
+  <block id="c4487144aa046c3b680dff2075fa156c" category="list-text">适用于 Microsoft 365 组</block>
+  <block id="d8bbeb9364b14ee84b097b00b753be77" category="list-text">如果要备份组，请保留在 * 组 * 选项卡上。</block>
+  <block id="e8a1fbb32b2a1b3178fcfd50c8a09b11" category="list-text">如果要备份团队，请单击 * 团队 * 选项卡。</block>
+  <block id="640309aa25313de298649fb87a464d3f" category="admonition">只有在设置下启用了 Team聊天 时，才会备份 Team聊天 消息。联系方式 <block ref="f87e0976e00f26ec4930aef7f830024f" category="inline-link-macro-rx"></block> 以启用此功能。</block>
+  <block id="dc89d6b1a23ea2635e17286063e0dd84" category="admonition">由于 API 限制， SaaS 备份无法区分公有和专用通道。</block>
+  <block id="49b7493001e7dcdbec9161260704573b" category="list-text">选择要备份的项。</block>
+  <block id="a3efa343d27df65bae9d3dde0ec1da86" category="list-text">单击 * 立即备份 * 。</block>
+  <block id="ab197c9ed22b1071d9c368b40ceca94f" category="inline-image-macro">立即备份按钮</block>
+  <block id="e749efd4835fdf339ee73d6ab5a9587c" category="paragraph"><block ref="e749efd4835fdf339ee73d6ab5a9587c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8bda9e61afc89be886f94a386ef3171b" category="paragraph">此时将显示一条消息，指示选定服务将置于作业队列中进行备份。</block>
+  <block id="0f638f48553fda495650e517cecc05b2" category="summary">可以使用安全组作为筛选选项来查看数据和创建规则。</block>
+  <block id="2ffbe959edbe01c0c5cd56c90bc00d8d" category="doc">添加安全组</block>
+  <block id="0f9443e6e2ae0748eadaf4c71d113455" category="paragraph">您最多可以添加 3 个安全组。然后，您可以在 SaaS Backup 中使用安全组作为筛选选项。</block>
+  <block id="3293e39cea32d292601ae293cef7ecba" category="inline-link">在管理中心中创建，编辑或删除安全组</block>
+  <block id="72d7a07f71d29741a440a6ccd3420924" category="paragraph">必须先通过 AutoSync 或手动同步发现新的安全组，然后才能添加它们。<block ref="5773e7c53afca7373ca53d4316d577c4" category="inline-link-rx"></block>。</block>
+  <block id="c56e0bf3df88870012e054d6d8888966" category="list-text">在搜索字段中，输入要添加的安全组的名称。</block>
+  <block id="2813f127dc58929fb553bc32684c2e46" category="doc">已知问题和限制</block>
+  <block id="dd5f8dd4f85249942624661b110d693e" category="paragraph">以下是在应用程序级别为 SaaS Backup for Microsoft 365 确定的已知限制。</block>
+  <block id="d266d57bea866579e901ba09197d761c" category="section-title">适用于 Microsoft 365 OneDrive for Business</block>
+  <block id="6346662e0704c71f9315c98ae046d219" category="paragraph">只有在手动完成服务同步后，才会检测到新添加的驱动器。</block>
+  <block id="df10152b8f1b0d5caabc4567bb3ea98e" category="section-title">适用于 Microsoft 365 Exchange Online</block>
+  <block id="bbab3039495eb009e7e37fddca11f420" category="list-text">SaaS 备份不支持对公有文件夹进行备份。</block>
+  <block id="c660261b9ac7314f7438891eb314e00e" category="list-text">* 高级搜索 * 仅适用于 Exchange Online 。默认情况下，此设置处于禁用状态。客户必须请求启用此功能。启用启用高级搜索设置后，管理员必须手动为各个用户启用搜索功能。</block>
+  <block id="4f3cb2778fd6f32cc95e653723c2094a" category="section-title">适用于 Microsoft 365 团队</block>
+  <block id="3ae90eaf5bfb44951f5e8d213a509b80" category="list-text">已还原通道配置，但内容和对话未还原。</block>
+  <block id="344380bbdcd6e472f74897190dc6aedf" category="list-text">由于 API 限制， SaaS 备份无法区分 SaaS 备份中的公有和专用通道。</block>
+  <block id="624442c799e4e89cb608e21d94dd9e38" category="list-text">高级还原仅还原邮箱和 SharePoint 数据，而不还原对话。</block>
+  <block id="d5b9bcd91341381d4f9facf62e69a760" category="list-text">团队聊天不支持对表情符号和礼品进行备份或还原。</block>
+  <block id="2e6df5bd869e8c255a210d03f781c2a2" category="list-text">仅导出团队聊天对话选项为导出到 HTML 。在对话中发布的附件链接在 html 文档中不可见。</block>
+  <block id="db24901a0eed559545f127f9968c1c18" category="section-title">适用于 Microsoft 365 OneNote</block>
+  <block id="78c84ad1cca9922872a03826b4f4ba13" category="list-text">导出到数据不可用。</block>
+  <block id="e9c7dd5d31fad4f1fecc238f1b5cec74" category="list-text">增量备份作业可能会失败，并显示以下错误消息： `Partial Failure 。无法备份几个 OneNote 分区` 。</block>
+  <block id="cba4e4936570a5f6cd9e636d453ee2df" category="list-text">OneDrive 备份包括 .onebak 文件的备份。</block>
+  <block id="f9a2d354ea1790dcf9c2db418f193cf6" category="list-text">无法下载还原统计信息。</block>
+  <block id="e7c2efd0bfa0260184087f86122e8b75" category="list-text">不支持数据导出和数据清除。</block>
+  <block id="09278d595eba2b1b6b3244e86b371f47" category="section-title">其他问题和限制</block>
+  <block id="32310e00614d51c5c61fc82cc5a79a3f" category="paragraph">以下已知问题和限制并不特定于一个应用程序。</block>
+  <block id="3b1482aa22733fab359963f1e198cc38" category="paragraph">对于使用 Microsoft 365 服务帐户注册的所有用户：</block>
+  <block id="d6770628964f371c2f152263aeff74c2" category="list-text">SaaS Backup 仅支持基本身份验证。</block>
+  <block id="8d8b65656fcc19c1e36d5965880e2fd5" category="paragraph">对于免费试用用户：</block>
+  <block id="23bf76c3ad78237ef4e199168c220afe" category="list-text">在 24 小时内，每个服务最多允许 10 次恢复。</block>
+  <block id="367955ddc3f4870ab77b4bd7a25a6368" category="paragraph">对于获得许可的用户：</block>
+  <block id="c7f60a696ecccd62f0e9e25cd5a34555" category="list-text">在 24 小时内，每个服务最多允许 10 次导出数据还原。所有其他还原选项均无限制。</block>
+  <block id="7730a1bb36658e50b78927fef6f0a050" category="paragraph">要还原站点收集组，请执行以下操作：</block>
+  <block id="efd287cdc753601d5107130525c91ace" category="list-text">如果删除整个站点收集组，则还原此收集中的私有组将失败，从而导致还原作业状态为 " 部分失败 " 。 如果发生这种情况，则无法通过 GUI 访问此站点。</block>
+  <block id="4c16b0a23d0e5246d2604fb46b891dab" category="paragraph">对于 * 高级搜索 * ：</block>
+  <block id="1c90154d49e9e74aec0cd7ad23f32b3c" category="list-text">在 24 小时内最多允许 10 个搜索作业。</block>
+  <block id="9f2fcfa5d97760721b059c18ef5b9792" category="summary">SaaS Backup for Microsoft 365 为每个服务提供了高级别的粒度级还原选项。</block>
+  <block id="1e718270348135e714b61bc0076312f3" category="doc">关于还原</block>
+  <block id="e2b5ba78e3329ab5a4cbdfce0a0a04f3" category="paragraph">借助 SaaS Backup for Microsoft 365 ，您可以对 Exchange Online ， SharePoint Online ， OneDrive for Business 以及 Microsoft 365 组和团队执行高级别的粒度级还原。</block>
+  <block id="c525803a045e17d9d35a7cfc9cece73b" category="paragraph">了解如何执行高级别和粒度级还原：</block>
+  <block id="d75ce65393734855fe533aacfcc7d983" category="inline-link-macro">对 Exchange Online 执行粒度级还原</block>
+  <block id="b9db8ec0f23e492eef9298f2cd8b5051" category="list-text"><block ref="b9db8ec0f23e492eef9298f2cd8b5051" category="inline-link-macro-rx"></block></block>
+  <block id="5bb3fa910e120cd9a689d748c5654720" category="inline-link-macro">对 SharePoint Online 执行粒度级还原</block>
+  <block id="cded0d3b4d7ca17508d11939adf092ed" category="list-text"><block ref="cded0d3b4d7ca17508d11939adf092ed" category="inline-link-macro-rx"></block></block>
+  <block id="c8898212ecbaaeefaf71fe1d609e3a8b" category="inline-link-macro">对 OneDrive for Business 执行粒度级还原</block>
+  <block id="3933d0c349ab1ad962ae36a2672e0eb4" category="list-text"><block ref="3933d0c349ab1ad962ae36a2672e0eb4" category="inline-link-macro-rx"></block></block>
+  <block id="6d2f637ce543b5156bb3a8f036857fac" category="inline-link-macro">对组和团队执行粒度级还原</block>
+  <block id="a9250406a7c0568aa247e286636a71f0" category="list-text"><block ref="a9250406a7c0568aa247e286636a71f0" category="inline-link-macro-rx"></block></block>
+  <block id="71d68aadf0764ae2a2c5790f9dd69d33" category="paragraph">下表显示了每个服务支持的高级还原选项，以及在 SaaS Backup 中从何处查找还原的数据。</block>
+  <block id="c35caca31b890241f2234a0500b35f99" category="admonition">删除或取消配置数据后，您可以将数据还原到其他位置（邮箱，站点， MySite ，组或团队）或导出数据。您不能还原到同一位置。</block>
+  <block id="3cec94f2c3f7bd13aed2488dadd12834" category="section-title">Exchange Online</block>
+  <block id="99c5fbd0a596474428d050af247f198c" category="cell">还原到同一邮箱</block>
+  <block id="4181d3951004347da212263b10f49a5e" category="cell">还原到其他邮箱</block>
+  <block id="c498028f45c9513d785b94168bceda23" category="cell">导出到 PST</block>
+  <block id="5b8ec75733bf40e15437bf34dcba31d7" category="paragraph">单个邮箱</block>
+  <block id="64f1aba985433f5ae146d2cb366d1df0" category="cell">Exchange Online &gt; 邮箱 - 用户 / 共享 / 归档</block>
+  <block id="081efe1270b786644d36e5aa6f69fedf" category="paragraph">多个邮箱</block>
+  <block id="8f54d1dd77baa9497c2901783a54a1c6" category="paragraph">邮箱内容</block>
+  <block id="f3d00dac4ea5d988d1bed0a5e0cee71c" category="cell">Exchange Online &gt; 邮箱 - 用户 / 共享 / 归档 &gt; &lt; 用户名 &gt;</block>
+  <block id="27bafb3855ae4ca3df676518f2aaad5a" category="section-title">SharePoint Online</block>
+  <block id="15cbdaca1e670ee88c1d71f87070e9a6" category="cell">还原到同一站点</block>
+  <block id="b43fc1a2a417e7198af317fdf27717a1" category="cell">还原到其他站点</block>
+  <block id="5906c8287870270a136a93286efc561a" category="paragraph">单个 SharePoint 站点</block>
+  <block id="460eab8a130e70f36538e8b715ffa5d9" category="cell">SharePoint Online &gt; 站点</block>
+  <block id="ceea731052fe801041ec905a3c50bc1e" category="paragraph">多个 SharePoint 站点</block>
+  <block id="9cb2851f2fc40d659520409faab64fbb" category="paragraph">SharePoint 站点内容</block>
+  <block id="f389f41006b051f2680a0b5f637ec269" category="cell">SharePoint Online &gt; 站点 &gt; &lt; 站点名称 &gt;</block>
+  <block id="1a0453b74ffb4afb06052a3bab317d4a" category="paragraph">启用了仅还原角色的单个 SharePoint 站点</block>
+  <block id="8b5346cfefa0c8ecaa9b72ee818bca8f" category="paragraph">单个子站点</block>
+  <block id="a9441c777652d9cb5cc3e36e9e161b94" category="paragraph">多个子站点</block>
+  <block id="a10de56910213f47318813bddbf1e305" category="paragraph">SharePoint 子站点内容</block>
+  <block id="e562f371266b0a4c99fc3ee3dc00c01e" category="paragraph">启用了仅还原角色的单个子站点 / 多个子站点</block>
+  <block id="2950e5d428cbc3f55c7aec75694f130a" category="section-title">OneDrive for Business</block>
+  <block id="233893ba4ef99c6ae933d99cf7284b2a" category="paragraph">单驱动器内容</block>
+  <block id="ff0ba39a03cb33697cb7ff9bfec49553" category="cell">OneDrive for Business &gt; MySites&gt; &lt;OneDrive user&gt;</block>
+  <block id="a37ede293936e29279ed543129451ec3" category="section-title">组</block>
+  <block id="b0189b01c3d471d3a36db4ed52c834cc" category="cell">还原到同一组</block>
+  <block id="3c4182507d21bd1049547ede229598e9" category="cell">还原到其他组</block>
+  <block id="66dad12ced125ee91f6e7e1608d45379" category="paragraph">单个组</block>
+  <block id="aa757fec2e3a65f0a20e30e66522437b" category="cell">Office 365 组 &gt; 组</block>
+  <block id="bc8098767a42e7223a53bda7b8ba9269" category="paragraph">多个组</block>
+  <block id="7e946cbd8fd8f7c1d60f897ade14b5d4" category="paragraph">组内容</block>
+  <block id="750fffdd85c2e30ad14e31f78b5cd2f9" category="cell">Office 365 组 &gt; 组 &gt; &lt; 组名称 &gt;</block>
+  <block id="037e67b55978384379c5e4f43a47b7cf" category="cell">Office 365 组 &gt; 组 &gt; （组电子邮件） &gt; 组名称</block>
+  <block id="87142a07bb206e902bb64ee601cb779e" category="paragraph">SharePoint 内容</block>
+  <block id="2fc8fc4b7340b9ec920c38b85b0a1034" category="cell">Office 365 组 &gt; 组 &gt; &lt; 组名称 &gt; &lt; 站点名称 &gt;</block>
+  <block id="1fe1b6cf4f52930c301b03e5a69c42c2" category="section-title">团队</block>
+  <block id="cb8bd7ca133970cb92cb4fbd663152bf" category="cell">还原到同一个组</block>
+  <block id="3817dd3d0c55260f20f8e6529a44c8bf" category="cell">还原到另一个团队</block>
+  <block id="31d7adc0e486b10f207e2139fa1df05e" category="paragraph">单一团队</block>
+  <block id="5b05cc8922e5cd4106e24a7bba87bcd9" category="cell">Office 365 组 &gt; 团队</block>
+  <block id="9528d50213406c7d27b09b8bc1d32b02" category="paragraph">多个团队</block>
+  <block id="04c35d154f698a2cb2c9ad6e40d188e8" category="paragraph">团队内容</block>
+  <block id="89b7be3d527b7868cb553f086da205bb" category="cell">Office 365 组 &gt; 团队 &gt; &lt; 团队名称 &gt;</block>
+  <block id="b785b982567e03d86f5b6b9b5bdab0d7" category="cell">Office 365 组 &gt; 团队 &gt; （团队电子邮件） &gt; 团队名称</block>
+  <block id="0cefe645b99a17e5dcc4913cbadeef02" category="cell">Office 365 组 &gt; 团队 &gt; &lt; 团队名称 &gt; &lt; 站点名称 &gt;</block>
+  <block id="14cb425d8170ed04f3d8016d5a0ccf20" category="paragraph">渠道</block>
+  <block id="3255e277a9a04484a81db77abfbd29c2" category="cell">Office 365 组 &gt; 团队 &gt; （团队电子邮件）</block>
+  <block id="bd0e9f65e5502f75a4a32e0c53f61df1" category="summary">默认情况下，只能还原您的最新备份。</block>
+  <block id="d505a1372838988b9d892d82c774daf7" category="doc">从先前备份还原</block>
+  <block id="58aacc02460b3e3da762722a417d4812" category="list-text">在信息板中，单击要执行还原的服务的 * 受保护 * 上的数字框。</block>
+  <block id="6d9653c6364c67e9540ed73b28a04b91" category="list-text">对于共享邮箱，单击 * 共享 * 选项卡。</block>
+  <block id="cdaa60ce381ae758f03680ef5200eee4" category="list-text">对于归档邮箱，单击 * 归档 * 选项卡。注意：归档邮箱会还原到用户的常规邮箱。</block>
+  <block id="b812e74499674a89895b5dfe6e821710" category="list-text">对于常规邮箱，请保留在 * 用户 * 选项卡上。</block>
+  <block id="892e60fc51cb13858f23ffd51b548ea1" category="list-text">单击要还原的项。</block>
+  <block id="3bb7cf21162455d4d3d958f085ec5852" category="list-text">单击 * 查看备份历史记录 * 。</block>
+  <block id="f240ea1197d77fd071d9388c614fcae2" category="paragraph">此时将显示一个日历。可用备份的日期用绿色圆圈表示。</block>
+  <block id="39df67cbbec479ac75577b3b202f9186" category="list-text">如果要显示在选定天数内备份的项目，请单击 * 显示选定备份 * ，然后从下拉菜单中选择预定义的天数之一。</block>
+  <block id="0ed9050b0a62d53339509aaa90a20c64" category="list-text">否则，请单击要还原的备份的日期，然后选择特定备份。</block>
+  <block id="4bc6b16c7992bb0bc02890066fe6e66a" category="list-text">选择要还原的项。</block>
+  <block id="37cbfdb341ef3492f74543d2f04f3a12" category="inline-image-macro">还原按钮的图像</block>
+  <block id="453cf13878c8ad80ab0d468df49e16d7" category="list-text">单击 <block ref="bac505eacc7dbd53ea845154c58d45dc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8719a699df85113ce08265022d9eea9c" category="list-text">如果要还原 * Microsoft Exchange Online * 的邮箱或 Microsoft 365 组的邮箱，请选择以下选项之一：</block>
+  <block id="7904dcb5b08feede0f977790487a3ba6" category="list-text">* 还原到同一邮箱 *</block>
+  <block id="152b65a0ba00eca7ff95d6f6c2e0e3c0" category="paragraph">如果要还原到同一邮箱，则默认情况下，系统会在包含备份副本的原始内容位置创建一个具有当前日期和时间戳的还原文件夹。如果选择 * 替换现有内容 * ，则当前数据将完全替换为备份。</block>
+  <block id="a343f842a7faecd99dc33f3823488bd3" category="list-text">* 还原到其他邮箱 *</block>
+  <block id="92d5b95100bdb504b2626b2ec27ac203" category="paragraph">如果还原到其他邮箱，则必须在搜索字段中输入目标邮箱。您可以在搜索字段中键入目标电子邮件地址的一部分，以便自动搜索匹配的目标邮箱。</block>
+  <block id="c59d3c8a70c476e7cea53ba2a594946d" category="list-text">如果要还原 * Microsoft OneDrive for Business* 的 MySites ，请选择以下选项之一：</block>
+  <block id="44369af8482ff55615818d6d72462c95" category="paragraph">如果要将单个文件还原到同一个 MySite ，则默认情况下，会在包含备份副本的原始内容位置创建一个具有当前日期和时间戳的还原文件夹。如果选择 * 替换现有内容 * ，则当前数据将完全替换为备份。如果要还原整个文件夹，则无法使用 * 替换现有内容 * 选项。</block>
+  <block id="3c7b6e2fdc769ab47eb54aa1aad8a9d5" category="list-text">* 还原到其他 MySite*</block>
+  <block id="6000d0af76f2140b5651f51533e6aa9c" category="paragraph">如果还原到其他 MySite ，则必须在搜索字段中输入目标 MySite 。您可以在搜索字段中键入目标 MySite 的一部分，以便自动搜索匹配的目标 MySites 。</block>
+  <block id="186ae3ee39e4c735d4338944cee20d84" category="list-text">如果要还原 * Microsoft SharePoint Online* 的站点，则可以还原到同一站点或其他站点。如果要还原 Microsoft 365 组站点，则只能还原到同一站点。</block>
+  <block id="dfdef9c277c5aaab909a4e2cc17336d7" category="list-text">* 还原到同一站点 *</block>
+  <block id="592ea2f8d36940a6ca66242f54706521" category="paragraph">如果还原到同一站点，则默认情况下，会在包含备份副本的原始文件位置创建一个具有当前日期和时间戳的还原文件夹。如果选择 * 使用合并覆盖 * 选项，则不会创建任何还原文件夹。如果备份文件的版本与当前文件匹配，则备份将还原到原始位置。目标中的任何新内容都会被忽略且不受影响。例如，如果备份包含 File1 版本 5 ，而目标包含 File1 版本 6 ，则选择了 * 使用合并覆盖 * 选项的还原将失败。如果选择 * 替换现有内容 * 选项，则当前数据版本将完全替换为备份副本。</block>
+  <block id="640aebe1e739e90da341acdc07382260" category="list-text">* 还原到其他站点 *</block>
+  <block id="19cfd4ae5dac380b64b69dab1b160eb6" category="paragraph">如果还原到其他站点，则必须在搜索字段中输入目标站点。您可以在搜索字段中键入目标站点的一部分，以便自动搜索匹配的站点。</block>
+  <block id="25b29418d9c6575969ec7daa90fcc97f" category="paragraph">此时将显示一条消息，指示已创建还原作业。</block>
+  <block id="67d991d78fa5108aec7ff0c45194bd85" category="summary">您可以使用实时搜索来查找特定内容。</block>
+  <block id="eb988e6b170684f13ddc8f2e3974559a" category="doc">执行搜索</block>
+  <block id="094b46cd4e2b4226382c342909cf9e52" category="paragraph">在 SaaS Backup for Microsoft 365 中，您可以在所有服务中搜索受保护的数据— Exchange Online ， SharePoint Online ， OneDrive for Business 以及组和团队。</block>
+  <block id="5f688eec1ef4e3c2115e695b24827ad7" category="paragraph">您可以搜索未受保护的实例，但只有在执行先前备份后，此实例才会生成搜索结果。</block>
+  <block id="af1b2fc00c7e4ebce76f4d940d1bd773" category="paragraph">要改进搜索结果，请使用以下条件：</block>
+  <block id="9e41845b5c9498bfe8fa9640fbeccd46" category="list-text">最少三个字符</block>
+  <block id="eeae9bb2017810513006bd7a795dc65f" category="admonition">如果输入的字符数超过 3 个，则搜索结果中可能会保留先前 3 个字符的搜索结果。</block>
+  <block id="4e35c84e73e978bda99e5d5f6b941c2f" category="list-text">字母数字输入</block>
+  <block id="437aed5f8f8175eba539e11090c8b0c7" category="list-text">单引号用于精确匹配一个词，一个词串或一个数字。例如： "2014 年预算 " 。</block>
+  <block id="bbd49f27ba92316c70ba2e9b8fc6345a" category="paragraph">按照以下步骤搜索受保护的实例。</block>
+  <block id="56e326341f68e822099b6a8535a4f238" category="inline-image-macro">突出显示的受保护实例的屏幕截图</block>
+  <block id="2ba0e310fe10f8a26c5057dc775e3b05" category="list-text">在要搜索的任何服务中，单击 * 受保护 * 上方的数字。<block ref="82f97feb0c1bddd52cb537084c959fa9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a8540d7fee74b4b5a05a0881c5b538a4" category="inline-image-macro">Exchange Online 中搜索框的屏幕截图</block>
+  <block id="e6d5fff8340dc69b65c5c43bbcd8fbed" category="list-text">在页面右上角找到搜索框。<block ref="c3eb94c75866bdedeb3b1ece01fd1980" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="74e6ffebeb598f9cd9033c5c21aeacda" category="inline-image-macro">Exchange Online 中包含搜索提示的搜索框的屏幕截图</block>
+  <block id="e9a9c69257da19d643cb87bcf1964fcd" category="paragraph">然后输入搜索框中显示的提示信息，例如搜索框中的 "name" 或 "email" 。<block ref="b701e8f8364dd17510b0090d64acbfc5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="43eb3506bc40d7b3a82bb8da9d2cd119" category="list-text">按名称或电子邮件地址搜索 Microsoft Exchange Online 。</block>
+  <block id="5b9debdf902cfa8c74dd5df529514aef" category="list-text">按名称，电子邮件或 MySite 搜索 Microsoft OneDrive for Business 。</block>
+  <block id="bcd7dd7afbb3676752c896a0b6cc7ee2" category="list-text">按站点名称或 URL 搜索 Microsoft SharePoint Online 。</block>
+  <block id="d3db335c991cacd28296a6f1b8ab1b35" category="list-text">按组名称或团队名称搜索 Microsoft 365 组和团队。</block>
+  <block id="03a94ff01c264119f35c19662738d4e1" category="list-text">此时将显示符合或匹配搜索条件的任何结果。</block>
+  <block id="ab09f98053829f456f7fa3b9633f25a9" category="paragraph">您还可以在每个服务中更精细地执行搜索。如果搜索框右侧显示一个下拉菜单，请从下拉菜单中选择 * 文件 * 或 * 文件夹 * 以缩小搜索结果范围。</block>
+  <block id="64c73441167566d1b1f8513d0691175f" category="inline-image-macro">带有文件 / 文件夹下拉菜单的搜索框</block>
+  <block id="6b76b82fa67dc740baacd3e8bbe8b1b1" category="paragraph"><block ref="40cd171e8c50f14eb30cb1efa19c6399" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8b9765327e65c940b7ded1efe79355d8" category="doc">新功能和更新—已归档</block>
+  <block id="b635c64585c2707531086bb2986ca7d8" category="paragraph">下面是 SaaS Backup for Microsoft 365 新增功能的归档列表。</block>
+  <block id="472471538784273d4b38b8713a92089d" category="section-title">2018年12月</block>
+  <block id="ba21162ae5beff2da7316530160d9bdd" category="list-text">SaaS Backup for Microsoft 365 现在可以通过 AppDirect Marketplace 和 CAN COM Marketplace 购买。</block>
+  <block id="0ba0e8d5409b2993f9ed1e11567be7c3" category="section-title">2018年8月</block>
+  <block id="b8bd7e2bd47fda9c9390e35f8f996fe8" category="list-text">用户界面经过重新设计，可改善用户体验和效率。</block>
+  <block id="9f02509e5496e861df4c341dba05386e" category="inline-xref">备份策略</block>
+  <block id="e009ac7bdbcdbe785633995714a0b763" category="list-text">数据保留策略已更新，可将数据保留 3 年。<block ref="b297b383a2043bacbe42de60d0495a39" category="inline-xref-macro-rx"></block></block>
+  <block id="9fe5b0e5e0c862102d23c193d848d031" category="section-title">2018年5月</block>
+  <block id="04d25e22b323711ff2c7e0f65891416c" category="list-text">NetApp Cloud Control 已重命名为 NetApp SaaS Backup for Microsoft 365 。</block>
+  <block id="691bf0ba07c22fc12821daede0da37ba" category="inline-xref">清除用户，站点集或 Microsoft 365 组</block>
+  <block id="02a02f61d322b139ecb84899110a94cb" category="list-text">现在，您可以清除用户，站点集和 Microsoft 365 组，从而从 SaaS Backup for Microsoft 365 中完全删除所有关联数据。<block ref="203aa9c68d1d58cb3ef39a1cdbd511f6" category="inline-xref-macro-rx"></block></block>
+  <block id="527708d8a25b28e30c9e6ce44e6acf3b" category="list-text">SaaS Backup 现在可以发现 Microsoft 365 组的公有和专用组。</block>
+  <block id="87dddbc407376ab2a74d919deb8a64ec" category="section-title">2018 年 4 月</block>
+  <block id="70f4045b3a240f86dcb02664a9b1e73f" category="list-text">SaaS Backup for Microsoft 365 现在支持 Microsoft Office Exchange Online 的共享邮箱。</block>
+  <block id="6ebdf2a026106b4474dac1d49df66589" category="inline-xref">授予启用共享邮箱的权限</block>
+  <block id="0f09e5c6a5f7d7233ba426cc2161e36b" category="paragraph">共享邮箱通过使用自动创建的服务帐户来发现。如果在此更新之前未激活 Microsoft Office Exchange Online 服务，则共享邮箱的自动服务帐户将在激活 Microsoft Office Exchange Online 时由 SaaS Backup 创建。如果您的 Microsoft Office Exchange Online 服务已激活，您必须授予 SaaS Backup 创建自动服务帐户的权限，以便可以发现和备份您的共享邮箱。 <block ref="5510e021d3c4d391e142d66cdb26a1f6" category="inline-xref-macro-rx"></block></block>
+  <block id="79af9c777e61eb876c82eaab6feb30c9" category="inline-xref">立即发现您的用户帐户</block>
+  <block id="bbc854c334afa202e4fa88ab19866f29" category="paragraph">创建自动服务帐户后，您的共享邮箱将在下次计划同步用户帐户时自动发现。如果您希望立即发现共享邮箱，可以 <block ref="2a2a1550088d658e9a3c4c85fc9ef095" category="inline-xref-macro-rx"></block>。</block>
+  <block id="74620215d33d2f9ad06a873cdf9e8acc" category="section-title">2018年3月</block>
+  <block id="39d560867add9a63936eca53ed4cfa40" category="paragraph">为免费试用输入激活代码的位置已移至添加服务提供商向导：</block>
+  <block id="bda1de5e5163ee7832b80b7535b38b1e" category="inline-image-macro">屏幕截图，显示选择免费试用后您在订阅页面中输入激活代码的位置。</block>
+  <block id="ea0c837ea6662600de23d933b85b871a" category="paragraph"><block ref="ea0c837ea6662600de23d933b85b871a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="95798f037b7bacec7599a19423a6bb64" category="section-title">2018 年 2 月</block>
+  <block id="a61468e6beebb23c9d371299a50b287a" category="inline-xref">创建用户定义的筛选器</block>
+  <block id="12543dd07c41e75e732bb6016f864192" category="list-text">现在，可对 Microsoft SharePoint Online 使用基于模板 ID 的筛选功能。<block ref="75d17844e9f96e1f38d69764754fd39b" category="inline-xref-macro-rx"></block></block>
+  <block id="38c3c04a063c42a8ca480029d7cad55f" category="inline-xref">下载活动日志</block>
+  <block id="1101b0495abc2826931c64ada66d3e15" category="list-text">现在，您可以将 SaaS Backup for Microsoft 365 用户帐户活动日志下载到 .csv 文件中。<block ref="3e5f0ce89fff5cc7c3bd4d866e7487e9" category="inline-xref-macro-rx"></block></block>
+  <block id="f03a974f6827372e7e32c705ac474e53" category="list-text">现在， SaaS Backup for Microsoft 365 与您的服务之间的用户帐户，站点和组同步默认处于启用状态。</block>
+  <block id="d976f4b96dc9b2dd47be02254d3653c5" category="inline-xref">正在更新备份设置</block>
+  <block id="ff27d34d6284d3f1316c07ebb61d3039" category="list-text">现在，默认情况下会启用包含备份版本历史记录。默认版本数为 20 。<block ref="a8da49b1818056f1eb7229d54e4eb984" category="inline-xref-macro-rx"></block></block>
+  <block id="effdc6a5d743a9db1cd347a2ac8d6b80" category="section-title">2018 年 1 月</block>
+  <block id="d720d14f2d2d410fd9c3739a82251fc8" category="list-text">现在，活动日志将显示与在 SaaS Backup for Microsoft 365 中执行的每个操作关联的用户 ID 名称。</block>
+  <block id="2dbd22cce387627a3ae78ddf49e08841" category="list-text">现在，您可以在 SaaS Backup for Microsoft 365 中手动将用户权限与 Azure Active Directory 同步。</block>
+  <block id="ce08e9f2fc9c85c17b6b832567419761" category="list-text">现在， Microsoft Exchange Online 支持导出到 PST 以在文件夹级别进行还原。</block>
+  <block id="2c93879227a2e2e70ce85ae352f8f46c" category="section-title">2017 年 11 月</block>
+  <block id="3a8ca13b1dbd22749d799d6bc07392d4" category="list-text">SaaS Backup for Microsoft 365 现在支持将 Azure Blob 作为 SaaS Backup 提供的存储的一个选项。</block>
+  <block id="75bc60f2c6a36004500066ff7275c3f3" category="list-text">SaaS Backup for Microsoft 365 现在支持 Microsoft 365 组进行备份和还原。必须先激活 Microsoft Exchange Online 或 Microsoft SharePoint Online ，然后才能激活 Microsoft 365 组。Microsoft 365 组只能受第 3 层备份策略的保护。</block>
+  <block id="fb94c7f8627886d1f63dc1c58ca7a99e" category="list-text">现在， Microsoft Exchange Online 支持导出到 PST 以在邮箱级别进行还原。</block>
+  <block id="af77dfd404964d21108cf737bd810e11" category="section-title">2017 年 10 月</block>
+  <block id="f8d6553092d20497172f5b0fa93ca408" category="inline-xref">正在创建规则</block>
+  <block id="0bfdbcc57bced91ca95d4b66188649fd" category="list-text">可以创建规则，使您能够根据预定义的条件自动将用户移动到预先选择的备份层。您可以为 Microsoft Exchange Online 和 Microsoft OneDrive for Business 创建规则。您不能为 Microsoft SharePoint Online 创建规则。<block ref="05582bd283c32c418e99a68447f03def" category="inline-xref-macro-rx"></block></block>
+  <block id="7e1669d62449aae995a5fc99102a986d" category="summary">您可以浏览所有 Microsoft 365 服务中的备份。</block>
+  <block id="4c56bf9d3c6d21d59223de5a3e265bb1" category="paragraph">您可以浏览 Microsoft 365 Exchange ， SharePoint ， OneDrive for Business 和组的近期备份或所有备份中受保护的实例。</block>
+  <block id="7d2cab41c99baa3618cdc771cf23af02" category="admonition">默认浏览设置为 * 显示最近 5 天的备份 * 。如果选择 5 天，则仅会显示过去 5 天备份的项目。您可以根据需要更改时间范围。</block>
+  <block id="ec6ee776a34b4263e0b91b4316ec2a92" category="paragraph">要确保找到所需内容，请查看时间范围下拉菜单左侧的日期。</block>
+  <block id="bea52b10bad6f00b3d9bae4387b7e835" category="inline-image-macro">此图突出显示浏览用户邮箱的日期和计数</block>
+  <block id="d768fbd73db7045dd654f6b32fe93fcb" category="paragraph"><block ref="339933014d3c66941b820e9998bd8db4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="635f0a4227ff67a5b82c42b163c68174" category="list-text">在 * 信息板 * 中，选择要浏览备份的服务，然后选择受保护的实例。</block>
+  <block id="75d78f140ab8606e9d99546e83d99040" category="inline-image-macro">已突出显示受保护的 Exchange 实例</block>
+  <block id="616d1695965f4372e9971e911fc2a832" category="paragraph"><block ref="616d1695965f4372e9971e911fc2a832" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9a68559b74ee8f6da44ceebabb49cb4a" category="list-text">选择要浏览的帐户。</block>
+  <block id="f4c57093ba87ee0853ab59e05e17f6f8" category="list-text">选择要浏览的备份项目的时间范围。</block>
+  <block id="4341deb83d2801685a02468740f1a8e0" category="admonition">* 查看备份历史记录 * 显示备份的日历视图。如果选择 * 查看备份历史记录 * ，并选择了当天之前的日期，则会更改您看到的备份的时间范围。例如，如果今天是 10 月 8 日，则在日历视图中选择 10 月 5 日，然后选择浏览从 10 月 5 日开始的最后 5 天，您可以浏览的项目将从 10 月 1 日到 5 日。</block>
+  <block id="298f7e405df9bd70d503f666655b7a2f" category="list-text">单击要查看的项目类型： " 邮件 " ， " 日历 " ， " 任务 " ， " 联系人 " ， " 文件 " ， 内容或其他。</block>
+  <block id="428d3946534ec712b3769c0d38b438df" category="list-text">浏览备份的项目。</block>
+  <block id="d65dba4c9f44a82f9170ce9c1703ba84" category="summary">您可以将各个层，邮箱，站点和 MySites 的数据保留时间（以年为单位）更新为 7 年， 10 年或无限。</block>
+  <block id="cc2145b869199d961affac79934fa41f" category="doc">更新备份保留期限</block>
+  <block id="aa378916d99a534861b26ea544bc08f6" category="paragraph">您可以将各个层，邮箱，站点和 MySites 的数据保留时间（以年为单位）更新为 7 年， 10 年或无限。如果订阅处于活动状态， SaaS Backup 会保留保留保留期限内的备份数据。如果所有备份层的保留期限相同，您可以执行全局更新，以便同时更改所有租户的保留期限。</block>
+  <block id="eeb31c7abe07cfdc76bcd1c687e732d4" category="section-title">更新特定层的备份保留期限</block>
+  <block id="94216c0e12d42b92711e6a45ce7a548e" category="list-text">在 * 信息板 * 中，单击任何服务。</block>
+  <block id="122f65a3bb5d40b11d5ade616e9d48d0" category="list-text">在 * 备份策略 * 下，单击要更改的层的 * 保留期限 * 旁边的下拉菜单。</block>
+  <block id="6b2f3cd7301fe0eaa0b99174b00619b0" category="list-text">从预定义列表中选择所需的保留期限。</block>
+  <block id="ab3c12eae2f2744c9a522433f4048820" category="list-text">单击 * 更新保留期限 * 。</block>
+  <block id="d2ace93f19f4073c24fb32ad8357d008" category="section-title">更新各个用户和租户的备份保留期限</block>
+  <block id="4d2dc1fb517faf1351e40af5c798d589" category="inline-image-macro">配置图标</block>
+  <block id="b0993439c0d1d476bdedee08ce113e13" category="list-text">单击配置图标 <block ref="a0cde246171809ba886b58a232df6058" category="inline-image-macro-rx" type="image"></block> 位于左上角的 SaaS Backup 用户 ID 旁边。</block>
+  <block id="b4e9d8e1645ce21b7cb93c733b1a0a1c" category="list-text">单击 * 保留并清除 * 。</block>
+  <block id="9aa8ad965addb3d3cc825b351a3df119" category="list-text">要更新特定服务中特定用户的数据保留策略，请执行以下操作：</block>
+  <block id="7ff52ec66b9e3b3ac7337e4a4e305288" category="list-text">在 * 数据保留策略 * 下，单击 * 提供程序类型 * 旁边的下拉菜单，然后选择提供程序。</block>
+  <block id="c9b09cc6dace12ed615f10b3e6a49658" category="list-text">单击 * 服务名称 * 旁边的下拉菜单并选择服务。</block>
+  <block id="b78a9a47996277ed35dace227b859f92" category="list-text">单击 * 保留期限 * 旁边的下拉菜单，然后从预设时间列表中选择所需期限。</block>
+  <block id="e4f96dd27a010c8a074859e18ebfb977" category="list-text">在搜索框中，输入要更新的用户，站点或 MySite 。</block>
+  <block id="7d77c1993f89af33538dcb88e63b34c4" category="list-text">从匹配结果中选择所需的用户，站点或 MySite 。</block>
+  <block id="e7e82d0cce0ad14477543a890638d0c3" category="inline-image-macro">加号</block>
+  <block id="ea52a58fecf75231615caee9f1e6f259" category="list-text">单击 <block ref="42a150c31fed0254cf8d45981381ff10" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="f3b1437f7a4586fb2c5368d517a81d4e" category="list-text">根据需要继续搜索和添加各个邮箱，站点或 MySites 。</block>
+  <block id="3045cba3aa54b3573198ca691aaf926c" category="list-text">单击 * 保存 * 。选定的各个邮箱，站点或 MySite 将更新为选定的保留期限。</block>
+  <block id="b21802cf7e001e25197367f5d583808b" category="list-text">要更新租户级别的数据保留策略，请执行以下操作：</block>
+  <block id="a7d2551510b2cd7a138c453deff4b807" category="list-text">在 * 租户级别数据保留策略 * 下，单击 * 保留期限 * 旁边的下拉菜单，然后从预设时间列表中选择所需期限。</block>
+  <block id="243f915df66d1cc2ec089205411db8ac" category="list-text">单击 * 保存 * 。所有备份策略层都将更新为选定的保留期限。</block>
+  <block id="f77160ffe4f33a8c31c421430db0c1dc" category="summary">您可以启用高级搜索来搜索 Microsoft 365 Exchange Online 中的项目。</block>
+  <block id="72188549c25c8b8b3805a84f99bd8064" category="paragraph">您可以使用 * 高级搜索 * for Microsoft Exchange Online 来查找特定内容。</block>
+  <block id="00c49197e1ad230a77a69b3c62a95960" category="paragraph">您可以搜索单个或共享邮箱项目，并将这些项目还原到其原始邮箱。要启用此设置，请参见 2020 年 6 月 <block ref="d84f7ef7df75ea4b5018dac7dc7cdf71" category="inline-link-macro-rx"></block> 发行说明</block>
+  <block id="267a5275d92e0cb500ece7c264c7eafe" category="inline-image-macro">高级搜索设置的屏幕截图</block>
+  <block id="19d5df79e54f56432e22ed468bdaa692" category="paragraph">您可以在 Microsoft Exchange Online 的设置中启用高级搜索。启用后，您可以搜索单个或共享邮箱项目。如果在首次备份之前未启用 * 高级搜索 * ，则不会显示任何搜索结果。<block ref="4c1d3f657745aa4fa7c5b961a2f7a82f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="35e704c59ee775fcffd3b145fd79c4bd" category="list-text"><block ref="b7c7f461808ad9eee93ae96dc9b3fd17" category="inline-xref-macro-rx"></block></block>
+  <block id="1b5251c4623800d15616db1b5ad13ddc" category="list-text"><block ref="f533942d5f67ff90ffc7ef3d110249d7" category="inline-xref-macro-rx"></block></block>
+  <block id="2e678cfb6692fccd97fdd915d5b3a27e" category="list-text"><block ref="dfaa1db65f916ed1ff476bafd651fc3a" category="inline-xref-macro-rx"></block></block>
+  <block id="f5c6766aada2bdc229d963f2b4623af4" category="section-title">设置高级搜索设置</block>
+  <block id="4466a882479de04cb5c1a5ec232dacdc" category="paragraph">* 高级搜索设置 * 为用户提供了启用或禁用搜索功能的选项。</block>
+  <block id="b0eb2396acd040d98c146d201fe5307e" category="admonition">如果启用了高级搜索功能，则获得许可和未获得许可的用户可以使用此功能。</block>
+  <block id="c44cc41dbd8bd91ac75451de23ec8eb6" category="list-text">在信息板中，单击左侧菜单中的 * 高级搜索 * 。</block>
+  <block id="8a6a52b70517fecd0af84069290395fb" category="list-text">单击 * 高级搜索设置 * 。</block>
+  <block id="a9bd2ff124301f94dad1b83933f1de41" category="list-text">默认情况下，此列表会显示所有已获得许可的用户。在 * 显示所有用户 * 和 * 仅显示许可用户 * 之间切换，以筛选列表中的用户类型。</block>
+  <block id="8fd454c9753a4c3d03fcb074d79d2f5e" category="list-text">使用搜索工具并至少键入三个字符以查找唯一用户。</block>
+  <block id="57c9b7b109956f01ec6fbd27f9e51071" category="list-text">要启用用户，请在 * 高级搜索 * 列下选择 * 开 * 。下次在完整备份或增量备份中保护启用了该功能的用户时，您可以搜索任何新电子邮件项。</block>
+  <block id="908850e836861356845d68c6d5d59f95" category="list-text">要保存对设置所做的更改，请单击 * 保存设置 * 。</block>
+  <block id="9d26c855a2d401584a2885908a0440b0" category="inline-link-macro">计划备份或更改备份频率</block>
+  <block id="0af305178ed17ffd2d65f6827dd96941" category="list-text">要备份已启用的用户，请转至 <block ref="a56fa16a0623b92158e702c35634bdf7" category="inline-link-macro-rx"></block> 并保持在 * 用户 * 选项卡上，以选择要备份的用户。</block>
+  <block id="9ef86ece0d6dfedbd908e23552b7988f" category="paragraph">通过高级搜索，您可以选择在 * 执行搜索 * 下搜索单个或共享邮箱项目，并将这些项目还原到其原始邮箱。</block>
+  <block id="30368d13df374be30faccbf80332ec3d" category="list-text">单击 * 执行搜索 * 。</block>
+  <block id="d749315637e107f4e49a204009181ccf" category="inline-image-macro">图中显示了执行搜索选项以及两个必需项</block>
+  <block id="c2f947ac394b258702e93f2950da3014" category="list-text">在必填字段中输入带有星号（ * ）的信息。可选字段：条件和查询条件。<block ref="94a613604503bf5de5b1927c26f3eadc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7a41dfb51c4cdf013ddd679e98de9298" category="list-text">* 选择用户 * ：在用户名中至少键入三个字母以查找要选择的用户。</block>
+  <block id="23c24dab11d24ab575fb8613517086e7" category="list-text">* 搜索 * ：在关键字中至少键入三个字符。如果要搜索短语，请将短语中的字放在引号内（例如： Hello world ）。如果可以单独搜索这些字词，则不需要报价。</block>
+  <block id="6f9f601869ed6ab8936bf0acbb2c26f9" category="list-text">* 精确匹配 * ：如果您只想搜索确切的关键字，请选择。</block>
+  <block id="f4365e4a5fca3c5860dbf2feb7544e69" category="list-text">* 条件 * ：</block>
+  <block id="d3a512d9332bf24815914af5abe76227" category="list-text">* 项目 * ：选择项目以搜索邮箱中的所有项目。</block>
+  <block id="0f5a5a4accd5a1d07ea5b18cc53c6e64" category="list-text">* 文件夹名称 * ：选择文件夹名称以搜索邮箱中特定文件夹中的项目。在提供的文本框中键入文件夹名称。</block>
+  <block id="aec3cdf63384910a576a0fe3adedf8af" category="list-text">* 日期范围 * ：从日期范围下拉菜单中，选择 * 过去 7 天 * 或 * 自定义范围 * 以输入搜索的开始和结束日期。</block>
+  <block id="b45b9f14da02cd97cc8dbdab2f60f291" category="list-text">* 以字节为单位的大小 * ：从 " 以字节为单位的大小 " 下拉菜单中，选择 * 大于（ &gt; ） * 或 * 小于（ &lt; ） * 。然后输入大小（以字节为单位）。</block>
+  <block id="97a92796e14587540ffb629ea37aa03e" category="list-text">* 发件人 * ：输入发件人的电子邮件地址。</block>
+  <block id="ee31a416b5a87739039dde2ca5307492" category="list-text">* 收件人 * ：输入收件人的电子邮件地址。</block>
+  <block id="56a5c3ef7cc99d2aa813936a77ec81bd" category="list-text">* 主题 * ：选择此项后，仅按主题进行搜索。</block>
+  <block id="8f2f9d84e3bf13f607b4b96381ae7c45" category="list-text">* 有附件 * ：选择电子邮件项目是否有附件。</block>
+  <block id="b68e3baaece85a7fd6bb5480a8b002d0" category="list-text">单击 * 搜索 * 。</block>
+  <block id="9b3bc7bd4ed5e46080b209bdd7facb88" category="list-text">要查找搜索作业，请转到下面的查找先前的搜索作业。</block>
+  <block id="57f7a88c0574298291b51b4649bf4229" category="section-title">查找先前的搜索作业</block>
+  <block id="d7b7c604c45bcddfec349d4eefd139e0" category="paragraph">通过高级搜索，用户可以选择在 * 以前的搜索作业 * 下查找以前的搜索作业</block>
+  <block id="6578ea0c53e911e0fbac32ce91fa2510" category="list-text">单击 * 上一个搜索作业 * 。</block>
+  <block id="4b3a8290be8aa16413045effb70c314a" category="list-text">查找先前执行的搜索作业。如果显示的搜索结果为零，则表示没有项目符合您为搜索输入的条件。</block>
+  <block id="13510659f5f468ab16f6832afdd05e17" category="list-text">单击搜索结果总数以显示这些结果。</block>
+  <block id="3256acd5628ee1e52fa96f0c6a9bb5b4" category="list-text">在结果显示视图中，您可以还原项目，使用下拉菜单 * 显示 # 条目 * 选择显示的条目数，或者搜索以进一步缩小结果范围。</block>
+  <block id="a400f6683b626003bec087df9811459d" category="inline-image-macro">图中显示了搜索结果显示视图，其中突出显示了还原，条目数和搜索功能</block>
+  <block id="74336c770170c7097da19acb3a2c9e7c" category="paragraph"><block ref="74336c770170c7097da19acb3a2c9e7c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c338b09600084dabac11ca51f9bb51cc" category="admonition">还原的项目将按照命名约定 CC_search_MM.DD_time 返回到原始邮箱。要查找还原作业，请转到左侧菜单中的 * 作业 * 。</block>
+  <block id="8d5f80c87fb73b96182c0d6e116fa42c" category="list-text">要退出搜索结果显示，请单击 * 返回到搜索作业 * 。</block>
+  <block id="0292df1cde394a7f4bcde7c13f731961" category="summary">在 NetApp SaaS Backup for Microsoft 365 中，您可以管理服务帐户，发现新添加的帐户并设置帐户通知。</block>
+  <block id="f53f41f69a03f1af6789acff9760015b" category="doc">向服务帐户添加权限</block>
+  <block id="5a4f9f1ee9d9f07650e33d5392daa03a" category="paragraph">您可以管理服务帐户，发现新添加的帐户以及设置帐户通知。</block>
+  <block id="5f991a0983d92564555c3f91b524208c" category="paragraph">如果需要，您可以向服务帐户用户添加权限。服务帐户用于高效执行并发备份。</block>
+  <block id="e600994934c3fa9c4fcaca691c4214ee" category="list-text">单击左侧导航窗格中的服务。<block ref="5dae113680257bfa8a9a9f41c78b194f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="38462566187b9e0b2e5f497a5502130b" category="list-text">单击 Microsoft 365 链接。<block ref="f9631d5c739c4c4b4fe570c209766ce1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c6734135d9ae05c120de2cd4d857a7c4" category="list-text">单击 * 管理服务帐户 * 旁边的 * + * 图标。</block>
+  <block id="137b6252ec3ba5ac3a49061c09729ac4" category="list-text">单击 * 确认 * 以重定向到 Microsoft 365 登录页面以授予权限。</block>
+  <block id="def516b1e747f5af311be3853f89bb66" category="summary">您应了解适用于免费试用帐户的某些限制。</block>
+  <block id="30b2123030b8a0f2633415ae646de89b" category="doc">免费试用限制</block>
+  <block id="9e2588b7501cf6b0c88398471f593e95" category="paragraph">以下限制适用于免费试用帐户：</block>
+  <block id="32b69c2d83d1e70344bd1f17306f9077" category="list-text">对于 Microsoft Exchange Online ，最多 25 个用户；对于 Microsoft SharePoint Online ，最多 25 个站点集合。</block>
+  <block id="0b5853ebc3db5edeef95409b7ec43107" category="list-text">每天最多 3 个即时备份。</block>
+  <block id="e5a3f64eb2def107afdd1de4d946b7fc" category="list-text">仅在前 30 天自动备份。</block>
+  <block id="c536ed29020f22f1c1b14efa4cdbb75d" category="list-text">在免费试用结束后的 15 天宽限期内，不允许计划备份。</block>
+  <block id="95586af4ab51839471da911204e1aa78" category="list-text">对于所有服务，在 24 小时内最多允许 10 次恢复。</block>
+  <block id="80870c06cc314ae7a248df5ab62d3f5f" category="list-text">默认情况下， Teams聊天 备份处于禁用状态，可以根据请求通过向 SaaS 备份支持发送电子邮件来启用，网址为 saasbackupsupport@netapp.com 。要启用 Team聊天 ，所有活动团队用户都必须在 SaaS Backup 中获得许可。</block>
+  <block id="6717d37b6834e1656959896157ee6fcd" category="summary">如果需要，您可以激活一个或多个 SaaS Backup for Microsoft 365 服务。必须先激活 Microsoft Exchange Online 或 Microsoft SharePoint Online ，然后才能激活 Microsoft 365 组。</block>
+  <block id="411cf5e870e6c2877290b249e0c12581" category="doc">激活服务</block>
+  <block id="4cfc0abdc343554651425620b5108cfd" category="list-text">单击要激活的服务旁边的 * 激活 * 。</block>
+  <block id="ededc6ad5e601dceeeb3a254cbfcaf3a" category="summary">您可以使用 SaaS Backup for Microsoft 365 对 Microsoft Exchange Online 365 执行粒度级还原。</block>
+  <block id="be33608724ad271a268dffbc9ce48900" category="doc">对 Microsoft Exchange Online 执行粒度级还原</block>
+  <block id="3b1b3661830c7552093c2673dc985a45" category="paragraph">在 Microsoft Exchange Online 中，您可以还原单个用户的粒度级别项目，例如单个电子邮件，任务，联系人和日历事件。您还可以还原 Microsoft 365 组邮箱的粒度级别项目。</block>
+  <block id="7a8dc2e013d979e0d1428c667b1195e4" category="paragraph">下表指示了 Exchange Online 中粒度级项目支持的还原选项。</block>
+  <block id="83e5846f13d6165a910564d76985d2f2" category="cell">导出到 PST/ 导出到 HTML</block>
+  <block id="7e2408f033322afc1501e88155ea97b5" category="paragraph">邮件 / 任务 / 联系人 / 等</block>
+  <block id="12bbb80e602c6804dcffd389d09794ba" category="paragraph">Exchange Online &gt; 邮箱 - 用户</block>
+  <block id="2ce2d7d52f6efd367945e8ff48b8e110" category="paragraph">单个 / 多个邮箱文件夹（收件箱，归档等）</block>
+  <block id="6960672f6adc47e1fbc6998f84aaa937" category="admonition">排除对话历史记录。</block>
+  <block id="4de55c0dee2da7f055099e41eb896a86" category="paragraph">Exchange Online &gt; 邮箱 - 用户 &gt;</block>
+  <block id="72af896412e5a3498896e988caeb2667" category="paragraph">" 收件箱 " 下的文件夹级别</block>
+  <block id="a654073e92e52bc895410744d3ed19aa" category="paragraph">" 收件箱 " 下的子文件夹级别</block>
+  <block id="bf62d0beb30daa6e7b0aeb55862816e0" category="paragraph">" 邮件 " 文件夹下的对话历史记录</block>
+  <block id="a7a7f9d318dc06cf789a581ea74dccd0" category="paragraph">单个 / 多个项目级恢复</block>
+  <block id="aff1add6fd6374350e3abe25824a4473" category="paragraph">" 替换现有内容 " 的单个 / 多个还原项</block>
+  <block id="f00f10dc480c1feeccffc63cd66d98d0" category="list-text">在信息板中，单击 Exchange 框中的 * 受保护 * 上方的数字。</block>
+  <block id="4cba3dae453d4a0fc72eb7583690a011" category="inline-image-macro">Exchange 中受保护实例数的屏幕截图</block>
+  <block id="e8ba24e9166367a3b0ff58de4dc6ae1f" category="paragraph"><block ref="e8ba24e9166367a3b0ff58de4dc6ae1f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2846152c244d8e6fbbd8a0660b6e8361" category="list-text">选择还原选项。</block>
+  <block id="1fd2f891b92fd621f712d2acbe6fa2de" category="list-text">对于归档邮箱，单击 * 归档 * 选项卡。</block>
+  <block id="ae8180380fe555e30cec3e9f3e02cc5d" category="list-text">单击需要执行粒度级还原的邮箱。</block>
+  <block id="ade948bcfdfdfeea29a4c666ba72ebd4" category="list-text">还原整个 Microsoft Office Exchange 类别或还原某个类别中的特定项。对于 Microsoft 365 组邮箱，您只能选择从邮件类别或日历类别还原。</block>
+  <block id="30cdc5fd38d012a70637e34e6a985f56" category="list-text">选择需要还原的类别（邮件，任务，联系人或其他）。</block>
+  <block id="eaf3be256f5933b9ee353f265ad78f5d" category="admonition">如果要还原此类别中的单个项目，请单击此类别，然后选择要还原的项目。</block>
+  <block id="0e29911c075e29d2f52fcf8c94b9123e" category="list-text">选择一个还原选项。</block>
+  <block id="734c77efdf03a2aa22de3b849656d08b" category="paragraph">如果还原到同一邮箱，则默认情况下，系统会在包含备份副本的原始内容位置创建一个具有当前日期和时间戳的还原文件夹。如果选择 * 替换现有内容 * ，则当前数据将完全替换为备份。</block>
+  <block id="d2e8213b2a4845cdbca4ccd8956414d2" category="paragraph">对于 Microsoft 365 组，您只能选择还原到同一邮箱。默认情况下，现有内容将被替换。对于 Microsoft Exchange Online ，您可以还原到同一邮箱并替换现有内容，也可以还原到另一个邮箱。</block>
+  <block id="f59998acaf678573d3888529543a32fb" category="paragraph">如果还原到其他邮箱，则必须在搜索字段中输入目标邮箱。您可以在搜索字段中键入目标电子邮件地址的一部分，以便自动搜索匹配的目标邮箱。</block>
+  <block id="e7ec2eb55740bd6c5031005706b6b021" category="list-text">* 导出到 PST*</block>
+  <block id="950720958846f6a74f07c4bd65d20d8b" category="paragraph">您可以选择包含所有类别子文件夹。</block>
+  <block id="fb94e1eeb9c83823d4aa2e28278123ed" category="paragraph">如果导出到 PST ，则在导出完成后，您将收到一封通知电子邮件，其中包含 PST 文件的位置。</block>
+  <block id="58b0cd28cb714d6567c53e5db8c0b3f6" category="admonition">此选项不适用于 Microsoft 365 组。</block>
+  <block id="afbc2ecece46182264304a31e2b5da73" category="admonition">如果选择 * 导出到 PST* 还原选项，则提供的链接有效期为七天，并且已通过预身份验证。</block>
+  <block id="9a4ec68ff98c2d86c487beb46f9b4659" category="list-text">* 导出到数据 * （仅适用于 Microsoft 365 组）：</block>
+  <block id="4ce57defce9dac056d069386ab60e048" category="paragraph">如果导出，则会创建两个 zip 文件，一个 zip 文件用于 Microsoft 365 组邮箱，另一个 zip 文件用于 Microsoft 365 组 SharePoint 站点。您将收到一封通知电子邮件，其中包含 PST 文件的位置以及 .zip 文件所在位置的经过身份验证的 URL 。</block>
+  <block id="441c6e9fc22b169f47087797e47a4e78" category="admonition">如果选择 * 导出到数据 * 还原选项，则提供的链接有效期为七天，并且已通过预身份验证。</block>
+  <block id="6e1b2e76136fef4e065dc537ac7bec7d" category="paragraph">此时将显示一条消息，指示已创建还原作业。</block>
+  <block id="5cd8ed00a66ee33edca00eaad743e706" category="summary">要开始订阅 SaaS Backup for Microsoft 365 ，您必须确定要用于备份的存储类型，创建具有全局权限的 Microsoft 365 服务帐户，并且必须完成注册过程。</block>
+  <block id="e80ac21f1c9c2bfc1cd2b0c269ca21b1" category="doc">SaaS Backup for Microsoft 365 付费订阅入门工作流</block>
+  <block id="247c11bc66df531c09cff7db883f88a8" category="paragraph">要开始订阅 SaaS Backup for Microsoft 365 ，您必须执行以下操作：</block>
+  <block id="ea04a30a00c78442cf07b930689cf146" category="list-text">确定要使用 SaaS Backup 提供的 Amazon S3 或 Azure Blob 存储。</block>
+  <block id="d1277819211cde3f869b987ea578960e" category="inline-link-macro">可与 SaaS Backup 结合使用的存储类型</block>
+  <block id="4cd94590bb8488a413e6a427480d3251" category="paragraph"><block ref="df8d60faebfd1140c689d69f47bd9ce6" category="inline-link-macro-rx"></block>。</block>
+  <block id="8d3f0f18dc9b273ca9550a870dbe7d40" category="inline-link-macro">创建具有全局权限的 MS Office 服务帐户</block>
+  <block id="26e30cb3b3b7e49ba99e599482c4943f" category="list-text"><block ref="0750c1541d066db27fcb92de8f731ee4" category="inline-link-macro-rx"></block>。</block>
+  <block id="d9dff68efce1d2c43a2e683a3e3892c3" category="inline-link-macro">为 Microsoft Exchange Online 配置模拟</block>
+  <block id="3fdbc6e8f5aa0984e0a873ddd2b4b61d" category="list-text">如果需要， <block ref="d615cc5d3d86f9e06cc0c85460172b97" category="inline-link-macro-rx"></block>。</block>
+  <block id="667e567bd9a816e74022b85d3fd8fe7d" category="inline-link-macro">注册 SaaS Backup for Microsoft 365</block>
+  <block id="f092971e811548323e2a6e4cd354be67" category="list-text"><block ref="13f67ee669e54a16d2825d5b35242bd5" category="inline-link-macro-rx"></block> 使用您的 Microsoft 365 帐户或 NetApp SSO 帐户。</block>
+  <block id="4820d84d1889f00f60cdb5ea07f07a07" category="list-text"><block ref="4820d84d1889f00f60cdb5ea07f07a07" category="inline-link-macro-rx"></block></block>
+  <block id="1bb2a78dc3e9ffb014f08a4ac49ae300" category="inline-link-macro">可选：立即备份数据</block>
+  <block id="30f84fb052d031228dda8a31c47a259a" category="list-text"><block ref="30f84fb052d031228dda8a31c47a259a" category="inline-link-macro-rx"></block></block>
+  <block id="16daf462577519b0d19839a181d682b9" category="inline-image-macro">付费订阅注册流程</block>
+  <block id="c6c6de8db8834d9f44e28cef126e247b" category="paragraph"><block ref="c6c6de8db8834d9f44e28cef126e247b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">法律声明提供对版权声明、商标、专利等的访问。</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 徽标和 NetApp 商标页面上列出的标记是 NetApp 、 Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">有关 NetApp 拥有的专利的最新列表，请访问：</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
+  <block id="af482b62e5f593026c0e1f3b25e33b22" category="inline-link">SaaS 备份通知</block>
+  <block id="9bdc5707c114dbc5a94534cfcadd7ab0" category="paragraph"><block ref="9bdc5707c114dbc5a94534cfcadd7ab0" category="inline-link-rx"></block></block>
+  <block id="7a5993af77d1032535cb5f108e621422" category="doc">注册 Microsoft 365 免费试用帐户</block>
+  <block id="a6cf97b63eff3ad329ddd3b42602dc2c" category="paragraph">借助 Microsoft 365 for Business 30 天免费试用版，您可以了解 Microsoft 365 和 SaaS Backup for Microsoft 365 的最新功能。</block>
+  <block id="154aaf2b1abad0f9ef74679e031ff9bb" category="inline-link">Microsoft 365 商业版站点</block>
+  <block id="6d9567e09b2cc2c796d047f8b47e3ca0" category="list-text">转至<block ref="5a129d533828990ea282ed866872ff1c" category="inline-link-rx"></block> 以启动试用订阅。</block>
+  <block id="0bed8b88d6fa9d144dd46e0009bce73c" category="list-text">单击 * 试用 1 个月免费 * 。</block>
+  <block id="4d994d333f3504b3b25b3aa88931961b" category="list-text">按照屏幕上的说明创建 Microsoft 365 免费试用帐户。</block>
+  <block id="74524ae37b19d9cf62712abd2b11085c" category="summary">表参考显示了如何在 SaaS Backup 中查找团队数据。</block>
+  <block id="15ed07498534e492570fb7e8050ae853" category="doc">对数据位置进行分组</block>
+  <block id="28cb7fa26b2eed860a1681734c1aea62" category="paragraph">Microsoft 团队的数据在 SaaS Backup for Microsoft 365 中具有不同的位置。</block>
+  <block id="b3249d731f3a72ac9550516d53e1d6b7" category="paragraph">下表显示了如何在 SaaS Backup 中查找团队数据。</block>
+  <block id="a4f277ba4d9410ebd7493cf7009303d1" category="cell">团队数据</block>
+  <block id="d852828c0312d3ac425ccac759544a88" category="cell">它在 SaaS Backup 中的位置是什么？</block>
+  <block id="0c65c0fe7b2a50adfb7e670c677d5b46" category="cell">团队电子邮件</block>
+  <block id="9100115e2aff2b117c852fe3040304f7" category="paragraph">Microsoft 365 组 &gt; 团队 &gt; SampleTeam &gt; 邮箱</block>
+  <block id="1e3a0932caef0d54f54ddac0f3bdb0fd" category="cell">团队渠道</block>
+  <block id="4cbdec5ea161e9b6b980d06224dabdd2" category="paragraph">Microsoft 365 组 &gt; 团队 &gt; SampleTeam &gt; 渠道</block>
+  <block id="920e4602a0824e2af97f4a63c3bc90e0" category="cell">团队标准渠道文档</block>
+  <block id="e7c152e404876a5a6cd114d04d220a66" category="paragraph">Microsoft 365 组 &gt; 团队 &gt; SampleTeam &gt; SharePoint 站点 &gt; 文档 &gt; SampleTeam-StdChannel</block>
+  <block id="47c5d34b7b5e87d53a750f5e3d8b2c1f" category="cell">团队标准渠道聊天</block>
+  <block id="9ccca774fb81b652cd087e9416ace891" category="list-text">Microsoft 365 组 &gt; 团队 &gt; SampleTeam &gt; 邮箱 &gt; 对话 &gt; 团队聊天</block>
+  <block id="b25b9eb6f507005b0d03b3233d710329" category="list-text">Microsoft 365 组 &gt; 团队 &gt; SampleTeam &gt; 邮箱 &gt; 邮件 &gt; 对话历史记录 &gt; 团队聊天（实际位置）</block>
+  <block id="bd43e19934149f41f9b6e9ac77d017b0" category="cell">团队专用渠道文档</block>
+  <block id="3a13ec2cbb025ae5611b89648fb19b07" category="paragraph">SharePoint &gt; SampleTeam — SampleTeam-PrivChannel &gt; 文档 &gt; SampleTeam-PrivChannel</block>
+  <block id="90640bfc79082f48dda2439d9b741378" category="admonition">您将找到一个名为 &lt;&lt;Your Team Name – Private Channel Name&gt; 的单独站点集合。您可以使用模板 ID ： TEAMCHANNEL#0 筛选这些站点收集。</block>
+  <block id="9ce0ffd19f44db5afee1e428758cc8d9" category="cell">团队专用渠道聊天</block>
+  <block id="5ac119267c5f1e9c826c53cd06bc543d" category="list-text">Exchange &gt; " 专用通道中的用户 " &gt; 邮件 &gt; 对话 &gt; 团队聊天</block>
+  <block id="afb54ad4d75600ab9ea86f48e4cdbfa6" category="list-text">Exchange &gt; " 专用通道中的用户 " &gt; 邮件 &gt; 对话历史记录 &gt; 团队聊天（实际位置）</block>
+  <block id="002d9fca417b7498bd93925b66a9537f" category="cell">个人用户聊天和组聊天</block>
+  <block id="15233ac19418cfc534ea8fafc8eac28a" category="list-text">Exchange &gt; " 用户 " &gt; 邮件 &gt; 对话 &gt; 团队聊天</block>
+  <block id="ecc13afaeb6107f3ffc2b41a5af9e195" category="list-text">Exchange &gt; " 用户 " &gt; 邮件 &gt; 对话历史记录 &gt; 团队聊天（实际位置）</block>
+  <block id="7de191b83c23da9f013bbffc9dcf53ae" category="cell">在单个用户聊天和组聊天中共享的文件</block>
+  <block id="ad64dadeddce0a9e824b9d43c40cb699" category="paragraph">OneDrive &gt; " 用户 " &gt; 文件 &gt; Microsoft 团队聊天文件</block>
+  <block id="894de4021ad5b4bf29b15a5a24d5c77b" category="doc">发现新的邮箱，站点和组</block>
+  <block id="c3610f7768b54458847dbaecb3245abb" category="paragraph">SaaS Backup 必须与您的 Microsoft 365 帐户同步，才能使 SaaS Backup 发现新邮箱（包括共享邮箱和归档邮箱），站点，组和团队。默认情况下，同步每 24 小时自动进行一次。但是，如果您进行更改并希望在下次计划的 * 自动同步 * 之前进行发现，则可以立即启动同步。</block>
+  <block id="4aac6497c390aec3dde95c25051ad5f5" category="list-text">单击 Microsoft 365 设置图标。<block ref="f9631d5c739c4c4b4fe570c209766ce1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5711630f8e077835bf99b1b02452977e" category="list-text">单击要同步的服务旁边的 * 立即同步 * 。<block ref="59f685d268d02e05adc0df25fd86ae38" category="inline-image-macro-rx" type="image"></block>发现新用户，共享邮箱和归档邮箱，并在未受保护的状态下添加这些邮箱。如果要备份新发现的用户，共享邮箱或归档邮箱，则必须将用户的备份策略从不受保护更改为预定义的层组之一。</block>
+  <block id="ea615b65faf1869ba29efdd885fc56f2" category="list-text">单击 * 查看作业进度 * 以监控进度。作业完成后，您可以单击 * 最近完成的作业 * 下的作业，以查看同步期间添加或删除的用户数。对用户帐户的更改如下所示：</block>
+  <block id="96ecb6729f84a1f68f82827963f702fd" category="list-text">* 重新发现 * 用户表示未更改的用户帐户数。</block>
+  <block id="1cef46db28ec90d117c3756df3841ce4" category="list-text">* 已停用 * 的用户表示已删除的用户帐户数。</block>
+  <block id="916871e5e73e2a939c1c862425f924ad" category="list-text">* 新添加的 * 用户表示新用户帐户的数量。</block>
+  <block id="1db8c4c70a2709de9241c5154d3cf441" category="summary">如果您不再需要现有规则，可以将其删除。此外，如果需要删除规则中使用的安全组，则必须先使用安全组删除该规则，然后才能删除该安全组。</block>
+  <block id="fbf4587520308c39c7016ad6d101add1" category="doc">删除规则</block>
+  <block id="24a68a4fec97274fd49860d020d8639f" category="inline-image-macro">删除图标的屏幕截图</block>
+  <block id="a52b681fc51c6e59255655c291a68e13" category="list-text">单击 <block ref="70b6cf72f3806fee90a61a6d4710352a" category="inline-image-macro-rx" type="image"></block> 删除规则。删除此规则后，先前应用此规则的项的状态不会更改。</block>
+  <block id="da19b7c2e291b2b5c0f2a8511e2d737a" category="summary">提供反馈，帮助我们更好地为您服务。</block>
+  <block id="1ae8a55f317d3b2570e79a0b4a668040" category="doc">提供反馈</block>
+  <block id="af22736009e4717f895610ea5e484db8" category="paragraph">您对 NetApp SaaS Backup for Microsoft 365 产品的反馈有助于我们更好地为您提供服务。您可以从内部 SaaS Backup for Microsoft 365 提供反馈。</block>
+  <block id="b94bf479616c645e1d92893ad9ee316d" category="list-text">单击 <block ref="745b42c40461b85675b54d346e429160" category="inline-image-macro-rx" type="image"></block> 在左窗格导航栏上。</block>
+  <block id="1c841320f46ae6c1639dc5e080e3fbf3" category="list-text">选择 * 反馈 * 。</block>
+  <block id="63b9a8e49a30f185f4f2d726a08afb6d" category="list-text">完成简短的反馈调查。</block>
+  <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">单击 * 提交 * 。</block>
+  <block id="6be364524b60c8ce2362d8a248ae8458" category="paragraph">If you want to be notified automatically when production-level documentation is released or important changes are made to existing production-level documents, follow Twitter account @NetAppDoc.</block>
+  <block id="118a5414cacce486de3b92817ef0fe94" category="summary">在注册 SaaS Backup for Microsoft 365 时，建议创建具有全局管理员权限的新 Microsoft 365 服务帐户。</block>
+  <block id="0d3e964d833bab0fc51a9de024483383" category="doc">创建新的 Microsoft Office 365 服务帐户</block>
+  <block id="c0b7d635d4299477fcd9a13db70283b0" category="paragraph">创建新的 Microsoft Office 365 帐户时，此帐户必须具有全局管理权限，并具有有效且已分配的 Microsoft Office 365 许可证。</block>
+  <block id="3822205219da61e0adf663d985249229" category="paragraph">这不是用于管理 SaaS Backup for Microsoft Office 365 的唯一服务帐户。下图显示了不同的服务帐户类型，并在下方进行了说明。</block>
+  <block id="4a9b8df2da2aa8f729da4ec5418ad136" category="paragraph">* 服务帐户说明 *</block>
+  <block id="0eff159375ae2a355a3eeb4485038d4d" category="inline-image-macro">服务帐户类型</block>
+  <block id="45c8d220d9eea59e8b41b248063dcd0a" category="paragraph"><block ref="45c8d220d9eea59e8b41b248063dcd0a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8e63f7e2ba7ffa9a33982b4227a64e05" category="inline-image-macro">红色编号 1</block>
+  <block id="36800229bb8c9b166323037bb647be04" category="inline-image-macro">红色数字 2</block>
+  <block id="f8e57abf7b1ab0f1a13d1fcfa42a1bee" category="inline-image-macro">红色数字 3</block>
+  <block id="bcd69943752734c53a18c52e97e56165" category="paragraph"><block ref="3f6ca1eadf75a5bc523be0ab0decd8d3" category="inline-image-macro-rx" type="image"></block> 用于注册 SaaS Backup 的帐户；注册期间需要具有具有有效 Microsoft Office 365 许可证的全局管理权限。它可用于备份和还原操作。<block ref="a4880b4ac8004f3fc5430fe64280d54f" category="inline-image-macro-rx" type="image"></block> 系统会自动创建一个 * zzzCCconfigAcct* 作为服务帐户来发现 Office 365 组。<block ref="6c9ad94934e447521fdd01be977df60c" category="inline-image-macro-rx" type="image"></block> 可以添加一个额外的服务帐户来提高备份和还原操作的性能。</block>
+  <block id="351674dd4c3367ac2feb58a8a55e3f97" category="section-title">创建具有全局管理员权限的新 MS Office 365 服务帐户</block>
+  <block id="77932588c3a68d6f3ee9a0a5c88c3888" category="paragraph">在注册期间，创建一个具有全局权限和有效 Microsoft Office 365 许可证的帐户。完成注册后，您可以从此帐户中删除全局管理权限和许可证。</block>
+  <block id="1a3f62512f1649d7c2d278df12d6a29a" category="list-text">使用具有管理权限的帐户登录到 Microsoft 365 管理门户。</block>
+  <block id="99fe7b3fbf552951ac69f84baed6cdea" category="list-text">单击 * 用户 * 。</block>
+  <block id="e8a3f369f7aea8805d660e7fad0cec5f" category="inline-image-macro">用户图标的屏幕截图</block>
+  <block id="8319e061d4cde21c648e4bbf823d63cc" category="paragraph"><block ref="8319e061d4cde21c648e4bbf823d63cc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16a1b33f8ec3768b5420fb2e4d9802be" category="list-text">选择 * 活动用户 * ，然后单击 * 添加用户 * 。</block>
+  <block id="4ee40d9a2af73e3448d1189d6a267e61" category="inline-image-macro">Microsoft 365 管理中心的屏幕截图</block>
+  <block id="af8e0c590a6202f4fd3ff65fc2bb2258" category="paragraph"><block ref="af8e0c590a6202f4fd3ff65fc2bb2258" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ebc2bf6b0c8687d635b0a72d8f6652e4" category="list-text">输入新服务帐户的详细信息。</block>
+  <block id="20db0bfeecd8fe60533206a2b5e9891a" category="list-text">名字</block>
+  <block id="8d3f5eff9c40ee315d452392bed5309b" category="list-text">姓氏</block>
+  <block id="bc9e270b7b1a09eeac794d32b3d9dc8f" category="list-text">显示名称</block>
+  <block id="e1c548dfee241e6a271b8779b7c777f4" category="list-text">用户名用户名是服务帐户的名称。</block>
+  <block id="a593b5503558b6488ac5d2afb4077e34" category="list-text">展开 * 角色 * ，选择 * 全局管理员 * 作为角色，然后单击 * 添加 * 。</block>
+  <block id="053677d1f062c4fc0d73d79e2a9a0327" category="inline-image-macro">Microsoft 365 中可用管理员角色的屏幕截图</block>
+  <block id="c5ea5a7b3930b93ff34bed084a59ea38" category="paragraph"><block ref="1b086ef7a53bad9f613f20d483710302" category="inline-image-macro-rx" type="image"></block>服务帐户详细信息将发送给管理员。</block>
+  <block id="008e3413bf3128f4bba846ae136ed6a3" category="list-text">使用新帐户登录到 Microsoft 365 管理门户以激活它。</block>
+  <block id="7309a58659aaaff8f88210e4063ffe2b" category="list-text">注册后，请确保此服务帐户保留三个权限：</block>
+  <block id="d0305102d085d77de52b61207909d47e" category="list-text">Exchange 管理员</block>
+  <block id="7c69695c5fae4b8a30117ad3da3b34b0" category="list-text">SharePoint 管理员</block>
+  <block id="cde8b2b845367a9ef3323f0b1321e90d" category="list-text">应用程序模拟角色</block>
+  <block id="8c8883c0392732f098d638ca9570adf3" category="paragraph">如果您限制全局管理员角色的各个许可证，则这一点尤其重要。</block>
+  <block id="457d4f101995b5a981b7b55330166532" category="section-title">ZZZ Config 帐户</block>
+  <block id="504433e412c79a7932edf8db3c96d8f8" category="paragraph">在 SaaS Backup 订阅中，系统会使用 ZZZ CC Config [GUID] 创建一个新帐户。</block>
+  <block id="b172bcbdeb6f808e9d054be90ab273cd" category="paragraph">此自动创建的帐户用于发现共享 / 归档邮箱和私有组。它应具有 Exchange 和 SharePoint 权限（在 O365 中为自定义管理员）。建议您将此帐户排除在 MFA 策略之外。</block>
+  <block id="86a7fb3ba541c1c3e32ec8023d3ae050" category="paragraph">要避免任何发现或备份失败，请保持帐户不变。</block>
+  <block id="b153d6df04986e031e8cdcee42514143" category="section-title">创建其他服务帐户</block>
+  <block id="c011dc76cd3be918d7b58351091c0ffb" category="paragraph">可以在 SaaS Backup for Microsoft Office 365 中添加服务帐户，以提高客户的备份性能。服务帐户是指没有许可证的 Microsoft Office 365 用户帐户；用于备份和还原操作。</block>
+  <block id="ebe7ee976226a8fc0a086901cc35b2ec" category="paragraph">此类帐户需要 3 个权限：</block>
+  <block id="65745cfa854e2d246b0db140661516ba" category="list-text">Exchange 管理员</block>
+  <block id="ec564c8443249a8ff6ea69218134ff74" category="list-text">SharePoint 管理员</block>
+  <block id="a42a9d9d8fadbaec0e1d4229ccab3f7d" category="list-text">应用程序模拟角色</block>
+  <block id="abf9b2d034585f7ce99f13431ed35fa4" category="paragraph">要添加其他服务帐户，此服务帐户必须已存在于 Microsoft Office 365 环境中。如果您没有现有帐户，请创建一个帐户。</block>
+  <block id="8d9cbf036fe97b0df26a68a540b482a8" category="admonition">为了优化性能，建议您在 Office 365 中为每 1000 个用户添加 1 个服务帐户。</block>
+  <block id="aa609a5b0ac0dabd9c93c931370c7ace" category="list-text">登录到 SaaS Backup for Microsoft Office 365 。</block>
+  <block id="631cb6d0304ba6853f2f328d341ededc" category="inline-image-macro">设置齿轮图标</block>
+  <block id="8753946956023dc5b9115512b60b950c" category="list-text">单击 <block ref="b1edfb541d9b2da7c3aa3ac273577864" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="893a8ddaf0af1dc163da6dcc1f26a639" category="list-text">单击 * 服务设置 * 。</block>
+  <block id="50402350bb3e81c75496f877906980d1" category="inline-image-macro">单击服务设置</block>
+  <block id="4bfff1f5683f164bc4120c8395aa9d0d" category="paragraph"><block ref="4bfff1f5683f164bc4120c8395aa9d0d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="768d18144454e6cec5a96d61cb09fd9c" category="inline-image-macro">加号图标</block>
+  <block id="e433e518ca9b4fe60684ddc7f5581bb7" category="list-text">要添加服务帐户，请单击 <block ref="b85a0429d8ca07f2019bbb29bac661e7" category="inline-image-macro-rx" type="image"></block> 在 * 管理服务帐户 * 下。</block>
+  <block id="20633c67d5bb6033748d448908d3ab39" category="inline-image-macro">单击加号图标以添加服务帐户</block>
+  <block id="993c5a4a97ad1b9085ce6eb9cc4a8e75" category="paragraph"><block ref="993c5a4a97ad1b9085ce6eb9cc4a8e75" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a8e2f7769bc8afae460acb597b749db7" category="paragraph">此时将弹出一条确认消息。</block>
+  <block id="3fe77a73bf9ea3e704bc6cbed44832f8" category="inline-image-macro">添加新服务帐户弹出确认消息</block>
+  <block id="41cb17958d9becc3c217a565cd39ed37" category="paragraph"><block ref="41cb17958d9becc3c217a565cd39ed37" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3c0c36c4d191f655bad518b43e31597c" category="list-text">在 Microsoft Office 365 登录页面上，提供上述服务帐户的凭据以将其添加到 SaaS Backup 。</block>
+  <block id="471dec26ded6b7c1186f46ab9997db3c" category="summary">欢迎访问 NetApp SaaS Backup for Microsoft 365 文档门户。</block>
+  <block id="d6caea3522b7366df1ef706e69eb7090" category="doc">NetApp SaaS Backup for Microsoft 365 文档</block>
+  <block id="4b90c0fa551e1b95c98ebe0691603d94" category="paragraph">NetApp SaaS Backup 是一款基于 Web 的安全软件即服务（ Software-as-a-Service ， SaaS ）产品，可将 Microsoft 365 数据备份到 Amazon S3 存储和 Microsoft Azure Blob 存储。</block>
+  <block id="1fde0727b387439572ade83eecff4f68" category="section-title">了解新功能</block>
+  <block id="145265181362aad8bded8926b3022016" category="inline-link-macro">SaaS Backup for Microsoft 365 中的新增功能</block>
+  <block id="b245589f19640f4ed31a299de4011e33" category="list-text"><block ref="b245589f19640f4ed31a299de4011e33" category="inline-link-macro-rx"></block></block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="section-title">入门</block>
+  <block id="cf9b65815de15d6e0a7614ea04503b18" category="inline-link-macro">开始使用付费订阅</block>
+  <block id="66a8e9a920b348a656e5d56c7551b93b" category="list-text"><block ref="66a8e9a920b348a656e5d56c7551b93b" category="inline-link-macro-rx"></block></block>
+  <block id="42898530241af400fda5327fc771fbaf" category="inline-link-macro">开始免费试用</block>
+  <block id="fa56f3ca29655445c50fe3d7bcce728a" category="list-text"><block ref="fa56f3ca29655445c50fe3d7bcce728a" category="inline-link-macro-rx"></block></block>
+  <block id="6be7a975dc6dadc5a8f294312c3b83d9" category="inline-link-macro">从免费试用版升级</block>
+  <block id="8363fdaf697d320c2f82579236d59eb3" category="list-text"><block ref="8363fdaf697d320c2f82579236d59eb3" category="inline-link-macro-rx"></block></block>
+  <block id="c96ecffde6280d2fa1507c88f273acb6" category="section-title">提供反馈，获取帮助或查找更多信息</block>
+  <block id="c59ff83bf11a6531408fc11e8902566c" category="list-text"><block ref="c59ff83bf11a6531408fc11e8902566c" category="inline-link-macro-rx"></block></block>
+  <block id="3cd12697cda279c9c99b093a265c1ba8" category="inline-link-macro">从何处获取帮助和查找更多信息</block>
+  <block id="60eb37087de824a31913cb25c89ee64d" category="list-text"><block ref="60eb37087de824a31913cb25c89ee64d" category="inline-link-macro-rx"></block></block>
+  <block id="235e8d1a54ecddcf1d3ff533331ed416" category="inline-link-macro">产品页面</block>
+  <block id="8656d7c0c01b2d64d35ced199a5e32e8" category="list-text"><block ref="8656d7c0c01b2d64d35ced199a5e32e8" category="inline-link-macro-rx"></block></block>
+  <block id="8c0b7124c43b10c0d456f666884deded" category="inline-link-macro">解决方案简介</block>
+  <block id="94c4d110d7d7c45d9f0401f3e894e286" category="list-text"><block ref="94c4d110d7d7c45d9f0401f3e894e286" category="inline-link-macro-rx"></block></block>
+  <block id="1ec574257b8a9d0b57e964b4eba66ddf" category="summary">您可以查看已清除的邮箱或用户帐户列表。</block>
+  <block id="6d997e84fe0c81277b98ea3c000c76ec" category="list-text">单击 <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block> 位于左上角的 SaaS Backup 用户 ID 旁边。</block>
+  <block id="ff0244144bc03606b2edcb1e3bcd4350" category="list-text">选择 * 帐户设置 * 。</block>
+  <block id="e5c1d95016a1ed09953b597cad3e8d3a" category="list-text">在 * 清除数据 * 下，单击 * 显示已清除列表 * 。</block>
+  <block id="d8091fc55883e9e6fecd0030e2b022a3" category="paragraph">您可以查看计划清除的项目列表以及已清除的项目列表。</block>
+  <block id="e9ca6da7a1d41ccd25cae73c996ab02a" category="summary">激活支持后，您可以通过电话，在线聊天或 Web 服务单系统访问技术支持。</block>
+  <block id="83f88ebd41a2d4bf2440a2d134086a74" category="doc">激活支持</block>
+  <block id="1d66d7cc63a334746d671e14b2982f40" category="paragraph">如果您通过 NetApp 购买了 SaaS Backup ，则默认情况下会激活支持。如果您通过 AWS 等云市场购买了 SaaS Backup ，则必须激活支持。激活支持后，您可以通过电话，在线聊天或 Web 服务单系统访问技术支持。</block>
+  <block id="b4bb5829d02f0e6ae890ecb7e5e4b540" category="paragraph">如果要从 SaaS Backup 的试用版升级，您可以在完成升级过程之前或之后激活支持。</block>
+  <block id="661792ef5e2f0774f4e4af5a84b381b3" category="paragraph">要激活支持，您必须具有 NetApp SSO 用户 ID 和密码。如果您没有 NetApp SSO 帐户，请转至<block ref="b56b58ae2c0373b02c7437e945163b59" category="inline-link-rx"></block> 注册一个。处理完您的请求后，您将收到一封电子邮件通知，其中包含您的 NetApp SSO 凭据。处理此请求并发送通知电子邮件大约需要 24 小时。</block>
+  <block id="de7f7e804841b50289ac8b7bfe9210c8" category="inline-image-macro">MS 服务设置图标</block>
+  <block id="5281ebf1bde282868c196cdcb2365e84" category="list-text">单击设置图标 <block ref="db2cd4431e8f265a98c4345e0980d802" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="7618f09daf91e446d0b6bdedbf40da74" category="list-text">在 * 激活支持 * 框中，单击 * 激活 * 。</block>
+  <block id="b1a1fe6a5f36f4773bea9cc983a1b11a" category="list-text">输入您的 NetApp SSO 用户名和密码。</block>
+  <block id="16f533344992e39a95d4d5db43fdcbd8" category="list-text">单击 * 激活 * 。</block>
+  <block id="26aca1efdf61bf87d67652819c9abc08" category="paragraph">支持状态现在为 * 活动 * 。</block>
+  <block id="189379d165979226deca7a9b54924e65" category="summary">任何常规邮箱用户或归档邮箱用户（无论是受保护还是未受保护）都会使用许可证。如果某个特定用户不再需要某个许可证，您可以释放该许可证，以便可以重新分配该许可证。</block>
+  <block id="493a351c3f6933245fd7e8c6213165e4" category="paragraph">任何常规邮箱用户或归档邮箱用户（无论是受保护还是未受保护）都会使用许可证。如果某个特定用户不再需要某个许可证，您可以释放该许可证，以便可以重新分配该许可证。释放用户许可证后，此用户将移至未受保护的层，并且此用户的备份将停止。</block>
+  <block id="316cc47307ce102eec21fe0b27e99767" category="admonition">共享邮箱不使用许可证。</block>
+  <block id="2f85cec97875fbe1554ba102db882d51" category="list-text">在 * 释放许可证 * 下，开始键入要释放其许可证的用户的帐户名称。</block>
+  <block id="efc09c83ec7ff5984fef64634663f5dd" category="inline-image-macro">蓝色加号图标</block>
+  <block id="5f038bc03fd0b3b96a1a57553fae59c9" category="list-text">找到帐户后，从自动填充列表中选择该帐户，然后单击 <block ref="196c8e0673c96199553d3e57046ae92d" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="c4a60f1b47020d12e3f68c8054383679" category="list-text">根据需要添加其他帐户。</block>
+  <block id="931d61f7fce4d349c66567b3121f9f12" category="list-text">单击 * 发布 * 。</block>
+  <block id="028267b423a85fe509359c80bae16615" category="list-text">单击 * 是，请释放许可证 * 。</block>
+  <block id="a64afcb574fca4c96b15a10e22a0c39d" category="summary">在 NetApp SaaS Backup for Microsoft 365 中，您可以授予启用共享邮箱的权限。</block>
+  <block id="4f77d86ba01ed01cc7689b609c3a0e0a" category="doc">授予启用共享邮箱的权限</block>
+  <block id="95f3075215d2bc775164c818bdb73dc1" category="paragraph">您可以授予在 NetApp SaaS Backup for Microsoft 365 中启用共享邮箱的权限。</block>
+  <block id="3020a4b1514f0cb1e3361ec6aa64c424" category="list-text">单击 * 授予同意 * 。</block>
+  <block id="c7dc1d3f720e6d88cc639bc7357d091d" category="inline-image-macro">授予同意图标的屏幕截图</block>
+  <block id="68f6dd0b0b4c264c7db656eaa11d8e71" category="paragraph"><block ref="68f6dd0b0b4c264c7db656eaa11d8e71" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9715f71b9933d29dc5f912c216bb441d" category="paragraph">您将重定向到 Azure 授权页面进行身份验证。</block>
+  <block id="0d845fd5a39ea33b7fec7e5555e21866" category="list-text">选择您的租户帐户。</block>
+  <block id="8773db42e927ef3e4990df3c5eda63ed" category="list-text">* 接受 * 权限。您的共享邮箱将在下次计划的 * 自动同步 * 期间被发现，您也可以执行 * 立即同步 * 。如果您正在进行 * 立即同步 * ，则需要几分钟的时间才能发现共享邮箱。</block>
+  <block id="9fcd7ad814c5e9f3d9fe76e295e8b851" category="list-text">要在 * 自动同步 * 或 * 立即同步 * 之后访问共享邮箱，请执行以下操作：</block>
+  <block id="a310d658bc1a2f57b470e15e1e89cb0c" category="list-text">单击 * Microsoft Exchange Online * 。</block>
+  <block id="4faf1251828cc6acc6b3b36ba5f25f79" category="list-text">单击未受保护的邮箱的数量。</block>
+  <block id="bc58035dc37b9c7a8c2441d74af2073c" category="list-text">单击 * 共享 * 选项卡。</block>
+  <block id="8d70214cbd536abf36aeb64c442660f0" category="summary">Microsoft SharePoint Online 仅支持某些模板和应用程序。</block>
+  <block id="88d28573ab9ffce58598946fe0434eab" category="doc">Microsoft SharePoint Online 中支持备份的模板和应用程序</block>
+  <block id="ffde9454ef8c9e67824671b5f90ef4b3" category="paragraph">Microsoft SharePoint Online 备份仅支持某些模板和某些应用程序。</block>
+  <block id="7a1f04b2d3d1f53a86a127a04ae05ffa" category="section-title">支持的模板</block>
+  <block id="6d4899d90ff8e885f5d6afb716947caa" category="paragraph">Microsoft SharePoint Online 备份仅支持以下模板。</block>
+  <block id="f147e417e253f3649fa08ee3c726c5b6" category="list-text">STS#0 （团队站点）</block>
+  <block id="cddb8b7e396a9448541f168d850a1c89" category="list-text">博客 0 （博客站点）</block>
+  <block id="8895ca3fefee90156397266d924d5e41" category="list-text">dev#0 （开发人员站点）</block>
+  <block id="9a492fb411effb6def9bd750ee241502" category="list-text">PROJECTSITE#0 （项目站点）</block>
+  <block id="4319f1f8a534389d362338effa71fde1" category="list-text">社区 0 （社区站点）</block>
+  <block id="aeb0ae5333eb1d0d3a620b3e0a965e46" category="list-text">BDR#0 （文档中心）</block>
+  <block id="fcbb87b18a7ec7bfea87fd82fea3125e" category="list-text">COMUNITYPTAL#0 （社区门户）</block>
+  <block id="a58b4305f2ff2b8240ab4d9a837c1cd9" category="list-text">ENTERWIKI#0 （企业级 wiki ）</block>
+  <block id="5a9fa37a8adc9079710c82bebd381be2" category="list-text">EHS#1 （根站点）</block>
+  <block id="a1c702db865ff7988cecde653d31e549" category="list-text">EHS#0 （根站点）</block>
+  <block id="e69fe81e6c14067bfa02448cc56f0d90" category="list-text">SITEPAGEPUBLISHING#0 （通信站点）</block>
+  <block id="cd6b1dceac9feb15ce679e63c41ec14b" category="list-text">组 0 （组站点收集前缀）</block>
+  <block id="02331da6f964bf5a355bef176199392c" category="list-text">STS#1 （空站点）</block>
+  <block id="370f28e84c7e5f280c6384763af39ff8" category="list-text">STS#2 （文档工作空间）</block>
+  <block id="bb39ae34f785130781c5d7c8f66840ca" category="list-text">STS#3 （现代团队站点）</block>
+  <block id="fa553c3989f3b275c2fd19183b6219e5" category="list-text">APP#0 （应用程序模板）</block>
+  <block id="4d9496325ef678735e8ac8b99b7a562b" category="section-title">支持的应用程序</block>
+  <block id="9290c29ee8fb1ca756074402eebf6a86" category="paragraph">Microsoft SharePoint Online 备份支持以下应用程序。</block>
+  <block id="f10f8b5e27c8e52848c81fc8f1025dbb" category="list-text">自定义列表</block>
+  <block id="39a1c3324bea872bb648de4db9d34f65" category="list-text">标志（社区站点）</block>
+  <block id="619974b872863ee37df921d6fa6d5fa0" category="list-text">文档库</block>
+  <block id="93db1285bfd434b8930d19c0317cab66" category="list-text">样式库</block>
+  <block id="9fd9f9ccd630cd4b6894051c35710572" category="list-text">调查</block>
+  <block id="97e7c9a7d06eac006a28bf05467fcc8b" category="list-text">链接。</block>
+  <block id="feb4d2dfe1b2a637fdfd9e397cc4735f" category="list-text">公告</block>
+  <block id="bbaff12800505b22a853e8b7f4eb6a22" category="list-text">联系方式</block>
+  <block id="8ff922bbcd8ad41cdfc48d3c5163b2ab" category="list-text">日历</block>
+  <block id="22628ee5c8124425119177cbb4b7f11a" category="list-text">讨论板</block>
+  <block id="5daaf223b01f8f3e1bd9287170826fbc" category="list-text">照片</block>
+  <block id="c893ad8eb8595aa4966d36f7c951e53a" category="list-text">图片库</block>
+  <block id="c6e0e5576576561ca3ab7a08fba1f7a9" category="list-text">内容 Web 部件</block>
+  <block id="bd6f28d24237dcd576da3b1d271c6bb4" category="list-text">列表模板库</block>
+  <block id="5c0403cae0d3e889faa5cde29844e8b6" category="list-text">主页库</block>
+  <block id="b06e76b30400670419eb3d90983679ea" category="list-text">站点页面</block>
+  <block id="37033834962577c013de59b70186ef39" category="list-text">数据集视图中的自定义列表</block>
+  <block id="e5a591a549bc8d8ad0eefd2eb559be06" category="list-text">解决方案图库</block>
+  <block id="7c37bb7776a666a8c97f5927c5e3019b" category="list-text">主题库</block>
+  <block id="9c8b01903f7a166e54dfb3193525d5cb" category="list-text">组合外观</block>
+  <block id="cb4aae25d345e7b466586057b46028a2" category="list-text">已提升的链接</block>
+  <block id="ef615563c8e8ea902c7fcac3cd2c4246" category="list-text">任务</block>
+  <block id="f7d0ca23f2c157d8d0ac07fac914b66a" category="list-text">文章（博客站点）</block>
+  <block id="cce8835734dfe9b7c2260452dcd854e9" category="list-text">注释（博客站点）</block>
+  <block id="2521c54712ade1513d67eadc3ffe3e4b" category="list-text">社区讨论（社区站点）</block>
+  <block id="6a2881dbd014f4890617b3c20c3c834d" category="list-text">类别（博客站点）</block>
+  <block id="4e580e9e8258dd6fb9e7c90fdda37f10" category="list-text">社区类别（社区站点）</block>
+  <block id="4b1b4dc8cf38b3c64b1d657da8f5ac8c" category="list-text">report</block>
+  <block id="e87f48c9651c58d2e58f8947cf30a34c" category="list-text">维客页面</block>
+  <block id="047a64de34ae096a1f0493bdf42f1b6e" category="list-text">站点收集映像</block>
+  <block id="43564d902352df1c4547a1b9d6430104" category="list-text">社区成员（社区站点）</block>
+  <block id="aea05eb879cbace15fd2959b2ec60ef5" category="list-text">问题描述跟踪</block>
+  <block id="ef11d90479ba66a9b7d50d6adb0da043" category="list-text">记录库</block>
+  <block id="455f6098c420b0bff4fdf54a1d28b8f0" category="list-text">共享链接</block>
+  <block id="2b100896fd5ace4912e319bc7463b16e" category="doc">下载日志</block>
+  <block id="71e10f307eb67cf11b3c8491ba81ada2" category="paragraph">SaaS Backup for Microsoft 365 会将作业历史记录日志存储在 SaaS Backup 中。您可以下载作业历史记录和已完成作业列表。</block>
+  <block id="f39d5e4a0ca51b5797a15d5a59800636" category="section-title">下载活动日志</block>
+  <block id="683a30dcf68da19fa7d752c8a646ea55" category="paragraph">SaaS Backup for Microsoft 365 中发生的所有活动都会存储一个日志。日志包含执行的每个操作的日期以及执行此操作的用户的名称。您可以将活动日志下载到 .csv 文件。</block>
+  <block id="f8c22c875f33cf292d73c2bd4b796b94" category="inline-image-macro">报告按钮的屏幕截图</block>
+  <block id="62dfcc416a909d0b514ad9498c15b330" category="list-text">单击 <block ref="4d37c5c06095f49489880486f6cecedf" category="inline-image-macro-rx" type="image"></block> 在左侧导航窗格上。</block>
+  <block id="efbc204072818255ba9c14dc629ecef6" category="inline-image-macro">活动日志右角的下载按钮屏幕截图</block>
+  <block id="0451932b8f9f16771678dd8444b05db0" category="list-text">单击 <block ref="8285a9a440103314bcc682b074e144c6" category="inline-image-macro-rx" type="image"></block>。活动日志将以 .csv 文件的形式下载。</block>
+  <block id="a63c048cb125925e1dea8559a15a73d2" category="section-title">下载已完成作业的日志</block>
+  <block id="206cafe50afeceb05656e65b5eeea3d1" category="paragraph">您可以下载已成功完成作业的 Excel 电子表格。</block>
+  <block id="dc2296bcbbf577d0c71c246ab0dc16ab" category="list-text">单击左侧导航窗格中的 * 作业 * 。</block>
+  <block id="8e8a9acf98ec7d0411283da387bff609" category="list-text">单击要下载的最近完成的作业。</block>
+  <block id="dc495b0a8dcf317d914282ad520f23df" category="list-text">单击已成功完成作业数下的 * 成功 * 。</block>
+  <block id="ca152ee44aaca7ea331cd6414faef3b6" category="inline-image-macro">已完成作业的屏幕截图</block>
+  <block id="4f79d34e8a67f46e4d44fe71bfa9e224" category="paragraph"><block ref="4f79d34e8a67f46e4d44fe71bfa9e224" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="44a9afe6289f79f3f0b2cdf6f756c7d3" category="list-text">单击右上角的 * 下载 * 。此时将下载日志。</block>
+  <block id="23161a5e63c9c44494f871a1608a273d" category="summary">您可以在 NetApp SaaS Backup for Microsoft 365 社区论坛和知识库文章中获得帮助并找到更多信息。</block>
+  <block id="f22c49ab181fc5052dc2afb2f7870c8a" category="paragraph">可以通过导航菜单上的 * 支持 * 链接在 SaaS Backup 中访问这些资源。</block>
+  <block id="5b335e9f3b0633102d36e44b53625fd3" category="summary">您可以更新备份设置以控制各种备份选项。可用的备份设置因服务而异。</block>
+  <block id="39f9a6c8eeeb26793705badba6b76362" category="doc">备份设置</block>
+  <block id="ac9d3c00a505101ed1e06441d85735b3" category="section-title">每个服务的备份设置</block>
+  <block id="619750f91d862423798373be968432f4" category="cell">备份设置</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Description</block>
+  <block id="00d23a76e43b46dae9ec7aa9dcbebb32" category="cell">enabled</block>
+  <block id="d80bfd170dd3773e01c0fb40cb25219a" category="cell">可在中使用</block>
+  <block id="016e420685040222b9875fc6b3710684" category="cell">自动同步</block>
+  <block id="c0cee666cc21d0d6d3f12cf54ec37d55" category="paragraph">每 24 小时自动同步一次新添加或删除的用户， OneDrives 或站点集合。</block>
+  <block id="e9f7009a3509f4da8ce78cbad712b8a5" category="cell">默认情况下。</block>
+  <block id="fca7b3b0233475838090cb1abc9b407e" category="list-text">Microsoft Exchange Online</block>
+  <block id="329fec6008d2dac2b0e269dd3e99dd8f" category="list-text">Microsoft SharePoint Online</block>
+  <block id="4aaef138780beea79c57ea12a1cdb616" category="list-text">Microsoft OneDrive for Business</block>
+  <block id="cc0c27c7f59e83f33f7ce4e86450e360" category="list-text">Microsoft 365 组</block>
+  <block id="6da6d3d90596106740200e7c8200aa47" category="cell">启用 OneNote 备份</block>
+  <block id="d726253eeefad57004924165f252e7a6" category="paragraph">启用对 OneNote 笔记本的备份。</block>
+  <block id="826c19d01b527f2701cc3460b9c889de" category="cell">手动</block>
+  <block id="949e9195eef2fe24fc2dfc01f544f126" category="cell">启用可恢复项目的还原</block>
+  <block id="ee68ea3fa60d667702f03f23d8e22d21" category="paragraph">允许用户还原 Microsoft Exchange 可恢复的项目。</block>
+  <block id="ce1356c00d37fc25350c7516025a9d0c" category="cell">启用可恢复项目的备份</block>
+  <block id="c176e8be3bb2df779a5d12a4701d99c2" category="paragraph">启用 Microsoft Exchange 可恢复项的备份。只有第 1 层备份策略允许备份可恢复的项目。</block>
+  <block id="a995389c49194b68e0749843ec7e69a1" category="cell">包括工作流</block>
+  <block id="f4030056a1c628eca00452d58c4a330b" category="paragraph">在备份中包括工作流。</block>
+  <block id="20046b385b1b586492e70cfebf8eb108" category="cell">包括列表视图</block>
+  <block id="4de3a646759ee7e654cea6041fcd5c59" category="paragraph">在备份中包括列表视图。</block>
+  <block id="ce5042bb63f8278c49598fde61f8945e" category="cell">包括版本历史记录</block>
+  <block id="090fdf496b3a3c98b47cacb6308159ad" category="paragraph">支持在备份中维护多个文件版本。</block>
+  <block id="d3d26bbc2d70b82ae3aa8158b324cfc3" category="admonition">此设置仅适用场景单个文件。它不适用于整个文件夹，层或服务。</block>
+  <block id="654bf677132bda977889396348f87202" category="cell">版本数</block>
+  <block id="13acecebbbd0ca2e6afa122ec1d4809c" category="paragraph">设置要维护的备份文件版本数。默认情况下，系统会自动备份最新版本，即使未启用此设置也是如此。</block>
+  <block id="e871c947345cf496e214e1db0324d8f7" category="cell">默认设置为 20</block>
+  <block id="85a86867d1d4ec61a552e99542bdde26" category="section-title">更新备份设置</block>
+  <block id="573e26a27d5af2a3ee2613d71b6f3bd6" category="list-text">单击左侧导航窗格中的 * 服务 * 。</block>
+  <block id="5dae113680257bfa8a9a9f41c78b194f" category="paragraph"><block ref="5dae113680257bfa8a9a9f41c78b194f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33989930102951f2d357835c47ab758c" category="list-text">单击 Microsoft 365 。</block>
+  <block id="f3a09c346a0939534943e1765af14ca8" category="list-text">在 * 管理服务 * 下，单击备份设置图标 <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block> 在需要更新的服务旁边。此时将显示可用于选定服务的备份设置列表。</block>
+  <block id="28cc97006f71a367003b706a5e09da20" category="list-text">选择所需的备份设置。</block>
+  <block id="38f5aa5092df020d3cbfa1f4a86c2ec1" category="summary">NetApp SaaS Backup for Microsoft 365 是一款基于 Web 的安全软件即服务（ Software-as-a-Service ， SaaS ）产品，可将 Microsoft 365 数据备份到 Amazon S3 存储或 Microsoft Azure Blob 存储。</block>
+  <block id="2f436bac94b3ef6b8baa68dcaa3e1c00" category="doc">NetApp SaaS Backup for Microsoft 365 概述</block>
+  <block id="32796454d262148a13da4e9b1ee67147" category="paragraph">NetApp SaaS Backup for Microsoft 365 是一款基于 Web 的安全软件即服务（ Software-as-a-Service ， SaaS ）产品，可将 Microsoft 365 数据备份到 Amazon S3 存储或 Microsoft Azure Blob 存储。SaaS Backup 为空闲和传输中的数据提供加密。</block>
+  <block id="0e465002245828506a54021571ded8ad" category="inline-image-macro">SaaS Backup for Microsoft 365 从 Microsoft 365 备份和还原到可用存储选项的图形概述。</block>
+  <block id="3ec4d128dfee87634b3996d51a3dba51" category="paragraph"><block ref="3ec4d128dfee87634b3996d51a3dba51" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6b09ab256ee91abfcbae14dc82d761dc" category="inline-xref">备份设置</block>
+  <block id="dd391d5eb69f6ac3ad69cdea778bd111" category="paragraph">您可以更新 <block ref="2e592cc5a678838965aee2c9a9ecd6e7" category="inline-xref-macro-rx"></block> 控制各种备份选项。可用 <block ref="2e592cc5a678838965aee2c9a9ecd6e7" category="inline-xref-macro-rx"></block> 因服务而异。</block>
+  <block id="279ee743f91b8d9d2e194a5cc60edf39" category="summary">您可以在 NetApp SaaS Backup 中以各种方式管理服务，包括激活新服务，停用现有服务，清除数据和取消作业。</block>
+  <block id="7d735cae736c4d6f5e334d312ae9db1f" category="paragraph">您可以完全删除与用户，站点集或 Microsoft 365 组关联的所有数据。清除的数据可在七天内恢复。七天后，数据将被永久删除，用户许可证将自动释放。</block>
+  <block id="1caa902112b42d538aa48a404aed49df" category="list-text">单击配置图标 <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block> 位于左上角的 SaaS Backup 用户 ID 旁边。</block>
+  <block id="0ecc794c57963be54ab37fd5945b22c4" category="list-text">在 * 清除数据 * 下，从下拉菜单中选择 * 服务类型 * （ Exchange ， OneDrive 或 SharePoint ）。</block>
+  <block id="0b8916bcfec132a5710165dd6a4cdb67" category="list-text">搜索要清除的用户，站点集或 Microsoft 365 组。对于 Microsoft Exchange Online 或 OneDrive for Business ，请输入用户或 Microsoft 365 组名称。对于 SharePoint Online ，输入站点收集名称。+ 注意：如果用户拥有归档邮箱，则归档邮箱的用户名前面会加上 " 原位归档 " 。</block>
+  <block id="675107b136168f3b1529cdd9e5203bf5" category="list-text">搜索结果返回后，单击 <block ref="196c8e0673c96199553d3e57046ae92d" category="inline-image-macro-rx" type="image"></block> 可选择用户，站点集或 Microsoft 365 组。</block>
+  <block id="b49fdb326c966a3dd88a042831a9f144" category="list-text">单击 * 是 * 确认要清除数据。</block>
+  <block id="df86d903ec4b70625d686c38eb8daca1" category="doc">通过 Marketplace 注册付费订阅</block>
+  <block id="f9c37692182ce74e92181f4147c3997b" category="paragraph">如果您通过 Marketplace 购买了许可证，则会显示许可证信息。按照以下步骤完成注册过程。</block>
+  <block id="7b6a8fe6d34ca4e7afc0b27bc3582ea0" category="list-text">选择您的 * Amazon S3* 或 * Azure Blob * 作为存储类型。</block>
+  <block id="f93b9215b4cf6cc65bd1c26057ee8382" category="list-text">选择备份的存储区域。您应选择与要备份的数据的物理位置最接近的区域。* 首选 * 区域将标记为此区域。</block>
+  <block id="1add4107c561215f87879f537c668438" category="summary">您可以更新，添加或续订许可证。</block>
+  <block id="24107a07a8c4f6a917374c7796d10911" category="paragraph">购买附加许可证或订阅扩展后，您可以在 SaaS Backup 中更新订阅详细信息。</block>
+  <block id="7901d194d9941dfce88276e12fdf81dc" category="admonition">任何常规用户邮箱，无论是受保护还是未受保护，都会使用许可证。共享邮箱不使用许可证。</block>
+  <block id="b7408664f2049ff408a7abe1385870ea" category="list-text">单击 <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block> 位于右角。</block>
+  <block id="335667a29d4d16064c66f675b3f3c215" category="list-text">单击订阅详细信息旁边的 * 更新 * 。</block>
+  <block id="b25e6aa4b8585ffe6e9c679b4b763d43" category="list-text">输入首次注册时使用的相同用户名和密码。</block>
+  <block id="6295a9cc66be5476ec7f7b659b57ee9f" category="summary">如果您已启动即时备份或即时还原，但需要在完成之前取消它，则可以执行此操作。</block>
+  <block id="24391a0c4e58147fa07febdb32887a1a" category="doc">取消作业</block>
+  <block id="c4847d7d96f65dca923f79caeb317cfd" category="list-text">单击 <block ref="57896efc0de0d48cea535446c297cd85" category="inline-image-macro-rx" type="image"></block> 从左侧导航窗格中。</block>
+  <block id="e103be6f64222dbfd978e48abb80646b" category="list-text">在 * 最近正在运行的作业 * 下，单击要取消的作业。</block>
+  <block id="14746ab9705143711849289cd0368e51" category="list-text">单击 * 取消 * 。已取消作业的进度显示在 * 最近完成的作业 * 下。</block>
+  <block id="1bdac635ce4139030bb822472e615a6d" category="summary">要注册免费试用 SaaS Backup for Microsoft 365 ，您必须具有激活代码。</block>
+  <block id="22e2acbc5d542c00c7ad5d2693661006" category="doc">注册获取免费试用激活代码</block>
+  <block id="33802f42e0a28dafca8f766c0830bd74" category="paragraph">要注册免费试用 SaaS Backup for Microsoft 365 ，您必须具有激活代码。您的渠道合作伙伴或销售代表可能已向您提供激活代码。否则，您必须注册才能收到一个。</block>
+  <block id="29e9455249b19d05b4fb1352b5c216da" category="list-text">单击<block ref="e8cec0ed878027a1aa2ac01b473adb49" category="inline-link-rx"></block> 转到 SaaS Backup for Microsoft 365 免费试用 URL 。</block>
+  <block id="a189a1df7360b047444647d114f49f87" category="list-text">输入请求的注册信息并单击 * 提交 * 。您将收到一封包含免费试用激活代码的电子邮件。</block>
+  <block id="7e01d5441a2bbda36f29dd5a8d2561b7" category="doc">注册申请免费试用 SaaS Backup for Microsoft 365</block>
+  <block id="c84082e63d1052aedfca36e4dd31f521" category="section-title">使用 Microsoft 365 服务帐户注册免费试用版</block>
+  <block id="a77d2ddc9e5b2a10c6306021816e1292" category="paragraph">使用 Microsoft 365 服务帐户注册免费试用版的用户需要启用基本身份验证才能使用 SaaS Backup 。SaaS Backup 仅支持基本身份验证。如果您的 Microsoft 365 租户是从 2020 年 10 月开始创建的，并且未记录使用情况，则可能会遇到身份验证失败。请确保为 Microsoft 365 服务帐户禁用现代身份验证。</block>
+  <block id="cb7275d9b71e140a3f1a91d0c6cc0747" category="list-text">输入 Microsoft 365 测试或试用帐户的电子邮件地址和密码，然后单击 * 登录 * 。此时将显示 SaaS Backup for Microsoft 365 请求的权限列表。</block>
+  <block id="e2dfed3093092bbfc3bed3cf01111b0a" category="list-text">选择 * 免费试用 * 作为订阅类型。</block>
+  <block id="e7a56e29d931a374c7958199f1bafb29" category="list-text">输入渠道合作伙伴或销售代表提供的或通过注册电子邮件获取的免费试用激活代码。</block>
+  <block id="e11100ed191aa6f176c829759972cfce" category="list-text">选择存储选项。</block>
+  <block id="808117ba1d01d824c38cce84a65e2cf0" category="section-title">使用 NetApp SSO 帐户注册免费试用版</block>
+  <block id="69dc20d3740095eb96943daf74d8b8d7" category="list-text">单击 * 注册 NetApp SSO* 。</block>
+  <block id="481c2d7848531f12a7fd6f119c471514" category="paragraph"><block ref="481c2d7848531f12a7fd6f119c471514" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cdf30a87c9430cc5bdc1044ad7e168e9" category="list-text">输入请求的用户信息，然后单击 * 注册 * 。您需要获得渠道合作伙伴，销售代表或注册电子邮件中提供的免费试用激活代码。</block>
+  <block id="d5d752284cf9b3813c6cb75800200063" category="list-text">单击 <block ref="033e893069dbe1c51622ec6c06fe3419" category="inline-image-macro-rx" type="image"></block> 图标。</block>
+  <block id="fedadd6f719e834650ca6c6945b6f6dd" category="list-text">单击 <block ref="b6f2e54c54e3104f5cb63e0dad75def5" category="inline-image-macro-rx" type="image"></block> 以选择 SaaS 服务。</block>
+  <block id="531c29ba69b5ebe332db5b68278c5add" category="list-text">选择 * 免费试用 * 作为订阅类型。输入您的渠道合作伙伴或销售代表提供的激活代码，或者通过电子邮件从营销代表获取的激活代码。</block>
+  <block id="7537f96c2f035f3bf4023172c5e1b6f7" category="list-text">选择备份存储选项。</block>
+  <block id="17a7f7612ee5c332c72c543bfc879c0a" category="summary">SaaS Backup for Microsoft 365 具有三个预定义的备份策略层。根据您使用的是 SaaS Backup 提供的存储还是 BYOS ，这些策略层的备份频率和数据保留期限会有所不同。</block>
+  <block id="a0f6625830185faf63102ac6f8475d06" category="paragraph">SaaS Backup for Microsoft 365 具有三个预定义的备份策略层。根据您使用的是 SaaS Backup 提供的存储还是 BYOS ，这些策略层的备份频率和数据保留期限会有所不同。</block>
+  <block id="4dc87dc04732df6a76651e7d1f0cb0e7" category="paragraph">您可以在这三个策略之间移动数据，但不能创建新策略或更改预定义层的参数。</block>
+  <block id="cce23dfd8a8429eb8a553d0789561b40" category="section-title">SaaS Backup 提供的存储的备份策略</block>
+  <block id="7759a4720271a1ab3b4e6b1c36a67058" category="cell">备份策略</block>
+  <block id="4e92547e997fe98c132fd1cfb873bc65" category="cell">备份频率</block>
+  <block id="fd597450368b610e3110c7036f852ae9" category="cell">默认数据保留期限</block>
+  <block id="538a4400e894e9e5dbff6dcd6e9d6e17" category="cell">第 1 层</block>
+  <block id="82875668baf626071ef9cf3c751ec69c" category="cell">每 12 小时一次</block>
+  <block id="89ee81dad12fa06ec6a5b8461129cdd0" category="cell">3 年</block>
+  <block id="3e335d546de3fa7d51e6942ccc8339b7" category="cell">第 2 层</block>
+  <block id="585a8bd659fa917cebfb861f91e2e30b" category="cell">每 18 小时一次</block>
+  <block id="83ee9728e65dff5bbbf6297550157b9e" category="cell">第 3 层</block>
+  <block id="81ab7d159caeeff3fad2829d4a3d72bd" category="cell">每 24 小时一次</block>
+  <block id="ba2732ae170f2661137875b2933074e1" category="admonition">作为管理员，您可以更改 SaaS Backup 提供的存储的数据保留期限，最长不受限制。如果订阅处于活动状态， SaaS Backup 会保留保留保留期限内的备份数据。</block>
+  <block id="98d7bf286c797b48801a0d31c2bae53c" category="section-title">BYOS 的备份策略</block>
+  <block id="c9830d418bce60d67ea2c8c1282b22c6" category="paragraph">BYOS 仅适用于现有客户。</block>
+  <block id="545f6c2f382c04810103b3e5e6f7d841" category="cell">无限制</block>
+  <block id="b2b6d10003a21b40160d053ed3a00ba2" category="doc">设置通知</block>
+  <block id="1e176ca8879f6fc670eb851ef5779172" category="paragraph">您可以将用户添加到帐户通知中，然后选择希望每个用户接收的特定通知。例如，您可以选择让用户在每次还原失败时都接收电子邮件通知。</block>
+  <block id="cf46b5c723d03816ad4b8dd9fba743b9" category="list-text">单击 * 通知管理 * 。</block>
+  <block id="9250b78e6a328eacd44a07c99d2a0cab" category="list-text">输入要接收通知的帐户的电子邮件地址。</block>
+  <block id="25d81c81026caeb07b553fb6ba5526fd" category="list-text">单击 * 添加通知 * 。此用户将添加到通知帐户列表下。</block>
+  <block id="1c6b9805f5abf62ed9eddc51c5139d8e" category="list-text">选择希望用户接收的特定通知。</block>
+  <block id="00d00355ef5711acd5599efd3315cf5a" category="summary">您可以为 OneNote 笔记本启用备份。</block>
+  <block id="d5e9bda7904a428d68232d420c3c087b" category="paragraph">默认情况下，对 OneNote 笔记本的备份处于 " 备注 " 状态。如果要备份您的 OneNote 笔记本，则必须在所需服务中启用备份。</block>
+  <block id="d52057f77121ba5d329ef88b3f129278" category="list-text">在 * 管理服务 * 下，单击备份设置图标 <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block> 在需要更新的服务旁边。</block>
+  <block id="ae37372db7f9078c06178418ba51642b" category="paragraph">此时将显示可用于选定服务的备份设置列表。</block>
+  <block id="057376ad330227f899f9aaacfd22dabf" category="list-text">选择 * 启用 OneNote 备份 * 。</block>
+  <block id="9846982bfecd18e5a3a222687054cefb" category="inline-link-macro">即时备份</block>
+  <block id="883e688529c085dc1c7223323e70395c" category="list-text">单击 * 确认 * 。笔记本电脑将包含在下次计划备份中。如果您希望立即备份它们，请执行 <block ref="1a879ada2b33330864ad3e17ea446b89" category="inline-link-macro-rx"></block>。</block>
+  <block id="29361fe2d7a43657b32954e1b6bac18d" category="summary">您可以使用 SaaS Backup for Microsoft 365 对 Microsoft SharePoint Online 执行粒度级还原。</block>
+  <block id="d0db67ae234f058e70769c92e92dad3d" category="doc">对 Microsoft SharePoint Online 执行粒度级还原</block>
+  <block id="2803cf9eab93f01220a853b99db2e904" category="paragraph">在 Microsoft SharePoint Online 中，您可以还原单个用户的粒度级别项目，例如单个文件夹或文件。您还可以还原 Microsoft 365 组站点和 OneNote 笔记本的粒度级别项目。站点角色和权限会在还原或备份过程中自动受到保护。</block>
+  <block id="aef8343d1e3fbc666a5bf3fc7e3da601" category="paragraph">下表显示了粒度级别项目支持的还原选项。</block>
+  <block id="2380a2f5b8d08ee084abd8643a19e553" category="admonition">对于恢复选项 * 还原到同一站点 * 和 * 还原到另一站点 * ，以下项将按照命名约定 &lt;siteName_cc_timestamp&gt; 还原为选定站点下的子站点： * 单站点 * ， * 多个站点 * 和 * 单个 / 多个列表 * （如果选择了 3 个或更多列表）。</block>
+  <block id="4d517f410fcfc73e9fcd9fab586b2f74" category="cell">SharePoint Online &gt; 站点 &gt; &lt; 站点名称 &gt; &lt; 列表名称 &gt;</block>
+  <block id="93681f77c8cbeadd174504a13be92ea0" category="cell">单个站点</block>
+  <block id="0ca80baaabc12b2ca734043fcb934339" category="cell">多个站点</block>
+  <block id="0d5c33c6c54093f9ac1eee1c246b4497" category="cell">通信站点</block>
+  <block id="d295ac2d5db964c9f6cb5949a3f19f23" category="cell">单个子站点 / 多个子站点</block>
+  <block id="d0a30f9796e01102efb0499abf2293ed" category="cell">SharePoint Online &gt; 站点 &gt; 子站点</block>
+  <block id="35384d60569b88e8facd51be6ac7ef7c" category="cell">SharePoint Online &gt; 站点 &gt; &lt; 站点名称 &gt; &lt; 列表名称 &gt;</block>
+  <block id="20f26896b987d0f4b175033847c8b29b" category="cell">单个 / 多个列表</block>
+  <block id="1454626645857bdf728a3d5d37f508a2" category="cell">OneNote 单个 / 多个笔记本</block>
+  <block id="b25709a146fc78f3504ba6471d45e64c" category="cell">OneNote 单个 / 多个分区组</block>
+  <block id="ef4b4b4c76d4cb53e3a763f326ace39f" category="cell">SharePoint Online &gt; 站点 &gt; &lt; 站点名称 &gt; &lt; 列表名称 &gt; &lt; 笔记本文件夹 &gt;</block>
+  <block id="0dd6883e574dfde9672c3e683d9650ce" category="cell">OneNote 单个 / 多个分区</block>
+  <block id="f03477b21f41af7e356fe3208c5f325f" category="list-text">在信息板中，单击 "SharePoint" 框中的 * 受保护 * 上方的数字。</block>
+  <block id="457f3067cf20a637f4d13a493d51a825" category="list-text">单击需要执行粒度级还原的站点。</block>
+  <block id="8902cc1a61ad05ff637487a25d4f30fe" category="list-text">选择需要还原的类别。</block>
+  <block id="9f8f2a9d6b6ac5da8babae08ca68f2cd" category="admonition">如果要还原某个类别中的特定单个项目，请单击内容类别，然后选择各个项目。</block>
+  <block id="b4c2d085d97c27233fa7b065ae36b88d" category="list-text">要从最新备份中还原，请单击 * 还原 * 。要还原项目的先前版本，请单击 * 显示版本 * ，选择要还原的版本，然后单击 * 还原 * 。</block>
+  <block id="2ebd3fddac57fd6a11a64deffa3c93a1" category="list-text">* 还原到同一站点 * 如果还原到同一站点，则默认情况下，会在包含备份副本的原始文件位置创建一个具有当前日期和时间戳的还原文件夹。</block>
+  <block id="355c9a4416e431eb905b9bd854b6fab8" category="paragraph">如果选择 * 仅还原角色 * ， * 使用合并覆盖 * 或 * 替换现有内容 * ，则唯一的还原选项是 * 还原到同一站点 * 。</block>
+  <block id="88392ac8c2bbca908911a0a62266f057" category="cell">如果选择</block>
+  <block id="572e436a9303be18ec74fda0b0314157" category="paragraph">仅还原角色</block>
+  <block id="bcd4b6d7b891a5b2a415aab633472ab9" category="paragraph">所有类型的项目</block>
+  <block id="431d21a23746bfa6195fecb4d4f3d76f" category="paragraph">使用合并覆盖</block>
+  <block id="3f5c34328cc395ad9759610edb52d20c" category="paragraph">站点级别以外的所有项</block>
+  <block id="cc2e8cd87ace54ed14cdc4ca2145cd80" category="paragraph">替换为现有内容</block>
+  <block id="0d40e1355ad156a4170b9ebdb490210f" category="paragraph">仅限项目级别</block>
+  <block id="4beeecd43c2f771bf4ba41d015810609" category="inline-image-macro">图中显示了粒度级还原窗口，并选择了仅还原角色选项</block>
+  <block id="3f931a10b238e82c5dfc0c9bb6026054" category="paragraph">如果选择 * 仅还原角色 * ，则仅还原角色和权限。<block ref="8a52ad91b98da6142f0a4ee57927e647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6418e679e854d6254c05c62a2c15ff67" category="paragraph">如果选择 * 使用合并覆盖 * 选项，则不会创建任何还原文件夹。如果备份文件的版本与当前文件匹配，则备份将还原到原始位置。目标中的任何新内容都会被忽略且不受影响。例如，如果备份包含 File1 版本 5 ，而目标包含 File1 版本 6 ，则选择了 * 使用合并覆盖 * 选项的还原将失败。</block>
+  <block id="56f35dd5646a70a25ec53d051fbc096c" category="paragraph">如果选择 * 替换现有内容 * 选项，则当前数据版本将完全替换为备份副本。</block>
+  <block id="d4aef45eaed5bded9ba10045d1d9f03c" category="list-text">* 还原到其他站点 *</block>
+  <block id="eb729008daf8b3603cdc161bd528d76c" category="paragraph">如果还原到其他站点，则必须在搜索字段中输入目标站点。您可以在搜索字段中键入站点的一部分，以便自动搜索匹配的站点。</block>
+  <block id="9f4e67a899612efbb024bcba557762f9" category="paragraph">如果要导出数据，则需要下载该数据。转到左侧菜单上的 * 报告 * 。查找导出数据作业。单击 * 文件夹总数 * 。然后单击 * 导出数据下载链接 * 。下载 zip 文件。打开 zip 文件以提取数据。</block>
+  <block id="c81cd01ae243c25c6c476879c6db1451" category="summary">要开始使用 SaaS Backup for Microsoft 365 的免费试用帐户，您必须拥有免费试用激活代码和 Microsoft 365 测试帐户，并且必须完成注册过程。</block>
+  <block id="a53495d623868aa543845636677455d7" category="doc">开始免费试用 SaaS Backup for Microsoft 365 的工作流</block>
+  <block id="503b74ce08000ed04b7e1367ab725d60" category="paragraph">要开始免费试用 SaaS Backup for Microsoft 365 ，您必须执行以下操作：</block>
+  <block id="e5b83f3bd74f57bedec7051b3edc0cea" category="inline-link-macro">免费试用限制</block>
+  <block id="072c8570727097dca3420a9c7c649846" category="list-text">请注意 <block ref="e46da3c007b7c38fba9f43f9695924e1" category="inline-link-macro-rx"></block>。</block>
+  <block id="cd80e72aa996af149a742971d238d415" category="inline-link-macro">免费试用激活代码</block>
+  <block id="0fcc28a99a98bf0ad3a1e462c6c0d146" category="list-text">具有 <block ref="62811f4a6842b823647bfb89540f3517" category="inline-link-macro-rx"></block>。</block>
+  <block id="b838a93f5b20be89faad2438638eac93" category="inline-link-macro">注册 Microsoft 365 测试帐户</block>
+  <block id="3adccc1998f9398bcfb2f9e6e524bf75" category="list-text">如果需要， <block ref="115851e5c51477f08693fc62491b3e9b" category="inline-link-macro-rx"></block>。</block>
+  <block id="983360d0def6e102424fc3613cf2d572" category="list-text"><block ref="64ea1e8fc4e2b8d9ec6fc411042ab0e1" category="inline-link-macro-rx"></block>。</block>
+  <block id="ff9a805d222c3ac0916c371800a05a53" category="list-text"><block ref="c9af6193923e9dc20694b1344b3dc5c7" category="inline-link-macro-rx"></block> 使用您的 Microsoft 365 帐户或 NetApp SSO 帐户。</block>
+  <block id="2ccdff143d74916a1211dd44904e1999" category="list-text"><block ref="4820d84d1889f00f60cdb5ea07f07a07" category="inline-link-macro-rx"></block>。</block>
+  <block id="4ebc69d5d25f74d56798158e340179dc" category="list-text"><block ref="30f84fb052d031228dda8a31c47a259a" category="inline-link-macro-rx"></block>。</block>
+  <block id="46671751a991b10fda3d29f6f278422a" category="inline-image-macro">免费试用注册流程的工作流</block>
+  <block id="99e38848c9b38cfadce3b630d97abdaf" category="paragraph"><block ref="99e38848c9b38cfadce3b630d97abdaf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="69288124909bddfca867e68699b38eb1" category="doc">创建新规则</block>
+  <block id="96c5c2a6a16af4dbce3c3c185b2600d2" category="paragraph">您可以为 Microsoft Exchange Online ， OneDrive for Business ， SharePoint Online 和 Microsoft Office 365 组创建规则。</block>
+  <block id="245a50c7f83ec336dcce1b49eaadfe92" category="inline-image-macro">用于创建规则的用户定义筛选器和 SaaS Backup 定义筛选器示例</block>
+  <block id="9472fea1831b90ee514f0ee8d8f8cdd4" category="paragraph">您必须先对数据应用用户定义的筛选器，然后才能创建规则。应用的筛选器显示在 * 筛选器 * 图标下方。NetApp SaaS Backup for Microsoft 365 默认筛选器显示为灰色。用户定义的筛选器显示为浅蓝色。<block ref="4197bfc4aebe6e6734416ba995e70d18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="666c1c2873f4cef0bfb0028beb7f0621" category="paragraph"><block ref="43443473f38da3c5b8092bdb9e9c5e15" category="inline-xref-macro-rx"></block></block>
+  <block id="88e808b9882b8ca6d9c43f50b12cc131" category="paragraph">您可以创建多个规则。这些规则将按照它们在 * 管理规则 * 列表中显示的顺序进行应用。</block>
+  <block id="84f0975bea0921d5118d07c306d0e814" category="inline-image-macro">创建规则按钮的屏幕截图</block>
+  <block id="156041abd9a046b566b525d8a6f00ad1" category="paragraph">如果未应用用户创建的筛选器， <block ref="4b9a42856f689f56835528f6307a41f4" category="inline-image-macro-rx" type="image"></block> 未显示。</block>
+  <block id="cc474a06804640e7a2d740ff8518031f" category="inline-image-macro">筛选器按钮</block>
+  <block id="f67f40d5522dc58ef63072f6846666cb" category="paragraph"><block ref="f67f40d5522dc58ef63072f6846666cb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="13c46ccb6be9a19f08dc6e1af943395e" category="list-text">单击 * 选择 * 下拉菜单并选择筛选器。此时将显示一个搜索字段。</block>
+  <block id="861af3a80de8a97131d4ea4295d5d696" category="list-text">单击 * 创建规则 * 。</block>
+  <block id="18ee2602192f06faa8f838ee4a14f161" category="list-text">输入规则的名称。</block>
+  <block id="231aced9811beda187802ce4b38288e2" category="list-text">对于 * 目标组 * ，选择要将符合规则条件的用户移动到的层。</block>
+  <block id="4fcf32e464a495c818c7ea0249c6923e" category="list-text">如果要将规则立即应用于所有未受保护的项目，请选择 * 应用于现有项目 * 。如果未选择此选项，则在下次发现新项目时，此规则将应用于新发现的项目以及任何未受保护的项目。</block>
+  <block id="b429b92fb407960087090abe4ae70378" category="inline-image-macro">用于在优先级中上移或下移规则的按钮</block>
+  <block id="691eb2a99bb398009b03626652f89d70" category="list-text">如果您有多个规则，则可以单击 <block ref="1dec85cc0cf86d9e4c1d6cdae3b30321" category="inline-image-macro-rx" type="image"></block> 可在列表中上移或下移规则。这些规则将按照其在列表中显示的顺序进行应用。</block>
+  <block id="2257ec2d88aa324c25c4f721d53a8c78" category="summary">您可以按照相同的过程计划新备份或将其更改为当前备份的频率。</block>
+  <block id="202a038c87bf3da785fcbfe19ba95272" category="doc">计划备份或更改备份频率</block>
+  <block id="a1c60f51ed7e418b70cda3bb4a662731" category="paragraph">您可以通过将未受保护的数据分配给备份策略来对其进行备份。将未受保护的数据分配给备份策略后，该数据将变为 * 待定 * 状态，直到为分配的策略执行下一个计划备份为止，之后，该数据将移至 * 受保护 * 状态。如果要更改受保护数据的备份频率，可以将数据分配到其他备份策略层。</block>
+  <block id="a043c3ec37e07006b14643337d48a425" category="list-text">在信息板中，单击要更改的服务框中的 * 受保护 * 或 * 未受保护 * 上方数字。如果要更改受保护数据的备份频率，请单击 * 受保护 * 。如果要备份新发现的邮箱，站点或 MySites ，请选择 * 未受保护 * 。</block>
+  <block id="4e82159031a5fc630bf52fdbfa795707" category="list-text">选择备份选项。</block>
+  <block id="7c68d4f818524784284de73d6124d3ee" category="list-text">如果要备份共享邮箱（仅限第 3 层），请单击 * 共享 * 选项卡。</block>
+  <block id="1412a143e1908c0c7c9114141da909b4" category="list-text">如果要备份归档邮箱（仅限第 3 层），请单击 * 归档 * 选项卡。</block>
+  <block id="4ecc57a804f175be06e864d736776d83" category="list-text">如果要备份或更改常规邮箱，请保留在 * 用户 * 选项卡上。</block>
+  <block id="66358f64d601a77b0268c01eb1e1dd20" category="list-text">如果要备份或更改站点的备份策略，请保留在 * 站点 * 选项卡上。</block>
+  <block id="93f22bb6f6c043a37e29cd8a2109d485" category="list-text">如果要备份或更改用户的备份策略，请保留在 * 用户 * 选项卡上。</block>
+  <block id="1062e4eb1710f6cabd7a75b7bd70e965" category="list-text">如果要备份组（仅限第 3 层），请保留在 * 组 * 选项卡上。</block>
+  <block id="24caf527c3616baf8e14302fbea43640" category="list-text">如果要备份团队（仅限第 3 层），请单击 * 团队 * 选项卡。</block>
+  <block id="d0a03227b3184cd856b9c3246fd0e17e" category="list-text">选择要备份的项。</block>
+  <block id="1509cad10bd83c747a9665a29fc4dce3" category="list-text">单击 * 组 * 菜单。</block>
+  <block id="ca445dcd8a1ce2238f083a63ad834499" category="inline-image-macro">组菜单</block>
+  <block id="51f3dae0617bf3c1d6681f1bd2c7b10e" category="paragraph"><block ref="51f3dae0617bf3c1d6681f1bd2c7b10e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f9d28971c1528e28621b9e2161e06bb7" category="list-text">为备份选择新的策略层。</block>
+  <block id="f1bf47ce5a8983718fcf0146da4072ed" category="admonition">Microsoft 365 组和归档邮箱只能移至第 3 层策略。</block>
+  <block id="a0ea6c6911559843552bcc56ded3944f" category="summary">您可以添加或释放许可证。</block>
+  <block id="ec01ce5d7a75843507cddc0f1e980f6a" category="doc">添加许可证</block>
+  <block id="f107403a51da9715c55c82dcbb161e3f" category="inline-xref">开始使用付费订阅的工作流</block>
+  <block id="c868c54ae5c3125041dc274cfd194cea" category="paragraph">如果您刚刚收到付费订阅的许可证，请遵循 <block ref="c5414855c6c1726b18ea39487883aef4" category="inline-xref-macro-rx"></block>。您将在工作流中输入许可证密钥。</block>
+  <block id="dc03f45708897a13fda9ad9868da3303" category="paragraph">如果您已在使用 SaaS Backup ，则可以按照以下步骤添加其他许可证。</block>
+  <block id="ce5e8658881b9dee19c0ca19ac36505b" category="paragraph">教育领域可以为教职员工提供一个许可证，并为学生提供一个单独的许可证。</block>
+  <block id="935f9ecad6dadf1ce20d75b6aa7ad1ef" category="list-text">单击 <block ref="196c8e0673c96199553d3e57046ae92d" category="inline-image-macro-rx" type="image"></block> 位于右角。</block>
+  <block id="a03cffdbe1f3f253a7304e56ead38182" category="list-text">输入许可证信息。</block>
+  <block id="c1263ba906c5f50faf7010ae019c7c55" category="list-text">单击 * 验证订阅 * 。</block>
+  <block id="f2d447d60f38aa19df0467302ecd8410" category="summary">可与 SaaS Backup 结合使用的存储类型。</block>
+  <block id="863d89f1e4a4f4d3dc98f5ad623ef1a1" category="section-title">SaaS Backup 提供的存储</block>
+  <block id="76a76cfc2d02a13bafcd8db3b66f3f7b" category="paragraph">SaaS Backup 提供以下存储选项：</block>
+  <block id="270fcb785810d0206945029bb05f4e97" category="list-text">Amazon S3</block>
+  <block id="52745271323ee9ea30e3a37d0338d118" category="list-text">Azure Blob</block>
+  <block id="7de26495523771d8cefe28297f0f8359" category="summary">您可以按照同一操作步骤对 Microsoft Exchange Online ，适用于 Microsoft OneDrive for Business 的 MySites ，适用于 Microsoft SharePoint Online 的站点以及 Microsoft 365 组的邮箱执行高级别还原。</block>
+  <block id="ec35161e4b60f2239e64a0e4d77c6f33" category="doc">执行高级别服务还原</block>
+  <block id="d1e3fe66f5e62b80b26fb1bd320ed958" category="list-text">在信息板中，单击要执行还原的服务的框中的 * 受保护 * 上方数字。</block>
+  <block id="256a7248dea88eb85865095b79ee3ad7" category="list-text">选择要还原的邮箱，组，团队， MySite 或站点的名称。</block>
+  <block id="6e5d4c3475dd8385b64b8f525196abc7" category="admonition">如果选择导出到 PST 还原选项，则提供的链接有效期为七天，并且已通过预身份验证。</block>
+  <block id="b6281bd84352e832e3d5d6140be8d0ce" category="list-text">如果要还原 * Microsoft Exchange Online * 的邮箱，请选择以下选项之一：</block>
+  <block id="e81d9c1953190b260c8a9cfe0119f2c7" category="list-text">导出到 PST 如果导出到 PST ，则在导出完成后，您将收到一封通知电子邮件，其中包含 PST 文件的位置。</block>
+  <block id="e8ef8ab221052018d9ae0bfa7639e29e" category="list-text">还原到另一个邮箱如果还原到另一个邮箱，则必须在搜索字段中输入目标邮箱。您可以在搜索字段中键入目标电子邮件地址的一部分，以便自动搜索匹配的目标邮箱。</block>
+  <block id="6c83abef123f7b77996a25d7acf1ab27" category="list-text">如果要还原 * Microsoft Office 365 组 * 的组，请选择以下选项之一：</block>
+  <block id="94801fa959a52acea62e5791f11b35c1" category="list-text">导出数据如果导出，则会使用 Microsoft Exchange 文件创建一个 PST 文件，并使用 Microsoft SharePoint 站点创建一个 .zip 文件。您将收到一封通知电子邮件，其中包含 PST 文件的位置以及 .zip 文件所在位置的经过身份验证的 URL 。</block>
+  <block id="b84f8c8fa604b6012a4485f9811d6fe5" category="list-text">如果要还原 * Microsoft Office 365 组 * 下的团队，请选择以下选项之一：</block>
+  <block id="a32b48318dd9af27f9b7b137d2c91279" category="list-text">还原到另一个团队这是从 Microsoft 365 中删除某个团队的理想选择。您应创建一个新组以使用此还原选项。如果您最近在 MS Teams 中创建了一个新团队，请通过同步此服务来发现它。转到左侧的 * 服务设置 * 。单击 * Office 365* 。在 * 管理服务 * 下，对于 Microsoft 365 组，单击 * 立即同步 * 。</block>
+  <block id="6639873842164597156a9ec6e1810356" category="list-text">导出数据如果导出数据，则需要下载它。转到左侧菜单上的 " 报告 " 。查找导出数据作业。单击 * 文件夹总数 * 。然后单击 * 导出数据下载链接 * 。下载 zip 文件。打开 zip 文件以提取数据。</block>
+  <block id="8788fa589e97f94c210bd16cab18836e" category="list-text">还原到其他 MySite 如果还原到其他 MySite ，请在搜索字段中输入目标 MySite 。您可以在搜索字段中键入目标 MySite 的一部分，以便自动搜索匹配的目标 MySites 。</block>
+  <block id="bb461b1db3507546209683727d395be6" category="list-text">导出数据如果导出，则会使用 MySites 创建 .zip 文件。您将收到一封通知电子邮件，其中包含 .zip 文件所在位置的经过身份验证的 URL 。</block>
+  <block id="c541ae3faba8f2f099a68e75b093b2f2" category="list-text">如果要还原 * Microsoft SharePoint Online* 的站点，请选择以下选项之一：</block>
+  <block id="5277371788fdb6ca6d4579114903a0bb" category="inline-image-macro">图中显示了已选择仅还原角色选项的还原窗口</block>
+  <block id="46a9fdb21eaadd7618e8b94de642fa8f" category="list-text">还原到同一站点如果选择 * 仅还原角色 * ，则仅还原角色和权限。<block ref="850d5cf073f61478f71f91dd9da02f5b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cd51e6f54324fe9a0b45c44457a6f627" category="list-text">还原到其他站点如果还原到其他站点，请在搜索字段中输入目标站点。您可以在搜索字段中键入目标站点的一部分，以便自动搜索匹配的目标站点。</block>
+  <block id="741ca8fc0ec3acbfcb60a057541fddb1" category="list-text">导出数据如果导出，则会随站点集一起创建 .zip 文件。您将收到一封通知电子邮件，其中包含 .zip 文件所在位置的经过身份验证的 URL 。</block>
+  <block id="14c24beebb6f641dbbf0779363a7d3c3" category="list-text">单击 * 确认 * 。此时将显示一条消息，指示已创建还原作业。</block>
+  <block id="3e03eb30e32cbda58f94d859aef939c7" category="doc">注册付费订阅</block>
+  <block id="b9d34d658c9ce9bcdd330baf715cf1c4" category="paragraph">如果您通过 NetApp 购买了许可证，则会显示您的订阅类型。按照以下步骤完成注册过程。</block>
+  <block id="925e46990837a614fb2da6c0ab87e998" category="summary">如果从用户帐户中删除了所有管理角色，则用户将自动从 SaaS Backup for Microsoft 365 中注销。</block>
+  <block id="10aba5d6ead75cd92ab6422b8c0a09c8" category="doc">删除用户帐户中的所有管理角色</block>
+  <block id="43965d369bf81397d3394c94c930e27f" category="list-text">单击要删除的用户名旁边的 * 删除用户 * 。</block>
+  <block id="86ce5961ef6624058f736d93459d1889" category="list-text">单击 * 是 * 。</block>
+  <block id="a92427a42a49d5f28c89b26746343201" category="summary">您可以使用 SaaS Backup for Microsoft 365 组 / 团队执行粒度级还原。</block>
+  <block id="04687a55cad16eeb46f2e4bfbd7dd95b" category="doc">对 Microsoft 365 组和团队执行粒度级还原</block>
+  <block id="08a8cab38f1da1c94492a57028d46365" category="paragraph">在 Microsoft 365 组和团队中，您可以还原邮箱， SharePoint ，对话，渠道和选项卡等细化级别的项目。</block>
+  <block id="0cc249a1ff9522b5f305ab1ef65a6afe" category="paragraph">下表显示了粒度级别项目支持的还原选项以及在 SaaS Backup 中的位置。</block>
+  <block id="f28bc3f217e602fc1f5eb4085dd42385" category="paragraph">用于 * 组 *</block>
+  <block id="bf65e3c0f451615e7d1d629a3288ad9f" category="paragraph">Office 365 组 &gt; 组 &gt; （组名称） &gt; 邮箱</block>
+  <block id="3882d32c66e7e768145ecd8f104b0c08" category="paragraph">收件箱</block>
+  <block id="00bc065dd3c71fd5d4b0086481d268cc" category="paragraph">单个 / 多个项目（电子邮件或事件）</block>
+  <block id="317c6e15341cbd153b04ade35a6bfaab" category="paragraph">Office 365 组 &gt; 组 &gt; （组名称） &gt; 邮箱 &gt; 邮件</block>
+  <block id="4da59e4209ff5c6096e08b048a0dd376" category="paragraph">对于 * 团队 *</block>
+  <block id="aba1ef02d1c3b81808de23459d88ee09" category="paragraph">单个 / 多个文件夹</block>
+  <block id="3cbb79dcb8ac4c162d56bf19f72f52e3" category="paragraph">Office 365 组 &gt; 团队 &gt; （团队名称） &gt; 邮箱</block>
+  <block id="5d795763df018483abcbcbd76b870443" category="paragraph">Office 365 组 &gt; 团队 &gt; （团队名称） &gt; 邮箱 &gt; 邮件</block>
+  <block id="03241f4c0b0c3bb57e878f3c7f829b6b" category="paragraph">对话 / 聊天</block>
+  <block id="93c8813020bc0571ed7f343c44da47e9" category="paragraph">是（仅导出到 HTML ）</block>
+  <block id="b811081d6ff6e1e9f6c4a27dae543f1d" category="list-text">Office 365 组 &gt; 团队 &gt; （团队名称） &gt; 邮箱 &gt; 对话 &gt; 团队聊天</block>
+  <block id="4a3fbfae9983b97867ad7a017c366db7" category="list-text">Office 365 组 &gt; 团队 &gt; （团队名称） &gt; 邮箱 &gt; 邮件 &gt; 对话历史记录 &gt; 团队聊天（实际位置）</block>
+  <block id="75503cea14d1fde62464cd36f797cac7" category="paragraph">对话单个 / 多个项目</block>
+  <block id="fd6a73d4ba32ae4f3ede4ee332d84996" category="paragraph">Office 365 组 &gt; 团队 &gt; （团队名称） &gt; 邮箱 &gt; 对话历史记录 &gt; 团队聊天</block>
+  <block id="9c26be940e95cf4878da122d939b8784" category="paragraph">单个 / 多个通道</block>
+  <block id="a9ecb1e1b3e01a7620a18c19cecd31ee" category="paragraph">Office 365 组 &gt; 团队 &gt; （团队名称） &gt; 渠道</block>
+  <block id="1811384ef729e302cde74deba3948057" category="admonition">还原仅包含通道名称和选项卡名称。</block>
+  <block id="b3b725dd37253b15311071af8c23f7fe" category="paragraph">选项卡</block>
+  <block id="042d61a3d926d53635966eaeb6a937f7" category="paragraph">渠道标准文档</block>
+  <block id="6b30d71b8cc2aaaeb93d0ff1f9134eb0" category="paragraph">Office 365 组 &gt; 团队 &gt; （团队名称 &gt; SharePoint 站点 &gt; 文档 &gt; （渠道名称）</block>
+  <block id="48f6c780a94480642bedbd564750b7a2" category="paragraph">渠道私有文档</block>
+  <block id="1c8b0ac9b58ed797a8aa6dc307b23527" category="paragraph">SharePoint &gt; （专用通道站点名称） &gt; 文档 &gt; （专用通道名称）</block>
+  <block id="cc7c0ba37cf0f01092372b1d869e22ec" category="paragraph">OneNote 内容</block>
+  <block id="d5b7e08e324912d3ca99a4d20efa3835" category="paragraph">Office 365 组 &gt; 团队 &gt; （团队名称） &gt; SharePoint 站点 &gt; 文档 &gt; （渠道名称）</block>
+  <block id="50ed22c9a34ec5933b28ffc086e3dc3c" category="paragraph">维基内容</block>
+  <block id="1722203907c0ea278b769a7c97a2bfa9" category="paragraph">Office 365 组 &gt; 团队 &gt; （团队名称） &gt; SharePoint 站点 &gt; 团队 Wiki 数据 &gt; （渠道名称）</block>
+  <block id="91f3a2c0e4424c87689525da44c4db11" category="paragraph">文件</block>
+  <block id="3e84a960f12c9f006b87ee3ec0305678" category="paragraph">个人用户聊天和组聊天</block>
+  <block id="4fe20a45004c9a4151dc58d964feb31f" category="admonition">聊天包含在 Exchange Online 备份中。</block>
+  <block id="73d50530c59e846603b0a000c8c5bd03" category="list-text">Exchange &gt; " 用户 " &gt; 邮件 &gt; 对话历史记录 &gt; 团队聊天</block>
+  <block id="6bbc5707d695de8c090582eed7caa4ba" category="paragraph">单个用户聊天和组聊天中的文件</block>
+  <block id="5e4444bec23135343e48eda700b5f821" category="admonition">OneDrive for Business 备份中包含的文件。</block>
+  <block id="f055327f9ee8af772de45c830bfb8744" category="section-title">还原邮箱</block>
+  <block id="222bdf4318c1779d19d17f8d5da196d2" category="paragraph">选择此粒度级还原可还原收件箱，日历和对话历史记录。</block>
+  <block id="97bffa1060b6d680992b0461b9a85f68" category="list-text">在信息板中，单击 * Microsoft 365 组 * 中 * 受保护 * 上方的数字。</block>
+  <block id="f66e84de6f78f8e89d7975442ebe2c30" category="list-text">选择 * 组 * 或 * 组 * 选项卡。</block>
+  <block id="26d392d76b406f2e677048da456d7872" category="list-text">单击需要为其执行粒度级还原的组或组。</block>
+  <block id="898bf5c2d8f7a8ecf881c264543c9976" category="list-text">选择邮箱类别。</block>
+  <block id="0aae4c2c3d004100b3d329b383d9558f" category="inline-image-macro">突出显示的邮箱选项的图像</block>
+  <block id="fcce7879592f679fe46e28fadafa7032" category="paragraph"><block ref="fcce7879592f679fe46e28fadafa7032" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="78676bdb287bac69a9ca2d7171159a45" category="admonition">对于组， * 通道 * 不可用。</block>
+  <block id="e9500dac70654a926ec898192e52bfd8" category="inline-image-macro">突出显示的邮件选项的图像</block>
+  <block id="e6c11b9b64fe4f0269eb5d91f17a315b" category="list-text">选择 * 邮件 * 选项可将收件箱或对话历史记录还原到同一邮箱或导出数据。<block ref="bff26c3ddeb1a5b2f280be0ccf937a47" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="091e6df933ea1d7b5050e63c29a8e545" category="admonition">对于组， * 对话 * 不可用。</block>
+  <block id="37ea2ac8fc59309b917bd13aacb7cf10" category="list-text">要还原收件箱，请选择 * 收件箱 * 并单击 * 还原 * 。</block>
+  <block id="823111e9e43524b5ad68065cccf6ee22" category="list-text">选择 * 还原到同一邮箱 * 或 * 导出数据 * 。</block>
+  <block id="cbd694347035514758399bfa4ec87c6c" category="inline-image-macro">突出显示的日历选项的图像</block>
+  <block id="463479ac5bb89d51751be7c3e32261f1" category="list-text">选择 * 日历 * 选项可将日历还原到同一邮箱或导出数据。<block ref="25a84e3970d4507a5fcfae23d0092c0d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e179aa3127e281f8eeccec769841d494" category="list-text">选择 * 日历 * 并单击 * 还原 * 。</block>
+  <block id="9b250fa6692e261314c82375ce8f0505" category="inline-image-macro">突出显示的对话选项的图像</block>
+  <block id="4e4e9243bd2775e76dd61f5726eb192c" category="list-text">选择 * 对话 * 选项以还原对话。还原的唯一选项是导出到 HTML 。<block ref="f03470d5b2cd03f5e545af9a3442df5b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8f03479c260fabaff3fd9083a40b7765" category="list-text">选择要还原的对话，然后单击 * 还原 * 。</block>
+  <block id="edfe68b68ca01421a4609f1315fda6f4" category="admonition">* 查看对话 * 将显示从最后 "x" 天的备份到最后 30 个备份的所有对话列表。例如，如果您在过去五天内备份了七次，则只能查看过去七次备份中的对话。</block>
+  <block id="994847d583b132322185fd9df72456f1" category="section-title">还原 SharePoint 站点</block>
+  <block id="9b41e52e4790497525e787212a031e84" category="paragraph">选择此粒度级还原可还原选项卡和附件。</block>
+  <block id="968b0b25e38521140a7cc1612b81175a" category="inline-image-macro">突出显示的 Sites 选项的图像</block>
+  <block id="66e694d53260747fa68bd16b3a61d0b4" category="list-text">选择 SharePoint 站点选项。<block ref="1b00e0174a6e6a900092fbbeadd9377e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="741db08c491f8df04ba197ff0e201e49" category="paragraph">如果还原到同一站点，则默认情况下，会在包含备份副本的原始文件位置创建一个具有当前日期和时间戳的还原文件夹。如果选择 * 使用合并覆盖 * 选项，则不会创建任何还原文件夹。如果备份文件的版本与当前文件匹配，则备份将还原到原始位置。目标中的任何新内容都会被忽略且不受影响。例如，如果备份包含 File1 版本 5 ，而目标包含 File1 版本 6 ，则选择了 * 使用合并覆盖 * 选项的还原将失败。如果选择 * 替换现有内容 * 选项，则当前数据版本将完全替换为备份副本。</block>
+  <block id="2eebf0e3b52a756e17193a5f7c194624" category="section-title">还原通道</block>
+  <block id="8443a96039a729f8a601986fe002e753" category="paragraph">选择此粒度级还原以还原通道。</block>
+  <block id="71d8eb3aadcaf34b2d8b4d10b59c210c" category="list-text">选择 * 团队 * 选项卡。</block>
+  <block id="dc77dbe345f3f17cf3704eff2aa21b60" category="list-text">单击需要为其执行粒度级还原的团队。</block>
+  <block id="2da6ba36cf461b42a7b144e4f6eb5e47" category="inline-image-macro">突出显示的通道选项的图像</block>
+  <block id="fa19fea59c145c89e8564e309d8675bc" category="list-text">选择 * 通道 * 。<block ref="1d0f0df9a15034c90722c46d5c6218ba" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="332280e6e0db60cdbe9f221cbba62ed1" category="list-text">选择要还原的通道。</block>
+  <block id="e0ced1542a71f016647743cb1885fa44" category="list-text">选择还原选项：</block>
+  <block id="75a455dc16fefe23a94e52a2fd75fb4d" category="list-text">单击 * 还原到同一组 * 。</block>
+  <block id="eb5e191008ef787789afcbcbf6c31c05" category="list-text">单击 * 还原到另一个组 * 。</block>
+  <block id="1e5527a860cfaaab1ea287d439954c5c" category="paragraph">要选择其他团队，请在搜索框中搜索另一个团队。</block>
+  <block id="c2c253473c149fda2d48d5167c2d34a0" category="summary">在 SaaS Backup for Microsoft Office 365 中，您可以监控所有服务的用户数据，例如电子邮件或 URL 地址，邮箱类型，许可证使用，发现状态，上次发现， 备份状态，备份层等。</block>
+  <block id="6aaa73c1970866ed9779b298b48bd43a" category="list-text">单击 * 服务 * 。</block>
+  <block id="2558d9db0b78845a470a13c5d27203ff" category="list-text">单击要导出用户数据的服务。</block>
+  <block id="abec412086c37030b63cbae445e65867" category="list-text">对于 Microsoft Exchange Online ，请单击受保护邮箱，待定邮箱或未受保护邮箱的数量。</block>
+  <block id="d37abdad3365fb4bfc80013704eecb74" category="list-text">对于 Microsoft SharePoint Online ，请单击受保护站点，待定站点或未受保护站点的数量。</block>
+  <block id="a88f4677d2cd387077ad1f9f075f7119" category="list-text">对于 Microsoft OneDrive for Business ，请单击受保护，待定或未受保护的 MySites 的数量。</block>
+  <block id="e490c4bc06c38e92ac709b0b47286bff" category="list-text">对于 Microsoft Office 365 组，请单击受保护组，待定组或未受保护组的数量。</block>
+  <block id="1c24e4cd44f8c150190cd0afe637d614" category="list-text">单击 * 下载 * 以导出包含相应服务的用户数据的 Excel 文件。</block>
+  <block id="f7e61cdf1c25fcf090b1f63ffcb62715" category="summary">您可以查看已删除的邮箱或用户帐户的列表。</block>
+  <block id="dbd42b173460f8ab5605c5aefd0802e1" category="doc">查看已取消配置的项目列表</block>
+  <block id="c150a355a3b55bafa8eec832496358f4" category="paragraph">您可以查看已取消配置的邮箱或用户帐户列表。</block>
+  <block id="221a9dc7613775b39236128c54864acf" category="list-text">在所需的服务中，单击未受保护的项数。</block>
+  <block id="b745fbebbf86b08986f5bfd2380aa485" category="list-text">单击 * 已取消配置 * 选项卡。</block>
+  <block id="02e3ac3a05390b719a3b35ed0a8be233" category="sidebar">适用于 Microsoft 365 的 NetApp SaaS Backup</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="96573196b0bc5ca16f36a7ab51440d98" category="sidebar">新增功能归档</block>
+  <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
+  <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概述</block>
+  <block id="24f47cdbe9ddba774a7cc53e51d9032e" category="sidebar">工作流</block>
+  <block id="dde2fb18b4f54ff454e49db402adbb99" category="sidebar">创建具有全局权限的 Microsoft 365 服务帐户</block>
+  <block id="1721af001af4943cc2771dbfd047f856" category="sidebar">执行 imdate 备份</block>
+  <block id="f683581d3e75f05f9d9215f9b4696cef" category="sidebar">升级</block>
+  <block id="e78ef280ac4cdaeebd76c27ebe90d653" category="sidebar">升级后激活支持</block>
+  <block id="898566549d933366de8ad6d6a1fbff27" category="sidebar">开始使用付费订阅</block>
+  <block id="3bd34394db106447b9320c76b26ddbb5" category="sidebar">管理服务</block>
+  <block id="23ad15066715d93a5dfb7d99bfb0d157" category="sidebar">管理设置</block>
+  <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="sidebar">权限</block>
+  <block id="e83cc9977425de56ff0b99c4ad631195" category="sidebar">向服务帐户添加权限</block>
+  <block id="5c1fb361cb9ffba7295636a36f900f1e" category="sidebar">基于角色的帐户访问</block>
+  <block id="1b4fcfaacbd0ae3e24bc82f8d7a82211" category="sidebar">管理用户</block>
+  <block id="f6aca2dcfee051b254bbcb878dc70d09" category="sidebar">licenses</block>
+  <block id="1f4da964f8eab62e96e8cfe406e44364" category="sidebar">rules</block>
+  <block id="9175bb34d0aede26315b313b9432bcbb" category="sidebar">安全组</block>
+  <block id="65d964d49665477bbec39032d9f3ca8a" category="sidebar">管理备份</block>
+  <block id="3ac08b2c89424f473948e563666e5b4f" category="sidebar">立即执行备份</block>
+  <block id="d8f5449c7bac4ba96fd7bbf9776e9ae8" category="sidebar">管理还原</block>
+  <block id="5bca99f8ca33bc054588b4f637748fce" category="sidebar">执行粒度级还原</block>
+  <block id="25024e4580c1e3f5e67328bb98e2b101" category="sidebar">适用于组和团队</block>
+  <block id="91434d2ec1694706c5f6880d6fada769" category="sidebar">查看数据</block>
+  <block id="d4221ec3faf6174be7b78d60fd6fb637" category="sidebar">使用高级搜索</block>
+  <block id="7d94efa3e76bcde3b29091804d2f1435" category="sidebar">查看已清除的数据</block>
+  <block id="4330b42a340140b836c42bbe9c7105be" category="sidebar">下载数据</block>
+  <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法律声明</block>
+</blocks>

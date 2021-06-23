@@ -1,0 +1,119 @@
+---
+sidebar: sidebar 
+permalink: concept_backup_settings.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows 
+summary: 您可以更新备份设置以控制各种备份选项。可用的备份设置因服务而异。 
+---
+= 备份设置
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以更新备份设置以控制各种备份选项。可用的备份设置因服务而异。
+
+
+
+== 每个服务的备份设置
+
+[cols="12,64,24,24"]
+|===
+| 备份设置 | Description | enabled | 可在中使用 
+
+
+| 自动同步  a| 
+每 24 小时自动同步一次新添加或删除的用户， OneDrives 或站点集合。
+| 默认情况下。  a| 
+* Microsoft Exchange Online
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business
+* Microsoft 365 组
+
+
+
+
+| 启用 OneNote 备份  a| 
+启用对 OneNote 笔记本的备份。
+| 手动  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business
+
+
+
+
+| 启用可恢复项目的还原  a| 
+允许用户还原 Microsoft Exchange 可恢复的项目。
+| 手动  a| 
+* Microsoft Exchange Online
+
+
+
+
+| 启用可恢复项目的备份  a| 
+启用 Microsoft Exchange 可恢复项的备份。只有第 1 层备份策略允许备份可恢复的项目。
+| 手动  a| 
+* Microsoft Exchange Online
+
+
+
+
+| 包括工作流  a| 
+在备份中包括工作流。
+| 手动  a| 
+* Microsoft SharePoint Online
+* Microsoft 365 组
+
+
+
+
+| 包括列表视图  a| 
+在备份中包括列表视图。
+| 手动  a| 
+* Microsoft SharePoint Online
+* Microsoft 365 组
+
+
+
+
+| 包括版本历史记录  a| 
+支持在备份中维护多个文件版本。
+
+
+NOTE: 此设置仅适用场景单个文件。它不适用于整个文件夹，层或服务。
+| 默认情况下。  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business
+* Microsoft 365 组
+
+
+
+
+| 版本数  a| 
+设置要维护的备份文件版本数。默认情况下，系统会自动备份最新版本，即使未启用此设置也是如此。
+| 默认设置为 20  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business
+* Microsoft 365 组
+
+
+|===
+
+
+== 更新备份设置
+
+.步骤
+. 单击左侧导航窗格中的 * 服务 * 。
++
+image:services.gif["服务按钮的屏幕截图"]
+
+. 单击 Microsoft 365 。
++
+image:mso365_settings.gif["Microsoft 365 按钮的屏幕截图"]
+
+. 在 * 管理服务 * 下，单击备份设置图标 image:configure_icon.gif["配置图标的屏幕截图"] 在需要更新的服务旁边。此时将显示可用于选定服务的备份设置列表。
+. 选择所需的备份设置。
+. 单击 * 确认 * 。
+

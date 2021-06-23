@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: task_updating_backup_retention_period.html 
+keywords: netapp, saas backup, microsoft 365, backup, retention, period, update, updating, specific, tier, tenants 
+summary: 您可以将各个层，邮箱，站点和 MySites 的数据保留时间（以年为单位）更新为 7 年， 10 年或无限。 
+---
+= 更新备份保留期限
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以将各个层，邮箱，站点和 MySites 的数据保留时间（以年为单位）更新为 7 年， 10 年或无限。如果订阅处于活动状态， SaaS Backup 会保留保留保留期限内的备份数据。如果所有备份层的保留期限相同，您可以执行全局更新，以便同时更改所有租户的保留期限。
+
+
+
+== 更新特定层的备份保留期限
+
+.步骤
+. 在 * 信息板 * 中，单击任何服务。
+. 在 * 备份策略 * 下，单击要更改的层的 * 保留期限 * 旁边的下拉菜单。
+. 从预定义列表中选择所需的保留期限。
+. 单击 * 更新保留期限 * 。
+
+
+
+
+== 更新各个用户和租户的备份保留期限
+
+.步骤
+. 单击配置图标 image:configure_icon.gif["配置图标"] 位于左上角的 SaaS Backup 用户 ID 旁边。
+. 单击 * 帐户设置 * 。
+. 单击 * 保留并清除 * 。
+. 要更新特定服务中特定用户的数据保留策略，请执行以下操作：
++
+.. 在 * 数据保留策略 * 下，单击 * 提供程序类型 * 旁边的下拉菜单，然后选择提供程序。
+.. 单击 * 服务名称 * 旁边的下拉菜单并选择服务。
+.. 单击 * 保留期限 * 旁边的下拉菜单，然后从预设时间列表中选择所需期限。
+.. 在搜索框中，输入要更新的用户，站点或 MySite 。
+.. 从匹配结果中选择所需的用户，站点或 MySite 。
+.. 单击 image:bluecircle_icon.gif["加号"]。
+.. 根据需要继续搜索和添加各个邮箱，站点或 MySites 。
+.. 单击 * 保存 * 。选定的各个邮箱，站点或 MySite 将更新为选定的保留期限。
+
+
+. 要更新租户级别的数据保留策略，请执行以下操作：
++
+.. 在 * 租户级别数据保留策略 * 下，单击 * 保留期限 * 旁边的下拉菜单，然后从预设时间列表中选择所需期限。
+.. 单击 * 保存 * 。所有备份策略层都将更新为选定的保留期限。
+
+
+

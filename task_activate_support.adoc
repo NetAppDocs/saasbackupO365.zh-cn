@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_activate_support.html 
+keywords: netapp, saas backup, microsoft 365, activating, activate, support, upgrade, upgrading, entitlement, marketplace, free trial, SSO 
+summary: 激活支持后，您可以通过电话，在线聊天或 Web 服务单系统访问技术支持。 
+---
+= 激活支持
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您通过 NetApp 购买了 SaaS Backup ，则默认情况下会激活支持。如果您通过 AWS 等云市场购买了 SaaS Backup ，则必须激活支持。激活支持后，您可以通过电话，在线聊天或 Web 服务单系统访问技术支持。
+
+如果要从 SaaS Backup 的试用版升级，您可以在完成升级过程之前或之后激活支持。
+
+要激活支持，您必须具有 NetApp SSO 用户 ID 和密码。如果您没有 NetApp SSO 帐户，请转至 http://register.netapp.com[] 注册一个。处理完您的请求后，您将收到一封电子邮件通知，其中包含您的 NetApp SSO 凭据。处理此请求并发送通知电子邮件大约需要 24 小时。
+
+.步骤
+. 单击 image:services.gif["服务按钮的屏幕截图"] 从左侧导航窗格中。
+. 单击设置图标 image:configure_icon.gif["MS 服务设置图标"]。
+. 在 * 激活支持 * 框中，单击 * 激活 * 。
+. 输入您的 NetApp SSO 用户名和密码。
+. 单击 * 激活 * 。
+
+
+支持状态现在为 * 活动 * 。

@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: task_configuring_impersonation.html 
+keywords: netapp, saas backup, microsoft 365, getting started, configuring, impersonation, assigning, permissions, impersonate, user, accounts, 
+summary: 如果您计划将 SaaS Backup 与 Microsoft Exchange Online 结合使用，则必须配置模拟。 
+---
+= 为 Microsoft Exchange Online 配置模拟
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您计划将 SaaS Backup 与 Microsoft Exchange Online 结合使用，则必须配置模拟。模拟允许您的 Microsoft 365 服务帐户模拟用户帐户并访问关联的权限。
+
+
+
+== 自动配置模拟
+
+要自动配置模拟，请运行 https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx["MSDN PowerShell 命令"]。
+
+
+
+== 手动配置模拟
+
+您可以使用 Microsoft 365 管理员帐户以及 SaaS Backup 中添加的 Microsoft 365 服务帐户手动配置模拟。有关 Microsoft 365 服务帐户的详细信息，请访问 link:task_creating_msservice_account_with_global_permissions.html["创建具有全局权限的 Microsoft 365 服务帐户。"]
+
+要手动配置模拟，请执行以下操作：
+
+.步骤
+. 登录到您的 Microsoft 365 服务帐户。
+. 选择 * 交换 * 选项卡。
+. 在左侧的 Dashboard 下，选择 * 权限 * 。
+. 单击 * 管理员角色 * 。
+. 双击右窗格以选择 * 发现管理 * 。
+. 在 * 角色 * 下，单击 * + * 符号。
++
+image:365_discovery_management_impersonation_setup_roles.jpg["配置 Microsoft Exchange Online 模拟时写入范围窗口的屏幕截图"]
+
+. 从下拉菜单中选择 * 应用程序模拟 * 。
+. 单击 * 添加 * 。
+. 单击 * 确定 * 。
+. 验证是否已在 * 角色 * 下添加了 * 应用程序模拟 * 。
+. 在 " 成员 " 下，单击 * + * 符号。
++
+image:365_discovery_management_impersonation_setup_members.jpg["为 Microsoft Exchange Online 配置模拟时的成员窗口屏幕截图"]此时将显示一个新窗口
+
+. 选择用户名。
+. 单击 * 添加 * 。
+. 单击 * 确定 * 。
+. 验证用户名是否显示在 * 成员 * 部分中。
+. 单击 * 保存 * 。
+

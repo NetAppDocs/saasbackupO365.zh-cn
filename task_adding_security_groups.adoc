@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_adding_security_groups.html 
+keywords: netapp, saas backup, microsoft 365, security, groups, add, adding, creating 
+summary: 可以使用安全组作为筛选选项来查看数据和创建规则。 
+---
+= 添加安全组
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+可以使用安全组作为筛选选项来查看数据和创建规则。
+
+您最多可以添加 3 个安全组。然后，您可以在 SaaS Backup 中使用安全组作为筛选选项。
+
+必须先通过 AutoSync 或手动同步发现新的安全组，然后才能添加它们。https://docs.microsoft.com/en-us/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide["在管理中心中创建，编辑或删除安全组"]。
+
+.步骤
+. 单击 * 帐户设置 * 。
+. 单击 * 安全组 * 。
+. 在搜索字段中，输入要添加的安全组的名称。
+. 单击 * 添加 * 。
+

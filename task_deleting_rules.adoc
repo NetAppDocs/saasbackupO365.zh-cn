@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_rules.html 
+keywords: netapp, saas backup, microsoft 365, delete, deleting, removing, rules 
+summary: 如果您不再需要现有规则，可以将其删除。此外，如果需要删除规则中使用的安全组，则必须先使用安全组删除该规则，然后才能删除该安全组。 
+---
+= 删除规则
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您不再需要现有规则，可以将其删除。此外，如果需要删除规则中使用的安全组，则必须先使用安全组删除该规则，然后才能删除该安全组。
+
+.步骤
+. 在信息板中，单击要为其创建规则的服务的框中的 * 未受保护 * 上方数字。
++
+image:number_protected_unprotected.gif[""]
+
+. 单击 * 筛选器 * 。
++
+image:filter.gif["筛选器下拉菜单按钮的屏幕截图"]
+
+. 单击 * 规则 * 。此时将显示现有规则。
+. 单击 image:trash_can_icon.gif["删除图标的屏幕截图"] 删除规则。删除此规则后，先前应用此规则的项的状态不会更改。
+

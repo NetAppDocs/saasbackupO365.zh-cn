@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_syncing_user_permissions_with_azure.html 
+keywords: netapp, saas backup, microsoft 365, synchronize, synchronizing, granting, permissions, azure, active directory 
+summary: 在 NetApp SaaS Backup for Microsoft 365 中，您可以管理 Azure Active Directory 的权限。 
+---
+= 将用户权限与 Azure Active Directory 同步
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以从 SaaS Backup for Microsoft 365 中手动将用户权限与 Azure Active Directory 同步。
+
+.步骤
+. 单击 image:services.gif["服务按钮的屏幕截图"] 从左侧导航窗格中。
+. 单击 Microsoft 365 链接。
++
+image:mso365_settings.gif["Microsoft 365 按钮的屏幕截图"]
+
+. 单击 * 重新发现权限 * 。
++
+image:rediscover_permissions.gif["重新发现权限图标"]
+
++
+如果发现某个服务的权限，则会显示该服务，并可选择 Active 。
+
+

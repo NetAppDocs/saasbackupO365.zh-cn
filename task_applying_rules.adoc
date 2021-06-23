@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_applying_rules.html 
+keywords: netapp, saas backup, microsoft 365, creating, rules, managing, adding, apply, applied, applying 
+summary: 您可以将现有规则应用于未受保护的项，更改规则的应用顺序以及删除规则。 
+---
+= 应用现有规则
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+通过规则，您可以根据预定义的条件自动将用户移动到预先选择的备份层。
+
+您可以将现有规则应用于未受保护的项，更改规则的应用顺序以及删除规则。
+
+.步骤
+. 在信息板中，单击要为其创建规则的服务的框中的 * 未受保护 * 上方数字。
++
+image:number_protected_unprotected.gif[""]
+
+. 单击 * 筛选器 * 。
++
+image:filter.gif["筛选器下拉菜单按钮的屏幕截图"]
+
+. 单击 * 规则 * 。此时将显示现有规则。
+. 单击 * 立即应用 * 将此规则应用于现有未受保护的项。
+

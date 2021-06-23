@@ -1,0 +1,115 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_onedrive.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, granular restores, Microsoft OneDrive for Business 
+summary: 您可以使用 SaaS Backup for Microsoft 365 对 Microsoft OneDrive for Business 执行高级别的粒度级还原。 
+---
+= 对 Microsoft OneDrive for Business 执行粒度级还原
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在 Microsoft OneDrive for Business 中，您可以还原列表或库的粒度级别项目，例如单个文件夹或文件。您还可以还原 OneNote 笔记本或组。
+
+默认情况下，只能还原最新的备份。其他可用选项包括：
+
+image:backup_for_restore_availability.png["可用于还原的备份"]
+
+下表显示了 OneDrive for Business 中粒度级别项目支持的还原选项。
+
+[cols="20,20a,20a,20a,40"]
+|===
+| 项目类型 | 还原到同一个 MySite | 还原到另一个 " 我的站点 " | 导出数据 | 在 SaaS Backup 中的何处查找 
+
+
+| 单个驱动器  a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| OneDrive for Business > MySites 
+
+
+| 多个驱动器  a| 
+否
+ a| 
+否
+ a| 
+否
+| OneDrive for Business > MySites 
+
+
+| 单个 / 多个文件夹  a| 
+是的。
+ a| 
+是的。
+ a| 
+是的。
+| OneDrive for Business > MySites > < 驱动器名称 > 文件 
+
+
+| 单个 / 多个项目  a| 
+是的。
+ a| 
+是的。
+ a| 
+否
+| OneDrive for Business > MySites > < 驱动器名称 > 文件 
+
+
+| 笔记本文件夹  a| 
+是的。
+ a| 
+是的。
+ a| 
+否
+| OneDrive for Business > MySites > < 驱动器名称 > 文件 
+
+
+| OneNote 单个 / 多个文件夹  a| 
+是的。
+ a| 
+是的。
+ a| 
+否
+| OneDrive for Business > MySites > < 驱动器名称 > 文件 > 笔记本 
+|===
+.步骤
+. 在信息板中，单击 OneDrive 框中的 * 受保护 * 上方的数字。
+. 单击需要执行还原的 MySite 。
+. 选择一组文件。
++
+如果要还原组中的单个文件夹或文件，请单击一组文件。要还原整个文件夹，请选择该文件夹。要还原文件夹中的各个文件，请选择包含这些文件的文件夹，然后选择各个文件。
+
+. 单击 * 还原 * 。
+. 选择一个还原选项。
++
+** * 还原到同一个 MySite*
++
+如果要将单个文件还原到同一个 MySite ，则默认情况下，会在包含备份副本的原始内容位置创建一个具有当前日期和时间戳的还原文件夹。
+
++
+如果选择 * 替换现有内容 * ，则当前数据将完全替换为备份。
+
+** * 还原到另一个 MySite*
++
+如果还原到另一个 MySite ，则必须在搜索字段中输入目标 MySite 。您可以在搜索字段中键入目标 MySite 的一部分，以便自动搜索匹配的目标 MySites 。
+
+** * 导出数据 *
++
+如果要导出数据，则需要下载该数据。转到左侧菜单上的 " 报告 " 。查找导出数据作业。单击 * 文件夹总数 * 。然后单击 * 导出数据下载链接 * 。下载 zip 文件。打开 zip 文件以提取数据。
+
++
+
+NOTE: 如果选择 * 导出数据 * 还原选项，则提供的链接有效期为七天，并且已通过预身份验证。
+
+
+
+. 单击 * 确认 * 。
+. 单击 * 查看作业进度 * 以监控还原进度。
+

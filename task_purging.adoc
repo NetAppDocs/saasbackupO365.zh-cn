@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_purging.html 
+keywords: netapp, saas backup, microsoft 365, purge, purged, purging, site collection, groups 
+summary: 您可以在 NetApp SaaS Backup 中以各种方式管理服务，包括激活新服务，停用现有服务，清除数据和取消作业。 
+---
+= 清除用户，站点集或 Microsoft 365 组
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以完全删除与用户，站点集或 Microsoft 365 组关联的所有数据。清除的数据可在七天内恢复。七天后，数据将被永久删除，用户许可证将自动释放。
+
+.步骤
+. 单击配置图标 image:configure_icon.gif["配置图标的屏幕截图"] 位于左上角的 SaaS Backup 用户 ID 旁边。
+. 选择 * 帐户设置 * 。
+. 单击 * 保留并清除 * 。
+. 在 * 清除数据 * 下，从下拉菜单中选择 * 服务类型 * （ Exchange ， OneDrive 或 SharePoint ）。
+. 搜索要清除的用户，站点集或 Microsoft 365 组。对于 Microsoft Exchange Online 或 OneDrive for Business ，请输入用户或 Microsoft 365 组名称。对于 SharePoint Online ，输入站点收集名称。+ 注意：如果用户拥有归档邮箱，则归档邮箱的用户名前面会加上 " 原位归档 " 。
+. 搜索结果返回后，单击 image:bluecircle_icon.gif["蓝色加号图标"] 可选择用户，站点集或 Microsoft 365 组。
+. 单击 * 保存 * 。
+. 单击 * 是 * 确认要清除数据。
+

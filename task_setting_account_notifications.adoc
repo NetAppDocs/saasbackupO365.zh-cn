@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task_setting_account_notifications.html 
+keywords: netapp, saas backup, microsoft 365, set, setting, account, notifications, notification, management, adding 
+summary: 在 NetApp SaaS Backup for Microsoft 365 中，您可以管理服务帐户，发现新添加的帐户并设置帐户通知。 
+---
+= 设置通知
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以将用户添加到帐户通知中，然后选择希望每个用户接收的特定通知。例如，您可以选择让用户在每次还原失败时都接收电子邮件通知。
+
+.步骤
+. 单击 * 帐户设置 * 。
+. 单击 * 通知管理 * 。
+. 输入要接收通知的帐户的电子邮件地址。
+. 单击 * 添加通知 * 。此用户将添加到通知帐户列表下。
+. 选择希望用户接收的特定通知。
+. 单击 * 保存 * 。
+

@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: task_performing_search.html 
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange, sharePoint, oneDrive, online 
+summary: 您可以使用实时搜索来查找特定内容。 
+---
+= 执行搜索
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在 SaaS Backup for Microsoft 365 中，您可以在所有服务中搜索受保护的数据— Exchange Online ， SharePoint Online ， OneDrive for Business 以及组和团队。
+
+您可以搜索未受保护的实例，但只有在执行先前备份后，此实例才会生成搜索结果。
+
+要改进搜索结果，请使用以下条件：
+
+* 最少三个字符
+
+
+
+NOTE: 如果输入的字符数超过 3 个，则搜索结果中可能会保留先前 3 个字符的搜索结果。
+
+* 字母数字输入
+* 单引号用于精确匹配一个词，一个词串或一个数字。例如： "2014 年预算 " 。
+
+
+按照以下步骤搜索受保护的实例。
+
+.步骤
+. 在要搜索的任何服务中，单击 * 受保护 * 上方的数字。image:number_protected_unprotected_highlight_protected.gif["突出显示的受保护实例的屏幕截图"]
+. 在页面右上角找到搜索框。image:search_box_exchange.png["Exchange Online 中搜索框的屏幕截图"]
++
+然后输入搜索框中显示的提示信息，例如搜索框中的 "name" 或 "email" 。image:search_box_exchange_prompts.png["Exchange Online 中包含搜索提示的搜索框的屏幕截图"]
+
++
+.. 按名称或电子邮件地址搜索 Microsoft Exchange Online 。
+.. 按名称，电子邮件或 MySite 搜索 Microsoft OneDrive for Business 。
+.. 按站点名称或 URL 搜索 Microsoft SharePoint Online 。
+.. 按组名称或团队名称搜索 Microsoft 365 组和团队。
+
+
+. 此时将显示符合或匹配搜索条件的任何结果。
+
+
+您还可以在每个服务中更精细地执行搜索。如果搜索框右侧显示一个下拉菜单，请从下拉菜单中选择 * 文件 * 或 * 文件夹 * 以缩小搜索结果范围。
+
+image:search_box_dropdown_menu_file&folder.png["带有文件 / 文件夹下拉菜单的搜索框"]

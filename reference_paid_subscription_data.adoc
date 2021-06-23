@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: reference_paid_subscription_data.html 
+keywords: paid, subscription, data, saas, backup, microsoft 365 
+summary: 如果您不续订 SaaS Backup for Microsoft 365 的许可版本，则订阅期间使用的数据将被删除。 
+---
+= 付费订阅数据删除
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您不续订 SaaS Backup for Microsoft 365 的许可版本，则订阅期间使用的数据将按如下方式删除：
+
+|===
+| 如果您的 SaaS Backup 付费订阅是 ... | 付费订阅结束后的天数 | 您的数据是 ... 
+
+
+| 已过期 | 1-30 天 | 可用：管理员具有正常访问权限，可以执行手动备份和还原。SaaS Backup 将继续显示警报并发送通知。 
+
+
+| 已禁用 | 31 到 60 天 | deactivated ：管理员无权访问 SaaS Backup 门户。如果在此期间续订订，则可以重新激活数据。 
+
+
+| 已取消配置 | 61 天或更长时间 | Deleted ：删除所有数据，并删除您的租户帐户。 
+|===

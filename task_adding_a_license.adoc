@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task_adding_a_license.html 
+keywords: netapp, saas backup, microsoft 365, add, adding, release, license 
+summary: 您可以添加或释放许可证。 
+---
+= 添加许可证
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您刚刚收到付费订阅的许可证，请遵循 <<concept_paid_subscription_workflow.adoc#workflow-for-etting-started-with-a-paid-subscription-toSaaS-Backup-for-Office-365,开始使用付费订阅的工作流>>。您将在工作流中输入许可证密钥。
+
+如果您已在使用 SaaS Backup ，则可以按照以下步骤添加其他许可证。
+
+教育领域可以为教职员工提供一个许可证，并为学生提供一个单独的许可证。
+
+.步骤
+. 单击 image:services.gif["服务按钮的屏幕截图"] 从左侧导航窗格中。
+. 单击 image:bluecircle_icon.gif["蓝色加号图标"] 位于右角。
+. 输入许可证信息。
+. 单击 * 验证订阅 * 。
+. 单击 * 下一步 * 。
+. 单击 * 保存 * 。
+

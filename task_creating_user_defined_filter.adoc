@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task_creating_user_defined_filter.html 
+keywords: netapp, saas backup, microsoft 365, create, creating, view, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log 
+summary: 您可以筛选邮箱，站点或 MySites 的视图，以便仅显示符合特定条件的结果。 
+---
+= 创建用户定义的筛选器
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以筛选邮箱，站点或 MySites 的视图，以便仅显示符合特定条件的结果。例如，您可以将筛选器设置为仅查看某个国家或地区的邮箱以及该国家或地区的某个部门的邮箱。
+
+.步骤
+. 在信息板中，单击要为其创建筛选器的服务的框中的 * 受保护 * 或 * 未受保护 * 上方的数字。以上受保护数字表示当前受备份策略保护的邮箱， MySite 或组的数量。以上未受保护的数字表示未受备份策略保护的邮箱， MySite 或组的数量。
++
+image:number_protected_unprotected.gif[""]
+
+. 单击 * 筛选器 * 。
++
+image:filter.gif["筛选器下拉菜单按钮的屏幕截图"]
+
+. 单击 * 选择 * 下拉菜单，然后选择您选择的筛选器。
++
+对于 Microsoft SharePoint Online ，您可以按模板 ID 进行筛选。您可以输入模板 ID 进行搜索，也可以从下拉菜单中选择模板 ID 。
+
++
+对于所有其他服务，您可以按组，国家 / 地区，办公室，部门，职务 域或国家或地区。如果您有安全组，则它们也会作为筛选选项列出。
+
++
+第二个下拉菜单将根据您选择的筛选器填充所选内容。例如，如果您选择组作为第一个筛选器，则可以选择一个备份策略组层作为二级筛选器。
+
++
+image:select_filter.gif["第一组筛选器选项的屏幕截图"]
+
++
+此时将显示一个搜索字段。
+
+. 输入搜索条件。
+. 如果要添加更多筛选器，请单击 * 添加筛选器 * 并进行选择。
+. 单击 * 应用筛选器 * 。此时将显示筛选器结果。
+

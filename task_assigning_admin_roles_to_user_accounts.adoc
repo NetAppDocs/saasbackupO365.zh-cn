@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_assigning_admin_roles_to_user_accounts.html 
+keywords: netapp, saas backup, microsoft 365, assign, assigning, role-based accounts, administrative roles, privileges, granting, user, users, user accounts 
+summary: 您可以为用户帐户分配管理角色，以便为选定用户授予一项或多项服务的管理权限。 
+---
+= 为用户帐户分配管理角色
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以为用户帐户分配管理角色，以便为选定用户授予一项或多项服务的管理权限。
+
+您可以为用户分配以下角色：
+
+* 全局租户：为所有服务，存储目标和许可证更新（续订 / 升级）授予管理权限。
+* Exchange 管理员：仅向 Microsoft Exchange Online 授予管理权限。无法查看或修改其他服务。
+* OneDrive 管理员：仅向 Microsoft OneDrive for Business 授予管理权限。无法查看或修改其他服务。
+* SharePoint 管理员：仅向 Microsoft SharePoint Online 授予管理权限。无法查看或修改其他服务。
+
+
+.步骤
+. 单击设置图标 image:configure_icon.gif["配置图标的屏幕截图"] 在屏幕左上角的用户 ID 旁边。
+. 单击 * 帐户设置 * 。
+. 单击 * ROLE MANAGEMENT* 。
+. 单击 image:bluecircle_icon.gif["单击图标以显示用户角色选项的屏幕截图"] 图标。
+. 输入要添加的用户的电子邮件地址。
+. 单击下拉菜单以选择角色。您可以为用户分配一个或多个角色。
+. 单击 * 确认 * 。
+

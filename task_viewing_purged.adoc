@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_purged.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, purged, deleted, accounts, mailboxes, sites, mysites 
+summary: 您可以查看已清除的邮箱或用户帐户列表。 
+---
+= 查看已清除数据的列表
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以查看已清除的邮箱或用户帐户列表。
+
+.步骤
+. 单击 image:configure_icon.gif["配置图标的屏幕截图"] 位于左上角的 SaaS Backup 用户 ID 旁边。
+. 选择 * 帐户设置 * 。
+. 单击 * 保留并清除 * 。
+. 在 * 清除数据 * 下，单击 * 显示已清除列表 * 。
++
+您可以查看计划清除的项目列表以及已清除的项目列表。
+
+

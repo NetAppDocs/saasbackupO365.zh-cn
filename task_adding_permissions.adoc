@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task_adding_permissions.html 
+keywords: netapp, saas backup, microsoft 365, add, added, adding, permissions, service, account 
+summary: 在 NetApp SaaS Backup for Microsoft 365 中，您可以管理服务帐户，发现新添加的帐户并设置帐户通知。 
+---
+= 向服务帐户添加权限
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以管理服务帐户，发现新添加的帐户以及设置帐户通知。
+
+如果需要，您可以向服务帐户用户添加权限。服务帐户用于高效执行并发备份。
+
+.步骤
+. 单击左侧导航窗格中的服务。image:services.gif["服务按钮的屏幕截图"]
+. 单击 Microsoft 365 链接。image:mso365_settings.gif["Microsoft 365 按钮的屏幕截图"]
+. 单击 * 管理服务帐户 * 旁边的 * + * 图标。
+. 单击 * 确认 * 以重定向到 Microsoft 365 登录页面以授予权限。
+
