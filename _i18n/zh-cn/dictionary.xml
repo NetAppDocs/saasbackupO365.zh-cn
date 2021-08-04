@@ -713,7 +713,6 @@
   <block id="7e2408f033322afc1501e88155ea97b5" category="paragraph">邮件 / 任务 / 联系人 / 等</block>
   <block id="12bbb80e602c6804dcffd389d09794ba" category="paragraph">Exchange Online &gt; 邮箱 - 用户</block>
   <block id="2ce2d7d52f6efd367945e8ff48b8e110" category="paragraph">单个 / 多个邮箱文件夹（收件箱，归档等）</block>
-  <block id="6960672f6adc47e1fbc6998f84aaa937" category="admonition">排除对话历史记录。</block>
   <block id="4de55c0dee2da7f055099e41eb896a86" category="paragraph">Exchange Online &gt; 邮箱 - 用户 &gt;</block>
   <block id="72af896412e5a3498896e988caeb2667" category="paragraph">" 收件箱 " 下的文件夹级别</block>
   <block id="a654073e92e52bc895410744d3ed19aa" category="paragraph">" 收件箱 " 下的子文件夹级别</block>
@@ -1385,4 +1384,5 @@
   <block id="7d94efa3e76bcde3b29091804d2f1435" category="sidebar">查看已清除的数据</block>
   <block id="4330b42a340140b836c42bbe9c7105be" category="sidebar">下载数据</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法律声明</block>
+  <block id="16f345c293087f19c380f130e732d040" category="paragraph">* 注意 * ：不包括对话历史记录。</block>
 </blocks>
