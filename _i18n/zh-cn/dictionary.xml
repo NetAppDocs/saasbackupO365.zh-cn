@@ -1287,7 +1287,6 @@
   <block id="fd6a73d4ba32ae4f3ede4ee332d84996" category="paragraph">Office 365 组 &gt; 团队 &gt; （团队名称） &gt; 邮箱 &gt; 对话历史记录 &gt; 团队聊天</block>
   <block id="9c26be940e95cf4878da122d939b8784" category="paragraph">单个 / 多个通道</block>
   <block id="a9ecb1e1b3e01a7620a18c19cecd31ee" category="paragraph">Office 365 组 &gt; 团队 &gt; （团队名称） &gt; 渠道</block>
-  <block id="1811384ef729e302cde74deba3948057" category="admonition">还原仅包含通道名称和选项卡名称。</block>
   <block id="b3b725dd37253b15311071af8c23f7fe" category="paragraph">选项卡</block>
   <block id="042d61a3d926d53635966eaeb6a937f7" category="paragraph">渠道标准文档</block>
   <block id="6b30d71b8cc2aaaeb93d0ff1f9134eb0" category="paragraph">Office 365 组 &gt; 团队 &gt; （团队名称 &gt; SharePoint 站点 &gt; 文档 &gt; （渠道名称）</block>
@@ -1299,10 +1298,8 @@
   <block id="1722203907c0ea278b769a7c97a2bfa9" category="paragraph">Office 365 组 &gt; 团队 &gt; （团队名称） &gt; SharePoint 站点 &gt; 团队 Wiki 数据 &gt; （渠道名称）</block>
   <block id="91f3a2c0e4424c87689525da44c4db11" category="paragraph">文件</block>
   <block id="3e84a960f12c9f006b87ee3ec0305678" category="paragraph">个人用户聊天和组聊天</block>
-  <block id="4fe20a45004c9a4151dc58d964feb31f" category="admonition">聊天包含在 Exchange Online 备份中。</block>
   <block id="73d50530c59e846603b0a000c8c5bd03" category="list-text">Exchange &gt; " 用户 " &gt; 邮件 &gt; 对话历史记录 &gt; 团队聊天</block>
   <block id="6bbc5707d695de8c090582eed7caa4ba" category="paragraph">单个用户聊天和组聊天中的文件</block>
-  <block id="5e4444bec23135343e48eda700b5f821" category="admonition">OneDrive for Business 备份中包含的文件。</block>
   <block id="f055327f9ee8af772de45c830bfb8744" category="section-title">还原邮箱</block>
   <block id="222bdf4318c1779d19d17f8d5da196d2" category="paragraph">选择此粒度级还原可还原收件箱，日历和对话历史记录。</block>
   <block id="97bffa1060b6d680992b0461b9a85f68" category="list-text">在信息板中，单击 * Microsoft 365 组 * 中 * 受保护 * 上方的数字。</block>
@@ -1385,4 +1382,8 @@
   <block id="4330b42a340140b836c42bbe9c7105be" category="sidebar">下载数据</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法律声明</block>
   <block id="16f345c293087f19c380f130e732d040" category="paragraph">* 注意 * ：不包括对话历史记录。</block>
+  <block id="a1ab5ce0720ebbbda3918cd012a68184" category="paragraph">* 注 * ：还原仅包括通道名称和选项卡名称。</block>
+  <block id="e5efd2bf375c66135f8862e063b4eddf" category="paragraph">* 注 * ：您将找到一个名为 "&lt; 您的团队名称–专用通道名称 &gt;" 的单独站点集合。您可以使用模板 ID ： TEAMCHANNEL#0 筛选这些站点收集。</block>
+  <block id="8549ef96f3965f413ca1f13ece7089b8" category="paragraph">* 注意 * ： Exchange Online 备份中包含聊天功能。</block>
+  <block id="f16b3cb45c9a49849f9defdf2c168963" category="paragraph">* 注意 * ： OneDrive for Business 备份中包含的文件。</block>
 </blocks>

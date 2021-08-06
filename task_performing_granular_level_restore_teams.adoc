@@ -151,8 +151,7 @@ Office 365 组 > 团队 > （团队名称） > 邮箱 > 对话历史记录 > 团
  a| 
 Office 365 组 > 团队 > （团队名称） > 渠道
 
-
-NOTE: 还原仅包含通道名称和选项卡名称。
+* 注 * ：还原仅包括通道名称和选项卡名称。
 
 
 
@@ -193,8 +192,7 @@ Office 365 组 > 团队 > （团队名称 > SharePoint 站点 > 文档 > （渠�
  a| 
 SharePoint > （专用通道站点名称） > 文档 > （专用通道名称）
 
-
-NOTE: 您将找到一个名为 <<Your Team Name – Private Channel Name> 的单独站点集合。您可以使用模板 ID ： TEAMCHANNEL#0 筛选这些站点收集。
+* 注 * ：您将找到一个名为 "< 您的团队名称–专用通道名称 >" 的单独站点集合。您可以使用模板 ID ： TEAMCHANNEL#0 筛选这些站点收集。
 
 
 
@@ -240,8 +238,7 @@ Office 365 组 > 团队 > （团队名称） > SharePoint 站点 > 文档 > （�
  a| 
 个人用户聊天和组聊天
 
-
-NOTE: 聊天包含在 Exchange Online 备份中。
+* 注意 * ： Exchange Online 备份中包含聊天功能。
  a| 
 否
  a| 
@@ -258,8 +255,7 @@ NOTE: 聊天包含在 Exchange Online 备份中。
  a| 
 单个用户聊天和组聊天中的文件
 
-
-NOTE: OneDrive for Business 备份中包含的文件。
+* 注意 * ： OneDrive for Business 备份中包含的文件。
  a| 
 是的。
  a| 
