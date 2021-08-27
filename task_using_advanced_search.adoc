@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task_using_advanced_search.html 
 keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange 
-summary: 您可以启用高级搜索来搜索 Microsoft 365 Exchange Online 中的项目。 
+summary: 您可以启用高级搜索以在 Microsoft 365 Exchange Online 中搜索备份的项目。 
 ---
 = 使用 Microsoft Exchange Online 高级搜索
 :hardbreaks:
@@ -13,22 +13,24 @@ summary: 您可以启用高级搜索来搜索 Microsoft 365 Exchange Online 中�
 
 
 [role="lead"]
-您可以使用 * 高级搜索 * for Microsoft Exchange Online 来查找特定内容。
+您可以使用 * 高级搜索 * for Microsoft Exchange Online 搜索单个或共享邮箱项，并将这些项还原到其原始邮箱。
 
-您可以搜索单个或共享邮箱项目，并将这些项目还原到其原始邮箱。要启用此设置，请参见 2020 年 6 月 link:reference_new_saasbackupO365.html["新增功能和更新"] 发行说明
+管理员可以通过转到来启用 * 高级搜索 * link:https://mysupport.netapp.com/["支持"] 并提交请求。您也可以发送电子邮件给 SaaS 备份支持团队，电子邮件地址为 saasbackupsupport@netapp.com 。
 
-您可以在 Microsoft Exchange Online 的设置中启用高级搜索。启用后，您可以搜索单个或共享邮箱项目。如果在首次备份之前未启用 * 高级搜索 * ，则不会显示任何搜索结果。image:advanced_search_settings_exchange.png["高级搜索设置的屏幕截图"]
+启用 * 高级搜索 * 后，您可以为各个租户启用自助服务门户（ SSP ）。如果在首次备份之前未启用 * 高级搜索 * ，则不会显示任何搜索结果。要了解有关自助服务门户的更多信息，请参见 link:reference_about_ssp.html["关于自助服务门户"]。
 
-* <<Set advanced search settings>>
+image:advanced_search_settings_exchange.png["高级搜索设置的屏幕截图"]
+
+* <<Enable Advanced Search>>
 * <<Perform a search>>
 * <<Find previous search jobs>>
 
 
 
 
-==== 设置高级搜索设置
+== 启用高级搜索
 
-* 高级搜索设置 * 为用户提供了启用或禁用搜索功能的选项。
+您可以在高级搜索设置中启用 * 高级搜索 * 功能。
 
 
 NOTE: 如果启用了高级搜索功能，则获得许可和未获得许可的用户可以使用此功能。
@@ -42,15 +44,15 @@ NOTE: 如果启用了高级搜索功能，则获得许可和未获得许可的�
 
 
 . 要启用用户，请在 * 高级搜索 * 列下选择 * 开 * 。下次在完整备份或增量备份中保护启用了该功能的用户时，您可以搜索任何新电子邮件项。
-. 要保存对设置所做的更改，请单击 * 保存设置 * 。
+. 单击 * 保存设置 * 。
 . 要备份已启用的用户，请转至 link:task_scheduling_backup_or_changing_frequency.html["计划备份或更改备份频率"] 并保持在 * 用户 * 选项卡上，以选择要备份的用户。
 
 
 
 
-==== 执行搜索
+== 执行搜索
 
-通过高级搜索，您可以选择在 * 执行搜索 * 下搜索单个或共享邮箱项目，并将这些项目还原到其原始邮箱。
+您可以在 * 执行搜索 * 下搜索单个或共享邮箱项，并将这些项还原到其原始邮箱。
 
 .步骤
 . 在信息板中，单击左侧菜单中的 * 高级搜索 * 。
@@ -80,9 +82,9 @@ NOTE: 如果启用了高级搜索功能，则获得许可和未获得许可的�
 
 
 
-==== 查找先前的搜索作业
+== 查找先前的搜索作业
 
-通过高级搜索，用户可以选择在 * 以前的搜索作业 * 下查找以前的搜索作业
+您可以在 * 先前搜索作业 * 下找到先前的搜索作业。
 
 .步骤
 . 在信息板中，单击左侧菜单中的 * 高级搜索 * 。

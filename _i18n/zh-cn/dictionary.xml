@@ -329,9 +329,7 @@
   <block id="f1c76c4d1313b6d0ce49a94431405b0e" category="list-text">现在，在作业历史记录日志中搜索时，除了作业类型，服务，开始时间和结束时间之外，您还可以按作业完成状态进行筛选。</block>
   <block id="010d894e39c9b4024a2e355303134bad" category="paragraph"><block ref="010d894e39c9b4024a2e355303134bad" category="inline-link-macro-rx"></block></block>
   <block id="0c32ac23d148fcf8f103092f860ea484" category="section-title">2020 年 6 月</block>
-  <block id="1a994d51b97c344f1032b0f23926569d" category="list-text">SaaS Backup for Microsoft 365 现在支持 Exchange Online 用户的高级搜索功能。启用后，您可以在备份数据的最后六个月内搜索单个，共享和归档邮箱项。</block>
   <block id="6b23667f3cbba43813b5f6399ec4babd" category="inline-link-macro">使用 Microsoft Exchange Online 高级搜索</block>
-  <block id="08205b9a8b27b38dab9ac03f54bcd4bb" category="paragraph"><block ref="08205b9a8b27b38dab9ac03f54bcd4bb" category="inline-link-macro-rx"></block></block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="inline-link-macro">支持</block>
   <block id="73f8dc93b283396eb2824122850199c0" category="paragraph">要启用此功能，请转至 <block ref="f87e0976e00f26ec4930aef7f830024f" category="inline-link-macro-rx"></block> 并提交请求。</block>
   <block id="b24ecb506263a514c17f950224cec618" category="paragraph">您也可以发送电子邮件给 SaaS 备份支持团队，电子邮件地址为 saasbackupsupport@netapp.com 。</block>
@@ -417,7 +415,6 @@
   <block id="6346662e0704c71f9315c98ae046d219" category="paragraph">只有在手动完成服务同步后，才会检测到新添加的驱动器。</block>
   <block id="df10152b8f1b0d5caabc4567bb3ea98e" category="section-title">适用于 Microsoft 365 Exchange Online</block>
   <block id="bbab3039495eb009e7e37fddca11f420" category="list-text">SaaS 备份不支持对公有文件夹进行备份。</block>
-  <block id="c660261b9ac7314f7438891eb314e00e" category="list-text">* 高级搜索 * 仅适用于 Exchange Online 。默认情况下，此设置处于禁用状态。客户必须请求启用此功能。启用启用高级搜索设置后，管理员必须手动为各个用户启用搜索功能。</block>
   <block id="4f3cb2778fd6f32cc95e653723c2094a" category="section-title">适用于 Microsoft 365 团队</block>
   <block id="3ae90eaf5bfb44951f5e8d213a509b80" category="list-text">已还原通道配置，但内容和对话未还原。</block>
   <block id="344380bbdcd6e472f74897190dc6aedf" category="list-text">由于 API 限制， SaaS 备份无法区分 SaaS 备份中的公有和专用通道。</block>
@@ -567,13 +564,9 @@
   <block id="e009ac7bdbcdbe785633995714a0b763" category="list-text">数据保留策略已更新，可将数据保留 3 年。<block ref="b297b383a2043bacbe42de60d0495a39" category="inline-xref-macro-rx"></block></block>
   <block id="9fe5b0e5e0c862102d23c193d848d031" category="section-title">2018年5月</block>
   <block id="04d25e22b323711ff2c7e0f65891416c" category="list-text">NetApp Cloud Control 已重命名为 NetApp SaaS Backup for Microsoft 365 。</block>
-  <block id="691bf0ba07c22fc12821daede0da37ba" category="inline-xref">清除用户，站点集或 Microsoft 365 组</block>
-  <block id="02a02f61d322b139ecb84899110a94cb" category="list-text">现在，您可以清除用户，站点集和 Microsoft 365 组，从而从 SaaS Backup for Microsoft 365 中完全删除所有关联数据。<block ref="203aa9c68d1d58cb3ef39a1cdbd511f6" category="inline-xref-macro-rx"></block></block>
   <block id="527708d8a25b28e30c9e6ce44e6acf3b" category="list-text">SaaS Backup 现在可以发现 Microsoft 365 组的公有和专用组。</block>
   <block id="87dddbc407376ab2a74d919deb8a64ec" category="section-title">2018 年 4 月</block>
   <block id="70f4045b3a240f86dcb02664a9b1e73f" category="list-text">SaaS Backup for Microsoft 365 现在支持 Microsoft Office Exchange Online 的共享邮箱。</block>
-  <block id="6ebdf2a026106b4474dac1d49df66589" category="inline-xref">授予启用共享邮箱的权限</block>
-  <block id="0f09e5c6a5f7d7233ba426cc2161e36b" category="paragraph">共享邮箱通过使用自动创建的服务帐户来发现。如果在此更新之前未激活 Microsoft Office Exchange Online 服务，则共享邮箱的自动服务帐户将在激活 Microsoft Office Exchange Online 时由 SaaS Backup 创建。如果您的 Microsoft Office Exchange Online 服务已激活，您必须授予 SaaS Backup 创建自动服务帐户的权限，以便可以发现和备份您的共享邮箱。 <block ref="5510e021d3c4d391e142d66cdb26a1f6" category="inline-xref-macro-rx"></block></block>
   <block id="79af9c777e61eb876c82eaab6feb30c9" category="inline-xref">立即发现您的用户帐户</block>
   <block id="bbc854c334afa202e4fa88ab19866f29" category="paragraph">创建自动服务帐户后，您的共享邮箱将在下次计划同步用户帐户时自动发现。如果您希望立即发现共享邮箱，可以 <block ref="2a2a1550088d658e9a3c4c85fc9ef095" category="inline-xref-macro-rx"></block>。</block>
   <block id="74620215d33d2f9ad06a873cdf9e8acc" category="section-title">2018年3月</block>
@@ -581,13 +574,7 @@
   <block id="bda1de5e5163ee7832b80b7535b38b1e" category="inline-image-macro">屏幕截图，显示选择免费试用后您在订阅页面中输入激活代码的位置。</block>
   <block id="ea0c837ea6662600de23d933b85b871a" category="paragraph"><block ref="ea0c837ea6662600de23d933b85b871a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="95798f037b7bacec7599a19423a6bb64" category="section-title">2018 年 2 月</block>
-  <block id="a61468e6beebb23c9d371299a50b287a" category="inline-xref">创建用户定义的筛选器</block>
-  <block id="12543dd07c41e75e732bb6016f864192" category="list-text">现在，可对 Microsoft SharePoint Online 使用基于模板 ID 的筛选功能。<block ref="75d17844e9f96e1f38d69764754fd39b" category="inline-xref-macro-rx"></block></block>
-  <block id="38c3c04a063c42a8ca480029d7cad55f" category="inline-xref">下载活动日志</block>
-  <block id="1101b0495abc2826931c64ada66d3e15" category="list-text">现在，您可以将 SaaS Backup for Microsoft 365 用户帐户活动日志下载到 .csv 文件中。<block ref="3e5f0ce89fff5cc7c3bd4d866e7487e9" category="inline-xref-macro-rx"></block></block>
   <block id="f03a974f6827372e7e32c705ac474e53" category="list-text">现在， SaaS Backup for Microsoft 365 与您的服务之间的用户帐户，站点和组同步默认处于启用状态。</block>
-  <block id="d976f4b96dc9b2dd47be02254d3653c5" category="inline-xref">正在更新备份设置</block>
-  <block id="ff27d34d6284d3f1316c07ebb61d3039" category="list-text">现在，默认情况下会启用包含备份版本历史记录。默认版本数为 20 。<block ref="a8da49b1818056f1eb7229d54e4eb984" category="inline-xref-macro-rx"></block></block>
   <block id="effdc6a5d743a9db1cd347a2ac8d6b80" category="section-title">2018 年 1 月</block>
   <block id="d720d14f2d2d410fd9c3739a82251fc8" category="list-text">现在，活动日志将显示与在 SaaS Backup for Microsoft 365 中执行的每个操作关联的用户 ID 名称。</block>
   <block id="2dbd22cce387627a3ae78ddf49e08841" category="list-text">现在，您可以在 SaaS Backup for Microsoft 365 中手动将用户权限与 Azure Active Directory 同步。</block>
@@ -597,8 +584,6 @@
   <block id="75bc60f2c6a36004500066ff7275c3f3" category="list-text">SaaS Backup for Microsoft 365 现在支持 Microsoft 365 组进行备份和还原。必须先激活 Microsoft Exchange Online 或 Microsoft SharePoint Online ，然后才能激活 Microsoft 365 组。Microsoft 365 组只能受第 3 层备份策略的保护。</block>
   <block id="fb94c7f8627886d1f63dc1c58ca7a99e" category="list-text">现在， Microsoft Exchange Online 支持导出到 PST 以在邮箱级别进行还原。</block>
   <block id="af77dfd404964d21108cf737bd810e11" category="section-title">2017 年 10 月</block>
-  <block id="f8d6553092d20497172f5b0fa93ca408" category="inline-xref">正在创建规则</block>
-  <block id="0bfdbcc57bced91ca95d4b66188649fd" category="list-text">可以创建规则，使您能够根据预定义的条件自动将用户移动到预先选择的备份层。您可以为 Microsoft Exchange Online 和 Microsoft OneDrive for Business 创建规则。您不能为 Microsoft SharePoint Online 创建规则。<block ref="05582bd283c32c418e99a68447f03def" category="inline-xref-macro-rx"></block></block>
   <block id="7e1669d62449aae995a5fc99102a986d" category="summary">您可以浏览所有 Microsoft 365 服务中的备份。</block>
   <block id="4c56bf9d3c6d21d59223de5a3e265bb1" category="paragraph">您可以浏览 Microsoft 365 Exchange ， SharePoint ， OneDrive for Business 和组的近期备份或所有备份中受保护的实例。</block>
   <block id="7d2cab41c99baa3618cdc771cf23af02" category="admonition">默认浏览设置为 * 显示最近 5 天的备份 * 。如果选择 5 天，则仅会显示过去 5 天备份的项目。您可以根据需要更改时间范围。</block>
@@ -638,26 +623,17 @@
   <block id="b21802cf7e001e25197367f5d583808b" category="list-text">要更新租户级别的数据保留策略，请执行以下操作：</block>
   <block id="a7d2551510b2cd7a138c453deff4b807" category="list-text">在 * 租户级别数据保留策略 * 下，单击 * 保留期限 * 旁边的下拉菜单，然后从预设时间列表中选择所需期限。</block>
   <block id="243f915df66d1cc2ec089205411db8ac" category="list-text">单击 * 保存 * 。所有备份策略层都将更新为选定的保留期限。</block>
-  <block id="f77160ffe4f33a8c31c421430db0c1dc" category="summary">您可以启用高级搜索来搜索 Microsoft 365 Exchange Online 中的项目。</block>
-  <block id="72188549c25c8b8b3805a84f99bd8064" category="paragraph">您可以使用 * 高级搜索 * for Microsoft Exchange Online 来查找特定内容。</block>
-  <block id="00c49197e1ad230a77a69b3c62a95960" category="paragraph">您可以搜索单个或共享邮箱项目，并将这些项目还原到其原始邮箱。要启用此设置，请参见 2020 年 6 月 <block ref="d84f7ef7df75ea4b5018dac7dc7cdf71" category="inline-link-macro-rx"></block> 发行说明</block>
   <block id="267a5275d92e0cb500ece7c264c7eafe" category="inline-image-macro">高级搜索设置的屏幕截图</block>
-  <block id="19d5df79e54f56432e22ed468bdaa692" category="paragraph">您可以在 Microsoft Exchange Online 的设置中启用高级搜索。启用后，您可以搜索单个或共享邮箱项目。如果在首次备份之前未启用 * 高级搜索 * ，则不会显示任何搜索结果。<block ref="4c1d3f657745aa4fa7c5b961a2f7a82f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="35e704c59ee775fcffd3b145fd79c4bd" category="list-text"><block ref="b7c7f461808ad9eee93ae96dc9b3fd17" category="inline-xref-macro-rx"></block></block>
   <block id="1b5251c4623800d15616db1b5ad13ddc" category="list-text"><block ref="f533942d5f67ff90ffc7ef3d110249d7" category="inline-xref-macro-rx"></block></block>
   <block id="2e678cfb6692fccd97fdd915d5b3a27e" category="list-text"><block ref="dfaa1db65f916ed1ff476bafd651fc3a" category="inline-xref-macro-rx"></block></block>
-  <block id="f5c6766aada2bdc229d963f2b4623af4" category="section-title">设置高级搜索设置</block>
-  <block id="4466a882479de04cb5c1a5ec232dacdc" category="paragraph">* 高级搜索设置 * 为用户提供了启用或禁用搜索功能的选项。</block>
   <block id="b0eb2396acd040d98c146d201fe5307e" category="admonition">如果启用了高级搜索功能，则获得许可和未获得许可的用户可以使用此功能。</block>
   <block id="c44cc41dbd8bd91ac75451de23ec8eb6" category="list-text">在信息板中，单击左侧菜单中的 * 高级搜索 * 。</block>
   <block id="8a6a52b70517fecd0af84069290395fb" category="list-text">单击 * 高级搜索设置 * 。</block>
   <block id="a9bd2ff124301f94dad1b83933f1de41" category="list-text">默认情况下，此列表会显示所有已获得许可的用户。在 * 显示所有用户 * 和 * 仅显示许可用户 * 之间切换，以筛选列表中的用户类型。</block>
   <block id="8fd454c9753a4c3d03fcb074d79d2f5e" category="list-text">使用搜索工具并至少键入三个字符以查找唯一用户。</block>
   <block id="57c9b7b109956f01ec6fbd27f9e51071" category="list-text">要启用用户，请在 * 高级搜索 * 列下选择 * 开 * 。下次在完整备份或增量备份中保护启用了该功能的用户时，您可以搜索任何新电子邮件项。</block>
-  <block id="908850e836861356845d68c6d5d59f95" category="list-text">要保存对设置所做的更改，请单击 * 保存设置 * 。</block>
   <block id="9d26c855a2d401584a2885908a0440b0" category="inline-link-macro">计划备份或更改备份频率</block>
   <block id="0af305178ed17ffd2d65f6827dd96941" category="list-text">要备份已启用的用户，请转至 <block ref="a56fa16a0623b92158e702c35634bdf7" category="inline-link-macro-rx"></block> 并保持在 * 用户 * 选项卡上，以选择要备份的用户。</block>
-  <block id="9ef86ece0d6dfedbd908e23552b7988f" category="paragraph">通过高级搜索，您可以选择在 * 执行搜索 * 下搜索单个或共享邮箱项目，并将这些项目还原到其原始邮箱。</block>
   <block id="30368d13df374be30faccbf80332ec3d" category="list-text">单击 * 执行搜索 * 。</block>
   <block id="d749315637e107f4e49a204009181ccf" category="inline-image-macro">图中显示了执行搜索选项以及两个必需项</block>
   <block id="c2f947ac394b258702e93f2950da3014" category="list-text">在必填字段中输入带有星号（ * ）的信息。可选字段：条件和查询条件。<block ref="94a613604503bf5de5b1927c26f3eadc" category="inline-image-macro-rx" type="image"></block></block>
@@ -676,7 +652,6 @@
   <block id="b68e3baaece85a7fd6bb5480a8b002d0" category="list-text">单击 * 搜索 * 。</block>
   <block id="9b3bc7bd4ed5e46080b209bdd7facb88" category="list-text">要查找搜索作业，请转到下面的查找先前的搜索作业。</block>
   <block id="57f7a88c0574298291b51b4649bf4229" category="section-title">查找先前的搜索作业</block>
-  <block id="d7b7c604c45bcddfec349d4eefd139e0" category="paragraph">通过高级搜索，用户可以选择在 * 以前的搜索作业 * 下查找以前的搜索作业</block>
   <block id="6578ea0c53e911e0fbac32ce91fa2510" category="list-text">单击 * 上一个搜索作业 * 。</block>
   <block id="4b3a8290be8aa16413045effb70c314a" category="list-text">查找先前执行的搜索作业。如果显示的搜索结果为零，则表示没有项目符合您为搜索输入的条件。</block>
   <block id="13510659f5f468ab16f6832afdd05e17" category="list-text">单击搜索结果总数以显示这些结果。</block>
@@ -1194,7 +1169,6 @@
   <block id="96c5c2a6a16af4dbce3c3c185b2600d2" category="paragraph">您可以为 Microsoft Exchange Online ， OneDrive for Business ， SharePoint Online 和 Microsoft Office 365 组创建规则。</block>
   <block id="245a50c7f83ec336dcce1b49eaadfe92" category="inline-image-macro">用于创建规则的用户定义筛选器和 SaaS Backup 定义筛选器示例</block>
   <block id="9472fea1831b90ee514f0ee8d8f8cdd4" category="paragraph">您必须先对数据应用用户定义的筛选器，然后才能创建规则。应用的筛选器显示在 * 筛选器 * 图标下方。NetApp SaaS Backup for Microsoft 365 默认筛选器显示为灰色。用户定义的筛选器显示为浅蓝色。<block ref="4197bfc4aebe6e6734416ba995e70d18" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="666c1c2873f4cef0bfb0028beb7f0621" category="paragraph"><block ref="43443473f38da3c5b8092bdb9e9c5e15" category="inline-xref-macro-rx"></block></block>
   <block id="88e808b9882b8ca6d9c43f50b12cc131" category="paragraph">您可以创建多个规则。这些规则将按照它们在 * 管理规则 * 列表中显示的顺序进行应用。</block>
   <block id="84f0975bea0921d5118d07c306d0e814" category="inline-image-macro">创建规则按钮的屏幕截图</block>
   <block id="156041abd9a046b566b525d8a6f00ad1" category="paragraph">如果未应用用户创建的筛选器， <block ref="4b9a42856f689f56835528f6307a41f4" category="inline-image-macro-rx" type="image"></block> 未显示。</block>
@@ -1386,4 +1360,33 @@
   <block id="e5efd2bf375c66135f8862e063b4eddf" category="paragraph">* 注 * ：您将找到一个名为 "&lt; 您的团队名称–专用通道名称 &gt;" 的单独站点集合。您可以使用模板 ID ： TEAMCHANNEL#0 筛选这些站点收集。</block>
   <block id="8549ef96f3965f413ca1f13ece7089b8" category="paragraph">* 注意 * ： Exchange Online 备份中包含聊天功能。</block>
   <block id="f16b3cb45c9a49849f9defdf2c168963" category="paragraph">* 注意 * ： OneDrive for Business 备份中包含的文件。</block>
+  <block id="0933d4dd2ad52707372be6b67b620890" category="section-title">2021 年 5 月</block>
+  <block id="936c71bdf886a51aec9f1e7f00ed205b" category="paragraph">各个 Microsoft Exchange Online 邮箱帐户用户现在可以使用 SaaS Backup for Microsoft 365 中的自助服务门户（ SSP ）来查找和还原 Microsoft Exchange Online 的项目。要启用自助服务门户，请联系您的管理员。</block>
+  <block id="cf20237c6268b98b1bd327699e5ac704" category="paragraph">必须为租户启用 * 高级搜索 * 。要为邮箱项目编制索引，需要进行完整备份。</block>
+  <block id="16ec1a94d324268e23458158820f2793" category="list-text"><block ref="16ec1a94d324268e23458158820f2793" category="inline-link-macro-rx"></block></block>
+  <block id="013131a779f73f268793ce1212aee294" category="inline-link-macro">关于自助服务门户</block>
+  <block id="b51bb0ef6b11f946c31f52683a5d978b" category="list-text"><block ref="b51bb0ef6b11f946c31f52683a5d978b" category="inline-link-macro-rx"></block></block>
+  <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="inline-link-macro">使用自助服务门户</block>
+  <block id="41fd28f7f33d08bb911d51e29c0847a6" category="list-text"><block ref="41fd28f7f33d08bb911d51e29c0847a6" category="inline-link-macro-rx"></block></block>
+  <block id="60a93d0f13a60df4d4419601c9c70515" category="list-text">SaaS Backup for Microsoft 365 现在支持 Exchange Online 用户的高级搜索功能。启用 * 高级搜索 * 后，您可以在备份数据的最后六个月内搜索各个邮箱项，共享邮箱项和归档邮箱项。</block>
+  <block id="ec33cc053523746b10689885a6465e31" category="list-text">* 高级搜索 * 仅适用于 Exchange Online 。默认情况下，此设置处于禁用状态。客户必须请求启用此功能。启用 * 启用高级搜索 * 设置后，管理员必须手动为各个用户启用搜索功能。</block>
+  <block id="622447dc867aa23b63cae41916056ae1" category="list-text">现在，您可以清除用户，站点集和 Microsoft 365 组，从而从 SaaS Backup for Microsoft 365 中完全删除所有关联数据。<block ref="2c1b64681ee9fe134c90ce77d1ff786d" category="inline-xref-macro-rx"></block></block>
+  <block id="f9569ca41d9da19d9a56e76d830b4a8c" category="paragraph">共享邮箱通过使用自动创建的服务帐户来发现。如果在此更新之前未激活 Microsoft Office Exchange Online 服务，则共享邮箱的自动服务帐户将在激活 Microsoft Office Exchange Online 时由 SaaS Backup 创建。如果您的 Microsoft Office Exchange Online 服务已激活，您必须授予 SaaS Backup 创建自动服务帐户的权限，以便可以发现和备份您的共享邮箱。 <block ref="49cc502480062aea72351d71aa6fc0eb" category="inline-xref-macro-rx"></block></block>
+  <block id="dd231ac29bcd790907ea07e095722043" category="list-text">现在，可对 Microsoft SharePoint Online 使用基于模板 ID 的筛选功能。<block ref="60c93e3eb02a5ebd9becaf0a6ec969cc" category="inline-xref-macro-rx"></block></block>
+  <block id="58a346df6bb63f8d5fb48a94c94519e3" category="list-text">现在，您可以将 SaaS Backup for Microsoft 365 用户帐户活动日志下载到 .csv 文件中。<block ref="72d5ffc4d998a8df41a3d69f31aa4e91" category="inline-link-macro-rx"></block></block>
+  <block id="55a0cf1cf2bb1cfdcff0aad9cfde49d9" category="list-text">现在，默认情况下会启用包含备份版本历史记录。默认版本数为 20 。<block ref="f2a3d5933a5e0372cc2c185633f396b8" category="inline-link-macro-rx"></block></block>
+  <block id="524c45aec514e36f1f014df22714824e" category="list-text">可以创建规则，使您能够根据预定义的条件自动将用户移动到预先选择的备份层。您可以为 Microsoft Exchange Online 和 Microsoft OneDrive for Business 创建规则。您不能为 Microsoft SharePoint Online 创建规则。<block ref="ce9deed384e0076de61405537c2a5dbd" category="inline-xref-macro-rx"></block></block>
+  <block id="41b34773b64b2abaab2984b716ed65b0" category="summary">您可以启用高级搜索以在 Microsoft 365 Exchange Online 中搜索备份的项目。</block>
+  <block id="23e9dcfa8b97aaea186eaaeb1177dea4" category="paragraph">您可以使用 * 高级搜索 * for Microsoft Exchange Online 搜索单个或共享邮箱项，并将这些项还原到其原始邮箱。</block>
+  <block id="c7f1896c455334213518b5df2a860b44" category="paragraph">管理员可以通过转到来启用 * 高级搜索 * <block ref="f87e0976e00f26ec4930aef7f830024f" category="inline-link-macro-rx"></block> 并提交请求。您也可以发送电子邮件给 SaaS 备份支持团队，电子邮件地址为 saasbackupsupport@netapp.com 。</block>
+  <block id="4c6fa9a7d2c0c345bf057d6d3e77c80a" category="paragraph">启用 * 高级搜索 * 后，您可以为各个租户启用自助服务门户（ SSP ）。如果在首次备份之前未启用 * 高级搜索 * ，则不会显示任何搜索结果。要了解有关自助服务门户的更多信息，请参见 <block ref="b51bb0ef6b11f946c31f52683a5d978b" category="inline-link-macro-rx"></block>。</block>
+  <block id="4c1d3f657745aa4fa7c5b961a2f7a82f" category="paragraph"><block ref="4c1d3f657745aa4fa7c5b961a2f7a82f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6e1c6cab6487c8b15e4140bfb0d5fd69" category="list-text"><block ref="7d190c308c24e5fb4e4af67edbc1dd47" category="inline-xref-macro-rx"></block></block>
+  <block id="5e23ff9d9c602cb7300fedbed1382b43" category="section-title">启用高级搜索</block>
+  <block id="2bea3c3804042a7b5ec982475df525c9" category="paragraph">您可以在高级搜索设置中启用 * 高级搜索 * 功能。</block>
+  <block id="14242c99845a0bf338d45c648e061643" category="list-text">单击 * 保存设置 * 。</block>
+  <block id="6b2edf93f90ba6f21a0eae49dddc7440" category="paragraph">您可以在 * 执行搜索 * 下搜索单个或共享邮箱项，并将这些项还原到其原始邮箱。</block>
+  <block id="f6b15d7324df7c5169155143d4b34912" category="paragraph">您可以在 * 先前搜索作业 * 下找到先前的搜索作业。</block>
+  <block id="38d0504911fa47808177f1d71c40e7e1" category="paragraph">要了解如何使用自助服务门户还原 Microsoft Exchange Online 中的项目，请参见 <block ref="8bd99ae3cbd2ccc3f81def50302f803d" category="inline-link-macro-rx"></block>。</block>
+  <block id="2aedef02b2ed09f1d4e2fcd6c3fae26e" category="paragraph"><block ref="c19bb902a48f13264b9ec9addfdb6c34" category="inline-xref-macro-rx"></block></block>
 </blocks>

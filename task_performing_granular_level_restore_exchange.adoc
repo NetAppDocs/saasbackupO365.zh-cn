@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_performing_granular_level_restore_exchange.html 
-keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes, self service portal 
 summary: 您可以使用 SaaS Backup for Microsoft 365 对 Microsoft Exchange Online 365 执行粒度级还原。 
 ---
 = 对 Microsoft Exchange Online 执行粒度级还原
@@ -182,3 +182,5 @@ NOTE: 如果选择 * 导出到数据 * 还原选项，则提供的链接有效�
 
 . 单击 * 查看作业进度 * 以监控还原进度。
 
+
+要了解如何使用自助服务门户还原 Microsoft Exchange Online 中的项目，请参见 link:reference_about_ssp.hmtl["关于自助服务门户"]。

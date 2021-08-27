@@ -5,16 +5,11 @@ keywords: what's new, features, new, release notes, enhancements
 summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新功能，增强功能和错误修复。 
 ---
 = 新功能和更新—已归档
-:toc: macro
 :hardbreaks:
-:toclevels: 2
-:toc: 
-:toclevels: 2
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -70,9 +65,9 @@ image:subscription_types_free_trial.jpg["屏幕截图，显示选择免费试用
 == 2018 年 2 月
 
 * 现在，可对 Microsoft SharePoint Online 使用基于模板 ID 的筛选功能。<<task_creating_user_defined_filter.adoc#creating-a-user-defined-filer,创建用户定义的筛选器>>
-* 现在，您可以将 SaaS Backup for Microsoft 365 用户帐户活动日志下载到 .csv 文件中。<<task_viewing_and_downloading_data.adoc#downloading-the-activity-log,下载活动日志>>
+* 现在，您可以将 SaaS Backup for Microsoft 365 用户帐户活动日志下载到 .csv 文件中。link:task_downloading_data.html["下载日志"]
 * 现在， SaaS Backup for Microsoft 365 与您的服务之间的用户帐户，站点和组同步默认处于启用状态。
-* 现在，默认情况下会启用包含备份版本历史记录。默认版本数为 20 。<<task_updating_backup_settings.adoc#updating-backup-settings,正在更新备份设置>>
+* 现在，默认情况下会启用包含备份版本历史记录。默认版本数为 20 。link:concept_backup_settings.html["备份设置"]
 
 
 
@@ -97,5 +92,5 @@ image:subscription_types_free_trial.jpg["屏幕截图，显示选择免费试用
 
 == 2017 年 10 月
 
-* 可以创建规则，使您能够根据预定义的条件自动将用户移动到预先选择的备份层。您可以为 Microsoft Exchange Online 和 Microsoft OneDrive for Business 创建规则。您不能为 Microsoft SharePoint Online 创建规则。<<task_creating_rules.adoc#creating-rules,正在创建规则>>
+* 可以创建规则，使您能够根据预定义的条件自动将用户移动到预先选择的备份层。您可以为 Microsoft Exchange Online 和 Microsoft OneDrive for Business 创建规则。您不能为 Microsoft SharePoint Online 创建规则。<<task_creating_rules.adoc#creating-rules,创建新规则>>
 
