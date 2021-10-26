@@ -17,19 +17,6 @@ summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新�
 
 
 
-== 2021 年 5 月
-
-各个 Microsoft Exchange Online 邮箱帐户用户现在可以使用 SaaS Backup for Microsoft 365 中的自助服务门户（ SSP ）来查找和还原 Microsoft Exchange Online 的项目。要启用自助服务门户，请联系您的管理员。
-
-必须为租户启用 * 高级搜索 * 。要为邮箱项目编制索引，需要进行完整备份。
-
-* link:task_using_advanced_search.html["使用高级搜索"]
-* link:reference_about_ssp.html["关于自助服务门户"]
-* link:task_use_ssp.html["使用自助服务门户"]
-
-
-
-
 == 2020年12月
 
 如果您在美国部署 Microsoft Azure ，则您的数据不会离开 Microsoft 环境。在 SaaS Backup for Microsoft 365 的注册过程中，您可以使用 Azure Blob 存储或您自己的存储。
