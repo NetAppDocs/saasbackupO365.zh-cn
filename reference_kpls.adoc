@@ -17,13 +17,19 @@ summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新�
 
 
 
-== 适用于 Microsoft 365 OneDrive for Business
+== 对于 SharePoint
+
+SaaS Backup 不支持备份已归档的 SharePoint 站点。
+
+
+
+== 适用于 OneDrive for Business
 
 只有在手动完成服务同步后，才会检测到新添加的驱动器。
 
 
 
-== 适用于 Microsoft 365 Exchange Online
+== 对于 Exchange Online
 
 * SaaS 备份不支持对公有文件夹进行备份。
 * * 高级搜索 * 仅适用于 Exchange Online 。默认情况下，此设置处于禁用状态。客户必须请求启用此功能。启用 * 启用高级搜索 * 设置后，管理员必须手动为各个用户启用搜索功能。
@@ -31,7 +37,7 @@ summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新�
 
 
 
-== 适用于 Microsoft 365 团队
+== 适用于团队
 
 * 已还原通道配置，但内容和对话未还原。
 * 由于 API 限制， SaaS 备份无法区分 SaaS 备份中的公有和专用通道。
@@ -42,7 +48,7 @@ summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新�
 
 
 
-== 适用于 Microsoft 365 OneNote
+== 适用于 OneNote
 
 * 导出到数据不可用。
 * 增量备份作业可能会失败，并显示以下错误消息： `Partial Failure 。无法备份几个 OneNote 分区` 。

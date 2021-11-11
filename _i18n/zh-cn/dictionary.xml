@@ -411,17 +411,13 @@
   <block id="c56e0bf3df88870012e054d6d8888966" category="list-text">在搜索字段中，输入要添加的安全组的名称。</block>
   <block id="2813f127dc58929fb553bc32684c2e46" category="doc">已知问题和限制</block>
   <block id="dd5f8dd4f85249942624661b110d693e" category="paragraph">以下是在应用程序级别为 SaaS Backup for Microsoft 365 确定的已知限制。</block>
-  <block id="d266d57bea866579e901ba09197d761c" category="section-title">适用于 Microsoft 365 OneDrive for Business</block>
   <block id="6346662e0704c71f9315c98ae046d219" category="paragraph">只有在手动完成服务同步后，才会检测到新添加的驱动器。</block>
-  <block id="df10152b8f1b0d5caabc4567bb3ea98e" category="section-title">适用于 Microsoft 365 Exchange Online</block>
   <block id="bbab3039495eb009e7e37fddca11f420" category="list-text">SaaS 备份不支持对公有文件夹进行备份。</block>
-  <block id="4f3cb2778fd6f32cc95e653723c2094a" category="section-title">适用于 Microsoft 365 团队</block>
   <block id="3ae90eaf5bfb44951f5e8d213a509b80" category="list-text">已还原通道配置，但内容和对话未还原。</block>
   <block id="344380bbdcd6e472f74897190dc6aedf" category="list-text">由于 API 限制， SaaS 备份无法区分 SaaS 备份中的公有和专用通道。</block>
   <block id="624442c799e4e89cb608e21d94dd9e38" category="list-text">高级还原仅还原邮箱和 SharePoint 数据，而不还原对话。</block>
   <block id="d5b9bcd91341381d4f9facf62e69a760" category="list-text">团队聊天不支持对表情符号和礼品进行备份或还原。</block>
   <block id="2e6df5bd869e8c255a210d03f781c2a2" category="list-text">仅导出团队聊天对话选项为导出到 HTML 。在对话中发布的附件链接在 html 文档中不可见。</block>
-  <block id="db24901a0eed559545f127f9968c1c18" category="section-title">适用于 Microsoft 365 OneNote</block>
   <block id="78c84ad1cca9922872a03826b4f4ba13" category="list-text">导出到数据不可用。</block>
   <block id="e9c7dd5d31fad4f1fecc238f1b5cec74" category="list-text">增量备份作业可能会失败，并显示以下错误消息： `Partial Failure 。无法备份几个 OneNote 分区` 。</block>
   <block id="cba4e4936570a5f6cd9e636d453ee2df" category="list-text">OneDrive 备份包括 .onebak 文件的备份。</block>
@@ -748,7 +744,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
   <block id="af482b62e5f593026c0e1f3b25e33b22" category="inline-link">SaaS 备份通知</block>
-  <block id="9bdc5707c114dbc5a94534cfcadd7ab0" category="paragraph"><block ref="9bdc5707c114dbc5a94534cfcadd7ab0" category="inline-link-rx"></block></block>
   <block id="7a5993af77d1032535cb5f108e621422" category="doc">注册 Microsoft 365 免费试用帐户</block>
   <block id="a6cf97b63eff3ad329ddd3b42602dc2c" category="paragraph">借助 Microsoft 365 for Business 30 天免费试用版，您可以了解 Microsoft 365 和 SaaS Backup for Microsoft 365 的最新功能。</block>
   <block id="154aaf2b1abad0f9ef74679e031ff9bb" category="inline-link">Microsoft 365 商业版站点</block>
@@ -1360,14 +1355,8 @@
   <block id="e5efd2bf375c66135f8862e063b4eddf" category="paragraph">* 注 * ：您将找到一个名为 "&lt; 您的团队名称–专用通道名称 &gt;" 的单独站点集合。您可以使用模板 ID ： TEAMCHANNEL#0 筛选这些站点收集。</block>
   <block id="8549ef96f3965f413ca1f13ece7089b8" category="paragraph">* 注意 * ： Exchange Online 备份中包含聊天功能。</block>
   <block id="f16b3cb45c9a49849f9defdf2c168963" category="paragraph">* 注意 * ： OneDrive for Business 备份中包含的文件。</block>
-  <block id="0933d4dd2ad52707372be6b67b620890" category="section-title">2021 年 5 月</block>
-  <block id="936c71bdf886a51aec9f1e7f00ed205b" category="paragraph">各个 Microsoft Exchange Online 邮箱帐户用户现在可以使用 SaaS Backup for Microsoft 365 中的自助服务门户（ SSP ）来查找和还原 Microsoft Exchange Online 的项目。要启用自助服务门户，请联系您的管理员。</block>
-  <block id="cf20237c6268b98b1bd327699e5ac704" category="paragraph">必须为租户启用 * 高级搜索 * 。要为邮箱项目编制索引，需要进行完整备份。</block>
   <block id="16ec1a94d324268e23458158820f2793" category="list-text"><block ref="16ec1a94d324268e23458158820f2793" category="inline-link-macro-rx"></block></block>
   <block id="013131a779f73f268793ce1212aee294" category="inline-link-macro">关于自助服务门户</block>
-  <block id="b51bb0ef6b11f946c31f52683a5d978b" category="list-text"><block ref="b51bb0ef6b11f946c31f52683a5d978b" category="inline-link-macro-rx"></block></block>
-  <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="inline-link-macro">使用自助服务门户</block>
-  <block id="41fd28f7f33d08bb911d51e29c0847a6" category="list-text"><block ref="41fd28f7f33d08bb911d51e29c0847a6" category="inline-link-macro-rx"></block></block>
   <block id="60a93d0f13a60df4d4419601c9c70515" category="list-text">SaaS Backup for Microsoft 365 现在支持 Exchange Online 用户的高级搜索功能。启用 * 高级搜索 * 后，您可以在备份数据的最后六个月内搜索各个邮箱项，共享邮箱项和归档邮箱项。</block>
   <block id="ec33cc053523746b10689885a6465e31" category="list-text">* 高级搜索 * 仅适用于 Exchange Online 。默认情况下，此设置处于禁用状态。客户必须请求启用此功能。启用 * 启用高级搜索 * 设置后，管理员必须手动为各个用户启用搜索功能。</block>
   <block id="622447dc867aa23b63cae41916056ae1" category="list-text">现在，您可以清除用户，站点集和 Microsoft 365 组，从而从 SaaS Backup for Microsoft 365 中完全删除所有关联数据。<block ref="2c1b64681ee9fe134c90ce77d1ff786d" category="inline-xref-macro-rx"></block></block>
@@ -1389,4 +1378,10 @@
   <block id="f6b15d7324df7c5169155143d4b34912" category="paragraph">您可以在 * 先前搜索作业 * 下找到先前的搜索作业。</block>
   <block id="38d0504911fa47808177f1d71c40e7e1" category="paragraph">要了解如何使用自助服务门户还原 Microsoft Exchange Online 中的项目，请参见 <block ref="8bd99ae3cbd2ccc3f81def50302f803d" category="inline-link-macro-rx"></block>。</block>
   <block id="2aedef02b2ed09f1d4e2fcd6c3fae26e" category="paragraph"><block ref="c19bb902a48f13264b9ec9addfdb6c34" category="inline-xref-macro-rx"></block></block>
+  <block id="6e7db500b108f92653337520430f1623" category="paragraph">SaaS Backup 不支持备份已归档的 SharePoint 站点。</block>
+  <block id="69cadd9afb18beaf638480ee96474d8d" category="section-title">适用于 OneDrive for Business</block>
+  <block id="6e56d85b59ed18494624e5efc9118118" category="section-title">对于 Exchange Online</block>
+  <block id="04fe5f6086035badbfe6f17afc8b1812" category="section-title">适用于团队</block>
+  <block id="725eb4a545d53ed127b237f8677c348e" category="section-title">适用于 OneNote</block>
+  <block id="6adebe2fbffbd6dcb646696cd1bfc9ee" category="paragraph"><block ref="6adebe2fbffbd6dcb646696cd1bfc9ee" category="inline-link-macro-rx"></block></block>
 </blocks>
