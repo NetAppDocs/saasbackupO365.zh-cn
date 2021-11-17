@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task_enable_modern_authentication.html 
+keywords: saas backup, microsoft 365, setting, settings, enable, modern authentication, basic authentication, discovery, failure 
+summary: 您可以为 SaaS Backup for Microsoft 365 启用现代身份验证，以避免 Microsoft 365 组以及共享邮箱和归档邮箱发现失败。 
+---
+= 启用现代身份验证
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Microsoft 365 将于 2021 年 10 月弃用 Exchange Online 中的基本身份验证。弃用后， Microsoft 365 组以及共享邮箱和归档邮箱可能会发生发现失败。
+
+您可以随时启用现代身份验证。
+
+新客户无需采取任何措施。注册后将启用现代身份验证。
+
+现有客户需要采取行动。按照以下说明启用现代身份验证。
+
+.选项 1 步骤
+. 登录到 SaaS Backup for Microsoft 365 。此时将弹出以下消息。image:enable_mod_auth_pop-up.png["弹出一条消息以启用现代身份验证读取 Microsoft 基本身份验证即将被禁用。请启用现代身份验证以避免 Microsoft 365 组，归档邮箱和共享邮箱发现失败。是否要立即启用？"]
+. 选择 * 确认 * 以启用现代身份验证。
+. 接受所有权限。现代身份验证现已启用。已删除 ZZZ 配置服务帐户。
+
+
+.选项 2 步骤
+. 在 SaaS Backup for Microsoft 365 中，转到设置 image:settings_icon.png["齿轮图标"]> 服务设置 > Microsoft 365 服务设置。image:microsoft365_service_settings.png["指向 Microsoft 365 服务设置的箭头"]
+. 选择 * 启用现代身份验证 * 。image:enable_mod_auth_service_settings_button.png["从服务设置中选择启用现代身份验证"]
+. 接受所有权限。现代身份验证现已启用。已删除 ZZZ 配置服务帐户。
+
+
+如果您收到失败通知，可以重试以启用现代身份验证。
+
+如需支持，请发送电子邮件至 saasbackupsupport@netapp.com 。
+
+有关详细信息，请参见 link:https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-september-2021-update/ba-p/2772210["基本身份验证和 Exchange Online — 2021 年 9 月更新"]。

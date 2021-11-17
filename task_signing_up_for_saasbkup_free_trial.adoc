@@ -19,10 +19,6 @@ summary: SaaS Backup for Microsoft 365 入门包括确定要用于备份数据�
 
 == 使用 Microsoft 365 服务帐户注册免费试用版
 
-使用 Microsoft 365 服务帐户注册免费试用版的用户需要启用基本身份验证才能使用 SaaS Backup 。SaaS Backup 仅支持基本身份验证。如果您的 Microsoft 365 租户是从 2020 年 10 月开始创建的，并且未记录使用情况，则可能会遇到身份验证失败。请确保为 Microsoft 365 服务帐户禁用现代身份验证。
-
-link:https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online["了解如何禁用现代身份验证"]
-
 .步骤
 . 在 Web 浏览器中输入 SaaS Backup for Microsoft 365 URL ：https://saasbackup.netapp.com[]
 . 选择您所在的区域。此时将在选定区域创建您的租户。您的数据将存储在该数据中心位置，以后无法更改。

@@ -84,6 +84,8 @@ sidebar:
       url: "/task_discovering_new.html"
     - title: 清除用户，站点集或 Microsoft 365 组
       url: "/task_purging.html"
+    - title: 启用现代身份验证
+      url: "/task_enable_modern_authentication.html"
   - title: 管理设置
     entries:
     - title: 备份策略

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_new_saasbackupO365.html 
-keywords: what's new, features, new, release notes, enhancements 
+keywords: what's new, features, release notes, enhancements 
 summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新功能，增强功能和错误修复。 
 ---
 = 新增功能和更新
@@ -14,6 +14,16 @@ summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新�
 
 [role="lead"]
 此版本的 NetApp SaaS Backup for Microsoft 365 增加了以下新功能和更新。
+
+
+
+== 2021年11月
+
+Microsoft 365 将于 2021 年 10 月弃用 Exchange Online 中的基本身份验证。有关详细信息，请参见 link:https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-september-2021-update/ba-p/2772210["基本身份验证和 Exchange Online — 2021 年 9 月更新"]。弃用后， Microsoft 365 组以及共享邮箱和归档邮箱可能会发生发现失败。您可以随时启用现代身份验证，以避免出现这些故障。
+
+如果您是新客户，则在注册时将启用现代身份验证。无需执行任何操作。
+
+如果您是现有客户且尚未启用现代身份验证，则需要采取措施。请参见 link:task_enable_modern_authentication.html["启用现代身份验证"]。
 
 
 

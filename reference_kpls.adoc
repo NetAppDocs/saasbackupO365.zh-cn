@@ -17,7 +17,7 @@ summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新�
 
 
 
-== 对于 SharePoint
+== 适用于 SharePoint Online
 
 SaaS Backup 不支持备份已归档的 SharePoint 站点。
 

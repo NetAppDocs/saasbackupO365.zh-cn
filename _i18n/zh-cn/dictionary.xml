@@ -147,9 +147,6 @@
   <block id="14ed5b6705ccff3400fb356b735cde29" category="summary">您可以使用 Microsoft 365 服务帐户或 NetApp SSO 帐户注册 SaaS Backup for Microsoft 365 。</block>
   <block id="5b20edb29e2e3b85bd65bb20e8c323a1" category="doc">注册订阅 SaaS Backup for Microsoft 365 的付费订阅</block>
   <block id="a05d453722a996742fec3c2827e30a0c" category="section-title">使用 Microsoft 365 服务帐户注册付费订阅</block>
-  <block id="32fd1bb5491f4bdb59730a837e0eeef2" category="paragraph">使用 Microsoft 365 服务帐户注册付费订阅的用户需要启用基本身份验证才能使用 SaaS Backup 。SaaS Backup 仅支持基本身份验证。如果您的 Microsoft 365 租户是从 2020 年 10 月开始创建的，并且未记录使用情况，则可能会遇到身份验证失败。请确保为 Microsoft 365 服务帐户禁用现代身份验证。</block>
-  <block id="3f0ac65c6641811fb6979108b4ae4db1" category="inline-link-macro">了解如何禁用现代身份验证</block>
-  <block id="db6769770b54cd48ea827fed88aa688f" category="paragraph"><block ref="db6769770b54cd48ea827fed88aa688f" category="inline-link-macro-rx"></block></block>
   <block id="abdc55eb1eb7165f452a2b5dc6896999" category="list-text">在 Web 浏览器中输入 SaaS Backup for Microsoft 365 URL ：<block ref="69b8c2567294d7944fbc4c95e2c3c422" category="inline-link-rx"></block></block>
   <block id="fb40144187e6d6dfbb31bfddd7c8be12" category="list-text">选择您所在的区域。此时将在选定区域创建您的租户。您的数据将存储在该数据中心位置，以后无法更改。</block>
   <block id="40de166a0206734afd1816e330dbd1b2" category="list-text">单击登录页面底部的 * 注册 * 。</block>
@@ -797,18 +794,12 @@
   <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">单击 * 提交 * 。</block>
   <block id="6be364524b60c8ce2362d8a248ae8458" category="paragraph">If you want to be notified automatically when production-level documentation is released or important changes are made to existing production-level documents, follow Twitter account @NetAppDoc.</block>
   <block id="118a5414cacce486de3b92817ef0fe94" category="summary">在注册 SaaS Backup for Microsoft 365 时，建议创建具有全局管理员权限的新 Microsoft 365 服务帐户。</block>
-  <block id="0d3e964d833bab0fc51a9de024483383" category="doc">创建新的 Microsoft Office 365 服务帐户</block>
-  <block id="c0b7d635d4299477fcd9a13db70283b0" category="paragraph">创建新的 Microsoft Office 365 帐户时，此帐户必须具有全局管理权限，并具有有效且已分配的 Microsoft Office 365 许可证。</block>
-  <block id="3822205219da61e0adf663d985249229" category="paragraph">这不是用于管理 SaaS Backup for Microsoft Office 365 的唯一服务帐户。下图显示了不同的服务帐户类型，并在下方进行了说明。</block>
   <block id="4a9b8df2da2aa8f729da4ec5418ad136" category="paragraph">* 服务帐户说明 *</block>
   <block id="0eff159375ae2a355a3eeb4485038d4d" category="inline-image-macro">服务帐户类型</block>
   <block id="45c8d220d9eea59e8b41b248063dcd0a" category="paragraph"><block ref="45c8d220d9eea59e8b41b248063dcd0a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8e63f7e2ba7ffa9a33982b4227a64e05" category="inline-image-macro">红色编号 1</block>
   <block id="36800229bb8c9b166323037bb647be04" category="inline-image-macro">红色数字 2</block>
   <block id="f8e57abf7b1ab0f1a13d1fcfa42a1bee" category="inline-image-macro">红色数字 3</block>
-  <block id="bcd69943752734c53a18c52e97e56165" category="paragraph"><block ref="3f6ca1eadf75a5bc523be0ab0decd8d3" category="inline-image-macro-rx" type="image"></block> 用于注册 SaaS Backup 的帐户；注册期间需要具有具有有效 Microsoft Office 365 许可证的全局管理权限。它可用于备份和还原操作。<block ref="a4880b4ac8004f3fc5430fe64280d54f" category="inline-image-macro-rx" type="image"></block> 系统会自动创建一个 * zzzCCconfigAcct* 作为服务帐户来发现 Office 365 组。<block ref="6c9ad94934e447521fdd01be977df60c" category="inline-image-macro-rx" type="image"></block> 可以添加一个额外的服务帐户来提高备份和还原操作的性能。</block>
-  <block id="351674dd4c3367ac2feb58a8a55e3f97" category="section-title">创建具有全局管理员权限的新 MS Office 365 服务帐户</block>
-  <block id="77932588c3a68d6f3ee9a0a5c88c3888" category="paragraph">在注册期间，创建一个具有全局权限和有效 Microsoft Office 365 许可证的帐户。完成注册后，您可以从此帐户中删除全局管理权限和许可证。</block>
   <block id="1a3f62512f1649d7c2d278df12d6a29a" category="list-text">使用具有管理权限的帐户登录到 Microsoft 365 管理门户。</block>
   <block id="99fe7b3fbf552951ac69f84baed6cdea" category="list-text">单击 * 用户 * 。</block>
   <block id="e8a3f369f7aea8805d660e7fad0cec5f" category="inline-image-macro">用户图标的屏幕截图</block>
@@ -830,19 +821,12 @@
   <block id="7c69695c5fae4b8a30117ad3da3b34b0" category="list-text">SharePoint 管理员</block>
   <block id="cde8b2b845367a9ef3323f0b1321e90d" category="list-text">应用程序模拟角色</block>
   <block id="8c8883c0392732f098d638ca9570adf3" category="paragraph">如果您限制全局管理员角色的各个许可证，则这一点尤其重要。</block>
-  <block id="457d4f101995b5a981b7b55330166532" category="section-title">ZZZ Config 帐户</block>
-  <block id="504433e412c79a7932edf8db3c96d8f8" category="paragraph">在 SaaS Backup 订阅中，系统会使用 ZZZ CC Config [GUID] 创建一个新帐户。</block>
-  <block id="b172bcbdeb6f808e9d054be90ab273cd" category="paragraph">此自动创建的帐户用于发现共享 / 归档邮箱和私有组。它应具有 Exchange 和 SharePoint 权限（在 O365 中为自定义管理员）。建议您将此帐户排除在 MFA 策略之外。</block>
-  <block id="86a7fb3ba541c1c3e32ec8023d3ae050" category="paragraph">要避免任何发现或备份失败，请保持帐户不变。</block>
   <block id="b153d6df04986e031e8cdcee42514143" category="section-title">创建其他服务帐户</block>
-  <block id="c011dc76cd3be918d7b58351091c0ffb" category="paragraph">可以在 SaaS Backup for Microsoft Office 365 中添加服务帐户，以提高客户的备份性能。服务帐户是指没有许可证的 Microsoft Office 365 用户帐户；用于备份和还原操作。</block>
   <block id="ebe7ee976226a8fc0a086901cc35b2ec" category="paragraph">此类帐户需要 3 个权限：</block>
   <block id="65745cfa854e2d246b0db140661516ba" category="list-text">Exchange 管理员</block>
   <block id="ec564c8443249a8ff6ea69218134ff74" category="list-text">SharePoint 管理员</block>
   <block id="a42a9d9d8fadbaec0e1d4229ccab3f7d" category="list-text">应用程序模拟角色</block>
-  <block id="abf9b2d034585f7ce99f13431ed35fa4" category="paragraph">要添加其他服务帐户，此服务帐户必须已存在于 Microsoft Office 365 环境中。如果您没有现有帐户，请创建一个帐户。</block>
   <block id="8d9cbf036fe97b0df26a68a540b482a8" category="admonition">为了优化性能，建议您在 Office 365 中为每 1000 个用户添加 1 个服务帐户。</block>
-  <block id="aa609a5b0ac0dabd9c93c931370c7ace" category="list-text">登录到 SaaS Backup for Microsoft Office 365 。</block>
   <block id="631cb6d0304ba6853f2f328d341ededc" category="inline-image-macro">设置齿轮图标</block>
   <block id="8753946956023dc5b9115512b60b950c" category="list-text">单击 <block ref="b1edfb541d9b2da7c3aa3ac273577864" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="893a8ddaf0af1dc163da6dcc1f26a639" category="list-text">单击 * 服务设置 * 。</block>
@@ -855,7 +839,6 @@
   <block id="a8e2f7769bc8afae460acb597b749db7" category="paragraph">此时将弹出一条确认消息。</block>
   <block id="3fe77a73bf9ea3e704bc6cbed44832f8" category="inline-image-macro">添加新服务帐户弹出确认消息</block>
   <block id="41cb17958d9becc3c217a565cd39ed37" category="paragraph"><block ref="41cb17958d9becc3c217a565cd39ed37" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3c0c36c4d191f655bad518b43e31597c" category="list-text">在 Microsoft Office 365 登录页面上，提供上述服务帐户的凭据以将其添加到 SaaS Backup 。</block>
   <block id="471dec26ded6b7c1186f46ab9997db3c" category="summary">欢迎访问 NetApp SaaS Backup for Microsoft 365 文档门户。</block>
   <block id="d6caea3522b7366df1ef706e69eb7090" category="doc">NetApp SaaS Backup for Microsoft 365 文档</block>
   <block id="4b90c0fa551e1b95c98ebe0691603d94" category="paragraph">NetApp SaaS Backup 是一款基于 Web 的安全软件即服务（ Software-as-a-Service ， SaaS ）产品，可将 Microsoft 365 数据备份到 Amazon S3 存储和 Microsoft Azure Blob 存储。</block>
@@ -1063,7 +1046,6 @@
   <block id="a189a1df7360b047444647d114f49f87" category="list-text">输入请求的注册信息并单击 * 提交 * 。您将收到一封包含免费试用激活代码的电子邮件。</block>
   <block id="7e01d5441a2bbda36f29dd5a8d2561b7" category="doc">注册申请免费试用 SaaS Backup for Microsoft 365</block>
   <block id="c84082e63d1052aedfca36e4dd31f521" category="section-title">使用 Microsoft 365 服务帐户注册免费试用版</block>
-  <block id="a77d2ddc9e5b2a10c6306021816e1292" category="paragraph">使用 Microsoft 365 服务帐户注册免费试用版的用户需要启用基本身份验证才能使用 SaaS Backup 。SaaS Backup 仅支持基本身份验证。如果您的 Microsoft 365 租户是从 2020 年 10 月开始创建的，并且未记录使用情况，则可能会遇到身份验证失败。请确保为 Microsoft 365 服务帐户禁用现代身份验证。</block>
   <block id="cb7275d9b71e140a3f1a91d0c6cc0747" category="list-text">输入 Microsoft 365 测试或试用帐户的电子邮件地址和密码，然后单击 * 登录 * 。此时将显示 SaaS Backup for Microsoft 365 请求的权限列表。</block>
   <block id="e2dfed3093092bbfc3bed3cf01111b0a" category="list-text">选择 * 免费试用 * 作为订阅类型。</block>
   <block id="e7a56e29d931a374c7958199f1bafb29" category="list-text">输入渠道合作伙伴或销售代表提供的或通过注册电子邮件获取的免费试用激活代码。</block>
@@ -1378,10 +1360,51 @@
   <block id="f6b15d7324df7c5169155143d4b34912" category="paragraph">您可以在 * 先前搜索作业 * 下找到先前的搜索作业。</block>
   <block id="38d0504911fa47808177f1d71c40e7e1" category="paragraph">要了解如何使用自助服务门户还原 Microsoft Exchange Online 中的项目，请参见 <block ref="8bd99ae3cbd2ccc3f81def50302f803d" category="inline-link-macro-rx"></block>。</block>
   <block id="2aedef02b2ed09f1d4e2fcd6c3fae26e" category="paragraph"><block ref="c19bb902a48f13264b9ec9addfdb6c34" category="inline-xref-macro-rx"></block></block>
-  <block id="6e7db500b108f92653337520430f1623" category="paragraph">SaaS Backup 不支持备份已归档的 SharePoint 站点。</block>
   <block id="69cadd9afb18beaf638480ee96474d8d" category="section-title">适用于 OneDrive for Business</block>
   <block id="6e56d85b59ed18494624e5efc9118118" category="section-title">对于 Exchange Online</block>
   <block id="04fe5f6086035badbfe6f17afc8b1812" category="section-title">适用于团队</block>
   <block id="725eb4a545d53ed127b237f8677c348e" category="section-title">适用于 OneNote</block>
   <block id="6adebe2fbffbd6dcb646696cd1bfc9ee" category="paragraph"><block ref="6adebe2fbffbd6dcb646696cd1bfc9ee" category="inline-link-macro-rx"></block></block>
+  <block id="62783f5d69cb5d3cb22b077c1d2b8777" category="section-title">2021年11月</block>
+  <block id="57b21864f834adb69b95deb6d906d488" category="inline-link-macro">基本身份验证和 Exchange Online — 2021 年 9 月更新</block>
+  <block id="31cc60edfc700178b3b3efacb6ed562e" category="paragraph">Microsoft 365 将于 2021 年 10 月弃用 Exchange Online 中的基本身份验证。有关详细信息，请参见 <block ref="13656a114805a881003fbba8178f036a" category="inline-link-macro-rx"></block>。弃用后， Microsoft 365 组以及共享邮箱和归档邮箱可能会发生发现失败。您可以随时启用现代身份验证，以避免出现这些故障。</block>
+  <block id="5e72ee82630f471af2db622957d8d623" category="paragraph">如果您是新客户，则在注册时将启用现代身份验证。无需执行任何操作。</block>
+  <block id="6d41bf53975c37a371e0a61c24d9701d" category="inline-link-macro">启用现代身份验证</block>
+  <block id="b32bf445c8b684008c9fd9cf380eb985" category="paragraph">如果您是现有客户且尚未启用现代身份验证，则需要采取措施。请参见 <block ref="718d39ae8b1f35b36dc8c2837eb10373" category="inline-link-macro-rx"></block>。</block>
+  <block id="0d58f13cf59b3acb936d22fbb195c797" category="section-title">适用于 SharePoint Online</block>
+  <block id="0df29440fd1f5817998dad2145c5d66f" category="paragraph">SaaS Backup 不支持备份已归档的 SharePoint 站点。</block>
+  <block id="7c655a6168c9e197c82ded816cff150b" category="doc">创建新的 Microsoft 365 服务帐户</block>
+  <block id="4bd45d06f9871744e10e2123eb1797cb" category="paragraph">创建新的 Microsoft 365 帐户时，此帐户必须具有全局管理权限，并具有有效且已分配的 Microsoft Office 365 许可证。</block>
+  <block id="48c466a3b30139c9596b9b755f86d608" category="paragraph">这不是用于管理 SaaS Backup for Microsoft 365 的唯一服务帐户。下图显示了不同的服务帐户类型，并在下方进行了说明。</block>
+  <block id="c0afe19b37d8d68ab2805eb365e8f569" category="paragraph"><block ref="3f6ca1eadf75a5bc523be0ab0decd8d3" category="inline-image-macro-rx" type="image"></block> 用于注册 SaaS Backup 的帐户；注册期间需要具有具有有效 Microsoft 365 许可证的全局管理权限。它可用于备份和还原操作。<block ref="a4880b4ac8004f3fc5430fe64280d54f" category="inline-image-macro-rx" type="image"></block> 系统会自动创建一个 * zzzCCconfigAcct* 作为服务帐户来发现 Microsoft 365 组。启用现代身份验证后，您没有 ZZZ Config 服务帐户。<block ref="6c9ad94934e447521fdd01be977df60c" category="inline-image-macro-rx" type="image"></block> 可以添加一个额外的服务帐户来提高备份和还原操作的性能。</block>
+  <block id="17ec37f7e4cb59380aa0ce4555554bf3" category="section-title">创建具有全局管理员权限的新 MS 365 服务帐户</block>
+  <block id="751a71d636892cbf66cfcaa823fb51ba" category="paragraph">在注册期间，创建一个具有全局权限和有效 Microsoft 365 许可证的帐户。完成注册后，您可以从此帐户中删除全局管理权限和许可证。</block>
+  <block id="4a08e661e1b50d206e4d343f8bddae4d" category="section-title">ZZZ 配置服务帐户</block>
+  <block id="93cbfc166ef53f05a312ae934dca3120" category="paragraph">ZZZ 配置服务帐户是一个自动创建的帐户，用于在使用基本身份验证时发现共享 / 归档邮箱和专用组。它应具有 Exchange 和 SharePoint 权限（在 M365 中为自定义管理员）。建议您将此帐户排除在 MFA 策略之外。要避免任何发现或备份失败，请保持帐户不变。</block>
+  <block id="8a473533f223a2aaaff4bb0dee2e40f8" category="paragraph">如果启用现代身份验证，则会删除 ZZZ Config 服务帐户。</block>
+  <block id="b1704dfbe6f842e95ceaea412c2f3141" category="paragraph">新客户没有 ZZZ Config 服务帐户。</block>
+  <block id="71f827eb8de41b274dee83ee2a67caab" category="paragraph">可以在 SaaS Backup for Microsoft 365 中添加服务帐户，以提高客户的备份性能。服务帐户是指无许可证的 Microsoft 365 用户帐户；用于备份和还原操作。</block>
+  <block id="0d75fdd856c16738b2215a01a4769262" category="paragraph">要添加其他服务帐户，此服务帐户必须已存在于 Microsoft 365 环境中。如果您没有现有帐户，请创建一个帐户。</block>
+  <block id="55ad18c25923fabae2ed0e076bec70fe" category="list-text">登录到 SaaS Backup for Microsoft 365 。</block>
+  <block id="6d9c1757137522dd3b832ee1850c5c89" category="list-text">在 Microsoft 365 登录页面上，提供上述服务帐户的凭据以将其添加到 SaaS Backup 。</block>
+  <block id="a73aba6b88b96c2312c0f9347ee50d78" category="summary">您可以为 SaaS Backup for Microsoft 365 启用现代身份验证，以避免 Microsoft 365 组以及共享邮箱和归档邮箱发现失败。</block>
+  <block id="bcb28a2f4ed645ef8a3af04a404a1502" category="paragraph">Microsoft 365 将于 2021 年 10 月弃用 Exchange Online 中的基本身份验证。弃用后， Microsoft 365 组以及共享邮箱和归档邮箱可能会发生发现失败。</block>
+  <block id="ebab51f38b25f119a54799f747a554df" category="paragraph">您可以随时启用现代身份验证。</block>
+  <block id="c1b811bd592235c61fa6ca7a4cdbe483" category="paragraph">新客户无需采取任何措施。注册后将启用现代身份验证。</block>
+  <block id="6a35f3193356ceb62195e1a17a1d97ca" category="paragraph">现有客户需要采取行动。按照以下说明启用现代身份验证。</block>
+  <block id="151c0e26b68569274cc8fb7865536967" category="list-title">选项 1 步骤</block>
+  <block id="5473646de43d33b966a040592c55e080" category="inline-image-macro">弹出一条消息以启用现代身份验证读取 Microsoft 基本身份验证即将被禁用。请启用现代身份验证以避免 Microsoft 365 组，归档邮箱和共享邮箱发现失败。是否要立即启用？</block>
+  <block id="d0f07db1e4f0dafbc370c2184e7fc993" category="list-text">登录到 SaaS Backup for Microsoft 365 。此时将弹出以下消息。<block ref="c54e32c72d16546d42f4bb610328d6c2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33961fdc55682584a2105cfe37dc4e80" category="list-text">选择 * 确认 * 以启用现代身份验证。</block>
+  <block id="719de1e44f12917b51d01d1d500b55e8" category="list-text">接受所有权限。现代身份验证现已启用。已删除 ZZZ 配置服务帐户。</block>
+  <block id="73450abe3754a721d825055685e2494c" category="list-title">选项 2 步骤</block>
+  <block id="92eef66d548ce3ad6566a41eb934f2c6" category="inline-image-macro">齿轮图标</block>
+  <block id="7381e66861ab2b549db3d647f53aab18" category="inline-image-macro">指向 Microsoft 365 服务设置的箭头</block>
+  <block id="00c3259ed9a379b2339d2dd0fb266c2d" category="list-text">在 SaaS Backup for Microsoft 365 中，转到设置 <block ref="764992d715ceb3d3bca0b58ec17502cd" category="inline-image-macro-rx" type="image"></block>&gt; 服务设置 &gt; Microsoft 365 服务设置。<block ref="c7c697ce9aa35ee14da9549d094faec6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="528b9600eae8c6e11b0a8204cac006c1" category="inline-image-macro">从服务设置中选择启用现代身份验证</block>
+  <block id="eaac380992bfb558c7f33ad5263a09cd" category="list-text">选择 * 启用现代身份验证 * 。<block ref="44637b2c161d4bd1a3f03826b4b97ec3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="659923b56097fde7f7e16f9938f8cee7" category="paragraph">如果您收到失败通知，可以重试以启用现代身份验证。</block>
+  <block id="c211ffba805191487d78c4b7cc83885c" category="paragraph">如需支持，请发送电子邮件至 saasbackupsupport@netapp.com 。</block>
+  <block id="079fc4b41d453223328c8289d6f6ee23" category="paragraph">有关详细信息，请参见 <block ref="13656a114805a881003fbba8178f036a" category="inline-link-macro-rx"></block>。</block>
+  <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="sidebar">使用自助服务门户</block>
 </blocks>
