@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head class="at-element-marker">
+  <title>新增功能和更新</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="新增功能和更新" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/zh-cn/saasbackupO365/reference_new_saasbackupO365.html" />
+	<meta property="og:description" content="SaaS Backup for Microsoft 365 定期推出新版本，为您提供新功能，增强功能和错误修复。" />
+  <meta property="og:image" content="https://docs.netapp.com/zh-cn/saasbackupO365/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/>
+  
+  <meta name="description" content="SaaS Backup for Microsoft 365 定期推出新版本，为您提供新功能，增强功能和错误修复。">
+  <meta name="keywords" content=" what's new, features, release notes, enhancements">
+  
+  
+
+  <!-- Icons -->
+  <link rel="icon" href="/zh-cn/saasbackupO365/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed -->
+  
+
+  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Controls AsciiDoctor Admonition Blocks -->
+  <link rel="stylesheet" type="text/css" href="/zh-cn/saasbackupO365/css/font-awesome.min.css">
+
+  <!-- Controls the shadow effect for search dropdown menu -->
+  <link rel="stylesheet" href="/zh-cn/saasbackupO365/css/boxshadowproperties.css">
+
+  <!-- NetApp CSS controls the technical content -->
+  <link rel="stylesheet" type="text/css" href="/zh-cn/saasbackupO365/css/netapp.css">
+
+  <!-- WWW CSS Content -->
+  <link rel="stylesheet" type="text/css" href="/zh-cn/saasbackupO365/css/www-luci-dotcom.min.css">
+  <link rel="stylesheet" type="text/css" href="/zh-cn/saasbackupO365/css/www-netapp-dotcom.css">
+  <link rel="stylesheet" href="/zh-cn/saasbackupO365/css/www-netapp-library-critical.min.css" media="all" >
+  <link rel="stylesheet" href="/zh-cn/saasbackupO365/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="/zh-cn/saasbackupO365/css/www-netapp-library-global-header-footer.min.css">
+
+  <!-- NetApp IE Customizations -->
+  <link rel="stylesheet" href='/zh-cn/saasbackupO365/css/na-utility.css' type='text/css'>
+  <link rel="stylesheet" href='/zh-cn/saasbackupO365/css/na-sidebar.css' type='text/css'>
+  <link rel='stylesheet' href='/zh-cn/saasbackupO365/css/clouddocs.css' type='text/css'>
+  <link rel='stylesheet' href='/zh-cn/saasbackupO365/css/na-pagenav.css' type='text/css'>
+
+  
+  <link rel="stylesheet" href="/zh-cn/saasbackupO365/css/landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/zh-cn/saasbackupO365/css/tabbed-blocks.css" type="text/css">
+  <link rel="stylesheet" href='/zh-cn/saasbackupO365/css/product-family.css' type="text/css">
+  
+
+  
+  <link rel='stylesheet' href='/zh-cn/saasbackupO365/css/na-feature.css' type='text/css'>
+  
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+  
+    <script src='/zh-cn/saasbackupO365/js/na-search.js'></script>
+  
+
+  
+  <script src='/zh-cn/saasbackupO365/js/na-pagenav.js'></script>
+  
+
+  <link rel='stylesheet' href='/zh-cn/saasbackupO365/css/prism.css' type='text/css'>
+  <link rel='stylesheet' href='/zh-cn/saasbackupO365/css/prism-netapp.css' type='text/css'>
+
+
+  <script src='/zh-cn/saasbackupO365/js/na-utility.js'></script>
+  <script src='/zh-cn/saasbackupO365/js/clouddocs.js'></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    var head = document.getElementsByTagName('head')[0];
+    var adobe = document.createElement("script");
+    adobe.type = "text/javascript";
+    adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js";
+    head.appendChild(adobe);
+  }
+  </script>
+  <script src='/zh-cn/saasbackupO365/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='/zh-cn/saasbackupO365/js/toc.js'></script>
+  <script src='/zh-cn/saasbackupO365/js/customscripts.js'></script>
+
+  <script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-81697994-3');
+  }
+  </script>
+  <script src='/zh-cn/saasbackupO365/js/version-dropdown.js'></script>
+  <script src='/zh-cn/saasbackupO365/js/product-family.js'></script>
+  <script src='/zh-cn/saasbackupO365/js/FileSaver.min.js'></script>
+  <script src='/zh-cn/saasbackupO365/js/jszip-utils.min.js'></script>
+  <script src='/zh-cn/saasbackupO365/js/jszip.min.js'></script>
+  <script src='/zh-cn/saasbackupO365/js/pdf-ux.js'></script>
+</head>
+
+
+  <body class role="document">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">产品和解决方案</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">支持和培训</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">云中心</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">社区</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">日志</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">客户案例</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">联系人</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">联系人</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" 
+          data-search-html="/zh-cn/saasbackupO365/search.html"
+          data-type="widget" 
+          data-placeholder="搜索文档" 
+          data-no-results-found="未找到与 {query} 匹配的结果。" 
+          data-did-you-mean="搜索 {suggestion}。" 
+          data-no-results-found-did-you-mean="未找到与 {query} 匹配的结果。您是否要搜索 {suggestion}?" 
+          data-results-found="找到 {hitCount} 个结果"  
+          data-sk-es-pf-indexes=""></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar">
+    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
+      <div id="ie-i18n-menu">
+      <span class="ie-i18n-lang">简体中文</span>
+        <button class="ie-i18n-icon-container" type="button">
+          <svg class="n-globe__icon" aria-labelledby="title">
+            <title>globe</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#globe"></use>
+          </svg>
+        </button>
+      </div>
+      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
+        <div class="n-language-selector-menu">
+          <ul class="n-menu__list">
+            <li class="n-menu__list-column">
+              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/zh-cn/saasbackupO365/reference_new_saasbackupO365.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/us-en/saasbackupO365/reference_new_saasbackupO365.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/ja-jp/saasbackupO365/reference_new_saasbackupO365.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
+                </li></ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <script>
+    $(function(){
+        var currentLocalization = $('html').attr('lang');
+
+        var localizationsDictionary = {
+            "en-CA" : "https://www.netapp.com/search/index.aspx?for_cr=canada&",
+            "en-IN" : "https://www.netapp.com/search/index.aspx?for_cr=india&",
+            "nl-NL" : "https://www.netapp.com/search/index.aspx?for_cr=netherlands&",
+            "ru-RU" : "https://www.netapp.com/search/index.aspx?for_cr=russia&",
+            "sv-SE" : "https://www.netapp.com/search/index.aspx?for_cr=sweden&",
+            "it-IT" : "https://www.netapp.com/search/index.aspx?for_cr=italy&",
+            "he-IL" : "https://www.netapp.com/search/index.aspx?for_cr=israel&",
+            "ko-KR" : "https://www.netapp.com/search/index.aspx?for_cr=korea&",
+            "zh-TW" : "https://www.netapp.com/search/index.aspx?for_cr=taiwan&",
+            "en-GB" : "https://www.netapp.com/search/index.aspx?for_cr=unitedkingdom&",
+            "en-SG" : "https://www.netapp.com/search/index.aspx?for_cr=asean&",
+            "en-AU" : "https://www.netapp.com/search/index.aspx?for_cr=australia&",
+            "pt-BR" : "https://www.netapp.com/search/index.aspx?for_cr=brasil&",
+            "de-CH" : "https://www.netapp.com/search/index.aspx?for_cr=switzerland&",
+            "es-MX" : "https://www.netapp.com/search/index.aspx?for_cr=mexico&"
+        };
+
+        if($('html').hasClass('ntap-whitelisted') && localizationsDictionary.hasOwnProperty(currentLocalization)) {
+            $('.n-property-bar__property-link').attr('href', '/');
+        }
+    });
+  </script>
+  <!-- End property bar -->
+</header>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" >
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+    <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>可用的 PDF<span>
+    </span>
+  </a>
+</div>
+<div class="n-pdf-body-container">
+  <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+        <a target="_blank" href="/zh-cn/saasbackupO365/pdfs/fullsite-sidebar/NetApp_SaaS_Backup_for_Microsoft_365_文档.pdf" >
+          <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>此文档站点的 PDF</a>
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/发行说明.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            发行说明
+          </a>
+          
+    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
+  <a target="_blank" href="/zh-cn/saasbackupO365/pdfs/pages/reference_new_saasbackupO365.pdf" >
+    <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+    PDF of this page
+  </a>
+</li>
+
+</ul>
+  
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/概念.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            概念
+          </a>
+          
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/入门.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            入门
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/开始免费试用.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            开始免费试用
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/从试用订阅升级.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            从试用订阅升级
+          </a>
+          
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/开始使用付费订阅.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            开始使用付费订阅
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/管理服务.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            管理服务
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/管理设置.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            管理设置
+          </a>
+          
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/权限.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            权限
+          </a>
+          
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/基于角色的帐户访问.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            基于角色的帐户访问
+          </a>
+          
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/管理用户.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            管理用户
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/licenses.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            licenses
+          </a>
+          
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/rules.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            rules
+          </a>
+          
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/安全组.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            安全组
+          </a>
+          
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/管理备份.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            管理备份
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/管理还原.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            管理还原
+          </a>
+          
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/执行粒度级还原.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            执行粒度级还原
+          </a>
+          
+
+
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/zh-cn/saasbackupO365/pdfs/sidebar/查看数据.pdf" 
+            
+          >
+            <img src="/zh-cn/saasbackupO365/images/pdf.png" width="16" height="16"/>
+            查看数据
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+</li></ul>
+  <div class="zip-pdf-link-container" style="display: none;">   
+    <a href="#" id="zipPdf">
+      <img src="/zh-cn/saasbackupO365/images/pdf-zip.png" width="16" height="16"/>
+      <pre>收集单独的 PDF 文档<span class="zip-size"></span></pre>
+    </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+</div>
+<script>
+  $("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+  });
+</script><div class="sidebar-nav-container">
+  <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/index.html">
+        适用于 Microsoft 365 的 NetApp SaaS Backup
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 发行说明</div>
+      </a>
+      <ul><li class="  active "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/reference_new_saasbackupO365.html">
+        新增功能
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/reference_new_archived.html">
+        新增功能归档
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/reference_kpls.html">
+        已知问题和限制
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 概念</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/concept_overview.html">
+        概述
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/concept_storage_types.html">
+        可与 SaaS Backup 结合使用的存储类型
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 入门</div>
+      </a>
+      <ul><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 开始免费试用</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/concept_free_trial_workflow.html">
+        工作流
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/concept_free_trial_restrictions.html">
+        免费试用限制
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_registering_for_free_trial_activation_code.html">
+        注册获取免费试用激活代码
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_signing_up_for_o365_free_trial.html">
+        注册 Microsoft 365 免费试用帐户
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_creating_msservice_account_with_global_permissions.html">
+        创建具有全局权限的 Microsoft 365 服务帐户
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_configuring_impersonation.html">
+        为 Microsoft Exchange Online 配置模拟
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_signing_up_for_saasbkup_free_trial.html">
+        注册申请免费试用 SaaS Backup for Microsoft 365
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_scheduling_first_backup.html">
+        计划首次备份
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_performing_immediate_backup_of_policy.html">
+        执行 imdate 备份
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 从试用订阅升级</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_upgrading_from_trial.html">
+        升级
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_activate_support.html">
+        升级后激活支持
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/reference_free_trial_data.html">
+        免费试用数据删除
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 开始使用付费订阅</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/concept_paid_subscription_workflow.html">
+        工作流
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_creating_msservice_account_with_global_permissions.html">
+        创建具有全局权限的 MS Office 服务帐户
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_configuring_impersonation.html">
+        为 Microsoft Exchange Online 配置模拟
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_signing_up_for_saasbkup_paid_subscription.html">
+        注册订阅 SaaS Backup for Microsoft 365 的付费订阅
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_scheduling_first_backup.html">
+        计划首次备份
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_performing_immediate_backup_of_policy.html">
+        执行 imdate 备份
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/reference_paid_subscription_data.html">
+        付费订阅数据删除
+      </a></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 管理服务</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_activating_a_service.html">
+        激活服务
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_deactivating_a_service.html">
+        停用服务
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_activate_support.html">
+        激活支持
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_discovering_new.html">
+        发现新的邮箱，站点和组
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_purging.html">
+        清除用户，站点集或 Microsoft 365 组
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_enable_modern_authentication.html">
+        启用现代身份验证
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 管理设置</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/concept_backup_policies.html">
+        备份策略
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/concept_backup_settings.html">
+        备份设置
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_setting_account_notifications.html">
+        设置通知
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 权限</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_adding_permissions_to_service_accounts.html">
+        向服务帐户添加权限
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_syncing_user_permissions_with_azure.html">
+        将用户权限与 Azure Active Directory 同步
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_granting_permissions_to_enable_shared_mailboxes.html">
+        授予启用共享邮箱的权限
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 基于角色的帐户访问</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_assigning_admin_roles_to_user_accounts.html">
+        为用户帐户分配管理角色
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_updating_admin_roles_assigned_to_user_accounts.html">
+        更新分配给用户帐户的管理角色
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_deleting_admin_roles_from_a_user_account.html">
+        删除用户帐户中的所有管理角色
+      </a></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 管理用户</div>
+      </a>
+      <ul><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> licenses</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_adding_a_license.html">
+        添加许可证
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_updating_subscription_information.html">
+        更新订阅信息
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_releasing_a_user_license.html">
+        释放用户许可证
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> rules</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_creating_rules.html">
+        创建新规则
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_applying_rules.html">
+        应用现有规则
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_deleting_rules.html">
+        删除规则
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 安全组</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_adding_security_groups.html">
+        添加安全组
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_deleting_security_groups.html">
+        删除安全组
+      </a></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 管理备份</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_scheduling_backup_or_changing_frequency.html">
+        计划备份或更改备份频率
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_performing_immediate_backup_of_service.html">
+        立即执行备份
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_browsing_backups.html">
+        浏览备份
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_canceling_job.html">
+        取消作业
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_updating_backup_retention_period.html">
+        更新备份保留期限
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_enabling_onenote_backups.html">
+        为 OneNote 启用备份
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/concept_supported_templates_and_apps.html">
+        Microsoft SharePoint Online 中支持备份的模板和应用程序
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 管理还原</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/reference_about_restores.html">
+        关于还原
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_performing_high_level_restore.html">
+        执行高级别还原
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 执行粒度级还原</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_performing_granular_level_restore_exchange.html">
+        对于 Exchange
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_performing_granular_level_restore_sharepoint.html">
+        对于 SharePoint
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_performing_granular_level_restore_onedrive.html">
+        适用于 OneDrive
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_performing_granular_level_restore_teams.html">
+        适用于组和团队
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_restoring_from_previous_backup.html">
+        从先前备份还原
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_canceling_job.html">
+        取消作业
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_viewing_restore_file_locations.html">
+        查找已还原的文件
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 查看数据</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_creating_user_defined_filter.html">
+        创建用户定义的筛选器
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_performing_search.html">
+        执行搜索
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_using_advanced_search.html">
+        使用高级搜索
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_viewing_history_and_activity.html">
+        查看作业历史记录和活动日志
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_viewing_deprovisioned.html">
+        查看已取消配置的项
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_viewing_purged.html">
+        查看已清除的数据
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_viewing_deleted.html">
+        查看已删除的项
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_downloading_data.html">
+        下载数据
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_monitoring_data.html">
+        监控用户数据
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/task_providing_feedback.html">
+        提供反馈
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/concept_get_help_find_info.html">
+        从何处获取帮助和查找更多信息
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/saasbackupO365/reference_legal_notices.html">
+        法律声明
+      </a></li></ul>
+</div>
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container -->
+    <article class="page-content">
+      <div class="ie-utility">
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://www.netapp.com">主页</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">文档</a>
+        </li>
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/zh-cn/saasbackupO365/">SaaS&nbsp;Backup&nbsp;for&nbsp;Microsoft&nbsp;365</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          新增功能和更新
+        </li>
+      </ul>
+    </div>
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+      <div class="ie-nmt-disclaimer">
+  <span>
+    <div class="ie-nmt-disclaimer-container">
+      <div class="ie-nmt-disclaimer-icon">
+        <svg class="luci-icon" aria-hidden="true">
+          <use xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#circle-info">
+        </svg>
+      </div>
+      <div class="ie-nmt-disclaimer-content">
+        <span> 简体中文版经机器翻译而成，仅供参考。如与英语版出现任何冲突，应以英语版为准。 </span>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+  </span>
+</div><div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">新增功能和更新</h1>
+</div>
+
+
+<p class="page-details">
+  
+    
+    <time datetime="2021-11-17 17:07:53 +0000">11/17/2021</time>
+    
+  
+
+<span>提供者
+  <a target="_blank" href="https://github.com/netapp-rlithman">
+    <img  class="avatar avatar-small"
+          alt="netapp-rlithman"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/54725121?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+</span>
+
+
+</p>
+
+
+<p><a target="_blank" href="/zh-cn/saasbackupO365/feed.xml" class="button rss" role="button"><img width="20" height="20" src="/zh-cn/saasbackupO365/images/rss.png"/><span>  RSS 订阅<span></a></p>
+
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>此版本的 NetApp SaaS Backup for Microsoft 365 增加了以下新功能和更新。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年11月">2021年11月</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Microsoft 365 将于 2021 年 10 月弃用 Exchange Online 中的基本身份验证。有关详细信息，请参见 <a href="https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-september-2021-update/ba-p/2772210">"基本身份验证和 Exchange Online — 2021 年 9 月更新"</a>。弃用后， Microsoft 365 组以及共享邮箱和归档邮箱可能会发生发现失败。您可以随时启用现代身份验证，以避免出现这些故障。</p>
+</div>
+<div class="paragraph">
+<p>如果您是新客户，则在注册时将启用现代身份验证。无需执行任何操作。</p>
+</div>
+<div class="paragraph">
+<p>如果您是现有客户且尚未启用现代身份验证，则需要采取措施。请参见 <a href="task_enable_modern_authentication.html">"启用现代身份验证"</a>。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年12月">2020年12月</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>如果您在美国部署 Microsoft Azure ，则您的数据不会离开 Microsoft 环境。在 SaaS Backup for Microsoft 365 的注册过程中，您可以使用 Azure Blob 存储或您自己的存储。</p>
+</div>
+<div class="paragraph">
+<p><a href="task_signing_up_for_saasbkup_free_trial.html">"从免费试用版注册 SaaS Backup"</a></p>
+</div>
+<div class="paragraph">
+<p><a href="task_signing_up_for_saasbkup_paid_subscription.html">"通过付费订阅注册 SaaS Backup"</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年11月">2020年11月</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>从本月开始，您可以监控所有服务的用户数据。借助此新功能，您可以下载 Excel 文件来监控多种用户数据类型，例如电子邮件或 URL 地址，邮箱类型，许可证使用，发现状态，上次发现， 备份状态，备份层等。</p>
+<div class="paragraph">
+<p><a href="task_monitoring_data.html">"监控用户数据"</a></p>
+</div>
+</li>
+<li>
+<p>现在，您可以将 Microsoft Office 365 组还原到另一个组。</p>
+<div class="paragraph">
+<p><a href="task_performing_high_level_restore.html">"执行高级别还原"</a></p>
+</div>
+</li>
+<li>
+<p>OneDrive for Business 许可证所有者可以无限制地释放许可证并清除用户。</p>
+<div class="paragraph">
+<p><a href="task_releasing_a_user_license.html">"释放用户许可证"</a></p>
+</div>
+</li>
+<li>
+<p>现在，在作业历史记录日志中搜索时，除了作业类型，服务，开始时间和结束时间之外，您还可以按作业完成状态进行筛选。</p>
+<div class="paragraph">
+<p><a href="task_viewing_history_and_activity.html">"查看作业历史记录"</a></p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-6-月">2020 年 6 月</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup for Microsoft 365 现在支持 Exchange Online 用户的高级搜索功能。启用 * 高级搜索 * 后，您可以在备份数据的最后六个月内搜索各个邮箱项，共享邮箱项和归档邮箱项。</p>
+<div class="paragraph">
+<p><a href="task_using_advanced_search.html">"使用高级搜索"</a></p>
+</div>
+<div class="paragraph">
+<p>要启用此功能，请转至 <a href="https://mysupport.netapp.com/">"支持"</a> 并提交请求。</p>
+</div>
+<div class="paragraph">
+<p>您也可以发送电子邮件给 SaaS 备份支持团队，电子邮件地址为 <a href="mailto:saasbackupsupport@netapp.com">saasbackupsupport@netapp.com</a> 。</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-3-月-4-月">2020 年 3 月 /4 月</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>现在，您可以选择不同的时间范围来浏览 Microsoft 365 Exchange ， SharePoint ， OneDrive for Business 以及受保护用户的组的备份。</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/date_range_browse_feature.gif" alt="图中显示了用于浏览备份的时间范围选项"></span></p>
+</div>
+<div class="paragraph">
+<p><a href="task_browsing_backups.html">"浏览备份"</a></p>
+</div>
+</li>
+<li>
+<p>SaaS Backup for Microsoft 365 现在支持备份到 Microsoft Teams聊天 。借助此新功能，您可以备份和还原对话，渠道，选项卡，附件，成员， 和设置。</p>
+<div class="paragraph">
+<p><a href="task_performing_immediate_backup_of_service.html">"立即对服务执行备份"</a></p>
+</div>
+<div class="paragraph">
+<p>要启用此功能，请转至 <a href="https://mysupport.netapp.com/">"支持"</a> 并提交请求。</p>
+</div>
+<div class="paragraph">
+<p>您也可以发送电子邮件给 SaaS 备份支持团队，电子邮件地址为 <a href="mailto:saasbackupsupport@netapp.com">saasbackupsupport@netapp.com</a> 。</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年1月">2020年1月</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>现在，您可以查看已取消配置的邮箱，站点， MySite ，组或帐户。<a href="task_viewing_deprovisioned.html">"查看已取消配置的项"</a></p>
+</li>
+<li>
+<p>现在，用户许可证将在清除帐户七天后自动释放。您可以查看计划在七天内清除的项目列表以及已清除的项目列表。<a href="task_viewing_purged.html">"查看已清除数据的列表"</a></p>
+</li>
+<li>
+<p>Microsoft SharePoint Online 和 OneDrive for Business 现在支持 Microsoft OneNote 笔记本备份。<a href="task_enabling_onenote_backups.html">"为 OneNote 启用备份"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2019-年-9-月">2019 年 9 月</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>现在，您可以激活对 SaaS Backup 付费订阅的支持。激活支持后，您可以通过电话，在线聊天或 Web 服务单系统访问技术支持。</p>
+<div class="paragraph">
+<p><a href="task_activate_support.html">"激活支持"</a></p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2019-年-6-月">2019 年 6 月</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup for Microsoft 365 现在支持备份和还原使用 Microsoft SharePoint Online 和 Microsoft OneDrive for Business 中的 " 复制到 " 功能创建的项目。</p>
+</li>
+<li>
+<p>已进行了一些增强，以便在还原统计信息中包括更多详细信息，包括还原大小，还原位置和其他注释。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2019-年-5-月">2019 年 5 月</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup 现在支持附加许可证。</p>
+<div class="paragraph">
+<p><a href="task_updating_subscription_information.html">"更新订阅信息"</a></p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2019年4月">2019年4月</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup for Microsoft 365 现在支持删除安全组。</p>
+<div class="paragraph">
+<p><a href="task_deleting_security_groups.html">"删除安全组"</a></p>
+</div>
+</li>
+<li>
+<p>共享邮箱不再使用用户许可证。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2019-年-3-月">2019 年 3 月</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup for Microsoft 365 现在支持在每个受支持区域中使用多个备份位置。</p>
+<div class="paragraph">
+<p>现在，您可以选择选定区域中的任何可用位置作为数据备份站点。建议选择地理位置上最接近数据位置的位置。SaaS Backup 建议的位置在选项列表中标记为 * 首选 * 。</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/saasbackupO365/images/note.svg" alt="注">
+</td>
+<td class="content">
+如果您要从试用版升级，并且选择的备份位置与试用版中使用的位置不同，则不会保留您的试用数据。
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><a href="task_upgrading_from_trial.html">"从试用订阅升级"</a></p>
+</div>
+</li>
+<li>
+<p>现在，您可以释放用户许可证并使其可供其他用户使用。<a href="task_releasing_a_user_license.html">"释放用户许可证"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2019年2月">2019年2月</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup for Microsoft 365 现在支持以下功能：</p>
+<div class="ulist">
+<ul>
+<li>
+<p>备份和还原归档邮箱。</p>
+</li>
+<li>
+<p>增强了 Microsoft Office Exchange Online ， SharePoint 和 OneDrive for Business 中的备份和还原统计信息。</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="已归档">已归档</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>单击 <a href="reference_new_archived.html">"此处"</a> 新功能的归档列表</p>
+</div>
+</div>
+</div>
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div id="version-dropdown"></div>
+    <div class="page-nav-contribute"  >
+      <a target="_blank" href="https://github.com/NetAppDocs/saasbackupO365/issues/new?body=Page%3A%20[新增功能和更新](https://docs.netapp.com/zh-cn/saasbackupO365/reference_new_saasbackupO365.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/saasbackupO365/images/discuss-sm.svg" class="github-icon" />请求文档变更</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/saasbackupO365/blob/main/reference_new_saasbackupO365.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/saasbackupO365/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/saasbackupO365/images/article-sm.svg" class="github-icon" />提供者指南</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">在此页面上</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  <div style="clear: both"></div><!-- Main needs to have height -->
+</div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+            <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2021 NetApp, Inc.</a>
+            </li>
+
+</ul>
+</div>
+<div class="n-footer__social-links">
+<ul class="n-footer__social-link-list">
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com" target="_blank" title="blog" alt="blog">
+<span class="n-footer__social-link-text">blog</span>
+<svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+  <title>blog@</title>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#blog"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/" target="_blank" title="community" alt="community">
+<span class="n-footer__social-link-text">community</span>
+<svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+<title>community@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#comments"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp" target="_blank" title="twitter" alt="twitter">
+<span class="n-footer__social-link-text">twitter</span>
+<svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+<title>twitter@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#twitter"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp" target="_blank" title="facebook" alt="facebook">
+<span class="n-footer__social-link-text">facebook</span>
+<svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+<title>facebook@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#facebook"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-linkedin" href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+<span class="n-footer__social-link-text">linkedin</span>
+<svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+<title>linkedin@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#linkedin"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-youtube" href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+<span class="n-footer__social-link-text">youtube</span>
+<svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+<title>youtube@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#youtube"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-slideshare" href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+<span class="n-footer__social-link-text">slideshare</span>
+<svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+<title>slideshare@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/saasbackupO365/common/svg/sprite.svg#slideshare"></use>
+</svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="n-footer__bottom-right">
+  <p class="n-footer__fine-print">想就我们的网站提供反馈?<a target="_self" href="javascript:netapp_mailto()" class="n-footer__copyright">请告诉我们</a>
+  <a href="https://docs.netapp.com/zh-cn/announcements/" class="n-footer__copyright">通知</a>
+  </p>
+</div>
+</div>
+</div>
+</footer>
+
+      </div>
+
+      <!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/zh-cn/saasbackupO365/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/zh-cn/saasbackupO365/js/prism.js'></script>
+      <script type="text/javascript" src='/zh-cn/saasbackupO365/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/zh-cn/saasbackupO365/js/www-ntap.js'></script>
+    <script src='/zh-cn/saasbackupO365/js/tabbed-blocks.js'></script>
+  </body>
+
+  
+</html>
