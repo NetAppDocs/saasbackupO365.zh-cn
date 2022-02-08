@@ -1407,4 +1407,5 @@
   <block id="c211ffba805191487d78c4b7cc83885c" category="paragraph">如需支持，请发送电子邮件至 saasbackupsupport@netapp.com 。</block>
   <block id="079fc4b41d453223328c8289d6f6ee23" category="paragraph">有关详细信息，请参见 <block ref="13656a114805a881003fbba8178f036a" category="inline-link-macro-rx"></block>。</block>
   <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="sidebar">使用自助服务门户</block>
+  <block id="986fd8fd4a9ddabca0d89b5e7da5ba20" category="admonition">要启用现代身份验证，请使用租户帐户凭据登录；帐户名称可在 Microsoft 365 服务设置中找到（请参见下面的 * 选项 2 步骤 * ）。确保已为此帐户分配全局管理员角色。成功启用现代身份验证后，您可以从管理员用户中删除全局管理员角色。</block>
 </blocks>
