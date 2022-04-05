@@ -30,6 +30,10 @@ NOTE: 如果选择导出到 PST 还原选项，则提供的链接有效期为七
 +
 .. 如果要还原 * Microsoft Exchange Online * 的邮箱，请选择以下选项之一：
 +
+
+NOTE: 还原消息大于 140 MB 的邮箱可能会遇到向服务器上传失败的情况。我们建议您使用导出到 PST 选项执行高级别还原。有关详细信息，请参见 link:https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits["Microsoft Exchange Online 限制：消息限制"]。
+
++
 *** 还原到同一邮箱
 *** 导出到 PST 如果导出到 PST ，则在导出完成后，您将收到一封通知电子邮件，其中包含 PST 文件的位置。
 *** 还原到另一个邮箱如果还原到另一个邮箱，则必须在搜索字段中输入目标邮箱。您可以在搜索字段中键入目标电子邮件地址的一部分，以便自动搜索匹配的目标邮箱。

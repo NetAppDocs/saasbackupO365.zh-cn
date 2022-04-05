@@ -1409,4 +1409,6 @@
   <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="sidebar">使用自助服务门户</block>
   <block id="986fd8fd4a9ddabca0d89b5e7da5ba20" category="admonition">要启用现代身份验证，请使用租户帐户凭据登录；帐户名称可在 Microsoft 365 服务设置中找到（请参见下面的 * 选项 2 步骤 * ）。确保已为此帐户分配全局管理员角色。成功启用现代身份验证后，您可以从管理员用户中删除全局管理员角色。</block>
   <block id="bab00dea1cabe9c56b693bc0180cbb13" category="list-text">还原消息大于 140 MB 的邮箱时会遇到上传失败。</block>
+  <block id="3268b398df77a34bc3dc7c2eee28b5d5" category="inline-link-macro">Microsoft Exchange Online 限制：消息限制</block>
+  <block id="6567b22ffc8f6ae02aa92f63c67f763a" category="admonition">还原消息大于 140 MB 的邮箱可能会遇到向服务器上传失败的情况。我们建议您使用导出到 PST 选项执行高级别还原。有关详细信息，请参见 <block ref="005c12c4f12807842a060236e5445890" category="inline-link-macro-rx"></block>。</block>
 </blocks>
