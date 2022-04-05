@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_performing_high_level_restore.html 
-keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes 
+keywords: netapp, saas backup, perform, high-level restore, microsoft 365, Exchange, OneDrive 
 summary: 您可以按照同一操作步骤对 Microsoft Exchange Online ，适用于 Microsoft OneDrive for Business 的 MySites ，适用于 Microsoft SharePoint Online 的站点以及 Microsoft 365 组的邮箱执行高级别还原。 
 ---
 = 执行高级别服务还原

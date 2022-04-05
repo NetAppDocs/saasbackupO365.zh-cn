@@ -50,7 +50,7 @@ link:task_performing_high_level_restore.html["执行高级别还原"]
 * OneDrive for Business 许可证所有者可以无限制地释放许可证并清除用户。
 +
 link:task_releasing_a_user_license.html["释放用户许可证"]
-
+link:task_purging.html["清除用户，站点集或 Microsoft 365 组"]
 
 * 现在，在作业历史记录日志中搜索时，除了作业类型，服务，开始时间和结束时间之外，您还可以按作业完成状态进行筛选。
 +
