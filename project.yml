@@ -28,50 +28,20 @@ sidebar:
       url: "/concept_storage_types.html"
   - title: 入门
     entries:
-    - title: 开始免费试用
-      entries:
-      - title: 工作流
-        url: "/concept_free_trial_workflow.html"
-      - title: 免费试用限制
-        url: "/concept_free_trial_restrictions.html"
-      - title: 注册获取免费试用激活代码
-        url: "/task_registering_for_free_trial_activation_code.html"
-      - title: 注册 Microsoft 365 免费试用帐户
-        url: "/task_signing_up_for_o365_free_trial.html"
-      - title: 创建具有全局权限的 Microsoft 365 服务帐户
-        url: "/task_creating_msservice_account_with_global_permissions.html"
-      - title: 为 Microsoft Exchange Online 配置模拟
-        url: "/task_configuring_impersonation.html"
-      - title: 注册申请免费试用 SaaS Backup for Microsoft 365
-        url: "/task_signing_up_for_saasbkup_free_trial.html"
-      - title: 计划首次备份
-        url: "/task_scheduling_first_backup.html"
-      - title: 执行 imdate 备份
-        url: "/task_performing_immediate_backup_of_policy.html"
-      - title: 从试用订阅升级
-        entries:
-        - title: 升级
-          url: "/task_upgrading_from_trial.html"
-        - title: 升级后激活支持
-          url: "/task_activate_support.html"
-      - title: 免费试用数据删除
-        url: "/reference_free_trial_data.html"
-    - title: 开始使用付费订阅
-      entries:
-      - title: 工作流
-        url: "/concept_paid_subscription_workflow.html"
-      - title: 创建具有全局权限的 MS Office 服务帐户
-        url: "/task_creating_msservice_account_with_global_permissions.html"
-      - title: 为 Microsoft Exchange Online 配置模拟
-        url: "/task_configuring_impersonation.html"
-      - title: 注册订阅 SaaS Backup for Microsoft 365 的付费订阅
-        url: "/task_signing_up_for_saasbkup_paid_subscription.html"
-      - title: 计划首次备份
-        url: "/task_scheduling_first_backup.html"
-      - title: 执行 imdate 备份
-        url: "/task_performing_immediate_backup_of_policy.html"
-      - title: 付费订阅数据删除
-        url: "/reference_paid_subscription_data.html"
+    - title: 工作流
+      url: "/concept_paid_subscription_workflow.html"
+    - title: 创建具有全局权限的 MS Office 服务帐户
+      url: "/task_creating_msservice_account_with_global_permissions.html"
+    - title: 为 Microsoft Exchange Online 配置模拟
+      url: "/task_configuring_impersonation.html"
+    - title: 注册 SaaS Backup for Microsoft 365
+      url: "/task_signing_up_for_saasbkup_paid_subscription.html"
+    - title: 计划首次备份
+      url: "/task_scheduling_first_backup.html"
+    - title: 执行 imdate 备份
+      url: "/task_performing_immediate_backup_of_policy.html"
+    - title: 数据删除
+      url: "/reference_paid_subscription_data.html"
   - title: 管理服务
     entries:
     - title: 激活服务

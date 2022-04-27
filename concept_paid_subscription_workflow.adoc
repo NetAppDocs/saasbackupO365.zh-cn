@@ -4,10 +4,11 @@ permalink: concept_paid_subscription_workflow.html
 keywords: netapp, saas backup, microsoft 365, getting started, paid, subscription, workflow 
 summary: 要开始订阅 SaaS Backup for Microsoft 365 ，您必须确定要用于备份的存储类型，创建具有全局权限的 Microsoft 365 服务帐户，并且必须完成注册过程。 
 ---
-= SaaS Backup for Microsoft 365 付费订阅入门工作流
+= 入门工作流
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 
@@ -18,7 +19,7 @@ summary: 要开始订阅 SaaS Backup for Microsoft 365 ，您必须确定要用�
 
 
 [role="lead"]
-要开始订阅 SaaS Backup for Microsoft 365 ，您必须执行以下操作：
+要开始使用 SaaS Backup for Microsoft 365 ，您必须执行以下操作：
 
 . 确定要使用 SaaS Backup 提供的 Amazon S3 或 Azure Blob 存储。
 +

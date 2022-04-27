@@ -6,6 +6,7 @@ summary: 您可以浏览所有 Microsoft 365 服务中的备份。
 ---
 = 浏览备份
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -8,6 +8,7 @@ summary: 您可以查看已删除的邮箱或用户帐户的列表。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

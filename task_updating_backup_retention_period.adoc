@@ -8,6 +8,7 @@ summary: 您可以将各个层，邮箱，站点和 MySites 的数据保留时�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

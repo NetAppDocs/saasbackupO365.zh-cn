@@ -6,6 +6,7 @@ summary: 您可以查看已清除的邮箱或用户帐户列表。
 ---
 = 查看已清除数据的列表
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

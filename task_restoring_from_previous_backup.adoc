@@ -6,6 +6,7 @@ summary: 默认情况下，只能还原您的最新备份。
 ---
 = 从先前备份还原
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

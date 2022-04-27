@@ -6,6 +6,7 @@ summary: 如果您已启动即时备份或即时还原，但需要在完成之�
 ---
 = 取消作业
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 如果您计划将 SaaS Backup 与 Microsoft Exchange Online 结合使�
 ---
 = 为 Microsoft Exchange Online 配置模拟
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

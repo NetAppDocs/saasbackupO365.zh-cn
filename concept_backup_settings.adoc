@@ -6,6 +6,7 @@ summary: 您可以更新备份设置以控制各种备份选项。可用的备�
 ---
 = 备份设置
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

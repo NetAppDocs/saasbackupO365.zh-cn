@@ -6,6 +6,7 @@ summary: 激活支持后，您可以通过电话，在线聊天或 Web 服务单
 ---
 = 激活支持
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

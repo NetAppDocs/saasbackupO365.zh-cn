@@ -6,6 +6,7 @@ summary: 您可以按照同一操作步骤对 Microsoft Exchange Online ，适�
 ---
 = 执行高级别服务还原
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

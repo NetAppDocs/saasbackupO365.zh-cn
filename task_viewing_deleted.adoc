@@ -6,6 +6,7 @@ summary: 如果从服务设置中打开已删除的项目，则可以查看所�
 ---
 = 查看已删除的项
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

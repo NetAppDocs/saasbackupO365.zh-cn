@@ -6,6 +6,7 @@ summary: 您可以使用实时搜索来查找特定内容。
 ---
 = 执行搜索
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

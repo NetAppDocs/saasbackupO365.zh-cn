@@ -6,6 +6,7 @@ summary: 您可以使用 Microsoft 365 服务帐户或 NetApp SSO 帐户注册 S
 ---
 = 注册付费订阅
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

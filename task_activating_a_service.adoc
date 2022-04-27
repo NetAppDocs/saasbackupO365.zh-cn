@@ -6,6 +6,7 @@ summary: 如果需要，您可以激活一个或多个 SaaS Backup for Microsoft
 ---
 = 激活服务
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

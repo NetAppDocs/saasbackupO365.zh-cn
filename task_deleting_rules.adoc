@@ -6,6 +6,7 @@ summary: 如果您不再需要现有规则，可以将其删除。此外，如�
 ---
 = 删除规则
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

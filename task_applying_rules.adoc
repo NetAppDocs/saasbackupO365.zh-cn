@@ -6,6 +6,7 @@ summary: 您可以将现有规则应用于未受保护的项，更改规则的�
 ---
 = 应用现有规则
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

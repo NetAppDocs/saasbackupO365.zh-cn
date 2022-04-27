@@ -6,6 +6,7 @@ summary: 如果停用某个服务，则与该服务关联的所有计划都将�
 ---
 = 停用服务
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

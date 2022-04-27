@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新�
 ---
 = 新功能和更新—已归档
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

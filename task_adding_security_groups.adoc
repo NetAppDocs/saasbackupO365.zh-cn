@@ -6,6 +6,7 @@ summary: 可以使用安全组作为筛选选项来查看数据和创建规则�
 ---
 = 添加安全组
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 您可以为 SaaS Backup for Microsoft 365 启用现代身份验证，�
 ---
 = 启用现代身份验证
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 在 NetApp SaaS Backup for Microsoft 365 中，您可以授予启用共
 ---
 = 授予启用共享邮箱的权限
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

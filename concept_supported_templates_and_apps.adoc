@@ -8,6 +8,7 @@ summary: Microsoft SharePoint Online 仅支持某些模板和应用程序。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

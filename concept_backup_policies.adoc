@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 具有三个预定义的备份策略层�
 ---
 = 备份策略
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

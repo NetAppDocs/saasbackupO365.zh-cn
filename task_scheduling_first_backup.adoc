@@ -6,6 +6,7 @@ summary: 默认情况下，在设置适用于 Microsoft 365 的 SaaS Backup 时�
 ---
 = 计划首次备份
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

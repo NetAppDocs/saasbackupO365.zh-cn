@@ -6,6 +6,7 @@ summary: 通过规则，您可以根据预定义的条件自动将用户移动�
 ---
 = 创建新规则
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

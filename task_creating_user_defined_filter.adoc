@@ -6,6 +6,7 @@ summary: 您可以筛选邮箱，站点或 MySites 的视图，以便仅显示�
 ---
 = 创建用户定义的筛选器
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 您可以在 NetApp SaaS Backup 中以各种方式管理服务，包括
 ---
 = 清除用户，站点集或 Microsoft 365 组
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 表参考显示了如何在 SaaS Backup 中查找团队数据。
 ---
 = 对数据位置进行分组
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

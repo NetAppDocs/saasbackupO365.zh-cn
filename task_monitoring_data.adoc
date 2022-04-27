@@ -6,6 +6,7 @@ summary: 在 SaaS Backup for Microsoft Office 365 中，您可以监控所有服
 ---
 = 监控用户数据
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

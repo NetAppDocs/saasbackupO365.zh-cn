@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 为每个服务提供了高级别的粒�
 ---
 = 关于还原
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

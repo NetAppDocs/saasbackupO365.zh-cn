@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 入门包括确定要用于备份数据�
 ---
 = 对特定备份策略执行即时备份
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 任何常规邮箱用户或归档邮箱用户（无论是受保护还�
 ---
 = 释放用户许可证
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

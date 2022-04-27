@@ -6,6 +6,7 @@ summary: 您可以使用 SaaS Backup for Microsoft 365 组 / 团队执行粒度�
 ---
 = 对 Microsoft 365 组和团队执行粒度级还原
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

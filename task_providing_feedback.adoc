@@ -6,6 +6,7 @@ summary: 提供反馈，帮助我们更好地为您服务。
 ---
 = 提供反馈
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

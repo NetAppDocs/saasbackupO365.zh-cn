@@ -6,6 +6,7 @@ summary: 如果在用户定义的规则中使用安全组，则无法将其删�
 ---
 = 删除安全组
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

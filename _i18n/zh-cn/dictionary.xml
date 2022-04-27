@@ -87,20 +87,12 @@
   <block id="48d90378be01b2e385520fa18e6b71cf" category="paragraph">如果要导出数据，则需要下载该数据。转到左侧菜单上的 " 报告 " 。查找导出数据作业。单击 * 文件夹总数 * 。然后单击 * 导出数据下载链接 * 。下载 zip 文件。打开 zip 文件以提取数据。</block>
   <block id="45c370720bd5903ae015d8bc9114b227" category="admonition">如果选择 * 导出数据 * 还原选项，则提供的链接有效期为七天，并且已通过预身份验证。</block>
   <block id="db0a14d5142d27cd10a1a5a3853bad29" category="list-text">单击 * 查看作业进度 * 以监控还原进度。</block>
-  <block id="7f25d4d65b1003453bc7e1329a9c178d" category="summary">如果您不升级到 SaaS Backup for Microsoft 365 的许可版本，则在免费试用期间使用的数据将被删除。</block>
   <block id="4946cdf19ac5285412e4b530ede0f075" category="doc">免费试用数据删除</block>
-  <block id="a420949a90cbed96b9c03780a9cb9e9c" category="paragraph">如果您不升级到 SaaS Backup for Microsoft 365 的许可版本，则在免费试用期间使用的数据将被删除，如下所示：</block>
-  <block id="20a399ea47f7779f35a917d5bfc35871" category="cell">如果您的 SaaS Backup 免费试用版是 ...</block>
-  <block id="e6180df64654cd45d8f372d6b33c4870" category="cell">试用结束后的天数</block>
   <block id="eec1e6e91c656e3f608e6d1c55f15f99" category="cell">您的数据是 ...</block>
   <block id="24fe48030f7d3097d5882535b04c3fa8" category="cell">已过期</block>
-  <block id="951502ee7afce1344e61a10b86aaa1f9" category="cell">1-15 天</block>
   <block id="afd64a17a7c36e9153991fbe0eda0f76" category="cell">可用：管理员具有正常访问权限，可以执行手动备份和还原。SaaS Backup 将继续显示警报并发送通知。</block>
   <block id="b9f5c797ebbf55adccdd8539a65a0241" category="cell">已禁用</block>
-  <block id="d1c185ec36277c99c073ca28fa167601" category="cell">16-30 天</block>
-  <block id="f9d9979b8e9789483bcdf131846b8078" category="cell">deactivated ：管理员无权访问 SaaS Backup 门户。如果在此期间更新了订阅，则可以重新激活数据。</block>
   <block id="04ae8e08c8997b56dd2db946fffa8577" category="cell">已取消配置</block>
-  <block id="fca24f68b0a283e4a4e35cde4dfa0a3a" category="cell">31 天或更长时间</block>
   <block id="f698dce7cb7262aee1c5f6bbe5519878" category="cell">Deleted ：删除所有数据，并删除您的租户帐户。</block>
   <block id="3a3c17a3d9770667859bdcd66c4a99a5" category="summary">如果从服务设置中打开已删除的项目，则可以查看所有服务中已删除的项目。</block>
   <block id="4a86c772020231ba354111daad8015ab" category="doc">查看已删除的项</block>
@@ -146,7 +138,6 @@
   <block id="a5a0d4b8cb743abdecacdbf223875b2b" category="list-text">输入要添加的用户的电子邮件地址。</block>
   <block id="14ed5b6705ccff3400fb356b735cde29" category="summary">您可以使用 Microsoft 365 服务帐户或 NetApp SSO 帐户注册 SaaS Backup for Microsoft 365 。</block>
   <block id="5b20edb29e2e3b85bd65bb20e8c323a1" category="doc">注册订阅 SaaS Backup for Microsoft 365 的付费订阅</block>
-  <block id="a05d453722a996742fec3c2827e30a0c" category="section-title">使用 Microsoft 365 服务帐户注册付费订阅</block>
   <block id="abdc55eb1eb7165f452a2b5dc6896999" category="list-text">在 Web 浏览器中输入 SaaS Backup for Microsoft 365 URL ：<block ref="69b8c2567294d7944fbc4c95e2c3c422" category="inline-link-rx"></block></block>
   <block id="fb40144187e6d6dfbb31bfddd7c8be12" category="list-text">选择您所在的区域。此时将在选定区域创建您的租户。您的数据将存储在该数据中心位置，以后无法更改。</block>
   <block id="40de166a0206734afd1816e330dbd1b2" category="list-text">单击登录页面底部的 * 注册 * 。</block>
@@ -163,7 +154,6 @@
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">此处</block>
   <block id="72a04102d99fa44df4341d63f3022cc4" category="list-text">如果您是通过 NetApp 购买许可证的，则会显示您的订阅类型单击 <block ref="29d288af4a2f7810b289a90a6051b818" category="inline-link-macro-rx"></block> 了解更多步骤。</block>
   <block id="d14a2834a29f6ebee06ab6889bd6bd74" category="list-text">如果您通过 AWS 等云市场购买了许可证，则会显示您的许可证信息。单击 <block ref="e00c2ebec443939398eec77b9bc8acde" category="inline-link-macro-rx"></block> 了解更多步骤。</block>
-  <block id="0bd302878f8040f5202a735159728ec6" category="section-title">使用 NetApp SSO 帐户注册付费订阅</block>
   <block id="5bd660b6b70cc7e9e5121ff01396dc31" category="paragraph">要验证您的订阅，您必须具有 NetApp SSO 用户 ID 和密码。如果您没有 NetApp SSO 帐户，请转至<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> 注册一个。处理完您的请求后，您将收到一封电子邮件通知，其中包含您的 NetApp SSO 凭据。处理此请求并发送通知电子邮件大约需要 24 小时。</block>
   <block id="55d24cf7a906d1d4208622ed125d211e" category="paragraph">要验证您的订阅，您必须具有 NetApp SSO 用户 ID 和密码。如果您没有 NetApp SSO 帐户，请转至<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> 注册一个。处理完您的请求后，您将收到一封电子邮件通知，其中包含您的 NetApp SSO 凭据。处理此请求并发送通知电子邮件大约需要 24 小时。</block>
   <block id="abbc26a9920ffcb14ff167578b11c9f7" category="list-text">单击登录页面底部的 Sign Up 。</block>
@@ -183,36 +173,7 @@
   <block id="88e4ec1e84b90b2fc6e010dc8df45a8c" category="list-text">选择 * Amazon S3* 或 * Azure Blob * 存储选项。</block>
   <block id="9b6bafc614e2d19704d12baf566961b8" category="list-text">为备份选择 * AWS S3* 或 * Azure Blob * 区域。您应选择与要备份的数据的物理位置最接近的区域。</block>
   <block id="59bd9482937af8863abf9e7f4229fc09" category="list-text">查看您的配置，然后单击 * 保存 * 。</block>
-  <block id="8a1b5520b65d8ce096df57e907189a55" category="summary">从试用订阅升级到许可订阅时，只有在不更改备份存储目标的情况下，您的试用数据才会保留下来。</block>
   <block id="5812c0f271e0e2c00e683f3df987dac2" category="doc">从试用订阅升级</block>
-  <block id="60b00097e19bf88e99151e80c77dbbfd" category="paragraph">从试用订阅升级到许可订阅时，只有在保留相同的备份存储目标类型和相同的备份存储区域时，才会保留试用数据。要在升级时将许可证关联到正确的 SaaS Backup 帐户，请对试用订阅和许可订阅使用相同的电子邮件地址。</block>
-  <block id="db72319f07f059d0101b823975192491" category="paragraph">* 如果更改备份存储目标类型，则试用数据将丢失。对备份目标区域进行的任何更改也会导致数据丢失。 *</block>
-  <block id="6d3431ba560ac6c34d8e0942ff6d8c92" category="cell">如果您的试用订阅的备份目标为 ...</block>
-  <block id="324d0dbc5778b0d30ae9a3b0951b61dd" category="cell">您的许可订阅的备份目标是 ...</block>
-  <block id="a1d5b6f135cfdcf368902b34a7c67653" category="cell">您的试用数据是 ...</block>
-  <block id="89a2e465348431f47e582a4849441f73" category="cell">SaaS Backup 提供的 Amazon S3</block>
-  <block id="5e837ef81141bf040b588faa5a333683" category="cell">保留</block>
-  <block id="762629ddfec1b2200ebd930a34724a2d" category="cell">SaaS Backup 提供的 Azure Blob</block>
-  <block id="edbb20a6e7cdb96d29783e5e345acc35" category="inline-image-macro">升级按钮的屏幕截图</block>
-  <block id="b1c6657efb7ee8df4147c5f3c92f4518" category="list-text">在 * 订阅详细信息 * 下，单击 <block ref="8acf61206d4ef3b293cfe7fbda26dca3" category="inline-image-macro-rx" type="image"></block>。</block>
-  <block id="448cfeb23734ca99042411b683043ed7" category="list-text">选择升级选项，然后单击 * 下一步 * 。如果您通过 AWS Marketplace 购买，请选择 * AWS Marketplace * 。否则，请选择 * NetApp 许可证 * 。</block>
-  <block id="a5498ae2941cdd5f1215760fa2e12384" category="list-text">如果选择了 * NetApp 许可证 * ：</block>
-  <block id="29ed462a73716fdf1c7f1eacd848ca13" category="list-text">输入许可证信息，然后单击 * 验证订阅 * 。此时将显示许可证信息确认信息。</block>
-  <block id="345c7ed27f22014f4b831498263f4675" category="list-text">单击 * 下一步 * 。此时将显示您的订阅存储信息以及您的存储目标和区域。</block>
-  <block id="e569f7d422f6e3473c1844500796643f" category="list-text">如果要更改目标存储类型或目标存储区域，请执行以下操作：</block>
-  <block id="49b7b6152331d564c852838e9361eb68" category="list-text">选择新的目标存储类型和 / 或区域。</block>
-  <block id="1d020a6c2d7ad417747e14912e67842b" category="admonition">如果您更改了存储目标或目标区域，则 NetApp SaaS Backup for Microsoft 365 不会迁移试用数据。您必须同意继续操作。</block>
-  <block id="a8e71ae66530a126555358a4d6b483c0" category="list-text">如果要更改目标存储类型，请输入所需信息并单击 * 测试连接 * 。</block>
-  <block id="9b3369a34fd50984e123108049658865" category="list-text">如果要保留相同的目标存储类型和目标存储区域，请查看您的配置并单击 * 保存 * 。</block>
-  <block id="cdae03da0a493105e582628ed22abda8" category="list-text">如果选择了 * AWS * ， * AppDirect* 或 * 。</block>
-  <block id="156fd6b635ab0e98b2c9cd4880457909" category="list-text">单击此链接可转到选定的 Marketplace 。</block>
-  <block id="d166b90b9550437c32346426e1991076" category="list-text">按照 Marketplace 说明进行操作。要将许可证关联到正确的 SaaS Backup 帐户，请使用与免费试用相同的电子邮件地址。</block>
-  <block id="ef4cf7726ccc45c89cb5272cb949b7d8" category="admonition">通过 AWS Marketplace 获得许可的订阅只能使用 SaaS Backup 提供的 Amazon S3 存储。</block>
-  <block id="72a99821c0a5134095e1c4e5ac9cead3" category="list-text">使用您的 Microsoft 365 帐户登录到 SaaS Backup for Microsoft 365 。</block>
-  <block id="c048d463d7b37f486fe72b64be4e6f80" category="list-text">单击 Microsoft 365 设置图标 <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block>。</block>
-  <block id="4c3ccc7944a6d3fed16c9b3438b8b58c" category="inline-image-macro">激活按钮的屏幕截图</block>
-  <block id="252c1d7e40e06ab870f43d29e7812c49" category="list-text">在订阅详细信息下，单击 <block ref="3297805c3f9b82ac60ec16cc4fdd244a" category="inline-image-macro-rx" type="image"></block>。如果您选择的备份存储与试用订阅不同，则会显示一条警告。SaaS Backup for Microsoft 365 不会将试用数据迁移到新目标。您必须同意继续操作。</block>
-  <block id="dae11a171c86478e146e6d260683618f" category="admonition">如果您选择的许可订阅中的用户数少于试用订阅中的用户数，则激活此许可订阅后，所有用户帐户都将移至未受保护的层。激活后，您必须手动将所需帐户移动到受保护层。</block>
   <block id="960807b3a38d77ca1916570b1732dda1" category="inline-link-macro">激活支持</block>
   <block id="b1b8f50a4274cba58affa63d65dc6ee5" category="list-text">如果您尚未执行此操作， <block ref="e13d8583c6001789a64d81c0b2f80cf7" category="inline-link-macro-rx"></block>。</block>
   <block id="7a00bdb3c8899a6fb0c89a7109d2eb8c" category="summary">您可以筛选邮箱，站点或 MySites 的视图，以便仅显示符合特定条件的结果。</block>
@@ -661,15 +622,7 @@
   <block id="38462566187b9e0b2e5f497a5502130b" category="list-text">单击 Microsoft 365 链接。<block ref="f9631d5c739c4c4b4fe570c209766ce1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c6734135d9ae05c120de2cd4d857a7c4" category="list-text">单击 * 管理服务帐户 * 旁边的 * + * 图标。</block>
   <block id="137b6252ec3ba5ac3a49061c09729ac4" category="list-text">单击 * 确认 * 以重定向到 Microsoft 365 登录页面以授予权限。</block>
-  <block id="def516b1e747f5af311be3853f89bb66" category="summary">您应了解适用于免费试用帐户的某些限制。</block>
   <block id="30b2123030b8a0f2633415ae646de89b" category="doc">免费试用限制</block>
-  <block id="9e2588b7501cf6b0c88398471f593e95" category="paragraph">以下限制适用于免费试用帐户：</block>
-  <block id="32b69c2d83d1e70344bd1f17306f9077" category="list-text">对于 Microsoft Exchange Online ，最多 25 个用户；对于 Microsoft SharePoint Online ，最多 25 个站点集合。</block>
-  <block id="0b5853ebc3db5edeef95409b7ec43107" category="list-text">每天最多 3 个即时备份。</block>
-  <block id="e5a3f64eb2def107afdd1de4d946b7fc" category="list-text">仅在前 30 天自动备份。</block>
-  <block id="c536ed29020f22f1c1b14efa4cdbb75d" category="list-text">在免费试用结束后的 15 天宽限期内，不允许计划备份。</block>
-  <block id="95586af4ab51839471da911204e1aa78" category="list-text">对于所有服务，在 24 小时内最多允许 10 次恢复。</block>
-  <block id="80870c06cc314ae7a248df5ab62d3f5f" category="list-text">默认情况下， Teams聊天 备份处于禁用状态，可以根据请求通过向 SaaS 备份支持发送电子邮件来启用，网址为 saasbackupsupport@netapp.com 。要启用 Team聊天 ，所有活动团队用户都必须在 SaaS Backup 中获得许可。</block>
   <block id="6717d37b6834e1656959896157ee6fcd" category="summary">如果需要，您可以激活一个或多个 SaaS Backup for Microsoft 365 服务。必须先激活 Microsoft Exchange Online 或 Microsoft SharePoint Online ，然后才能激活 Microsoft 365 组。</block>
   <block id="411cf5e870e6c2877290b249e0c12581" category="doc">激活服务</block>
   <block id="4cfc0abdc343554651425620b5108cfd" category="list-text">单击要激活的服务旁边的 * 激活 * 。</block>
@@ -710,8 +663,6 @@
   <block id="441c6e9fc22b169f47087797e47a4e78" category="admonition">如果选择 * 导出到数据 * 还原选项，则提供的链接有效期为七天，并且已通过预身份验证。</block>
   <block id="6e1b2e76136fef4e065dc537ac7bec7d" category="paragraph">此时将显示一条消息，指示已创建还原作业。</block>
   <block id="5cd8ed00a66ee33edca00eaad743e706" category="summary">要开始订阅 SaaS Backup for Microsoft 365 ，您必须确定要用于备份的存储类型，创建具有全局权限的 Microsoft 365 服务帐户，并且必须完成注册过程。</block>
-  <block id="e80ac21f1c9c2bfc1cd2b0c269ca21b1" category="doc">SaaS Backup for Microsoft 365 付费订阅入门工作流</block>
-  <block id="247c11bc66df531c09cff7db883f88a8" category="paragraph">要开始订阅 SaaS Backup for Microsoft 365 ，您必须执行以下操作：</block>
   <block id="ea04a30a00c78442cf07b930689cf146" category="list-text">确定要使用 SaaS Backup 提供的 Amazon S3 或 Azure Blob 存储。</block>
   <block id="d1277819211cde3f869b987ea578960e" category="inline-link-macro">可与 SaaS Backup 结合使用的存储类型</block>
   <block id="4cd94590bb8488a413e6a427480d3251" category="paragraph"><block ref="df8d60faebfd1140c689d69f47bd9ce6" category="inline-link-macro-rx"></block>。</block>
@@ -742,11 +693,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
   <block id="af482b62e5f593026c0e1f3b25e33b22" category="inline-link">SaaS 备份通知</block>
   <block id="7a5993af77d1032535cb5f108e621422" category="doc">注册 Microsoft 365 免费试用帐户</block>
-  <block id="a6cf97b63eff3ad329ddd3b42602dc2c" category="paragraph">借助 Microsoft 365 for Business 30 天免费试用版，您可以了解 Microsoft 365 和 SaaS Backup for Microsoft 365 的最新功能。</block>
-  <block id="154aaf2b1abad0f9ef74679e031ff9bb" category="inline-link">Microsoft 365 商业版站点</block>
-  <block id="6d9567e09b2cc2c796d047f8b47e3ca0" category="list-text">转至<block ref="5a129d533828990ea282ed866872ff1c" category="inline-link-rx"></block> 以启动试用订阅。</block>
-  <block id="0bed8b88d6fa9d144dd46e0009bce73c" category="list-text">单击 * 试用 1 个月免费 * 。</block>
-  <block id="4d994d333f3504b3b25b3aa88931961b" category="list-text">按照屏幕上的说明创建 Microsoft 365 免费试用帐户。</block>
   <block id="74524ae37b19d9cf62712abd2b11085c" category="summary">表参考显示了如何在 SaaS Backup 中查找团队数据。</block>
   <block id="15ed07498534e492570fb7e8050ae853" category="doc">对数据位置进行分组</block>
   <block id="28cb7fa26b2eed860a1681734c1aea62" category="paragraph">Microsoft 团队的数据在 SaaS Backup for Microsoft 365 中具有不同的位置。</block>
@@ -842,16 +788,10 @@
   <block id="471dec26ded6b7c1186f46ab9997db3c" category="summary">欢迎访问 NetApp SaaS Backup for Microsoft 365 文档门户。</block>
   <block id="d6caea3522b7366df1ef706e69eb7090" category="doc">NetApp SaaS Backup for Microsoft 365 文档</block>
   <block id="4b90c0fa551e1b95c98ebe0691603d94" category="paragraph">NetApp SaaS Backup 是一款基于 Web 的安全软件即服务（ Software-as-a-Service ， SaaS ）产品，可将 Microsoft 365 数据备份到 Amazon S3 存储和 Microsoft Azure Blob 存储。</block>
-  <block id="1fde0727b387439572ade83eecff4f68" category="section-title">了解新功能</block>
-  <block id="145265181362aad8bded8926b3022016" category="inline-link-macro">SaaS Backup for Microsoft 365 中的新增功能</block>
-  <block id="b245589f19640f4ed31a299de4011e33" category="list-text"><block ref="b245589f19640f4ed31a299de4011e33" category="inline-link-macro-rx"></block></block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="section-title">入门</block>
   <block id="cf9b65815de15d6e0a7614ea04503b18" category="inline-link-macro">开始使用付费订阅</block>
   <block id="66a8e9a920b348a656e5d56c7551b93b" category="list-text"><block ref="66a8e9a920b348a656e5d56c7551b93b" category="inline-link-macro-rx"></block></block>
   <block id="42898530241af400fda5327fc771fbaf" category="inline-link-macro">开始免费试用</block>
-  <block id="fa56f3ca29655445c50fe3d7bcce728a" category="list-text"><block ref="fa56f3ca29655445c50fe3d7bcce728a" category="inline-link-macro-rx"></block></block>
-  <block id="6be7a975dc6dadc5a8f294312c3b83d9" category="inline-link-macro">从免费试用版升级</block>
-  <block id="8363fdaf697d320c2f82579236d59eb3" category="list-text"><block ref="8363fdaf697d320c2f82579236d59eb3" category="inline-link-macro-rx"></block></block>
   <block id="c96ecffde6280d2fa1507c88f273acb6" category="section-title">提供反馈，获取帮助或查找更多信息</block>
   <block id="c59ff83bf11a6531408fc11e8902566c" category="list-text"><block ref="c59ff83bf11a6531408fc11e8902566c" category="inline-link-macro-rx"></block></block>
   <block id="3cd12697cda279c9c99b093a265c1ba8" category="inline-link-macro">从何处获取帮助和查找更多信息</block>
@@ -1039,25 +979,8 @@
   <block id="c4847d7d96f65dca923f79caeb317cfd" category="list-text">单击 <block ref="57896efc0de0d48cea535446c297cd85" category="inline-image-macro-rx" type="image"></block> 从左侧导航窗格中。</block>
   <block id="e103be6f64222dbfd978e48abb80646b" category="list-text">在 * 最近正在运行的作业 * 下，单击要取消的作业。</block>
   <block id="14746ab9705143711849289cd0368e51" category="list-text">单击 * 取消 * 。已取消作业的进度显示在 * 最近完成的作业 * 下。</block>
-  <block id="1bdac635ce4139030bb822472e615a6d" category="summary">要注册免费试用 SaaS Backup for Microsoft 365 ，您必须具有激活代码。</block>
   <block id="22e2acbc5d542c00c7ad5d2693661006" category="doc">注册获取免费试用激活代码</block>
-  <block id="33802f42e0a28dafca8f766c0830bd74" category="paragraph">要注册免费试用 SaaS Backup for Microsoft 365 ，您必须具有激活代码。您的渠道合作伙伴或销售代表可能已向您提供激活代码。否则，您必须注册才能收到一个。</block>
-  <block id="29e9455249b19d05b4fb1352b5c216da" category="list-text">单击<block ref="e8cec0ed878027a1aa2ac01b473adb49" category="inline-link-rx"></block> 转到 SaaS Backup for Microsoft 365 免费试用 URL 。</block>
-  <block id="a189a1df7360b047444647d114f49f87" category="list-text">输入请求的注册信息并单击 * 提交 * 。您将收到一封包含免费试用激活代码的电子邮件。</block>
   <block id="7e01d5441a2bbda36f29dd5a8d2561b7" category="doc">注册申请免费试用 SaaS Backup for Microsoft 365</block>
-  <block id="c84082e63d1052aedfca36e4dd31f521" category="section-title">使用 Microsoft 365 服务帐户注册免费试用版</block>
-  <block id="cb7275d9b71e140a3f1a91d0c6cc0747" category="list-text">输入 Microsoft 365 测试或试用帐户的电子邮件地址和密码，然后单击 * 登录 * 。此时将显示 SaaS Backup for Microsoft 365 请求的权限列表。</block>
-  <block id="e2dfed3093092bbfc3bed3cf01111b0a" category="list-text">选择 * 免费试用 * 作为订阅类型。</block>
-  <block id="e7a56e29d931a374c7958199f1bafb29" category="list-text">输入渠道合作伙伴或销售代表提供的或通过注册电子邮件获取的免费试用激活代码。</block>
-  <block id="e11100ed191aa6f176c829759972cfce" category="list-text">选择存储选项。</block>
-  <block id="808117ba1d01d824c38cce84a65e2cf0" category="section-title">使用 NetApp SSO 帐户注册免费试用版</block>
-  <block id="69dc20d3740095eb96943daf74d8b8d7" category="list-text">单击 * 注册 NetApp SSO* 。</block>
-  <block id="481c2d7848531f12a7fd6f119c471514" category="paragraph"><block ref="481c2d7848531f12a7fd6f119c471514" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cdf30a87c9430cc5bdc1044ad7e168e9" category="list-text">输入请求的用户信息，然后单击 * 注册 * 。您需要获得渠道合作伙伴，销售代表或注册电子邮件中提供的免费试用激活代码。</block>
-  <block id="d5d752284cf9b3813c6cb75800200063" category="list-text">单击 <block ref="033e893069dbe1c51622ec6c06fe3419" category="inline-image-macro-rx" type="image"></block> 图标。</block>
-  <block id="fedadd6f719e834650ca6c6945b6f6dd" category="list-text">单击 <block ref="b6f2e54c54e3104f5cb63e0dad75def5" category="inline-image-macro-rx" type="image"></block> 以选择 SaaS 服务。</block>
-  <block id="531c29ba69b5ebe332db5b68278c5add" category="list-text">选择 * 免费试用 * 作为订阅类型。输入您的渠道合作伙伴或销售代表提供的激活代码，或者通过电子邮件从营销代表获取的激活代码。</block>
-  <block id="7537f96c2f035f3bf4023172c5e1b6f7" category="list-text">选择备份存储选项。</block>
   <block id="17a7f7612ee5c332c72c543bfc879c0a" category="summary">SaaS Backup for Microsoft 365 具有三个预定义的备份策略层。根据您使用的是 SaaS Backup 提供的存储还是 BYOS ，这些策略层的备份频率和数据保留期限会有所不同。</block>
   <block id="a0f6625830185faf63102ac6f8475d06" category="paragraph">SaaS Backup for Microsoft 365 具有三个预定义的备份策略层。根据您使用的是 SaaS Backup 提供的存储还是 BYOS ，这些策略层的备份频率和数据保留期限会有所不同。</block>
   <block id="4dc87dc04732df6a76651e7d1f0cb0e7" category="paragraph">您可以在这三个策略之间移动数据，但不能创建新策略或更改预定义层的参数。</block>
@@ -1127,21 +1050,6 @@
   <block id="d4aef45eaed5bded9ba10045d1d9f03c" category="list-text">* 还原到其他站点 *</block>
   <block id="eb729008daf8b3603cdc161bd528d76c" category="paragraph">如果还原到其他站点，则必须在搜索字段中输入目标站点。您可以在搜索字段中键入站点的一部分，以便自动搜索匹配的站点。</block>
   <block id="9f4e67a899612efbb024bcba557762f9" category="paragraph">如果要导出数据，则需要下载该数据。转到左侧菜单上的 * 报告 * 。查找导出数据作业。单击 * 文件夹总数 * 。然后单击 * 导出数据下载链接 * 。下载 zip 文件。打开 zip 文件以提取数据。</block>
-  <block id="c81cd01ae243c25c6c476879c6db1451" category="summary">要开始使用 SaaS Backup for Microsoft 365 的免费试用帐户，您必须拥有免费试用激活代码和 Microsoft 365 测试帐户，并且必须完成注册过程。</block>
-  <block id="a53495d623868aa543845636677455d7" category="doc">开始免费试用 SaaS Backup for Microsoft 365 的工作流</block>
-  <block id="503b74ce08000ed04b7e1367ab725d60" category="paragraph">要开始免费试用 SaaS Backup for Microsoft 365 ，您必须执行以下操作：</block>
-  <block id="e5b83f3bd74f57bedec7051b3edc0cea" category="inline-link-macro">免费试用限制</block>
-  <block id="072c8570727097dca3420a9c7c649846" category="list-text">请注意 <block ref="e46da3c007b7c38fba9f43f9695924e1" category="inline-link-macro-rx"></block>。</block>
-  <block id="cd80e72aa996af149a742971d238d415" category="inline-link-macro">免费试用激活代码</block>
-  <block id="0fcc28a99a98bf0ad3a1e462c6c0d146" category="list-text">具有 <block ref="62811f4a6842b823647bfb89540f3517" category="inline-link-macro-rx"></block>。</block>
-  <block id="b838a93f5b20be89faad2438638eac93" category="inline-link-macro">注册 Microsoft 365 测试帐户</block>
-  <block id="3adccc1998f9398bcfb2f9e6e524bf75" category="list-text">如果需要， <block ref="115851e5c51477f08693fc62491b3e9b" category="inline-link-macro-rx"></block>。</block>
-  <block id="983360d0def6e102424fc3613cf2d572" category="list-text"><block ref="64ea1e8fc4e2b8d9ec6fc411042ab0e1" category="inline-link-macro-rx"></block>。</block>
-  <block id="ff9a805d222c3ac0916c371800a05a53" category="list-text"><block ref="c9af6193923e9dc20694b1344b3dc5c7" category="inline-link-macro-rx"></block> 使用您的 Microsoft 365 帐户或 NetApp SSO 帐户。</block>
-  <block id="2ccdff143d74916a1211dd44904e1999" category="list-text"><block ref="4820d84d1889f00f60cdb5ea07f07a07" category="inline-link-macro-rx"></block>。</block>
-  <block id="4ebc69d5d25f74d56798158e340179dc" category="list-text"><block ref="30f84fb052d031228dda8a31c47a259a" category="inline-link-macro-rx"></block>。</block>
-  <block id="46671751a991b10fda3d29f6f278422a" category="inline-image-macro">免费试用注册流程的工作流</block>
-  <block id="99e38848c9b38cfadce3b630d97abdaf" category="paragraph"><block ref="99e38848c9b38cfadce3b630d97abdaf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="69288124909bddfca867e68699b38eb1" category="doc">创建新规则</block>
   <block id="96c5c2a6a16af4dbce3c3c185b2600d2" category="paragraph">您可以为 Microsoft Exchange Online ， OneDrive for Business ， SharePoint Online 和 Microsoft Office 365 组创建规则。</block>
   <block id="245a50c7f83ec336dcce1b49eaadfe92" category="inline-image-macro">用于创建规则的用户定义筛选器和 SaaS Backup 定义筛选器示例</block>
@@ -1312,7 +1220,6 @@
   <block id="1721af001af4943cc2771dbfd047f856" category="sidebar">执行 imdate 备份</block>
   <block id="f683581d3e75f05f9d9215f9b4696cef" category="sidebar">升级</block>
   <block id="e78ef280ac4cdaeebd76c27ebe90d653" category="sidebar">升级后激活支持</block>
-  <block id="898566549d933366de8ad6d6a1fbff27" category="sidebar">开始使用付费订阅</block>
   <block id="3bd34394db106447b9320c76b26ddbb5" category="sidebar">管理服务</block>
   <block id="23ad15066715d93a5dfb7d99bfb0d157" category="sidebar">管理设置</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="sidebar">权限</block>
@@ -1408,7 +1315,11 @@
   <block id="079fc4b41d453223328c8289d6f6ee23" category="paragraph">有关详细信息，请参见 <block ref="13656a114805a881003fbba8178f036a" category="inline-link-macro-rx"></block>。</block>
   <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="sidebar">使用自助服务门户</block>
   <block id="986fd8fd4a9ddabca0d89b5e7da5ba20" category="admonition">要启用现代身份验证，请使用租户帐户凭据登录；帐户名称可在 Microsoft 365 服务设置中找到（请参见下面的 * 选项 2 步骤 * ）。确保已为此帐户分配全局管理员角色。成功启用现代身份验证后，您可以从管理员用户中删除全局管理员角色。</block>
-  <block id="bab00dea1cabe9c56b693bc0180cbb13" category="list-text">还原消息大于 140 MB 的邮箱时会遇到上传失败。</block>
   <block id="3268b398df77a34bc3dc7c2eee28b5d5" category="inline-link-macro">Microsoft Exchange Online 限制：消息限制</block>
   <block id="6567b22ffc8f6ae02aa92f63c67f763a" category="admonition">还原消息大于 140 MB 的邮箱可能会遇到向服务器上传失败的情况。我们建议您使用导出到 PST 选项执行高级别还原。有关详细信息，请参见 <block ref="005c12c4f12807842a060236e5445890" category="inline-link-macro-rx"></block>。</block>
+  <block id="d58b980148cd198d6d43f285f030425c" category="doc">入门工作流</block>
+  <block id="cde2057a98d86f208770b3164aedda87" category="paragraph">要开始使用 SaaS Backup for Microsoft 365 ，您必须执行以下操作：</block>
+  <block id="7be94d6ea867267b0e0652c209469b72" category="doc">数据删除</block>
+  <block id="07e38d036e9ca9a031fae0e612627b48" category="section-title">使用 Microsoft 365 服务帐户注册</block>
+  <block id="8d76a8a511ee942b5420fe631ad886fb" category="section-title">使用 NetApp SSO 帐户注册</block>
 </blocks>

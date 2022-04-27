@@ -6,6 +6,7 @@ summary: 您可以为 OneNote 笔记本启用备份。
 ---
 = 为 OneNote 启用备份
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

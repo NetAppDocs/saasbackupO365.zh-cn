@@ -6,6 +6,7 @@ summary: 您可以启用高级搜索以在 Microsoft 365 Exchange Online 中搜�
 ---
 = 使用 Microsoft Exchange Online 高级搜索
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

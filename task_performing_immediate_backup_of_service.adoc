@@ -6,6 +6,7 @@ summary: 您可以根据需要对任何 Microsoft 365 服务执行即时备份�
 ---
 = 立即对服务执行备份
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 您可以使用 SaaS Backup for Microsoft 365 对 Microsoft SharePoint 
 ---
 = 对 Microsoft SharePoint Online 执行粒度级还原
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

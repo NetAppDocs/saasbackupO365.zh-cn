@@ -4,8 +4,9 @@ permalink: reference_paid_subscription_data.html
 keywords: paid, subscription, data, saas, backup, microsoft 365 
 summary: 如果您不续订 SaaS Backup for Microsoft 365 的许可版本，则订阅期间使用的数据将被删除。 
 ---
-= 付费订阅数据删除
+= 数据删除
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -8,6 +8,7 @@ summary: 在 NetApp SaaS Backup for Microsoft 365 中，您可以管理 Azure Ac
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

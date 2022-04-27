@@ -6,6 +6,7 @@ summary: 您可以添加或释放许可证。
 ---
 = 添加许可证
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

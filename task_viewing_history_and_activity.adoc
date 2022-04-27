@@ -6,6 +6,7 @@ summary: 您可以查看或下载 SaaS Backup 活动和作业历史记录日志�
 ---
 = 查看作业历史记录和活动日志
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 如果对用户的管理角色进行了更新，则用户将自动从 S
 ---
 = 更新分配给用户帐户的管理角色
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -7,6 +7,7 @@ summary: 您可以在 NetApp SaaS Backup for Microsoft 365 社区论坛和知识
 = 从何处获取帮助和查找更多信息
 :toc: macro
 :hardbreaks:
+:allow-uri-read: 
 :toc: 
 :nofooter: 
 :icons: font

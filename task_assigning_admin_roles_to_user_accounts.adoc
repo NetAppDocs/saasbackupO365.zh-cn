@@ -6,6 +6,7 @@ summary: 您可以为用户帐户分配管理角色，以便为选定用户授�
 ---
 = 为用户帐户分配管理角色
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
