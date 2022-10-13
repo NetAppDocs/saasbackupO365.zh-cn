@@ -18,6 +18,14 @@ summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新�
 
 
 
+== 2022年10月
+
+* 现在、SaaS Backup for Microsoft 365可以实现数据迁移。帐户管理员可以请求将数据迁移到租户拥有的Amazon S3和Azure Blob存储目标存储分段。了解操作方法 link:task_migrate_data.html["迁移数据"]。
+* SaaS Backup Export Utility工具现已推出、可用于将迁移的数据导出到Amazon S3和Azure Blob存储目标存储分段或本地存储。登录到 link:https://mysupport.netapp.com/site/tools["NetApp支持工具页面"] 并搜索NetApp SaaS Backup Bulk Export Tool。
+
+
+
+
 == 2021年11月
 
 Microsoft 365 将于 2021 年 10 月弃用 Exchange Online 中的基本身份验证。有关详细信息，请参见 link:https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-september-2021-update/ba-p/2772210["基本身份验证和 Exchange Online — 2021 年 9 月更新"]。弃用后， Microsoft 365 组以及共享邮箱和归档邮箱可能会发生发现失败。您可以随时启用现代身份验证，以避免出现这些故障。

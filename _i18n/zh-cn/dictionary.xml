@@ -1322,4 +1322,41 @@
   <block id="7be94d6ea867267b0e0652c209469b72" category="doc">数据删除</block>
   <block id="07e38d036e9ca9a031fae0e612627b48" category="section-title">使用 Microsoft 365 服务帐户注册</block>
   <block id="8d76a8a511ee942b5420fe631ad886fb" category="section-title">使用 NetApp SSO 帐户注册</block>
+  <block id="83c10a32397f74ce2ae36e07ede65d42" category="summary">要准备结束SaaS Backup for Microsoft 365的许可证、您可以请求将数据迁移到租户拥有的Amazon S3或Microsoft Azure Blob Storage。</block>
+  <block id="63debe27683f1f8c225ad14c415dffcc" category="doc">迁移数据</block>
+  <block id="1cbe0fb96058289a9a2c7849a10cce7e" category="inline-link-macro">NetApp支持工具页面</block>
+  <block id="3eafd5b67f917bf3229f804871b0a519" category="paragraph">数据迁移完成后、您可以使用NetApp SaaS Backup批量导出工具导出数据。登录到 <block ref="f77ad18881805ec354217bae9bc5280f" category="inline-link-macro-rx"></block> 并搜索NetApp SaaS Backup Bulk Export Tool。</block>
+  <block id="755ca11feea1671834e5aefd11bd73ef" category="admonition">数据迁移是一项许可证到期活动。所有租户都应避免在SaaS Backup帐户上进行任何形式的活动、以避免数据迁移期间出现数据和元数据差异。数据迁移完成后、租户的所有计划备份都将被禁用。</block>
+  <block id="65a98863a2ac165885fac7cb61a5d513" category="paragraph">*要求*：要请求数据迁移、请使用具有全局管理员权限的租户帐户凭据登录。其他用户角色将无法访问用户界面中的数据迁移选项卡。</block>
+  <block id="a50fb19e141d6cdd90fe6cb30ed8df26" category="paragraph">*建议*：您应该为目标存储配置足够的容量来存储所有客户数据、并将容量增加10%作为元数据存储的缓冲区。</block>
+  <block id="468f1d53e307fb031056f04e4bf4dc63" category="list-text">转至*帐户设置* <block ref="fe1826c3849049c74f4b12ce1ca764fb" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="e265381d5acb86a5b507d7af8c81e25e" category="list-text">选择*数据迁移*选项卡。</block>
+  <block id="08b88ac420a661dbd725929a122f2abd" category="list-text">在*存储详细信息*中的字段中输入信息：</block>
+  <block id="1668ca1bd914c1d847f23b491319ac91" category="cell">Microsoft Azure</block>
+  <block id="e3cb65410aa9adfebb4eb1bc8ee22fec" category="cell">Bucket Name</block>
+  <block id="aa90c53280582695f3d4b8ac2ec17a8b" category="cell">帐户名称</block>
+  <block id="f447ac856e7e72435904956e3b15f433" category="cell">Region</block>
+  <block id="dbdfde773808a7d9ed43dd6f82a2cef4" category="cell">容器名称</block>
+  <block id="47b84fd1609df93c987377c912e3baf1" category="cell">访问密钥</block>
+  <block id="01af13d1b711105db887a3ce63dddd08" category="cell">访问点</block>
+  <block id="952bf87c967660b7bbd4e1eb08cefc92" category="cell">机密密钥</block>
+  <block id="0db132bfed096427c0e86952e7c8aaee" category="admonition">对于存储详细信息中提供的容器、Microsoft Azure用户必须将公有 访问级别设置为"Blob "。</block>
+  <block id="230a37dd947a3a0c2edc2dbf64004553" category="list-text">选择*测试连接*。</block>
+  <block id="4dc4ae54a7ba0fb1adf890aa54edd098" category="paragraph">绿色复选标记表示连接运行状况良好。</block>
+  <block id="3229f4843f74ccaa5cbb817a9d15c9d5" category="list-text">在*同意*中、选中同意数据迁移条款和条件的框、然后选择*提交*。</block>
+  <block id="c0058ded5ce2325354436bc52adcec00" category="paragraph">您已成功保存详细信息。此时、租户ID将显示在*迁移状态*中。</block>
+  <block id="ad87f3e2af72bb9d745ea010c8379dc4" category="admonition">使用NetApp SaaS Backup批量导出工具导出数据时、您需要租户ID。</block>
+  <block id="fb27c3b07755a2445a45afde598c6d85" category="paragraph">*有关SaaS Backup提供的Amazon S3存储分段的其他步骤*在您提供同意后、"政策和政策说明"现在显示在"同意"下方。按照以下步骤完成数据迁移请求。</block>
+  <block id="828cbe7a85babc6de075e5ea56d1732c" category="list-text">验证并复制策略。</block>
+  <block id="8cba131c5295d96b97996703b5a2724a" category="inline-image-macro">复制了策略、其中突出显示了IAM用户和目标变量</block>
+  <block id="96d0392c5df3598ebaf7dcbd951f5625" category="paragraph"><block ref="96d0392c5df3598ebaf7dcbd951f5625" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4bfbf9b6acce615eb6e3b131d545def5" category="list-text">转到您的Amazon S3帐户。</block>
+  <block id="5e32cdfcfe37a8eea97c00c512641a5f" category="list-text">将*存储详细信息*中提供的策略附加到Amazon S3目标存储分段。</block>
+  <block id="33c1e5a1307d38feea23dc2331ed701f" category="list-text">返回SaaS Backup for Microsoft 365中*帐户设置*中的*数据迁移*选项卡。</block>
+  <block id="978b85116b244e94a404c12f948c970f" category="list-text">在*策略确认*中、选中确认已将策略上传到目标存储分段的复选框、然后选择*提交*。绿色复选标记表示数据迁移请求已完成、数据迁移现已排队。</block>
+  <block id="f9f1cf59b080a38810200532dd041d7d" category="paragraph">要监控迁移进度、请参见*迁移状态*。迁移持续时间取决于多种因素、例如数据量和许可证数量。</block>
+  <block id="4c4518d4c20175eb4082a6b33eb4badb" category="section-title">2022年10月</block>
+  <block id="ffa51d6855cca4131bdcec9c3740ad0b" category="inline-link-macro">迁移数据</block>
+  <block id="985be5d8f78db2bf8609a9776c400b81" category="list-text">现在、SaaS Backup for Microsoft 365可以实现数据迁移。帐户管理员可以请求将数据迁移到租户拥有的Amazon S3和Azure Blob存储目标存储分段。了解操作方法 <block ref="6f5fb74cdf8e0d07a2092eec0568d924" category="inline-link-macro-rx"></block>。</block>
+  <block id="02dfe706c292ef8fe0db1d80bf8f89a6" category="list-text">SaaS Backup Export Utility工具现已推出、可用于将迁移的数据导出到Amazon S3和Azure Blob存储目标存储分段或本地存储。登录到 <block ref="f77ad18881805ec354217bae9bc5280f" category="inline-link-macro-rx"></block> 并搜索NetApp SaaS Backup Bulk Export Tool。</block>
 </blocks>

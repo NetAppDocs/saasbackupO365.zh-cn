@@ -28,7 +28,7 @@ summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新�
 == 2018年8月
 
 * 用户界面经过重新设计，可改善用户体验和效率。
-* 数据保留策略已更新，可将数据保留 3 年。<<concept_backup_policies.adoc#backup_policies,备份策略>>
+* 数据保留策略已更新，可将数据保留 3 年。#backup_policies,备份策略
 
 
 
@@ -36,7 +36,7 @@ summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新�
 == 2018年5月
 
 * NetApp Cloud Control 已重命名为 NetApp SaaS Backup for Microsoft 365 。
-* 现在，您可以清除用户，站点集和 Microsoft 365 组，从而从 SaaS Backup for Microsoft 365 中完全删除所有关联数据。<<task_purging.adoc#purging-a-user-site-collection-or-office-365-group,清除用户，站点集或 Microsoft 365 组>>
+* 现在，您可以清除用户，站点集和 Microsoft 365 组，从而从 SaaS Backup for Microsoft 365 中完全删除所有关联数据。#purging-a-user-site-collection-or-office-365-group,清除用户，站点集或 Microsoft 365 组
 * SaaS Backup 现在可以发现 Microsoft 365 组的公有和专用组。
 
 
@@ -46,10 +46,10 @@ summary: SaaS Backup for Microsoft 365 定期推出新版本，为您提供新�
 
 * SaaS Backup for Microsoft 365 现在支持 Microsoft Office Exchange Online 的共享邮箱。
 +
-共享邮箱通过使用自动创建的服务帐户来发现。如果在此更新之前未激活 Microsoft Office Exchange Online 服务，则共享邮箱的自动服务帐户将在激活 Microsoft Office Exchange Online 时由 SaaS Backup 创建。如果您的 Microsoft Office Exchange Online 服务已激活，您必须授予 SaaS Backup 创建自动服务帐户的权限，以便可以发现和备份您的共享邮箱。 <<task_granting_permissions_to_enable_shared_mailboxes.adoc#granting-permissions-to-enable-shared-mailboxes,授予启用共享邮箱的权限>>
+共享邮箱通过使用自动创建的服务帐户来发现。如果在此更新之前未激活 Microsoft Office Exchange Online 服务，则共享邮箱的自动服务帐户将在激活 Microsoft Office Exchange Online 时由 SaaS Backup 创建。如果您的 Microsoft Office Exchange Online 服务已激活，您必须授予 SaaS Backup 创建自动服务帐户的权限，以便可以发现和备份您的共享邮箱。 #granting-permissions-to-enable-shared-mailboxes,授予启用共享邮箱的权限
 
 +
-创建自动服务帐户后，您的共享邮箱将在下次计划同步用户帐户时自动发现。如果您希望立即发现共享邮箱，可以 <<task_discovering_new.adoc#sdiscovering-new-mailboxes-sites-and-groups,立即发现您的用户帐户>>。
+创建自动服务帐户后，您的共享邮箱将在下次计划同步用户帐户时自动发现。如果您希望立即发现共享邮箱，可以 #sdiscovering-new-mailboxes-sites-and-groups,立即发现您的用户帐户。
 
 
 
@@ -65,7 +65,7 @@ image:subscription_types_free_trial.jpg["屏幕截图，显示选择免费试用
 
 == 2018 年 2 月
 
-* 现在，可对 Microsoft SharePoint Online 使用基于模板 ID 的筛选功能。<<task_creating_user_defined_filter.adoc#creating-a-user-defined-filer,创建用户定义的筛选器>>
+* 现在，可对 Microsoft SharePoint Online 使用基于模板 ID 的筛选功能。#creating-a-user-defined-filer,创建用户定义的筛选器
 * 现在，您可以将 SaaS Backup for Microsoft 365 用户帐户活动日志下载到 .csv 文件中。link:task_downloading_data.html["下载日志"]
 * 现在， SaaS Backup for Microsoft 365 与您的服务之间的用户帐户，站点和组同步默认处于启用状态。
 * 现在，默认情况下会启用包含备份版本历史记录。默认版本数为 20 。link:concept_backup_settings.html["备份设置"]
@@ -93,5 +93,5 @@ image:subscription_types_free_trial.jpg["屏幕截图，显示选择免费试用
 
 == 2017 年 10 月
 
-* 可以创建规则，使您能够根据预定义的条件自动将用户移动到预先选择的备份层。您可以为 Microsoft Exchange Online 和 Microsoft OneDrive for Business 创建规则。您不能为 Microsoft SharePoint Online 创建规则。<<task_creating_rules.adoc#creating-rules,创建新规则>>
+* 可以创建规则，使您能够根据预定义的条件自动将用户移动到预先选择的备份层。您可以为 Microsoft Exchange Online 和 Microsoft OneDrive for Business 创建规则。您不能为 Microsoft SharePoint Online 创建规则。#creating-rules,创建新规则
 

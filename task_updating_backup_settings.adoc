@@ -19,7 +19,7 @@ summary: 您可以更新备份设置以控制各种备份选项。可用的备�
 
 
 [role="lead"]
-您可以更新 <<concept_backup_settings.adoc#backup-settings,备份设置>> 控制各种备份选项。可用 <<concept_backup_settings.adoc#backup-settings,备份设置>> 因服务而异。
+您可以更新 #backup-settings,备份设置 控制各种备份选项。可用 #backup-settings,备份设置 因服务而异。
 
 .步骤
 . 单击左侧导航窗格中的 * 服务 * 。

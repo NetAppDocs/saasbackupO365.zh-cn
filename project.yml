@@ -38,7 +38,7 @@ sidebar:
       url: "/task_signing_up_for_saasbkup_paid_subscription.html"
     - title: 计划首次备份
       url: "/task_scheduling_first_backup.html"
-    - title: 执行 imdate 备份
+    - title: 立即执行备份
       url: "/task_performing_immediate_backup_of_policy.html"
     - title: 数据删除
       url: "/reference_paid_subscription_data.html"
@@ -162,6 +162,8 @@ sidebar:
       url: "/task_downloading_data.html"
     - title: 监控用户数据
       url: "/task_monitoring_data.html"
+  - title: 迁移数据
+    url: "/task_migrate_data.html"
   - title: 提供反馈
     url: "/task_providing_feedback.html"
   - title: 从何处获取帮助和查找更多信息

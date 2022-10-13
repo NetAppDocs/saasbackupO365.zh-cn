@@ -22,9 +22,9 @@ summary: 您可以启用高级搜索以在 Microsoft 365 Exchange Online 中搜�
 
 image:advanced_search_settings_exchange.png["高级搜索设置的屏幕截图"]
 
-* <<Enable Advanced Search>>
-* <<Perform a search>>
-* <<Find previous search jobs>>
+*  Advanced Search
+*  a search
+*  previous search jobs
 
 
 

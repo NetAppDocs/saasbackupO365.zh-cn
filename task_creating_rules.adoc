@@ -20,7 +20,7 @@ summary: 通过规则，您可以根据预定义的条件自动将用户移动�
 
 您必须先对数据应用用户定义的筛选器，然后才能创建规则。应用的筛选器显示在 * 筛选器 * 图标下方。NetApp SaaS Backup for Microsoft 365 默认筛选器显示为灰色。用户定义的筛选器显示为浅蓝色。image:rules.gif["用于创建规则的用户定义筛选器和 SaaS Backup 定义筛选器示例"]
 
-<<task_creating_user_defined_filter.adoc#creating-user-defined-filter,创建用户定义的筛选器>>
+#creating-user-defined-filter,创建用户定义的筛选器
 
 您可以创建多个规则。这些规则将按照它们在 * 管理规则 * 列表中显示的顺序进行应用。
 

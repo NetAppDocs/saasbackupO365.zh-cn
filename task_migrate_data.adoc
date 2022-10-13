@@ -1,0 +1,82 @@
+---
+sidebar: sidebar 
+permalink: task_migrate_data.html 
+keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, migrate, data, export 
+summary: 要准备结束SaaS Backup for Microsoft 365的许可证、您可以请求将数据迁移到租户拥有的Amazon S3或Microsoft Azure Blob Storage。 
+---
+= 迁移数据
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+要准备结束SaaS Backup for Microsoft 365的许可证、您可以请求将数据迁移到租户拥有的Amazon S3或Microsoft Azure Blob Storage。
+
+数据迁移完成后、您可以使用NetApp SaaS Backup批量导出工具导出数据。登录到 link:https://mysupport.netapp.com/site/tools["NetApp支持工具页面"] 并搜索NetApp SaaS Backup Bulk Export Tool。
+
+
+NOTE: 数据迁移是一项许可证到期活动。所有租户都应避免在SaaS Backup帐户上进行任何形式的活动、以避免数据迁移期间出现数据和元数据差异。数据迁移完成后、租户的所有计划备份都将被禁用。
+
+*要求*：要请求数据迁移、请使用具有全局管理员权限的租户帐户凭据登录。其他用户角色将无法访问用户界面中的数据迁移选项卡。
+
+*建议*：您应该为目标存储配置足够的容量来存储所有客户数据、并将容量增加10%作为元数据存储的缓冲区。
+
+.步骤
+. 转至*帐户设置* image:gear_icon.png["齿轮图标"]。
+. 选择*数据迁移*选项卡。
+. 在*存储详细信息*中的字段中输入信息：
++
+[cols="20,20"]
+|===
+| Amazon S3 | Microsoft Azure 
+
+
+| Bucket Name | 帐户名称 
+
+
+| Region | 容器名称 
+
+
+| 访问密钥 | 访问点 
+
+
+| 机密密钥 | 访问密钥 
+
+
+|  | Region 
+|===
++
+
+NOTE: 对于存储详细信息中提供的容器、Microsoft Azure用户必须将公有 访问级别设置为"Blob "。
+
+. 选择*测试连接*。
++
+绿色复选标记表示连接运行状况良好。
+
+. 在*同意*中、选中同意数据迁移条款和条件的框、然后选择*提交*。
++
+您已成功保存详细信息。此时、租户ID将显示在*迁移状态*中。
+
++
+
+TIP: 使用NetApp SaaS Backup批量导出工具导出数据时、您需要租户ID。
+
+
+
+*有关SaaS Backup提供的Amazon S3存储分段的其他步骤*在您提供同意后、"政策和政策说明"现在显示在"同意"下方。按照以下步骤完成数据迁移请求。
+
+. 验证并复制策略。
++
+image:policy-note-variables.png["复制了策略、其中突出显示了IAM用户和目标变量"]
+
+. 转到您的Amazon S3帐户。
+. 将*存储详细信息*中提供的策略附加到Amazon S3目标存储分段。
+. 返回SaaS Backup for Microsoft 365中*帐户设置*中的*数据迁移*选项卡。
+. 在*策略确认*中、选中确认已将策略上传到目标存储分段的复选框、然后选择*提交*。绿色复选标记表示数据迁移请求已完成、数据迁移现已排队。
+
+
+要监控迁移进度、请参见*迁移状态*。迁移持续时间取决于多种因素、例如数据量和许可证数量。
