@@ -14,7 +14,10 @@ summary: 要准备结束SaaS Backup for Microsoft 365的许可证、您可以请
 
 
 [role="lead"]
-要准备结束SaaS Backup for Microsoft 365的许可证、您可以请求将数据迁移到租户拥有的Amazon S3或Microsoft Azure Blob Storage。
+要准备结束SaaS Backup for Microsoft 365的许可证、您可以请求将数据从Amazon S3迁移到租户拥有的Amazon S3存储或从Microsoft Azure Blob迁移到租户拥有的Microsoft Azure Blob存储。
+
+
+NOTE: 不支持从Amazon S3到Microsoft Azure Blob存储或从Microsoft Azure Blob到Amazon S3存储的交叉迁移。
 
 数据迁移完成后、您可以使用NetApp SaaS Backup批量导出工具导出数据。登录到 link:https://mysupport.netapp.com/site/tools["NetApp支持工具页面"] 并搜索NetApp SaaS Backup Bulk Export Tool。
 
