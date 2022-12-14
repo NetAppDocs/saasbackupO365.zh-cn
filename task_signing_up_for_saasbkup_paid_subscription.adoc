@@ -41,6 +41,7 @@ summary: 您可以使用 Microsoft 365 服务帐户或 NetApp SSO 帐户注册 S
 
 == 使用 NetApp SSO 帐户注册
 
+.开始之前
 要验证您的订阅，您必须具有 NetApp SSO 用户 ID 和密码。如果您没有 NetApp SSO 帐户，请转至 https://mysupport.netapp.com/eservice/public/now.do[] 注册一个。处理完您的请求后，您将收到一封电子邮件通知，其中包含您的 NetApp SSO 凭据。处理此请求并发送通知电子邮件大约需要 24 小时。
 
 .步骤
