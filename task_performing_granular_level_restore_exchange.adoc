@@ -183,6 +183,3 @@ NOTE: 如果选择 * 导出到数据 * 还原选项，则提供的链接有效�
 
 . 单击 * 查看作业进度 * 以监控还原进度。
 
-
-.相关信息
-要了解如何使用自助服务门户还原 Microsoft Exchange Online 中的项目，请参见 link:reference_about_ssp.hmtl["关于自助服务门户"]。

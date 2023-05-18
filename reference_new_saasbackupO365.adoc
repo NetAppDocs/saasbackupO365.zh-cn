@@ -40,8 +40,6 @@ Microsoft 365 将于 2021 年 10 月弃用 Exchange Online 中的基本身份验
 
 如果您在美国部署 Microsoft Azure ，则您的数据不会离开 Microsoft 环境。在 SaaS Backup for Microsoft 365 的注册过程中，您可以使用 Azure Blob 存储或您自己的存储。
 
-link:task_signing_up_for_saasbkup_free_trial.html["从免费试用版注册 SaaS Backup"]
-
 link:task_signing_up_for_saasbkup_paid_subscription.html["通过付费订阅注册 SaaS Backup"]
 
 
@@ -161,13 +159,6 @@ link:task_deleting_security_groups.html["删除安全组"]
 * SaaS Backup for Microsoft 365 现在支持在每个受支持区域中使用多个备份位置。
 +
 现在，您可以选择选定区域中的任何可用位置作为数据备份站点。建议选择地理位置上最接近数据位置的位置。SaaS Backup 建议的位置在选项列表中标记为 * 首选 * 。
-
-+
-
-NOTE: 如果您要从试用版升级，并且选择的备份位置与试用版中使用的位置不同，则不会保留您的试用数据。
-
-+
-link:task_upgrading_from_trial.html["从试用订阅升级"]
 
 * 现在，您可以释放用户许可证并使其可供其他用户使用。link:task_releasing_a_user_license.html["释放用户许可证"]
 

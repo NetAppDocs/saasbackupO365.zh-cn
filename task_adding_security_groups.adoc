@@ -18,7 +18,7 @@ summary: 可以使用安全组作为筛选选项来查看数据和创建规则�
 
 您最多可以添加 3 个安全组。然后，您可以在 SaaS Backup 中使用安全组作为筛选选项。
 
-必须先通过 AutoSync 或手动同步发现新的安全组，然后才能添加它们。https://docs.microsoft.com/en-us/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide["在管理中心中创建，编辑或删除安全组"]。
+必须先通过 AutoSync 或手动同步发现新的安全组，然后才能添加它们。https://["在管理中心中创建，编辑或删除安全组"]。
 
 .步骤
 . 单击 * 帐户设置 * 。

@@ -268,8 +268,6 @@
   <block id="ce2695f1742a4173db63ce74517ac8af" category="paragraph">此版本的 NetApp SaaS Backup for Microsoft 365 增加了以下新功能和更新。</block>
   <block id="a5667679a016ee66ef9bc45c1a173b3b" category="section-title">2020年12月</block>
   <block id="97b4589bea0c9a0d397ec4db7260d8e0" category="paragraph">如果您在美国部署 Microsoft Azure ，则您的数据不会离开 Microsoft 环境。在 SaaS Backup for Microsoft 365 的注册过程中，您可以使用 Azure Blob 存储或您自己的存储。</block>
-  <block id="a72ba6abcd432d690074b970ea9e1e5a" category="inline-link-macro">从免费试用版注册 SaaS Backup</block>
-  <block id="8f8caa92edfef6726734d704b2b67044" category="paragraph"><block ref="8f8caa92edfef6726734d704b2b67044" category="inline-link-macro-rx"></block></block>
   <block id="86ca1026a5895f803f6cb3b59d638cdc" category="inline-link-macro">通过付费订阅注册 SaaS Backup</block>
   <block id="d31c8900ff029d35426a6b655cf439ee" category="paragraph"><block ref="d31c8900ff029d35426a6b655cf439ee" category="inline-link-macro-rx"></block></block>
   <block id="0e347c50a0d60b8f46cb8c37cd3b5088" category="section-title">2020年11月</block>
@@ -326,8 +324,6 @@
   <block id="692664770412ddd705b7f413cee7d6fb" category="section-title">2019 年 3 月</block>
   <block id="f342fec16bfb61a8dd26a7f7ee694ea0" category="list-text">SaaS Backup for Microsoft 365 现在支持在每个受支持区域中使用多个备份位置。</block>
   <block id="fc450d190b34e98c0417e7cc17568f3c" category="paragraph">现在，您可以选择选定区域中的任何可用位置作为数据备份站点。建议选择地理位置上最接近数据位置的位置。SaaS Backup 建议的位置在选项列表中标记为 * 首选 * 。</block>
-  <block id="8683bf91a11e498ffd74c9c3a102487d" category="admonition">如果您要从试用版升级，并且选择的备份位置与试用版中使用的位置不同，则不会保留您的试用数据。</block>
-  <block id="02d42668aef32358c91e97fac3b74454" category="paragraph"><block ref="02d42668aef32358c91e97fac3b74454" category="inline-link-macro-rx"></block></block>
   <block id="8c673911badf0bc86b25912d2c703123" category="list-text">现在，您可以释放用户许可证并使其可供其他用户使用。<block ref="13fb5063dfdc66cecf804982b04fd9ff" category="inline-link-macro-rx"></block></block>
   <block id="faae77443f7a8406deaf55c3795ace10" category="section-title">2019年2月</block>
   <block id="82caf71ab4314503cd4b4826bf47361d" category="list-text">SaaS Backup for Microsoft 365 现在支持以下功能：</block>
@@ -1257,7 +1253,6 @@
   <block id="41b34773b64b2abaab2984b716ed65b0" category="summary">您可以启用高级搜索以在 Microsoft 365 Exchange Online 中搜索备份的项目。</block>
   <block id="23e9dcfa8b97aaea186eaaeb1177dea4" category="paragraph">您可以使用 * 高级搜索 * for Microsoft Exchange Online 搜索单个或共享邮箱项，并将这些项还原到其原始邮箱。</block>
   <block id="c7f1896c455334213518b5df2a860b44" category="paragraph">管理员可以通过转到来启用 * 高级搜索 * <block ref="f87e0976e00f26ec4930aef7f830024f" category="inline-link-macro-rx"></block> 并提交请求。您也可以发送电子邮件给 SaaS 备份支持团队，电子邮件地址为 saasbackupsupport@netapp.com 。</block>
-  <block id="4c6fa9a7d2c0c345bf057d6d3e77c80a" category="paragraph">启用 * 高级搜索 * 后，您可以为各个租户启用自助服务门户（ SSP ）。如果在首次备份之前未启用 * 高级搜索 * ，则不会显示任何搜索结果。要了解有关自助服务门户的更多信息，请参见 <block ref="b51bb0ef6b11f946c31f52683a5d978b" category="inline-link-macro-rx"></block>。</block>
   <block id="4c1d3f657745aa4fa7c5b961a2f7a82f" category="paragraph"><block ref="4c1d3f657745aa4fa7c5b961a2f7a82f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e1c6cab6487c8b15e4140bfb0d5fd69" category="list-text"><block ref="7d190c308c24e5fb4e4af67edbc1dd47" category="inline-xref-macro-rx"></block></block>
   <block id="5e23ff9d9c602cb7300fedbed1382b43" category="section-title">启用高级搜索</block>
@@ -1265,7 +1260,6 @@
   <block id="14242c99845a0bf338d45c648e061643" category="list-text">单击 * 保存设置 * 。</block>
   <block id="6b2edf93f90ba6f21a0eae49dddc7440" category="paragraph">您可以在 * 执行搜索 * 下搜索单个或共享邮箱项，并将这些项还原到其原始邮箱。</block>
   <block id="f6b15d7324df7c5169155143d4b34912" category="paragraph">您可以在 * 先前搜索作业 * 下找到先前的搜索作业。</block>
-  <block id="38d0504911fa47808177f1d71c40e7e1" category="paragraph">要了解如何使用自助服务门户还原 Microsoft Exchange Online 中的项目，请参见 <block ref="8bd99ae3cbd2ccc3f81def50302f803d" category="inline-link-macro-rx"></block>。</block>
   <block id="2aedef02b2ed09f1d4e2fcd6c3fae26e" category="paragraph"><block ref="c19bb902a48f13264b9ec9addfdb6c34" category="inline-xref-macro-rx"></block></block>
   <block id="69cadd9afb18beaf638480ee96474d8d" category="section-title">适用于 OneDrive for Business</block>
   <block id="6e56d85b59ed18494624e5efc9118118" category="section-title">对于 Exchange Online</block>
@@ -1362,5 +1356,5 @@
   <block id="f086b6fce40b83560fe8ab80c4c78980" category="paragraph">要准备结束SaaS Backup for Microsoft 365的许可证、您可以请求将数据从Amazon S3迁移到租户拥有的Amazon S3存储或从Microsoft Azure Blob迁移到租户拥有的Microsoft Azure Blob存储。</block>
   <block id="2082bcb44a92c4c9e2b835d60c6900b8" category="admonition">不支持从Amazon S3到Microsoft Azure Blob存储或从Microsoft Azure Blob到Amazon S3存储的交叉迁移。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">开始之前</block>
-  <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">相关信息</block>
+  <block id="afda39e1ba1136390162c552c18a5674" category="paragraph">启用 * 高级搜索 * 后，您可以为各个租户启用自助服务门户（ SSP ）。如果在首次备份之前未启用 * 高级搜索 * ，则不会显示任何搜索结果。</block>
 </blocks>

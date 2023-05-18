@@ -18,7 +18,7 @@ summary: 您可以启用高级搜索以在 Microsoft 365 Exchange Online 中搜�
 
 管理员可以通过转到来启用 * 高级搜索 * link:https://mysupport.netapp.com/["支持"] 并提交请求。您也可以发送电子邮件给 SaaS 备份支持团队，电子邮件地址为 saasbackupsupport@netapp.com 。
 
-启用 * 高级搜索 * 后，您可以为各个租户启用自助服务门户（ SSP ）。如果在首次备份之前未启用 * 高级搜索 * ，则不会显示任何搜索结果。要了解有关自助服务门户的更多信息，请参见 link:reference_about_ssp.html["关于自助服务门户"]。
+启用 * 高级搜索 * 后，您可以为各个租户启用自助服务门户（ SSP ）。如果在首次备份之前未启用 * 高级搜索 * ，则不会显示任何搜索结果。
 
 image:advanced_search_settings_exchange.png["高级搜索设置的屏幕截图"]
 
