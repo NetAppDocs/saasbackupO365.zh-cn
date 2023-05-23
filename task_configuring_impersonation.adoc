@@ -20,7 +20,7 @@ summary: 如果您计划将 SaaS Backup 与 Microsoft Exchange Online 结合使�
 
 == 自动配置模拟
 
-要自动配置模拟，请运行 https://["MSDN PowerShell 命令"]。
+要自动配置模拟，请运行 https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx["MSDN PowerShell 命令"]。
 
 
 
