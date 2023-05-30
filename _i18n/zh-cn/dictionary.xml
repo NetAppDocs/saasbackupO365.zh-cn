@@ -850,7 +850,6 @@
   <block id="5a9fa37a8adc9079710c82bebd381be2" category="list-text">EHS#1 （根站点）</block>
   <block id="a1c702db865ff7988cecde653d31e549" category="list-text">EHS#0 （根站点）</block>
   <block id="e69fe81e6c14067bfa02448cc56f0d90" category="list-text">SITEPAGEPUBLISHING#0 （通信站点）</block>
-  <block id="cd6b1dceac9feb15ce679e63c41ec14b" category="list-text">组 0 （组站点收集前缀）</block>
   <block id="02331da6f964bf5a355bef176199392c" category="list-text">STS#1 （空站点）</block>
   <block id="370f28e84c7e5f280c6384763af39ff8" category="list-text">STS#2 （文档工作空间）</block>
   <block id="bb39ae34f785130781c5d7c8f66840ca" category="list-text">STS#3 （现代团队站点）</block>
@@ -1357,4 +1356,8 @@
   <block id="2082bcb44a92c4c9e2b835d60c6900b8" category="admonition">不支持从Amazon S3到Microsoft Azure Blob存储或从Microsoft Azure Blob到Amazon S3存储的交叉迁移。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">开始之前</block>
   <block id="afda39e1ba1136390162c552c18a5674" category="paragraph">启用 * 高级搜索 * 后，您可以为各个租户启用自助服务门户（ SSP ）。如果在首次备份之前未启用 * 高级搜索 * ，则不会显示任何搜索结果。</block>
+  <block id="ecdf921a3a6a074b60616280efaea786" category="list-text">SPSPERS#10 (个人站点)</block>
+  <block id="f381330caab1211a505b46814d00dafe" category="list-text">BLANKINTERNET#0 (发布站点)</block>
+  <block id="b6402d0dbe2678a6ff7d1ebe657c7846" category="list-text">TEAMCHANNEL#0</block>
+  <block id="f240a6450359519ca5f7b84a102e94a3" category="list-text">TEAMCHANNEL#1 (私人团队频道)</block>
 </blocks>

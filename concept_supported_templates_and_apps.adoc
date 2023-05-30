@@ -38,11 +38,14 @@ Microsoft SharePoint Online 备份仅支持以下模板。
 * EHS#1 （根站点）
 * EHS#0 （根站点）
 * SITEPAGEPUBLISHING#0 （通信站点）
-* 组 0 （组站点收集前缀）
+* SPSPERS#10 (个人站点)
 * STS#1 （空站点）
 * STS#2 （文档工作空间）
 * STS#3 （现代团队站点）
 * APP#0 （应用程序模板）
+* BLANKINTERNET#0 (发布站点)
+* TEAMCHANNEL#0
+* TEAMCHANNEL#1 (私人团队频道)
 
 
 
