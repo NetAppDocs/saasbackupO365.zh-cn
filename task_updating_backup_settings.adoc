@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, backup, setting, update, updating,
 summary: 您可以更新备份设置以控制各种备份选项。可用的备份设置因服务而异。 
 ---
 = 更新备份设置
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

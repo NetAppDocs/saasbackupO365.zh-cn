@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, backup, retention, period, update,
 summary: 您可以将各个层，邮箱，站点和 MySites 的数据保留时间（以年为单位）更新为 7 年， 10 年或无限。 
 ---
 = 更新备份保留期限
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

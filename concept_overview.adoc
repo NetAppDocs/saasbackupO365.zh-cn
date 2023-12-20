@@ -5,15 +5,12 @@ keywords: overview, concepts, features, use case
 summary: NetApp SaaS Backup for Microsoft 365 是一款基于 Web 的安全软件即服务（ Software-as-a-Service ， SaaS ）产品，可将 Microsoft 365 数据备份到 Amazon S3 存储或 Microsoft Azure Blob 存储。 
 ---
 = NetApp SaaS Backup for Microsoft 365 概述
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

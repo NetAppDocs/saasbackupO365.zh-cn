@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deprovisioned
 summary: 您可以查看已删除的邮箱或用户帐户的列表。 
 ---
 = 查看已取消配置的项目列表
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
